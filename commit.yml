@@ -2,10 +2,10 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.sln:
-    newFile: !uuid '97b3e1e7138c8c1e657eb0af324b5c06c4c59def'
+  /DB.sql:
+    newFile: !uuid '2040a15da3bacbd62f066ef17d5dce04dda0c570'
     oldFile: null
-gitCommitId: !uuid '0798af16289525e42a237a05e70b60a783d444b1'
+gitCommitId: !uuid '7707c6a1e24326b8ef19a19f8689574cd705b9a4'
 renames: {
   }
-revisionId: 2
+revisionId: 3
