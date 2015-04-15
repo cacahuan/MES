@@ -1,0 +1,431 @@
+!revision
+branches: {
+  }
+fileChange:
+  /OpenAuth.App:
+    newFile: !uuid 'd1271f26be3c6125115bca1d9fc1c8ef5e37b1b6'
+    oldFile: null
+  /OpenAuth.App/OpenAuth.App.csproj:
+    newFile: !uuid '9b18429180877c0d2ffa8e4bade17ac21627a1e4'
+    oldFile: null
+  /OpenAuth.App/Properties:
+    newFile: !uuid '6fdf98f7f4d130c3dd2d8e2da4b66664ed09b3f2'
+    oldFile: null
+  /OpenAuth.App/Properties/AssemblyInfo.cs:
+    newFile: !uuid '99ed95cd062b90a84c8d760bd2e532674168c4d8'
+    oldFile: null
+  /OpenAuth.Domain:
+    newFile: !uuid '582fad95bf00e9e488ce6a775a5ebbcda28014a3'
+    oldFile: null
+  /OpenAuth.Domain/Button.cs:
+    newFile: !uuid 'bb4e64447f54c9e7930e0f0e0941477e6d364a66'
+    oldFile: null
+  /OpenAuth.Domain/DataPermission.cs:
+    newFile: !uuid 'f431c8b3c5fe3f96d61d9a100fb6d35d53eb7bf4'
+    oldFile: null
+  /OpenAuth.Domain/Department.cs:
+    newFile: !uuid '75bd6051b9bb17fbbc71ea1c1843bd65b057674e'
+    oldFile: null
+  /OpenAuth.Domain/Menu.cs:
+    newFile: !uuid '586215027ca5949feadab375b06f256ae8737a3e'
+    oldFile: null
+  /OpenAuth.Domain/OpenAuth.Domain.csproj:
+    newFile: !uuid '7d2b724d663e22a3cf43e4126c2eb0dde67698ff'
+    oldFile: null
+  /OpenAuth.Domain/Properties:
+    newFile: !uuid '0209fb3a9f26c75ebbbf2b0bd607e68e97d2a103'
+    oldFile: null
+  /OpenAuth.Domain/Properties/AssemblyInfo.cs:
+    newFile: !uuid '61fa0db4926547f7016ebe60397ecf92af8936f8'
+    oldFile: null
+  /OpenAuth.Domain/Role.cs:
+    newFile: !uuid 'df8aab4c722bc5ef43a07db6e2d8aa7d1e1757e8'
+    oldFile: null
+  /OpenAuth.Domain/RoleMenuButton.cs:
+    newFile: !uuid '41f1a4f7370236359a586145dd0a711d17d162d9'
+    oldFile: null
+  /OpenAuth.Domain/User.cs:
+    newFile: !uuid '0adb4f9cf00a5c4c9ddaff04ed378238f7682241'
+    oldFile: null
+  /OpenAuth.Infrastructure:
+    newFile: !uuid 'fc6243a006c6ad31dbc650ecd40494751f3a93e3'
+    oldFile: null
+  /OpenAuth.Infrastructure/App.config:
+    newFile: !uuid 'dd08f994a16482ec181fa07b04e131619fecb4fe'
+    oldFile: null
+  /OpenAuth.Infrastructure/DB.config:
+    newFile: !uuid '9627fefed19e76d09254d0816464259437c1ef76'
+    oldFile: null
+  /OpenAuth.Infrastructure/Mapping:
+    newFile: !uuid '29257f02e7bbddbf40157663fa6d7a53c5b6f5c9'
+    oldFile: null
+  /OpenAuth.Infrastructure/Mapping/ButtonMap.cs:
+    newFile: !uuid 'b311997dfa432043b7ffd6570a4060f84482403b'
+    oldFile: null
+  /OpenAuth.Infrastructure/Mapping/DataPermissionMap.cs:
+    newFile: !uuid '42b9f893bf4dc58454098521a69d2001044e90c8'
+    oldFile: null
+  /OpenAuth.Infrastructure/Mapping/DepartmentMap.cs:
+    newFile: !uuid '94fd6aff41bb6b0479af7a577155a7a40d8d1b99'
+    oldFile: null
+  /OpenAuth.Infrastructure/Mapping/MenuMap.cs:
+    newFile: !uuid '65436d40154a4892144a02680c1828be68e952ff'
+    oldFile: null
+  /OpenAuth.Infrastructure/Mapping/RoleMap.cs:
+    newFile: !uuid '00d829cf2726dad3c4bbbeba65ecaddedc2b378e'
+    oldFile: null
+  /OpenAuth.Infrastructure/Mapping/RoleMenuButtonMap.cs:
+    newFile: !uuid 'b68260624164c432cfaa27c1f7769584df09e3aa'
+    oldFile: null
+  /OpenAuth.Infrastructure/Mapping/UserMap.cs:
+    newFile: !uuid '39d36438f74992d06d9e28f4a2e233c4fffd72a5'
+    oldFile: null
+  /OpenAuth.Infrastructure/OpenAuth.Infrastructure.csproj:
+    newFile: !uuid '429c70f680731cc370feffdcf4a338b955e32a85'
+    oldFile: null
+  /OpenAuth.Infrastructure/OpenAuthDBContext.cs:
+    newFile: !uuid 'b93d1cbb8098b3b1674dd84424cf9bade870621c'
+    oldFile: null
+  /OpenAuth.Infrastructure/Properties:
+    newFile: !uuid '7556ebf9ea787fd564a21afdff57d268d8305129'
+    oldFile: null
+  /OpenAuth.Infrastructure/Properties/AssemblyInfo.cs:
+    newFile: !uuid 'eaba5bf88391056c7ff99bc4589d2c5a7b71aac5'
+    oldFile: null
+  /OpenAuth.Infrastructure/packages.config:
+    newFile: !uuid '8db729b79fd754b3730112d163d1b510625d69b5'
+    oldFile: null
+  /OpenAuth.UnitTest:
+    newFile: !uuid '879c56ec102053d342b682c4176d92b82b928cbc'
+    oldFile: null
+  /OpenAuth.UnitTest/App.config:
+    newFile: !uuid '6faa356b477500272a5a24a7b39e53d409025fef'
+    oldFile: null
+  /OpenAuth.UnitTest/DepartmentTest.cs:
+    newFile: !uuid 'fe0925e40f38bce3622bd6f9217bd81163d0231d'
+    oldFile: null
+  /OpenAuth.UnitTest/OpenAuth.UnitTest.csproj:
+    newFile: !uuid 'a483dde0e925451e6d9bff7a9df4db7d1027e8a2'
+    oldFile: null
+  /OpenAuth.UnitTest/Properties:
+    newFile: !uuid 'd504f1ac5a97153a0567ec8cb55866f8ff79564c'
+    oldFile: null
+  /OpenAuth.UnitTest/Properties/AssemblyInfo.cs:
+    newFile: !uuid '957c8da499b0b0d73147a971340125443ffa179f'
+    oldFile: null
+  /OpenAuth.UnitTest/packages.config:
+    newFile: !uuid '8db729b79fd754b3730112d163d1b510625d69b5'
+    oldFile: null
+  /OpenAuth.Web:
+    newFile: !uuid '9a9a384c7798462d0c00e1cabebb43a03ff13461'
+    oldFile: null
+  /OpenAuth.Web/App_Start:
+    newFile: !uuid 'ec632faf8c681e9cf8ce42a9b54af8268201d844'
+    oldFile: null
+  /OpenAuth.Web/App_Start/FilterConfig.cs:
+    newFile: !uuid 'd01c313a7f141f17eed514083fb84152e99214d4'
+    oldFile: null
+  /OpenAuth.Web/App_Start/RouteConfig.cs:
+    newFile: !uuid '19b940d4072f08bc85756e9b7a19ccef1b4dac67'
+    oldFile: null
+  /OpenAuth.Web/App_Start/WebApiConfig.cs:
+    newFile: !uuid 'f834973e160169288f99ef1b9deaa65c7fc5bc4b'
+    oldFile: null
+  /OpenAuth.Web/Controllers:
+    newFile: !uuid 'dbd9f56ccc50795ea11d187f2f5a15dc029e2c0e'
+    oldFile: null
+  /OpenAuth.Web/Controllers/HomeController.cs:
+    newFile: !uuid '0793cd06be4e4084c634635c9e26761740721930'
+    oldFile: null
+  /OpenAuth.Web/Global.asax:
+    newFile: !uuid '814be622ba5e61dfc096b391322404da2f1c0d07'
+    oldFile: null
+  /OpenAuth.Web/Global.asax.cs:
+    newFile: !uuid '3d6c8af37d729d2de0135be3b022bbf60ed9e785'
+    oldFile: null
+  /OpenAuth.Web/OpenAuth.Web.csproj:
+    newFile: !uuid 'ed793211af405d02992ac4ded2266d9d382512ef'
+    oldFile: null
+  /OpenAuth.Web/Properties:
+    newFile: !uuid 'bce75115ae6df1facf409b60926689aa030a27dc'
+    oldFile: null
+  /OpenAuth.Web/Properties/AssemblyInfo.cs:
+    newFile: !uuid '2165816e99c10f127600ff2efc2a587cc8dbd0ee'
+    oldFile: null
+  /OpenAuth.Web/Scripts:
+    newFile: !uuid 'e1f9a682b228a779635490f001b2483a76b8d20d'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui:
+    newFile: !uuid '3e4d19f7021a88f723d1203edf32c1ba3cde1738'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/jquery.easyui.min.js:
+    newFile: !uuid '99aa67077ae17cb294469a472f9887bc6a259cc7'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes:
+    newFile: !uuid '4d3d898818149c8ab80de397c4c27673626c4ee3'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/icon.css:
+    newFile: !uuid '11e0642e20bb5045951dd6cc84b5ab394817694a'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/icons:
+    newFile: !uuid '978cb9ffc87ec1ab54d8ce8f6d084b9a6c4652ce'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/icons/back.png:
+    newFile: !uuid '3fe8b178ec9eb9fdbfefe0f2c81c8d4acf0dc275'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/icons/blank.gif:
+    newFile: !uuid '1d11fa9ada9e93505b3d736acb204083f45d5fbf'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/icons/cancel.png:
+    newFile: !uuid 'a432b492c4f8f54714290b27bd978eefa714488d'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/icons/cut.png:
+    newFile: !uuid '21fdb4dc3c8ee79a0ce59a981c336538bb334442'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/icons/edit_add.png:
+    newFile: !uuid 'e9485082eaadcff004248709f3af8faefb07c191'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/icons/edit_remove.png:
+    newFile: !uuid 'd555d921aca63ae58b81fdc20f2bb97ecf3b8a3a'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/icons/filesave.png:
+    newFile: !uuid 'fd0048ded9baa040b1c04b84cca92550acad6f64'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/icons/help.png:
+    newFile: !uuid '28a0f9e5e6a24fe2cc3d842d0708e70512dbf84b'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/icons/mini_add.png:
+    newFile: !uuid 'fd82b92dcf2611ed7f4a383e481e10d9ade9d830'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/icons/mini_edit.png:
+    newFile: !uuid 'db9221a8081fee0614bc401884f56a00564a315e'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/icons/mini_refresh.png:
+    newFile: !uuid '6cdd016036ae125500c40abebd42db09b69ecb63'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/icons/no.png:
+    newFile: !uuid '37a7c7497782dadcf14a765051a62dd5616200c5'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/icons/ok.png:
+    newFile: !uuid '5b0f6a6174f67879d89b8c970d88734cd6f9f844'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/icons/pencil.png:
+    newFile: !uuid '5b8cc893d0e50c0e15cf10fbbb08706f81ec224a'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/icons/print.png:
+    newFile: !uuid 'fdf67a1e2771c1481d4fdf3c3bb219904cdde434'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/icons/redo.png:
+    newFile: !uuid 'f1e45cff9397f422f9d63459ea3e685d441f09ba'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/icons/reload.png:
+    newFile: !uuid 'f51cab8e3fe91b0e3906b0522d550935776dd7fa'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/icons/search.png:
+    newFile: !uuid '6dd1931589b453f6cc9772fd1851d8705d6b6631'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/icons/sum.png:
+    newFile: !uuid 'fd7b32e43bc8128181c1aeacc2c1b0af9dac484b'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/icons/tip.png:
+    newFile: !uuid '845e11070a79387b5639c1eb7185d07ef954de3d'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/icons/undo.png:
+    newFile: !uuid '6129fa0c77eb1d2100ed1c99b5643ab8990a9566'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/metro-blue:
+    newFile: !uuid 'ad1e1a8c218dafa19bc26ba42e1d7fb43bae2c88'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/metro-blue/accordion.css:
+    newFile: !uuid '967ffddfaa9c1bd371c5a8dea6bec4a907aaffdb'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/metro-blue/calendar.css:
+    newFile: !uuid '5e3c8609a379d5566ffa42629085f06e9a2144e4'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/metro-blue/combo.css:
+    newFile: !uuid 'c33d06fbf2ce77b97f4431a836238284bff90402'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/metro-blue/combobox.css:
+    newFile: !uuid '3e18a09c5d6a872a42f06e5f998ec5b3f99bbbab'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/metro-blue/datagrid.css:
+    newFile: !uuid '47b191f9f5aff9739cc01474dc8f30a8ea6c28d7'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/metro-blue/datebox.css:
+    newFile: !uuid '9fe5354e79257000860fddfa812a4f3a0f6ee7d4'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/metro-blue/dialog.css:
+    newFile: !uuid '9f9a8c77d596f4ffcb29671d7a127112a6c71823'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/metro-blue/easyui.css:
+    newFile: !uuid '553ab5918ce91783576c7778e824ac8aec390c90'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/metro-blue/images:
+    newFile: !uuid 'dd72116c1817095dc341ae0512f8d2017d379aba'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/metro-blue/images/Thumbs.db:
+    newFile: !uuid '5f257a2a49959543d36e2641d352572547e40e63'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/metro-blue/images/accordion_arrows.png:
+    newFile: !uuid 'a0b8769cc5091d81760c7ed555ac3c3453febbfd'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/metro-blue/images/blank.gif:
+    newFile: !uuid '1d11fa9ada9e93505b3d736acb204083f45d5fbf'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/metro-blue/images/calendar_arrows.png:
+    newFile: !uuid '430c4ad685b8c0068ecb7e3cbef74f493a84ad0d'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/metro-blue/images/combo_arrow.png:
+    newFile: !uuid '04f4ba0cd513af3af21493718618a8a33a1c9b8e'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/metro-blue/images/datagrid_icons.png:
+    newFile: !uuid '73c4e88893f655a4bdbae7ccc659255af61e51da'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/metro-blue/images/datebox_arrow.png:
+    newFile: !uuid '783c83357fdf90a1c7c024358e1d768b5c09c135'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/metro-blue/images/layout_arrows.png:
+    newFile: !uuid 'bf7929f547d2358ee91c787ac79191544ae1e089'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/metro-blue/images/linkbutton_bg.png:
+    newFile: !uuid 'fc66bd2cd24047b8377342365a1df3846327ecde'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/metro-blue/images/loading.gif:
+    newFile: !uuid '68f01d04813c1f622810864a3aaa04b4a17ac8f9'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/metro-blue/images/menu_arrows.png:
+    newFile: !uuid 'b986842e7e4044caed18edbcb4b376a4bb915623'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/metro-blue/images/messager_icons.png:
+    newFile: !uuid '62c18c135860351063ebaabe8c0f4df7664b8f65'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/metro-blue/images/pagination_icons.png:
+    newFile: !uuid '20081127be782cecfa476dbb0de51ed0b817704e'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/metro-blue/images/panel_tools.png:
+    newFile: !uuid 'f33f8c9707f08ea1a809c6ebe1c861c3181afa71'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/metro-blue/images/searchbox_button.png:
+    newFile: !uuid '6dd1931589b453f6cc9772fd1851d8705d6b6631'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/metro-blue/images/slider_handle.png:
+    newFile: !uuid 'b9802bae14c536281a8fdbe6cd07abbc13985033'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/metro-blue/images/spinner_arrows.png:
+    newFile: !uuid 'dba62bb723518b491c763eb623179afab0f9e1a0'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/metro-blue/images/tabs_icons.png:
+    newFile: !uuid 'dfa10f7d78b3dc6965ef86957a0e4345ec000bc6'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/metro-blue/images/tree_icons.png:
+    newFile: !uuid 'e9be4f3a9965e49a4e4078f8c53f486d761a7468'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/metro-blue/images/validatebox_arrows.png:
+    newFile: !uuid '5fe78f7cb5683f47051dfa2be9f68e41d1ee8108'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/metro-blue/images/validatebox_warning.png:
+    newFile: !uuid '2b3d4f05babf3f82b146350e96570fac02075de0'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/metro-blue/layout.css:
+    newFile: !uuid '1522b3e7fba9b0f342b2b6c71a06a5f1acb18cf5'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/metro-blue/linkbutton.css:
+    newFile: !uuid 'e9f91221c6a614b354a38df7b845bc421879a861'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/metro-blue/menu.css:
+    newFile: !uuid '7c846ea688885b1621818e2da67b9738cfa43dfa'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/metro-blue/menubutton.css:
+    newFile: !uuid 'dce343417e6b0d8dd32e3a552d8a00f672d1fed9'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/metro-blue/messager.css:
+    newFile: !uuid '5ae911138740c5b3c781c2c2adc5ebebd9c1404f'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/metro-blue/pagination.css:
+    newFile: !uuid 'a0cd28847d6aa5cb44b12e3f347066fa4ee4bff4'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/metro-blue/panel.css:
+    newFile: !uuid 'f6d1e45c49161707dd1fd8a0012346582312653e'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/metro-blue/progressbar.css:
+    newFile: !uuid '7b6b56fa6877b64c6b66dc10ed72bf2835256038'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/metro-blue/propertygrid.css:
+    newFile: !uuid '95f055593c983de42794313e28890e6b2e8e1579'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/metro-blue/searchbox.css:
+    newFile: !uuid 'a192da38f51b186725d622766ca2b6c997cb87e6'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/metro-blue/slider.css:
+    newFile: !uuid 'dabec0e924db1222c07f0eb4b56589d5583faab2'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/metro-blue/spinner.css:
+    newFile: !uuid '2872ee2a3c5243acc86a768bc7d0afc260d2853b'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/metro-blue/splitbutton.css:
+    newFile: !uuid 'f88e50e28addd39d93242a4fb0dc5604fef9e755'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/metro-blue/tabs.css:
+    newFile: !uuid 'da650846c54a714617f37878b96b26d87dd2b568'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/metro-blue/tree.css:
+    newFile: !uuid '3eed3f61ec6884c9910ceed469afd1faa6273ea9'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/metro-blue/validatebox.css:
+    newFile: !uuid '121d63d8424e5d00bd116b3a0f4e2c143fdb33a0'
+    oldFile: null
+  /OpenAuth.Web/Scripts/easyui/themes/metro-blue/window.css:
+    newFile: !uuid '86ba208a93182f1c3a3cb4230fe228f74ec17659'
+    oldFile: null
+  /OpenAuth.Web/Scripts/head.jpg:
+    newFile: !uuid 'f01b31ad41f55f4fe806387a01db4f49f2a3198a'
+    oldFile: null
+  /OpenAuth.Web/Scripts/jquery-1.8.2.min.js:
+    newFile: !uuid 'bc3fbc81b261b9dd759fd83917b93664138faa4a'
+    oldFile: null
+  /OpenAuth.Web/Scripts/jquery.unobtrusive-ajax.min.js:
+    newFile: !uuid '33e6fb34c1cbec469a5cde1faa25487e6a42511b'
+    oldFile: null
+  /OpenAuth.Web/Scripts/json2.js:
+    newFile: !uuid 'a1a3b170c95b9b3d9f7a770495dffc2f74956ef0'
+    oldFile: null
+  /OpenAuth.Web/Views:
+    newFile: !uuid '70e9973f953691d5406e5c6bd0f0973f11abc7fa'
+    oldFile: null
+  /OpenAuth.Web/Views/Home:
+    newFile: !uuid 'f94b4d75520b954dcc8934149ee183b9b63d6f9d'
+    oldFile: null
+  /OpenAuth.Web/Views/Home/Index.cshtml:
+    newFile: !uuid 'c1456235d16cf2d8b793ea5c98600d9f058f66c8'
+    oldFile: null
+  /OpenAuth.Web/Views/Home/_Layout.cshtml:
+    newFile: !uuid 'c64285120d1932310d8cd0e113609d1dc6f896e4'
+    oldFile: null
+  /OpenAuth.Web/Views/Shared:
+    newFile: !uuid '08fa5f77e73fac2b516d8d332f3c4f8c919d934f'
+    oldFile: null
+  /OpenAuth.Web/Views/Shared/Error.cshtml:
+    newFile: !uuid 'c30c67c961cdc9fcf893d42215a0955174fee051'
+    oldFile: null
+  /OpenAuth.Web/Views/Shared/_Layout.cshtml:
+    newFile: !uuid 'fc01c32fcead23539552b6cafebae3e37109140d'
+    oldFile: null
+  /OpenAuth.Web/Views/Web.config:
+    newFile: !uuid 'ec8e5dd087b8f6db06c17d497534d340b7c88392'
+    oldFile: null
+  /OpenAuth.Web/Web.Debug.config:
+    newFile: !uuid '2b5d97561e3489e79bc9558addc03ade36e536e3'
+    oldFile: null
+  /OpenAuth.Web/Web.Release.config:
+    newFile: !uuid 'a756111fbbd31c8d9230c428d5b73eb7bb861ab2'
+    oldFile: null
+  /OpenAuth.Web/Web.config:
+    newFile: !uuid 'b35a50e5d51eb56f7de356e8ea5a1e5212152c41'
+    oldFile: null
+  /OpenAuth.Web/packages.config:
+    newFile: !uuid '464d1f3e6ed00a0e7ed766bc2e68bfd0df90fb41'
+    oldFile: null
+gitCommitId: !uuid '7c42a3fc9f1c343876b62e5c8d52b40b7cd79758'
+renames: {
+  }
+revisionId: 1
