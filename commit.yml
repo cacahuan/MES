@@ -2,16 +2,91 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.Mvc:
-    newFile: !uuid '833bffe4a28c6c8531540577110fa4a8299fca05'
-    oldFile: !uuid '2a64adb4fb792a5f5b7bc74afafc21eca9c4711a'
-  /OpenAuth.Mvc/OpenAuth.Mvc.csproj:
-    newFile: !uuid '6170ac2c315ee8934cad53c277a6fe613bdb7d12'
-    oldFile: !uuid 'bf32b386c3c484eea3a460a95eec6455cb08f07f'
-  /README.md:
-    newFile: !uuid '633290650ac66027776c8b5b9809bef7cbe9b81d'
+  /Infrastructure:
+    newFile: !uuid '368fa3882d5a3600384471c80124ee83fc413765'
     oldFile: null
-gitCommitId: !uuid '2f9b41b96d3e6b6f8746c42c777ba5df461b4f7a'
+  /Infrastructure/Helper:
+    newFile: !uuid '3a11cb0e30a57d576b7dc96ba8b739be5a36989a'
+    oldFile: null
+  /Infrastructure/Helper/CookieHelper.cs:
+    newFile: !uuid 'd636042d50696edafb49ce9c646809068f2212f3'
+    oldFile: null
+  /Infrastructure/Infrastructure.csproj:
+    newFile: !uuid 'ee06a4d5d730ab2a4feafed74089d77358903754'
+    oldFile: null
+  /Infrastructure/Properties:
+    newFile: !uuid 'f55d55a7ef9e98027730275bff42119a1cb8b188'
+    oldFile: null
+  /Infrastructure/Properties/AssemblyInfo.cs:
+    newFile: !uuid 'f374835c64d54d5ecadb387d3e737cccb4c0179e'
+    oldFile: null
+  /OpenAuth.App:
+    newFile: !uuid 'f32269bffaa4cdfdd657b9a47f77259dbb209f3e'
+    oldFile: !uuid 'ca0c8edf65afe402bad6603b5678c63182abf5ee'
+  /OpenAuth.App/LoginApp.cs:
+    newFile: !uuid '46c11ae3e6eb8bfe971b475ede8fa9cf909320db'
+    oldFile: !uuid '430720c6481689cd7c56a03ac373588f5005ddc1'
+  /OpenAuth.App/LoginCacheApp.cs:
+    newFile: null
+    oldFile: !uuid '27b2e1ed0d344e66a1ec7923f689492cd7db0855'
+  /OpenAuth.App/OpenAuth.App.csproj:
+    newFile: !uuid 'bad2816b028c122ae3cf6f46242dc1708d193ad3'
+    oldFile: !uuid '15cc42b8e6a2be68145237f9fc092460a38eeae8'
+  /OpenAuth.Mvc:
+    newFile: !uuid '6ec869d619c17c2f9ae64ca7f3035c2744bf6fe8'
+    oldFile: !uuid '833bffe4a28c6c8531540577110fa4a8299fca05'
+  /OpenAuth.Mvc/App_Start:
+    newFile: !uuid '986425e2e4425ce1d161f24580a315f66d286d47'
+    oldFile: !uuid '16866dd4665fd5250b96749b9f60ff10f1b1e1fd'
+  /OpenAuth.Mvc/App_Start/Startup.Auth.cs:
+    newFile: null
+    oldFile: !uuid '70abe789d231ba5873a5bdeef2192fc5796f6fd3'
+  /OpenAuth.Mvc/Controllers:
+    newFile: !uuid 'e0b1274423b0757c78a93d8789c4f40c6a4dfbeb'
+    oldFile: !uuid 'd97b270b6c49083ab2fbb855cce26d2c2cd4836e'
+  /OpenAuth.Mvc/Controllers/AccountController.cs:
+    newFile: !uuid '570fc24601d03fdd59d27f4ab260a3cb48cd12eb'
+    oldFile: !uuid 'acc2cfca16b16a55b87820e986bb72ca83f75710'
+  /OpenAuth.Mvc/Controllers/BaseController.cs:
+    newFile: !uuid '06c4a6bfeaf4b0ce398c7f870e8034edf96d4740'
+    oldFile: null
+  /OpenAuth.Mvc/Controllers/HomeController.cs:
+    newFile: !uuid 'ec463a95933bf1f2c91896f234d08fedca594815'
+    oldFile: !uuid '8819e7216ea2093e7b85c7534351e3379f835e8c'
+  /OpenAuth.Mvc/OpenAuth.Mvc.csproj:
+    newFile: !uuid '9942f133ee0fc7096ff57e4d68ad35a8391a4629'
+    oldFile: !uuid '6170ac2c315ee8934cad53c277a6fe613bdb7d12'
+  /OpenAuth.Mvc/Startup.cs:
+    newFile: null
+    oldFile: !uuid '3ff0229a18db1746b11ebc9debc50c2ad17c7b0f'
+  /OpenAuth.Mvc/Web.Debug.config:
+    newFile: !uuid '97aff57a3fbecd2a768543c85f78c1bc3b16973f'
+    oldFile: null
+  /OpenAuth.Mvc/Web.Release.config:
+    newFile: !uuid '063a5e116dffd7fca9c7d099bc7386624ca156b0'
+    oldFile: null
+  /OpenAuth.Repository:
+    newFile: !uuid 'e11feaa11775e562dd8499e9ba51e2491b62b9e4'
+    oldFile: !uuid '85ae38f1fb12deebcb3d9c6d84a1db5c250b0910'
+  /OpenAuth.Repository/CodeTemplates:
+    newFile: !uuid 'be1b6f05043441a23a857a9be4523c5f8da2c612'
+    oldFile: null
+  /OpenAuth.Repository/CodeTemplates/ReverseEngineerCodeFirst:
+    newFile: !uuid 'a0097dc1af078d0636884742c72e5aedd3625af7'
+    oldFile: null
+  /OpenAuth.Repository/CodeTemplates/ReverseEngineerCodeFirst/Context.tt:
+    newFile: !uuid 'ce38b40c10f775a50b56ac8e98ce00e5e923c2dc'
+    oldFile: null
+  /OpenAuth.Repository/CodeTemplates/ReverseEngineerCodeFirst/Entity.tt:
+    newFile: !uuid 'fec4b78c86ea8b5f5e0f0c7b5796499ba711a3cb'
+    oldFile: null
+  /OpenAuth.Repository/CodeTemplates/ReverseEngineerCodeFirst/Mapping.tt:
+    newFile: !uuid '06f4332c4735cba0046b91e4e30dd2ad5440e145'
+    oldFile: null
+  /OpenAuth.sln:
+    newFile: !uuid '61a6387a2ff2b32996462dfec1cfaf4469fc5d0a'
+    oldFile: !uuid '914be905e8e2c2c280f68e6e9cb12016ce89f629'
+gitCommitId: !uuid '2a5cdd453fab107d0c943dee5b0014fee0ada484'
 renames: {
   }
-revisionId: 15
+revisionId: 16
