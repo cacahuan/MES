@@ -2,19 +2,37 @@
 branches: {
   }
 fileChange:
+  /OpenAuth.App:
+    newFile: !uuid '374d666996dce34f9e7818a55db2b98b39c84523'
+    oldFile: !uuid '4be7f1a3895c1fb5965ab631c00380afa2c0cdc3'
+  /OpenAuth.App/OrgManagerApp.cs:
+    newFile: !uuid '45a24137af8d69509314322d01c002474b395532'
+    oldFile: !uuid 'eb6dd67bd5491146b1c7d513b2ea7b0b58f371e3'
   /OpenAuth.Mvc:
-    newFile: !uuid '4dd982b256913897ea293ebb0458c0bff57fa09b'
-    oldFile: !uuid '4aaf0216bfd2e10fe2aa6e0e23276655d794518a'
+    newFile: !uuid 'abfefc0540e24bb64d43943f2afb489a355f8954'
+    oldFile: !uuid '4dd982b256913897ea293ebb0458c0bff57fa09b'
+  /OpenAuth.Mvc/Controllers:
+    newFile: !uuid '1170c4bad4964eae5613bcaca6575b6875d7d31f'
+    oldFile: !uuid '6dfcead0bf83cd8677e5db0d8d590497ac1deafc'
+  /OpenAuth.Mvc/Controllers/OrgManagerController.cs:
+    newFile: !uuid '6a12e3f15aee7f79297c340aeb95d943623b1c57'
+    oldFile: !uuid '8d0971718c4ef67a704140e4c573df527a7ad3a7'
   /OpenAuth.Mvc/Views:
-    newFile: !uuid '29a8295078828ffe9f4e854fe3a6e33b48d32379'
-    oldFile: !uuid 'f41d63249b88710f65dd8a01b1d3d161904cb5c8'
+    newFile: !uuid '71cec3034e3156b6ad20a59d14bbb28de04aded5'
+    oldFile: !uuid '29a8295078828ffe9f4e854fe3a6e33b48d32379'
   /OpenAuth.Mvc/Views/OrgManager:
-    newFile: !uuid 'f47d5d15fa6b35e42726f9e3f51aa8bb9e0399fd'
-    oldFile: !uuid 'c50573c1f0d4b712780f19b9bf66ac888740c862'
+    newFile: !uuid '70897706dd6f83c7a2a8bc47120fa52f3b106e61'
+    oldFile: !uuid 'f47d5d15fa6b35e42726f9e3f51aa8bb9e0399fd'
   /OpenAuth.Mvc/Views/OrgManager/Index.cshtml:
-    newFile: !uuid '9803ec9219ff20f0c3c4a7a2bcd27c9b9c45034d'
-    oldFile: !uuid 'ecbd7cd0fe5b9dd0d6689fd1d35fcf91e402a73c'
-gitCommitId: !uuid 'd4580051c6b35e469d878f0b72cd23c71acfff9c'
+    newFile: !uuid 'ebb60a719fbcdff9a126dab5a928d47d32fbdd0f'
+    oldFile: !uuid '9803ec9219ff20f0c3c4a7a2bcd27c9b9c45034d'
+  /OpenAuth.Repository:
+    newFile: !uuid '94e0ccaca9040b3daf0cf50571f4b1eee23ea619'
+    oldFile: !uuid 'dc2cd9cc3c174016e9b2ebd0614a8f7fd661586b'
+  /OpenAuth.Repository/App.config:
+    newFile: !uuid 'b1300dd52f1a2cdbc885c0cc7bc740413308ef04'
+    oldFile: null
+gitCommitId: !uuid '104866d83bcf2a73fcc49752e6efe6ecc2df2e26'
 renames: {
   }
-revisionId: 25
+revisionId: 26
