@@ -2,37 +2,16 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.App:
-    newFile: !uuid 'b81b506b723e1058d372f150769fbbe5424ad9cc'
-    oldFile: !uuid 'fcf6cba25cf4f0d1b850c1586645d052f41c1243'
-  /OpenAuth.App/OrgManagerApp.cs:
-    newFile: !uuid '066450fd1a88b4a8bb2f6928751736ca021cf003'
-    oldFile: !uuid '35d0454e75869aad2134781d80dc0166c76f281b'
-  /OpenAuth.Mvc:
-    newFile: !uuid 'bfbe14cd0883efc5f928ae1e86766157dd0c10ed'
-    oldFile: !uuid '9d626aa79c3211799e23bbf27118795130c2ac7f'
-  /OpenAuth.Mvc/Controllers:
-    newFile: !uuid '92771bf2cb666f82997741592cda0497c2d5e194'
-    oldFile: !uuid '0e19d4755a28c5beea73b33452ab4cc342c86c44'
-  /OpenAuth.Mvc/Controllers/OrgManagerController.cs:
-    newFile: !uuid 'ceabfa2120be32667934420c6a394fbafa7739fe'
-    oldFile: !uuid 'f4ec9440aafef5398362d1497e50791b0ceb36dd'
-  /OpenAuth.Mvc/OpenAuth.Mvc.csproj:
-    newFile: !uuid 'd42aede206d8f722228b6ae0ba901ba107383e35'
-    oldFile: !uuid '2c93fde3669c6f62a57ed64ef63b9feb0efb3c27'
-  /OpenAuth.Mvc/Web.config:
-    newFile: !uuid '4fed654191e1635693c4d71e1504bdc3cc88b3aa'
-    oldFile: !uuid '28973d2e2baa57995573ba5cfee3570e30514ae8'
-  /OpenAuth.Mvc/packages.config:
-    newFile: !uuid 'c4218b8a2514d493023591b31daa81bbf1ceda95'
-    oldFile: !uuid 'f3846668142cd485f76d5a392b4fdc094d7b476f'
-  /OpenAuth.UnitTest:
-    newFile: !uuid 'b21911eb7f4598e95be30c54fdc467af8b0242fa'
-    oldFile: !uuid '42522756aec4459b1bcafe49af9e506c78ffee91'
-  /OpenAuth.UnitTest/TestOrgApp.cs:
-    newFile: !uuid '277e676d1989fdeffc9b900b60a3efa0c9cc8bd7'
-    oldFile: !uuid '91049c6ecf3a439f56c8e0638c6e5968473395a2'
-gitCommitId: !uuid 'bd7842d5be2c78b5060e540f719c5ee73f841209'
+  /数据库设计关系图:
+    newFile: !uuid 'ec4914d8e68b746913f8a9f92b210b2e71cb7562'
+    oldFile: !uuid '8f16a234fb2a3b544391e031fd9917da1c1abee1'
+  /数据库设计关系图/PDM_OA.pdb:
+    newFile: !uuid '2f4180a154216934977ded66f91f637eb264a202'
+    oldFile: !uuid 'f8ee27bf7e8751e728ae467da095dd23f18ec818'
+  /数据库设计关系图/PDM_OA.pdm:
+    newFile: !uuid '1a538b5a7b351d8f5f4fd6caff5d384bba90395d'
+    oldFile: !uuid '2f4180a154216934977ded66f91f637eb264a202'
+gitCommitId: !uuid 'dbe0b9da4a9e14046a1c6cfefcecc1db40205880'
 renames: {
   }
-revisionId: 28
+revisionId: 29
