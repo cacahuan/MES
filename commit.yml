@@ -2,16 +2,25 @@
 branches: {
   }
 fileChange:
-  /数据库设计关系图:
-    newFile: !uuid 'ec4914d8e68b746913f8a9f92b210b2e71cb7562'
-    oldFile: !uuid '8f16a234fb2a3b544391e031fd9917da1c1abee1'
-  /数据库设计关系图/PDM_OA.pdb:
-    newFile: !uuid '2f4180a154216934977ded66f91f637eb264a202'
-    oldFile: !uuid 'f8ee27bf7e8751e728ae467da095dd23f18ec818'
-  /数据库设计关系图/PDM_OA.pdm:
-    newFile: !uuid '1a538b5a7b351d8f5f4fd6caff5d384bba90395d'
-    oldFile: !uuid '2f4180a154216934977ded66f91f637eb264a202'
-gitCommitId: !uuid 'dbe0b9da4a9e14046a1c6cfefcecc1db40205880'
+  /OpenAuth.Domain:
+    newFile: !uuid 'cbf22bf97d26564e0d58082477e619e9f962b881'
+    oldFile: !uuid '4db27be66de579d264af35fbb23e8b6b81b9a194'
+  /OpenAuth.Domain/PageElement.cs:
+    newFile: !uuid '6df7e4d126cfeb532f71ff4eebc0372a02889de1'
+    oldFile: !uuid 'b236a43a6a1b747187341fd50b3f231e8d1d5212'
+  /OpenAuth.Repository:
+    newFile: !uuid '2734d7c51024abb5aca0cca68bb7e2f94f2f492b'
+    oldFile: !uuid 'de8e3c37b4824fafcae6b3db0b16a532f5d4437f'
+  /OpenAuth.Repository/Models:
+    newFile: !uuid '7ebbcfb03e3e5e7ce93959d8bcc52703b0a6757f'
+    oldFile: !uuid 'c22d0f136c3324106c89e546253af0953422f720'
+  /OpenAuth.Repository/Models/Mapping:
+    newFile: !uuid '5dea97fe5502cbe340e5dbf5e0bcdbff0c681bf8'
+    oldFile: !uuid 'b70c5387ab7dd3a8d6b9f365168897944c2b0d31'
+  /OpenAuth.Repository/Models/Mapping/PageElementMap.cs:
+    newFile: !uuid 'caabf2a2265b9b8510aed060c4a6eacb9a6eb9b0'
+    oldFile: !uuid 'e0ce99f8fd823407cb22603bd9455c0574d4daad'
+gitCommitId: !uuid '55f334004efe36cdd90991d10fa26f9e3e506313'
 renames: {
   }
-revisionId: 29
+revisionId: 30
