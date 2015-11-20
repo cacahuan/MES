@@ -2,46 +2,16 @@
 branches: {
   }
 fileChange:
-  /DB.sql:
-    newFile: !uuid '09594cf286224ade71d260c5204bdf8401f0a6e0'
-    oldFile: !uuid 'ea0cb620e9c139d449db5aecd4a8a6001a090b11'
-  /OpenAuth.App:
-    newFile: !uuid 'e8c72350a905269b8c377d7c21a85487670dc3a5'
-    oldFile: !uuid '0002cb25008c85be68bc083b90e871b18cec2b0e'
-  /OpenAuth.App/RoleManagerApp.cs:
-    newFile: !uuid 'b443cb0255891b79e781f639ce13e179aed29924'
-    oldFile: !uuid '763ff70f6751e6fe54dec315445eb4909954a882'
-  /OpenAuth.Mvc:
-    newFile: !uuid '3c318a569f9404d960e630535b421230d4aba0a5'
-    oldFile: !uuid '812314947ac5649cdef7ad560cd1ee96bc882fd7'
-  /OpenAuth.Mvc/Controllers:
-    newFile: !uuid '7d0d054dd9343c0571263dbc250ffb3933d17d20'
-    oldFile: !uuid '97c8dc835ac42f2ea1713e4951b26788c1bab819'
-  /OpenAuth.Mvc/Controllers/RoleManagerController.cs:
-    newFile: !uuid '15848620748bc4bc25229e40319187ea7381525f'
-    oldFile: !uuid 'fb1fc570f1522186ca8bd38f13554bdacccec0ec'
-  /OpenAuth.Mvc/Views:
-    newFile: !uuid '6cd30e7b488216e477308d32e1e9dc8a03aca4a4'
-    oldFile: !uuid 'ffbc50674a806d744d6aec3941c59b0331b85c86'
-  /OpenAuth.Mvc/Views/RoleManager:
-    newFile: !uuid 'f13e923441e0d8b71285e7d437da98f135884137'
-    oldFile: !uuid '45a1448e8477b5d1a8522e3e43806310cd79d94c'
-  /OpenAuth.Mvc/Views/RoleManager/Add.cshtml:
-    newFile: !uuid '7bb08c39a5bd2dc05c40aac2122dd0ab5dff43b5'
-    oldFile: !uuid '869dfa9e37e1a995ec523c67699a1cca9cc515d2'
-  /OpenAuth.Mvc/Views/RoleManager/Index.cshtml:
-    newFile: !uuid '28d5f0fa14a4da51e93305fca5d00ebe712de778'
-    oldFile: !uuid 'bd2c0a38ad1e729a7f41bcaab369a544aec37d7b'
-  /OpenAuth.Repository:
-    newFile: !uuid '962bfd2c6795e411f701ea70c68371e394382463'
-    oldFile: !uuid '18c6fe48c5e4f822e8739aec75f20f9c1844e655'
-  /OpenAuth.Repository/RoleRepository.cs:
-    newFile: !uuid 'b72cc005422f25ffaa2b12c5de362c762861b54d'
-    oldFile: !uuid '21b87e93549311a5967ac03e026ac950ebaa4cf7'
-  /OpenAuth.Repository/UserRepository.cs:
-    newFile: !uuid '3234f4bb45da67fd89bb1eb9af50e8a53eb6235d'
-    oldFile: !uuid 'b93e095e6aa63f743aad7fe82c2779ca818416c3'
-gitCommitId: !uuid '4c0c7975c0942bd4ab1dd7e2a9931b50738afe06'
+  /数据库设计关系图:
+    newFile: !uuid 'bf601d9058a260e359383dae5fefae55b666cc14'
+    oldFile: !uuid 'be687002bf2d3787fb66a359c8eb148b3b98a261'
+  /数据库设计关系图/PDM_OA.pdb:
+    newFile: !uuid 'bca94d659fbde3ec1d1a13dedc3597886a3ea1d1'
+    oldFile: !uuid 'f48813551abe7cedbd341e47ec9c343899877945'
+  /数据库设计关系图/PDM_OA.pdm:
+    newFile: !uuid '9bb4ee28f0e79be928743c5980af9d84aaf4b002'
+    oldFile: !uuid 'bca94d659fbde3ec1d1a13dedc3597886a3ea1d1'
+gitCommitId: !uuid 'e433adb79be93d783f61eaee5b9adff010fb1152'
 renames: {
   }
-revisionId: 49
+revisionId: 50
