@@ -2,16 +2,28 @@
 branches: {
   }
 fileChange:
-  /数据库设计关系图:
-    newFile: !uuid 'bf601d9058a260e359383dae5fefae55b666cc14'
-    oldFile: !uuid 'be687002bf2d3787fb66a359c8eb148b3b98a261'
-  /数据库设计关系图/PDM_OA.pdb:
-    newFile: !uuid 'bca94d659fbde3ec1d1a13dedc3597886a3ea1d1'
-    oldFile: !uuid 'f48813551abe7cedbd341e47ec9c343899877945'
-  /数据库设计关系图/PDM_OA.pdm:
-    newFile: !uuid '9bb4ee28f0e79be928743c5980af9d84aaf4b002'
-    oldFile: !uuid 'bca94d659fbde3ec1d1a13dedc3597886a3ea1d1'
-gitCommitId: !uuid 'e433adb79be93d783f61eaee5b9adff010fb1152'
+  /OpenAuth.Mvc:
+    newFile: !uuid '7459aef5939fa82fa42966bcb711f350f13ebaff'
+    oldFile: !uuid '3c318a569f9404d960e630535b421230d4aba0a5'
+  /OpenAuth.Mvc/Views:
+    newFile: !uuid '990007b400c871e29d25427442f380b0f427bb60'
+    oldFile: !uuid '6cd30e7b488216e477308d32e1e9dc8a03aca4a4'
+  /OpenAuth.Mvc/Views/RoleManager:
+    newFile: !uuid '07fd8b215743ef014b0be7cd3b05fd417115f5bc'
+    oldFile: !uuid 'f13e923441e0d8b71285e7d437da98f135884137'
+  /OpenAuth.Mvc/Views/RoleManager/Add.cshtml:
+    newFile: !uuid 'f95172df47aea2c38d18d0240af10a754320875e'
+    oldFile: !uuid '7bb08c39a5bd2dc05c40aac2122dd0ab5dff43b5'
+  /OpenAuth.Mvc/Views/RoleManager/Index.cshtml:
+    newFile: !uuid '545308c77aa50a221c46898ef0b7d8e9aba73782'
+    oldFile: !uuid '28d5f0fa14a4da51e93305fca5d00ebe712de778'
+  /OpenAuth.Mvc/Views/UserManager:
+    newFile: !uuid '36c520d5611b38d4c35956dd191c7de8317edec5'
+    oldFile: !uuid 'a3b9125de99adee8c983e7a26d5afb32734c5355'
+  /OpenAuth.Mvc/Views/UserManager/Add.cshtml:
+    newFile: !uuid '6e049f246b9d85fade5a9d1ed47942b60e56b786'
+    oldFile: !uuid '69d3b017ff60aa6aae11ec5388568e7b44645052'
+gitCommitId: !uuid 'ea30b32af75a8c765d30f42d01b8902b38b22059'
 renames: {
   }
-revisionId: 50
+revisionId: 51
