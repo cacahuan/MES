@@ -2,19 +2,40 @@
 branches: {
   }
 fileChange:
+  /Infrastructure:
+    newFile: !uuid '1f69ff1e1c89fbcbfb2001fe46c3d036b501d136'
+    oldFile: !uuid 'a00d812c6da3c39d6a958b69bce6c20575008f73'
+  /Infrastructure/Infrastructure.csproj:
+    newFile: !uuid '04bf2113575b56717b107304ee8152cf3de35856'
+    oldFile: !uuid '197466e9164cac66ed9569d45dc0b2fab020bffc'
+  /Infrastructure/ObjectHelper.cs:
+    newFile: !uuid '5f038c3b24713e2f022544ece0ebeda5f857b9a8'
+    oldFile: null
   /OpenAuth.App:
-    newFile: !uuid '845327f08f865a27e7aaf47f635c11a21928d916'
-    oldFile: !uuid '086bd1024bfdb3bd3e15df6fe1304d32b6c05892'
+    newFile: !uuid '405699c1464f28326a97fbc931ce2129b0af2f7f'
+    oldFile: !uuid '845327f08f865a27e7aaf47f635c11a21928d916'
   /OpenAuth.App/ModuleManagerApp.cs:
-    newFile: !uuid 'd04a14e7504a0c12ad39659975ec6cb510ceaf95'
-    oldFile: !uuid 'eeeb93c701a91760755ab1aadbdc3a67b0dea87f'
+    newFile: !uuid '8753de6891b2f4f2bee8f4f5ebad3a41552d2334'
+    oldFile: !uuid 'd04a14e7504a0c12ad39659975ec6cb510ceaf95'
+  /OpenAuth.Mvc:
+    newFile: !uuid 'b5e0edaa9cdd0e31d0ef9651827e00f9c073a3bb'
+    oldFile: !uuid '0c4514ad9b32111c34cdcc6d0a068b0c1550aac2'
+  /OpenAuth.Mvc/Views:
+    newFile: !uuid '077665047c8aed93f09e48200ad7995151a87e72'
+    oldFile: !uuid '77f29a0cb1d999b5f625a6d8a3d0f72b54d09484'
+  /OpenAuth.Mvc/Views/ModuleManager:
+    newFile: !uuid 'd7be49932f974e9f471f75ed5cc38b9ffb46903f'
+    oldFile: !uuid 'ef22c45b349cb653299b36e3b353bf98f0b8f1d7'
+  /OpenAuth.Mvc/Views/ModuleManager/Add.cshtml:
+    newFile: !uuid 'caf284fc53c9b00c3c08280575888ab74755f09b'
+    oldFile: !uuid '9c9ff1b0e2dc9c6da07e2ee2370f448d7c89534e'
   /OpenAuth.UnitTest:
-    newFile: !uuid '93ae982a674b9f2a1baf8b2dec6fd57b48dec662'
-    oldFile: !uuid 'f6b1b783fd85da499e2631c657997f4e64310a41'
+    newFile: !uuid '7cfde62bd0786b218ec772dac0ae3e98725209ca'
+    oldFile: !uuid '93ae982a674b9f2a1baf8b2dec6fd57b48dec662'
   /OpenAuth.UnitTest/TestModuleApp.cs:
-    newFile: !uuid '307540232bb786fc0ee878597946173d874481af'
-    oldFile: !uuid 'fd8628ea0f17e7167b45d13df13633c966563db7'
-gitCommitId: !uuid 'e4f4c03389f17f206031ac87d55b83b7ca7899e7'
+    newFile: !uuid '497ecfb0527a6766fb3520638224d26fd9e8883a'
+    oldFile: !uuid '307540232bb786fc0ee878597946173d874481af'
+gitCommitId: !uuid 'e4305be0384063eca676c128bfd40abc623d011e'
 renames: {
   }
-revisionId: 59
+revisionId: 60
