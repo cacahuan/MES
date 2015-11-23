@@ -2,31 +2,19 @@
 branches: {
   }
 fileChange:
-  /CodeSmith:
-    newFile: !uuid '33eca59a1295beec5f1974c352dc83f39d533a2d'
-    oldFile: null
-  /CodeSmith/Add.cshtml.cst:
-    newFile: !uuid '2cf8b9710b30dd6c3aa4df3c808042cae8704c65'
-    oldFile: null
-  /CodeSmith/Application.cst:
-    newFile: !uuid '7d3e6d7a01e0eddb0fd791f32437d4aca901abf9'
-    oldFile: null
-  /CodeSmith/Controller.cst:
-    newFile: !uuid '9b88dd88cae3985c62acc26bb3311f69c9b11d82'
-    oldFile: null
-  /CodeSmith/IRepository.cst:
-    newFile: !uuid '4e1ec96c4e7ea15be8894dfd3f831b38869c6df9'
-    oldFile: null
-  /CodeSmith/Index.cshtml.cst:
-    newFile: !uuid '5396b131aa382f26349a5b9c0342ffb1c1b056fa'
-    oldFile: null
-  /CodeSmith/proj:
-    newFile: !uuid '6a067d3a04bd581ba2f310ab56ec167a8653b0c4'
-    oldFile: null
-  /CodeSmith/proj/cshtml.csp:
-    newFile: !uuid '50829c3de8357726468808957d008c5812fe3920'
-    oldFile: null
-gitCommitId: !uuid 'e8b3a0a8cdfe5082f5a6cc1f2c1765f9731e2d67'
+  /OpenAuth.App:
+    newFile: !uuid '845327f08f865a27e7aaf47f635c11a21928d916'
+    oldFile: !uuid '086bd1024bfdb3bd3e15df6fe1304d32b6c05892'
+  /OpenAuth.App/ModuleManagerApp.cs:
+    newFile: !uuid 'd04a14e7504a0c12ad39659975ec6cb510ceaf95'
+    oldFile: !uuid 'eeeb93c701a91760755ab1aadbdc3a67b0dea87f'
+  /OpenAuth.UnitTest:
+    newFile: !uuid '93ae982a674b9f2a1baf8b2dec6fd57b48dec662'
+    oldFile: !uuid 'f6b1b783fd85da499e2631c657997f4e64310a41'
+  /OpenAuth.UnitTest/TestModuleApp.cs:
+    newFile: !uuid '307540232bb786fc0ee878597946173d874481af'
+    oldFile: !uuid 'fd8628ea0f17e7167b45d13df13633c966563db7'
+gitCommitId: !uuid 'e4f4c03389f17f206031ac87d55b83b7ca7899e7'
 renames: {
   }
-revisionId: 58
+revisionId: 59
