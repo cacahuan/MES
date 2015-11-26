@@ -2,19 +2,10 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.Mvc:
-    newFile: !uuid '85286f3d4b6c250699c8574b168a46b518fae74a'
-    oldFile: !uuid '5f001796a0fc4f462b084d56d5507050636e4f41'
-  /OpenAuth.Mvc/Views:
-    newFile: !uuid 'd2db17df0c89318e65cdd43e3fd65f5337b8bb30'
-    oldFile: !uuid '9080fcfeb522d46e5357bb2a66b2d41ea755f399'
-  /OpenAuth.Mvc/Views/ModuleManager:
-    newFile: !uuid '61c943669f21bdf3e403dfe7a969fb2ab09905fc'
-    oldFile: !uuid '699886e275498faadef96c78a2423c78db7ef8d1'
-  /OpenAuth.Mvc/Views/ModuleManager/LookupMulti.cshtml:
-    newFile: !uuid '129b5ab4e86129f10f3d05863ed85c1ce9cd0311'
-    oldFile: !uuid '33777812c7cc24fcb3716034d9ee1fa418b06303'
-gitCommitId: !uuid 'c4f951370db666c1be5ea5e1f6d31b8bb643b19a'
+  /README.md:
+    newFile: !uuid '6e8b781b24ca9ec7cbb5ce3b6f348e3e8b9c3c82'
+    oldFile: !uuid '1b2f4bd185d0fe28d3a571ccfaedc899fccaf6aa'
+gitCommitId: !uuid '52f864a394253265a644f62922c25e51deea62c4'
 renames: {
   }
-revisionId: 70
+revisionId: 71
