@@ -2,28 +2,10 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.Mvc:
-    newFile: !uuid '478a99a72475bf4eea3a1c71d6c3751770dc9680'
-    oldFile: !uuid '282bf63ff7354fae90048df29b1681fcae80054d'
-  /OpenAuth.Mvc/AutofacExt.cs:
-    newFile: !uuid '47ef8bba6cb0d1150d7a4072084a8878e56bade0'
-    oldFile: !uuid 'b018aa6ff0c57b9dddca1bb2934bc21e2e923f22'
-  /OpenAuth.Mvc/Views:
-    newFile: !uuid '64e38619b84f53326d171d35d827173f52cd9429'
-    oldFile: !uuid 'dd4c9bf21dfc1c74347adae56b976f7fb96f4e33'
-  /OpenAuth.Mvc/Views/ResourceManager:
-    newFile: !uuid '3bae63e88f670cc4c6ac75c28832a56f0dd785d6'
-    oldFile: !uuid '2eb5783d758c9b964c510833bb60f28f7eae44b6'
-  /OpenAuth.Mvc/Views/ResourceManager/Add.cshtml:
-    newFile: !uuid '65cc23d2a7d7db815559936d0d2d7c4a89a2a0d4'
-    oldFile: !uuid '18cd0a91ae5c61551f96337f62c3b3961d21d749'
-  /OpenAuth.Mvc/Views/ResourceManager/Index.cshtml:
-    newFile: !uuid '8a52cd919b3dc89d78355c8f5f7c6a9d7d1b303d'
-    oldFile: !uuid 'ee4098d1a0aa114701de9a13092ab3fad9afa241'
-  /OpenAuth.Mvc/Web.config:
-    newFile: !uuid '66f47cd19ed7e5738f2badf326a59342e7ab5dfa'
-    oldFile: !uuid '75da5de86b91a89cae0861d41558ee613680c462'
-gitCommitId: !uuid 'a027562b95cc1c1af2589bbb506354cd32818cb3'
+  /建表&初始化数据.sql:
+    newFile: !uuid '96dc88c666e7ee5d78f303c81435329482189730'
+    oldFile: !uuid 'db61168f3c45db94126df94618a636a7e3246c0d'
+gitCommitId: !uuid '40188e36a59f58bcbca1dd14336f44dbba56e581'
 renames: {
   }
-revisionId: 102
+revisionId: 103
