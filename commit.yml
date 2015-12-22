@@ -2,10 +2,119 @@
 branches: {
   }
 fileChange:
-  /建表&初始化数据.sql:
-    newFile: !uuid '96dc88c666e7ee5d78f303c81435329482189730'
-    oldFile: !uuid 'db61168f3c45db94126df94618a636a7e3246c0d'
-gitCommitId: !uuid '40188e36a59f58bcbca1dd14336f44dbba56e581'
-renames: {
-  }
-revisionId: 103
+  /CodeSmith:
+    newFile: !uuid '285b2981f5fa7542a2d8a20bd8561699a42a599c'
+    oldFile: !uuid '7e63a5cc91374fa9b9ec3e7655384fffaf1a76e2'
+  /CodeSmith/Add.cshtml.cst:
+    newFile: !uuid 'd4157f112a8f132d19f03d97332e50af27ff7f4f'
+    oldFile: null
+  /CodeSmith/Application.cst:
+    newFile: !uuid '8425cd7b876ea3e2241df9df2c54381d21e3825d'
+    oldFile: null
+  /CodeSmith/Controller.cst:
+    newFile: !uuid '8c088a984c53985102b85538de44d76a935ec0c8'
+    oldFile: null
+  /CodeSmith/IRepository.cst:
+    newFile: !uuid 'e8f31b2d697bd12c8ff2b6b1941da470aed6142d'
+    oldFile: null
+  /CodeSmith/Index.cshtml.cst:
+    newFile: !uuid '9f0e55df6538078baaf3cacb3bcf27adf3513e53'
+    oldFile: null
+  /CodeSmith/NoCascadeIndex.cshtml.cst:
+    newFile: !uuid '5c4e104b6d7275b3676683b2b5bdc42bc8cb9227'
+    oldFile: null
+  /CodeSmith/Repository.cst:
+    newFile: !uuid 'c56402a677548b2b2c28de1d64e4d432103bd7a3'
+    oldFile: null
+  /CodeSmith/带其他级联:
+    newFile: null
+    oldFile: !uuid '8cd802c2b1cf0651ac936e4cd42a35ca655197bb'
+  /CodeSmith/带其他级联/Add.cshtml.cst:
+    newFile: null
+    oldFile: !uuid '5b4f093e005cc42703539761c28576b90f31971b'
+  /CodeSmith/带其他级联/Application.cst:
+    newFile: null
+    oldFile: !uuid 'd6120175950e95c27f6f548e021e0f08c8fca8b6'
+  /CodeSmith/带其他级联/Controller.cst:
+    newFile: null
+    oldFile: !uuid '6e45e6a8607f3bc7c88fd3c478c680951b1f4b48'
+  /CodeSmith/带其他级联/IRepository.cst:
+    newFile: null
+    oldFile: !uuid '4e1ec96c4e7ea15be8894dfd3f831b38869c6df9'
+  /CodeSmith/带其他级联/Index.cshtml.cst:
+    newFile: null
+    oldFile: !uuid 'a674c30ac94d89381f699c13f57075e213a4f051'
+  /CodeSmith/本身带级联:
+    newFile: null
+    oldFile: !uuid '8cd802c2b1cf0651ac936e4cd42a35ca655197bb'
+  /CodeSmith/本身带级联/Add.cshtml.cst:
+    newFile: null
+    oldFile: !uuid '5b4f093e005cc42703539761c28576b90f31971b'
+  /CodeSmith/本身带级联/Application.cst:
+    newFile: null
+    oldFile: !uuid 'd6120175950e95c27f6f548e021e0f08c8fca8b6'
+  /CodeSmith/本身带级联/Controller.cst:
+    newFile: null
+    oldFile: !uuid '6e45e6a8607f3bc7c88fd3c478c680951b1f4b48'
+  /CodeSmith/本身带级联/IRepository.cst:
+    newFile: null
+    oldFile: !uuid '4e1ec96c4e7ea15be8894dfd3f831b38869c6df9'
+  /CodeSmith/本身带级联/Index.cshtml.cst:
+    newFile: null
+    oldFile: !uuid 'a674c30ac94d89381f699c13f57075e213a4f051'
+  /OpenAuth.App:
+    newFile: !uuid '75392acbd52c39a18b4d8ad378d6b665f81df110'
+    oldFile: !uuid 'e0dc0fac096917e357ccda602ba82643981884ce'
+  /OpenAuth.App/LoginApp.cs:
+    newFile: !uuid '8206a4151096bc9bad010b053524fa45d43bf674'
+    oldFile: !uuid '259ad2ae059ca33abd6d6bd4418778a042fe6e36'
+  /OpenAuth.App/RoleManagerApp.cs:
+    newFile: !uuid '90a8c438989b82a692ac2adaa47696ab6787166f'
+    oldFile: !uuid 'e73673e1b883359fa3e873b51d1e4415f8ce2183'
+  /OpenAuth.App/ViewModel:
+    newFile: !uuid '19282fc94f449c74e1f92a6ceda189af0430e026'
+    oldFile: !uuid '0054e9e7083f6d8134b852c39757194b4319557b'
+  /OpenAuth.App/ViewModel/LoginUserVM.cs:
+    newFile: !uuid '71c45f0b049a6fb9fc74d11238939a7368bca80b'
+    oldFile: !uuid 'b8ea1a7c95ef214795d087205da1357b61def656'
+  /OpenAuth.Mvc:
+    newFile: !uuid '496377a54494cba717e9d9f8b07d9ad00d9fe03b'
+    oldFile: !uuid '478a99a72475bf4eea3a1c71d6c3751770dc9680'
+  /OpenAuth.Mvc/Controllers:
+    newFile: !uuid 'ae101f31ac26ecada2df416efe2c9e20381562a4'
+    oldFile: !uuid 'a4112654c2f90f315951cca3dc6a53b93a227556'
+  /OpenAuth.Mvc/Controllers/RoleManagerController.cs:
+    newFile: !uuid '10394b0cdb5ffb8f98e30f6f2e3a7e3882b8ce01'
+    oldFile: !uuid 'ab8fbabb9a6a1e9ca1ba3e88ace6ac993c06498c'
+  /OpenAuth.Mvc/OpenAuth.Mvc.csproj:
+    newFile: !uuid '4807e3a9ff968098c50c0dd0c4628b91b92d5386'
+    oldFile: !uuid '3f75f336551d68d233826ef11662ab27787829d3'
+  /OpenAuth.Mvc/Views:
+    newFile: !uuid '4b28fb2358c5ac3118be6390f3b3a457c97fc4a2'
+    oldFile: !uuid '64e38619b84f53326d171d35d827173f52cd9429'
+  /OpenAuth.Mvc/Views/RoleManager:
+    newFile: !uuid 'add3986e7e5a55ccd3d49be9be4b03a300d8b646'
+    oldFile: !uuid 'be716f52d38061a95544dbe5fe7a3f8eda5cfbdd'
+  /OpenAuth.Mvc/Views/RoleManager/LookupMulti.cshtml:
+    newFile: !uuid '31ccc0d9b0ff34b45f0f47d410fd85e2ca894684'
+    oldFile: !uuid '52bc66d82d4829254b5c4f06168ff1ba77e85f19'
+  /OpenAuth.Mvc/Views/UserManager:
+    newFile: !uuid 'b7b95f46f4cce6d30160e39a0fa93c5c39e4092c'
+    oldFile: !uuid 'fab035ee002c294e53636193da22e4839326525a'
+  /OpenAuth.Mvc/Views/UserManager/Index.cshtml:
+    newFile: !uuid '502519c915df3e9f3737b633b5d0a997f790c7e7'
+    oldFile: !uuid '8ae3343a8d075543485217e58328e0b1610810c6'
+  /OpenAuth.UnitTest:
+    newFile: !uuid 'f7c716139b95eace6c85a89ffa800e20c3dd1da5'
+    oldFile: !uuid '9aabc39322dcf4db52a404f65673f59cff717eed'
+  /OpenAuth.UnitTest/TestLogin.cs:
+    newFile: !uuid 'be74b95c4d13c6e169cbc6c27ec448be32410c9b'
+    oldFile: !uuid '156ad048d4134f2f91fc89ff9ccd7d4a1cc81836'
+gitCommitId: !uuid 'f853bd13b77354671103567b9d9d333cacb2d28a'
+renames:
+  /CodeSmith/Application.cst: /CodeSmith/带其他级联/Application.cst
+  /CodeSmith/Controller.cst: /CodeSmith/带其他级联/Controller.cst
+  /CodeSmith/IRepository.cst: /CodeSmith/带其他级联/IRepository.cst
+  /CodeSmith/Index.cshtml.cst: /CodeSmith/带其他级联/Index.cshtml.cst
+  /CodeSmith/NoCascadeIndex.cshtml.cst: /CodeSmith/带其他级联/Index.cshtml.cst
+revisionId: 104
