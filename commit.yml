@@ -3,18 +3,33 @@ branches: {
   }
 fileChange:
   /OpenAuth.Mvc:
-    newFile: !uuid 'c897d3dcd7d52029560ed7a635d7e8ade787a960'
-    oldFile: !uuid 'c03a78e2c53d2f05339e837acad94d61400c7112'
-  /OpenAuth.Mvc/Views:
-    newFile: !uuid '518563dd0ba36d9eeb190b56f6b1a10600edae72'
-    oldFile: !uuid 'e83fdeb08725354243d5509eb4e555a117ed7f05'
-  /OpenAuth.Mvc/Views/ModuleElementManager:
-    newFile: !uuid '6e48a36b21f4cf74c72ba0f7c5d086283b457dc3'
-    oldFile: !uuid '1f286fbf82c9153a6a3749acc56687877515a87e'
-  /OpenAuth.Mvc/Views/ModuleElementManager/Index.cshtml:
-    newFile: !uuid '6d1f37857a77783d8c22bebbdadb4796fe4ddf6c'
-    oldFile: !uuid '15498b7c96af7951a7115ace4f8168d4243b6d54'
-gitCommitId: !uuid '1cb473d9aca2d1a62844a882f08abc0ded8643bc'
+    newFile: !uuid '98e0751e83228a11422e2c2b6df2c00ecbe5faa4'
+    oldFile: !uuid 'c897d3dcd7d52029560ed7a635d7e8ade787a960'
+  /OpenAuth.Mvc/BJUI:
+    newFile: null
+    oldFile: !uuid 'a9e72fe49a3198699f6f8e1802acca398eb65745'
+  /OpenAuth.Mvc/BJUI/plugins:
+    newFile: null
+    oldFile: !uuid 'a360550a08439dfd9eedac71817cc3b6a6afa7c9'
+  /OpenAuth.Mvc/BJUI/plugins/kindeditor_4.1.10:
+    newFile: null
+    oldFile: !uuid '646ea32abcd46bd857f95a1b729bf2d257bb29ab'
+  /OpenAuth.Mvc/BJUI/plugins/kindeditor_4.1.10/attached:
+    newFile: null
+    oldFile: !uuid '5efb9bc29c482e023e40e0a2b3b7e49cec842034'
+  /OpenAuth.Mvc/BJUI/plugins/kindeditor_4.1.10/attached/test.txt:
+    newFile: null
+    oldFile: !uuid 'e69de29bb2d1d6434b8b29ae775ad8c2e48c5391'
+  /OpenAuth.Mvc/BJUI/themes:
+    newFile: null
+    oldFile: !uuid '9cb4247341c15328ec85ca827f4528c1d91e08e7'
+  /OpenAuth.Mvc/BJUI/themes/css:
+    newFile: null
+    oldFile: !uuid 'af280d9660afffb44fc95b92022da030447049fa'
+  /OpenAuth.Mvc/BJUI/themes/css/bootstrap.css:
+    newFile: null
+    oldFile: !uuid '377dff300420b0b7be693dfe4d18d180b0f04252'
+gitCommitId: !uuid '0786ea042015f9a4cfe066d8439b485097a83b99'
 renames: {
   }
-revisionId: 123
+revisionId: 124
