@@ -2,79 +2,52 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.App:
-    newFile: !uuid '7525537290af51e93fc71b7694aab2b3c6039e11'
-    oldFile: !uuid 'f41aa387a4d568f827463ca300873dd95041b292'
-  /OpenAuth.App/OpenAuth.App.csproj:
-    newFile: !uuid '0e0bc6cd8c7b6eb1bf7c693b9c1b971a7bb04031'
-    oldFile: !uuid '035fde154e086b83c40f5f17a9eea4ada7dfba3c'
-  /OpenAuth.App/ResourceManagerApp.cs:
-    newFile: !uuid '95d1a38eb343152640d4d195400ed9cd30beab84'
-    oldFile: !uuid '131378d3a27dd8098cea11ad0d6e07f0c3012c5d'
-  /OpenAuth.App/RevelanceManagerApp.cs:
-    newFile: !uuid '7e7177713dbf912d752bdf720339d13c8a8f899f'
-    oldFile: null
   /OpenAuth.Mvc:
-    newFile: !uuid '6a5fde2563fba4cfd5f683e35d89c9eb1a85c07a'
-    oldFile: !uuid 'ac12aa74b8faae666bbac1cc86d68fcb1ce62f8b'
-  /OpenAuth.Mvc/AutofacExt.cs:
-    newFile: !uuid 'ce45392c77adaaceecd07de96e1701a1e2a5d69d'
-    oldFile: !uuid '4cd356d7e8475a2bc6a967a9c668d56228f20898'
+    newFile: !uuid '8f2983da61df98cfb74161646dc5aef87ccb01b3'
+    oldFile: !uuid '6a5fde2563fba4cfd5f683e35d89c9eb1a85c07a'
   /OpenAuth.Mvc/BllScripts:
-    newFile: !uuid '749f8623debd3bb2c67cf5ba6fd0888c0df62843'
-    oldFile: !uuid 'e5e06269d3708913ace2c01b554b3c6247f0f002'
+    newFile: !uuid '0475533e37811b859d9ce31ab8958fd9e5a83d59'
+    oldFile: !uuid '749f8623debd3bb2c67cf5ba6fd0888c0df62843'
   /OpenAuth.Mvc/BllScripts/assignRes.js:
-    newFile: !uuid 'e8ac400c279436c074008949fcd1dd39c22d22ce'
-    oldFile: null
+    newFile: !uuid '5239ea4047b485dc2d5af9d639fc12bf6bc7284d'
+    oldFile: !uuid 'e8ac400c279436c074008949fcd1dd39c22d22ce'
+  /OpenAuth.Mvc/BllScripts/categoryManager.js:
+    newFile: !uuid '96c3085fff6110042ea8f6a2dad01dbebe6ba212'
+    oldFile: !uuid '5c04018c25cc0d9bf075a752bcc38170647b873e'
+  /OpenAuth.Mvc/BllScripts/moduleElementMan.js:
+    newFile: !uuid '3c9108e6e4733b38ea8dd7be111719ca56efcd53'
+    oldFile: !uuid '9ca0936c5c2e15670b13be016c9dcfbb250b665e'
+  /OpenAuth.Mvc/BllScripts/modulemanager.js:
+    newFile: !uuid '29355e8b89b1a3b4bbff9129a0a0e32ef596c517'
+    oldFile: !uuid '0b21fa70f2933005d478bff791d7cbe8ad6d58a3'
+  /OpenAuth.Mvc/BllScripts/orgManager.js:
+    newFile: !uuid 'b2b2462b208c6a8069d7d8155f6acb3a2077d7f8'
+    oldFile: !uuid '587caaefafc3973cccc0f20729178c8e690cace8'
+  /OpenAuth.Mvc/BllScripts/resourceManager.js:
+    newFile: !uuid 'fb475edc3c819840a05528c24f1c36035c90ae1c'
+    oldFile: !uuid '3ba4b22e51c91ed940cdd4ca026e30bedee2da4d'
   /OpenAuth.Mvc/BllScripts/roleManager.js:
-    newFile: !uuid 'a497c2ec2136551ef5ef33bfb981ff62fcb64cf1'
-    oldFile: !uuid '980f4da8f94db4e5256c17d482af70f79f062b9d'
+    newFile: !uuid 'b5d2a4674fef7483d86390a1c39d6b7090384cbb'
+    oldFile: !uuid 'a497c2ec2136551ef5ef33bfb981ff62fcb64cf1'
+  /OpenAuth.Mvc/BllScripts/roleModuleElement.js:
+    newFile: !uuid 'ccec2b0c015696f9179af1c3714df6f30b6f8c6c'
+    oldFile: !uuid 'e7a0ad1e79af3f0e484171723d5dfce1d80f1747'
+  /OpenAuth.Mvc/BllScripts/stockManager.js:
+    newFile: !uuid '7d08ae4e76ffc7b7a389ec6182ae202a7b671ec6'
+    oldFile: null
+  /OpenAuth.Mvc/BllScripts/userModuleElement.js:
+    newFile: !uuid '099c818c7ed3b9211fd1d16c6844e6d1c970bb62'
+    oldFile: !uuid '2a148d393b34a8071092e8864215d803570f38e6'
+  /OpenAuth.Mvc/BllScripts/userRoleManager.js:
+    newFile: !uuid '99e80f756273a27db98901ed7b2715f57a229812'
+    oldFile: !uuid '568007567143f473c5e1834f3e4262eaf999affd'
   /OpenAuth.Mvc/BllScripts/usermanager.js:
-    newFile: !uuid 'cce5ece4e5a26ae534be8cfd8c8f357eb32379a5'
-    oldFile: !uuid 'e57215c913a34214d5eac86a549e789421b42f2d'
-  /OpenAuth.Mvc/Controllers:
-    newFile: !uuid '91a09c3cb684b59e978fa85274f9947ee84d17f9'
-    oldFile: !uuid '82036c569d0f7642613ce68328f022e0802b3ca9'
-  /OpenAuth.Mvc/Controllers/OrgManagerController.cs:
-    newFile: !uuid '6e5e79d5a868af1b4678f65ce840fca326e3677d'
-    oldFile: !uuid 'c07bc55d7a6afbfb9c7823ab246a4f06c7f3bc05'
-  /OpenAuth.Mvc/Controllers/RelevanceManagerController.cs:
-    newFile: !uuid '70834ad099990e773e6769a12ba84c152ee9ee48'
-    oldFile: null
-  /OpenAuth.Mvc/Controllers/ResourceManagerController.cs:
-    newFile: !uuid '1519c6c8c3e5833d05da0aa65ba8e3eb368f04b9'
-    oldFile: !uuid '4c408597fd62766ea983c79115910da7428d07c4'
-  /OpenAuth.Mvc/OpenAuth.Mvc.csproj:
-    newFile: !uuid '7c5b71a13a8be2e04e8a045adf270582fcf86e0b'
-    oldFile: !uuid '976495f702d5d549f6acaf13f3bad8e76e7fadc4'
-  /OpenAuth.Mvc/Views:
-    newFile: !uuid '9c890459aa48cc0f3a0ee568d16753ca4f9380b3'
-    oldFile: !uuid 'fbc17306f81c4c424cda5e8bfc2e3bec4c973a40'
-  /OpenAuth.Mvc/Views/OrgManager:
-    newFile: !uuid '8a1bb37f522df43b2fe31b2b566a6b52eb3984bb'
-    oldFile: !uuid 'dbe019ed11355c75d46a1cb5bbb5ac6a179ce6c3'
-  /OpenAuth.Mvc/Views/OrgManager/LookupParent.cshtml:
-    newFile: null
-    oldFile: !uuid '8059415401ee8e8bd8a3c768748c651a9ef30760'
-  /OpenAuth.Mvc/Views/ResourceManager:
-    newFile: !uuid 'a99a41653778406d1315c6049b62965f4b378324'
-    oldFile: !uuid '536fea3e461e9a66f77a79e77d338d122f1aad74'
-  /OpenAuth.Mvc/Views/ResourceManager/AssignRes.cshtml:
-    newFile: !uuid 'f2e1e643e95c583b295bb5e66908a31510c62afa'
-    oldFile: null
-  /OpenAuth.Mvc/Views/ResourceManager/LookupMultiForRole.cshtml:
-    newFile: null
-    oldFile: !uuid '0dca72e27a92d12af2a7918907b497b5346e3068'
-  /OpenAuth.Mvc/Views/ResourceManager/LookupMultiForUser.cshtml:
-    newFile: null
-    oldFile: !uuid 'f74d31c5396a94f5cf6595c9a64dab6dc8eaf4bc'
-  /OpenAuth.Repository:
-    newFile: !uuid '01c251eae9ff3d99f563c68d345925085a36b1a0'
-    oldFile: !uuid '91b6cae8d064194d574531583f6d7cad720fcd71'
-  /OpenAuth.Repository/RoleRepository.cs:
-    newFile: !uuid '672aafb6c1722a17181a1de5aa60febe28a5151e'
-    oldFile: !uuid 'f414ddeb0da5c61d71f87eef04dc59b54d629c2f'
-gitCommitId: !uuid '40ffa5f1e82c653cd322abb29fe7a8807aa83bbe'
+    newFile: !uuid 'f240a0f0ec6b4f25e9dad6019f82d9029926ef9c'
+    oldFile: !uuid 'cce5ece4e5a26ae534be8cfd8c8f357eb32379a5'
+  /建表&初始化数据.sql:
+    newFile: !uuid '86ff72689b5a532cc54c6a0cfd50f0bdfdf7864a'
+    oldFile: !uuid 'a5416e20ce12970b5b1314e006bc683592c8576b'
+gitCommitId: !uuid '2c521e3244258070f325283b9c445b15d1837366'
 renames: {
   }
-revisionId: 129
+revisionId: 130
