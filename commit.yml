@@ -3,33 +3,15 @@ branches: {
   }
 fileChange:
   /OpenAuth.Mvc:
-    newFile: !uuid '5c3ba1841bf05563ce9ac0e25a63f77400c8d76f'
-    oldFile: !uuid '083d54c5f0d0833fa10446ea6813567ef1471447'
+    newFile: !uuid 'eca131e844ec616b0aaa0026bb2f5dc35d165d81'
+    oldFile: !uuid '5c3ba1841bf05563ce9ac0e25a63f77400c8d76f'
   /OpenAuth.Mvc/BllScripts:
-    newFile: !uuid '5f8109421137e79466dac26bfe57855d5ab1bc36'
-    oldFile: !uuid '4d5e5a24b2f72c8d8f203e2d9ed2853d5112e912'
-  /OpenAuth.Mvc/BllScripts/roleManager.js:
-    newFile: !uuid '56fc0847ef1811bfa8e87cd559366c4b8faa7942'
-    oldFile: !uuid '3c6891a59158aba9228f25f1c61d614edbd8caa3'
-  /OpenAuth.Mvc/BllScripts/usermanager.js:
-    newFile: !uuid '38f8f065cfa96efced63bc1bbe1b24d161dca58c'
-    oldFile: !uuid '3984741cebc0dcbee96366e3e405a6f3fc52b23b'
-  /OpenAuth.Mvc/Views:
-    newFile: !uuid '3ab78a6695f06100a1de421c170789ec4ac859a2'
-    oldFile: !uuid '8a7989b7c47e794d2b535fd9270897253b58b8a5'
-  /OpenAuth.Mvc/Views/RoleManager:
-    newFile: !uuid '43cc713025f716e1230e8e7ca3d0f1007f2f646f'
-    oldFile: !uuid 'f6fcac74747d611d3f69bb373d484a761cfdf438'
-  /OpenAuth.Mvc/Views/RoleManager/Index.cshtml:
-    newFile: !uuid 'd0450e3a3648307891a360663ffb490b5fd2e984'
-    oldFile: !uuid 'c162ce2132e5f5d542677e26ba32d74640d2f208'
-  /OpenAuth.Mvc/Views/UserManager:
-    newFile: !uuid 'd65e1bc6aafc9377629f3c2dc17bc22a278eed3a'
-    oldFile: !uuid '9381e93bf9e116ab8fe1429b53e6d9542c73e01f'
-  /OpenAuth.Mvc/Views/UserManager/Index.cshtml:
-    newFile: !uuid 'aceb36d6b2740975a49f38fea677946d052c3992'
-    oldFile: !uuid 'b8d7aaadd30625bf5449b8b7ddd7d99de30e6640'
-gitCommitId: !uuid 'aa6b31d474215c2dba6a3aeb8b6a144d907084ed'
+    newFile: !uuid '376dd1afe7a4f9b362b69429fb46429a15902d63'
+    oldFile: !uuid '5f8109421137e79466dac26bfe57855d5ab1bc36'
+  /OpenAuth.Mvc/BllScripts/assignModuleElement.js:
+    newFile: !uuid 'ed9795a770a7b20409be540c123cc6c6df2e7399'
+    oldFile: !uuid '1816787b0c4bf5f3d8879cff4880e45809c57d55'
+gitCommitId: !uuid 'b3c6df2931ea321d0d36fca1bdcb4fb0de1c7bf0'
 renames: {
   }
-revisionId: 142
+revisionId: 143
