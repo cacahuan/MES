@@ -2,10 +2,19 @@
 branches: {
   }
 fileChange:
-  /README.md:
-    newFile: !uuid '177b43fcba0bffa6a1f63b248f9607a3da1d57bf'
-    oldFile: !uuid '91206bc7c6fc9a9f24e3c7712cbbee21a0abcca9'
-gitCommitId: !uuid '767a4934bd0ef4c775cb1f86cf15f8948ec60d3f'
+  /OpenAuth.Domain:
+    newFile: !uuid 'd9cc5ac052d94c3f5c6bd979335b15ce9d8361b4'
+    oldFile: !uuid '26c72d1fdc56637e6e22ace038656675e33a6664'
+  /OpenAuth.Domain/Service:
+    newFile: !uuid '82b1a547cdfc0e1cf73a5d918ac4895eb7be98eb'
+    oldFile: !uuid '347001ca9a444d9364dd0f04170a523cd7ea3bb4'
+  /OpenAuth.Domain/Service/ModuleEleManService.cs:
+    newFile: !uuid 'ba38eb099b98233a981f03da9c550c6f0ab3f032'
+    oldFile: null
+  /OpenAuth.Domain/Service/ModuleManService.cs:
+    newFile: !uuid '86f63d067419b154478639cc96a345d5edebe754'
+    oldFile: null
+gitCommitId: !uuid '5af3353a12dfc954213f045db54e7b95e4046ffa'
 renames: {
   }
-revisionId: 148
+revisionId: 149
