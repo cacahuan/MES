@@ -2,19 +2,13 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.Domain:
-    newFile: !uuid 'd9cc5ac052d94c3f5c6bd979335b15ce9d8361b4'
-    oldFile: !uuid '26c72d1fdc56637e6e22ace038656675e33a6664'
-  /OpenAuth.Domain/Service:
-    newFile: !uuid '82b1a547cdfc0e1cf73a5d918ac4895eb7be98eb'
-    oldFile: !uuid '347001ca9a444d9364dd0f04170a523cd7ea3bb4'
-  /OpenAuth.Domain/Service/ModuleEleManService.cs:
-    newFile: !uuid 'ba38eb099b98233a981f03da9c550c6f0ab3f032'
-    oldFile: null
-  /OpenAuth.Domain/Service/ModuleManService.cs:
-    newFile: !uuid '86f63d067419b154478639cc96a345d5edebe754'
-    oldFile: null
-gitCommitId: !uuid '5af3353a12dfc954213f045db54e7b95e4046ffa'
+  /OpenAuth.UnitTest:
+    newFile: !uuid 'd98f011ddeb49eaf0716f4778a4574a6e2ed021b'
+    oldFile: !uuid '7762339280c0bc141deb513b701fcfc850bf3998'
+  /OpenAuth.UnitTest/TestModuleApp.cs:
+    newFile: !uuid '62699d39263ae9fa3d4e6a58a8fdc49f7779ab69'
+    oldFile: !uuid 'ebca6d11b0b552758672a3c33d28ccc5814cbc6c'
+gitCommitId: !uuid 'd3c98fdc8709fad0b17fbe7d5d15c8186801194b'
 renames: {
   }
-revisionId: 149
+revisionId: 150
