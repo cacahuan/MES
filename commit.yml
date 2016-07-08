@@ -2,10 +2,34 @@
 branches: {
   }
 fileChange:
-  /README.md:
-    newFile: !uuid 'a37c642100da2a88f612d793b66b2fc4d435495f'
-    oldFile: !uuid '8187b6ef6ee8a1a656b730722325bc3cd48f753b'
-gitCommitId: !uuid '3a628c05e00dba81bc3cecb346ca2179d4f16bac'
+  /Infrastructure:
+    newFile: !uuid '0332e4e7709b5b973e25eceeb974512f0c8e36c9'
+    oldFile: !uuid 'c14208080d91bec38ff0dfc5dab8f06453c53ac1'
+  /Infrastructure/Cache:
+    newFile: !uuid '8c1aa7095750d5d65682f2f0ea1717374607494e'
+    oldFile: null
+  /Infrastructure/Cache/CacheContext.cs:
+    newFile: !uuid '3d0e66e4c9f3aae247dddd3765d06f864bf5808e'
+    oldFile: null
+  /Infrastructure/Cache/EnyimMemcachedContext.cs:
+    newFile: !uuid '4944b4f591a72a2875ea50744869ae548544b8e0'
+    oldFile: null
+  /Infrastructure/Cache/SessionContext.cs:
+    newFile: !uuid '4b774f534fbc615d9fd48bd37cfc912aec696fad'
+    oldFile: null
+  /Infrastructure/HttpHelper.cs:
+    newFile: !uuid '1aa0c52f40dc9c11e56581cf8ae0e28a6fe2136f'
+    oldFile: null
+  /Infrastructure/UriUtil.cs:
+    newFile: !uuid '7c60e434df86483ee5ee3f8ebf490398a0d319f9'
+    oldFile: null
+  /OpenAuth.App:
+    newFile: !uuid '84bf546f5c283e45cceaa00aa3f741a9f26a24db'
+    oldFile: !uuid '397ece8b4a235bd499f3a4343efa68627aae555d'
+  /OpenAuth.App/packages.config:
+    newFile: !uuid '4bc06fc1a784b9aaed068eec6ffec27ba2c359fd'
+    oldFile: null
+gitCommitId: !uuid 'f127a7238c435e69a4b39d39119e676508de263a'
 renames: {
   }
-revisionId: 156
+revisionId: 157
