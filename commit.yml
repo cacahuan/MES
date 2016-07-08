@@ -2,16 +2,10 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.Mvc:
-    newFile: !uuid '9b41a45f365fdbde638be7aa5fa0bc690963372d'
-    oldFile: !uuid '92c42eaa1200c2d85a48393ece482c551fcb0d4e'
-  /OpenAuth.Mvc/Controllers:
-    newFile: !uuid '68cbd0c4d1766834d041b285945240a1847c9ac5'
-    oldFile: !uuid 'abcd6edbbc1fd4bde9a693c3cb15e1a73de64e5f'
-  /OpenAuth.Mvc/Controllers/LoginController.cs:
-    newFile: !uuid '26a0fc1e04e0dec6829e968aa23022f190455d7c'
-    oldFile: !uuid 'cd08485c3372349365b4fe891196ae7dcc98c135'
-gitCommitId: !uuid '35ebe1d3d09d2e13abbd7b620c6c58aa28269ff2'
+  /README.md:
+    newFile: !uuid 'a37c642100da2a88f612d793b66b2fc4d435495f'
+    oldFile: !uuid '8187b6ef6ee8a1a656b730722325bc3cd48f753b'
+gitCommitId: !uuid '3a628c05e00dba81bc3cecb346ca2179d4f16bac'
 renames: {
   }
-revisionId: 155
+revisionId: 156
