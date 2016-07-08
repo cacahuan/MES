@@ -2,19 +2,16 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.WebTest:
-    newFile: !uuid '465a3cc21bd8f5a8eb5024ea9ffe5be137d61785'
-    oldFile: !uuid '44def3272fe9240a43545c776036912aebf8a866'
-  /OpenAuth.WebTest/Controllers:
-    newFile: !uuid '29ffb0f1684685a0284a40e472166e2c36c6aab9'
-    oldFile: !uuid 'd08a26141275330086c956ca31699e8b3a1d1aac'
-  /OpenAuth.WebTest/Controllers/HomeController.cs:
-    newFile: !uuid '59ac1f7915f1481a640fa739c77e238d7bf1e274'
-    oldFile: !uuid '78b8180b53a6a426d4593e9c49d6c64b87724cf0'
-  /OpenAuth.WebTest/Web.config:
-    newFile: !uuid '52d5d263c6d4e01249c8856f0649bd5cdbd02691'
-    oldFile: !uuid 'aa7260c2b2d94bda4dd1e9fd231bacd11daf74f7'
-gitCommitId: !uuid 'dcfc2ee6b49a3a7e4d371d5f51e3ea5f8f15f4dd'
+  /OpenAuth.Mvc:
+    newFile: !uuid '9b41a45f365fdbde638be7aa5fa0bc690963372d'
+    oldFile: !uuid '92c42eaa1200c2d85a48393ece482c551fcb0d4e'
+  /OpenAuth.Mvc/Controllers:
+    newFile: !uuid '68cbd0c4d1766834d041b285945240a1847c9ac5'
+    oldFile: !uuid 'abcd6edbbc1fd4bde9a693c3cb15e1a73de64e5f'
+  /OpenAuth.Mvc/Controllers/LoginController.cs:
+    newFile: !uuid '26a0fc1e04e0dec6829e968aa23022f190455d7c'
+    oldFile: !uuid 'cd08485c3372349365b4fe891196ae7dcc98c135'
+gitCommitId: !uuid '35ebe1d3d09d2e13abbd7b620c6c58aa28269ff2'
 renames: {
   }
-revisionId: 154
+revisionId: 155
