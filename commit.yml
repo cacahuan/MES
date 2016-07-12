@@ -3,69 +3,15 @@ branches: {
   }
 fileChange:
   /OpenAuth.App:
-    newFile: !uuid '0155d6bb77f4cbf88efab53ced37fb428b3889ce'
-    oldFile: !uuid '2d6ee04f7a297112322c933483e70a88625f9350'
+    newFile: !uuid 'b0368aa0ee3483e7132f30c28d8cac141a2c460d'
+    oldFile: !uuid '0155d6bb77f4cbf88efab53ced37fb428b3889ce'
   /OpenAuth.App/SSO:
-    newFile: !uuid 'b1ce77f3a372c2b4124aa8e138706927c9e53750'
-    oldFile: !uuid '23d141f5aac523a6ff45e104fd239cdc59250c2f'
+    newFile: !uuid '57d75255202de32c1def0a11eb64f8aae1ecdc06'
+    oldFile: !uuid 'b1ce77f3a372c2b4124aa8e138706927c9e53750'
   /OpenAuth.App/SSO/SSOAuthUtil.cs:
-    newFile: !uuid 'cd3b0ebab366a4a7ac16cc9646e9ca16d6ca46e1'
-    oldFile: !uuid '7d48d50c7e46024a80f732fb1ffec6612157b29e'
-  /packages:
-    newFile: null
-    oldFile: !uuid 'dfeeb4e3fa7c7ae4973b860b837c171064c042cb'
-  /packages/Respond.1.2.0:
-    newFile: null
-    oldFile: !uuid '8febf8d294e928cf51022b63634ce0d71e03be29'
-  /packages/Respond.1.2.0/content:
-    newFile: null
-    oldFile: !uuid '5fd41c416a92fc8e400c6ad9b21c77182aeb38b5'
-  /packages/Respond.1.2.0/content/Scripts:
-    newFile: null
-    oldFile: !uuid 'ab389f69ddf3f42439002e49b28359fd51f133bf'
-  /packages/Respond.1.2.0/content/Scripts/respond.min.js:
-    newFile: null
-    oldFile: !uuid '94e308e86abc9d3403a472d5ba857e53ed334423'
-  /packages/bootstrap.3.0.0:
-    newFile: null
-    oldFile: !uuid '62a0248fd667bca267bd87833f810c6254f85803'
-  /packages/bootstrap.3.0.0/Content:
-    newFile: null
-    oldFile: !uuid '08321d67dd758ff4d42cf30c8c057f20b5ce1017'
-  /packages/bootstrap.3.0.0/Content/Content:
-    newFile: null
-    oldFile: !uuid 'c532557e908744f749a3c5d7a12a05641b0ca309'
-  /packages/bootstrap.3.0.0/Content/Content/bootstrap.css:
-    newFile: null
-    oldFile: !uuid 'bbda4eed4afdc3cb938da2c517365faaf58545b5'
-  /packages/bootstrap.3.0.0/Content/fonts:
-    newFile: null
-    oldFile: !uuid '0f29faf8f04fc40ee88eb71b98b2671756f88ea2'
-  /packages/bootstrap.3.0.0/Content/fonts/glyphicons-halflings-regular.eot:
-    newFile: null
-    oldFile: !uuid '87eaa434234e2a984c261e0450a2f4ad837aa7b4'
-  /packages/bootstrap.3.0.0/Content/fonts/glyphicons-halflings-regular.svg:
-    newFile: null
-    oldFile: !uuid '5fee0685496c143a002985cdfb832dfd3001e6fc'
-  /packages/bootstrap.3.0.0/Content/fonts/glyphicons-halflings-regular.ttf:
-    newFile: null
-    oldFile: !uuid 'be784dc1d5bcb92ab155f578f3723524a3dd9688'
-  /packages/bootstrap.3.0.0/Content/fonts/glyphicons-halflings-regular.woff:
-    newFile: null
-    oldFile: !uuid '2cc3e4852a5a42e6aadd6284e067b66e14a57bc7'
-  /packages/jQuery.1.10.2:
-    newFile: null
-    oldFile: !uuid '00a58fbb04cd0711d8ed5c3e23d6b9e2d1e65c06'
-  /packages/jQuery.1.10.2/Content:
-    newFile: null
-    oldFile: !uuid '92b6fe7fccc567daddfaaf7ed6acb85ea52d6deb'
-  /packages/jQuery.1.10.2/Content/Scripts:
-    newFile: null
-    oldFile: !uuid '472ae38ed21628c4e87c97fdb26e101629a726a1'
-  /packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2.js:
-    newFile: null
-    oldFile: !uuid 'c5c648255c1574dcc95c506b82c25044f0972dfd'
-gitCommitId: !uuid 'b76e77b15cd5b38e55a4c2387531cd3c82f81459'
+    newFile: !uuid 'caa9aaf1286b45c83642a070935e0e86dbe52028'
+    oldFile: !uuid 'cd3b0ebab366a4a7ac16cc9646e9ca16d6ca46e1'
+gitCommitId: !uuid '919158a76ba7f3246cc8ba3d82f4cd9418e0e059'
 renames: {
   }
-revisionId: 161
+revisionId: 162
