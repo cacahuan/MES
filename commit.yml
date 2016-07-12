@@ -2,339 +2,70 @@
 branches: {
   }
 fileChange:
-  /Infrastructure:
-    newFile: !uuid 'e7f3ebb91a7111f585d0376ddb2c7e3bccb19dd9'
-    oldFile: !uuid '0332e4e7709b5b973e25eceeb974512f0c8e36c9'
-  /Infrastructure/Infrastructure.csproj:
-    newFile: !uuid '278fe132eb82fa6447db083bb5a0720ca579dfb2'
-    oldFile: !uuid '174cf348a629a374b785af641fbc746b3e81b53a'
-  /Infrastructure/StringExtensions.cs:
-    newFile: !uuid '019cefddeb1741311416aaab59d2dc8a7ff92672'
-    oldFile: null
   /OpenAuth.App:
-    newFile: !uuid '2d6ee04f7a297112322c933483e70a88625f9350'
-    oldFile: !uuid '06c36bb4c8151b35e4370e49568425f09903dff0'
-  /OpenAuth.App/LoginApp.cs:
-    newFile: !uuid '02e598dd22dd16665513262fb56327488166e78d'
-    oldFile: !uuid 'b27fa4364d0ccec01f85eda48cc836cf9c7d3f5b'
-  /OpenAuth.App/OpenAuth.App.csproj:
-    newFile: !uuid '8db860fe57ef7d6e1043e04aad14ea4628721c46'
-    oldFile: !uuid '5d0b7ab9499b6a8017c199d541a171c5eab91dce'
+    newFile: !uuid '0155d6bb77f4cbf88efab53ced37fb428b3889ce'
+    oldFile: !uuid '2d6ee04f7a297112322c933483e70a88625f9350'
   /OpenAuth.App/SSO:
-    newFile: !uuid '23d141f5aac523a6ff45e104fd239cdc59250c2f'
-    oldFile: !uuid '6510a1b024f4896376cc67cf56597a7e621eae3d'
-  /OpenAuth.App/SSO/AppInfo.cs:
-    newFile: !uuid '9c8282262a3b1a58be4c1b2bb1956421220d194b'
-    oldFile: null
-  /OpenAuth.App/SSO/AppInfoService.cs:
-    newFile: !uuid '794c62b8b6b3bdcca6fcb6118fb8a10b7c1bcd06'
-    oldFile: null
-  /OpenAuth.App/SSO/AuthUtil.cs:
-    newFile: !uuid 'fcb730ab55ceb8f86e18324365287c58c508b0d6'
-    oldFile: !uuid '6fea12bdab22423992d6fc1d067f480db9736a0d'
-  /OpenAuth.App/SSO/PassportLoginRequest.cs:
-    newFile: !uuid 'c5c20d0d829f1eb4662b582061ce0d39e9cea736'
-    oldFile: null
+    newFile: !uuid 'b1ce77f3a372c2b4124aa8e138706927c9e53750'
+    oldFile: !uuid '23d141f5aac523a6ff45e104fd239cdc59250c2f'
   /OpenAuth.App/SSO/SSOAuthUtil.cs:
-    newFile: !uuid '7d48d50c7e46024a80f732fb1ffec6612157b29e'
-    oldFile: null
-  /OpenAuth.App/SSO/ServiceContext.cs:
-    newFile: !uuid '5861ba9ce9520c0061814597eb2c796f8baaeb1c'
-    oldFile: null
-  /OpenAuth.App/SSO/UserAuthSession.cs:
-    newFile: !uuid 'fb2a768ac15770f29fb27be902f27e12a335915d'
-    oldFile: !uuid 'd3687eb3badd20338309c5b0b1bbe4268ef67aa0'
-  /OpenAuth.App/SSO/UserAuthSessionService.cs:
-    newFile: !uuid '892bedd85a928d0f31a290cef09d38160bd83267'
-    oldFile: null
-  /OpenAuth.Mvc:
-    newFile: !uuid 'dee06e7414330d2d17a2c583f25b799dc40cf0e8'
-    oldFile: !uuid '70103131a7719bc499b4206d4edbf5a2278ce732'
-  /OpenAuth.Mvc/Controllers:
-    newFile: !uuid 'ffe2cd8a02c18b7d9d68748a9325685fe4673a6a'
-    oldFile: !uuid '4c9107e946accacec906f4e7d1033d27cae05ac0'
-  /OpenAuth.Mvc/Controllers/LoginController.cs:
-    newFile: !uuid 'de1db7120540938158c2bd32240dd6ae1db1d512'
-    oldFile: !uuid '9b49c789f7149f331639f1f3631ab03bc6b821ba'
-  /OpenAuth.Mvc/Views:
-    newFile: !uuid '63ab2b820cce2eb265277d34c4326c4530137013'
-    oldFile: !uuid 'b984a2cf32a3a6cf9a8d34dd19a56773ef02038c'
-  /OpenAuth.Mvc/Views/Login:
-    newFile: !uuid '07d5b176799f0273a300b39ed1b4e4fbd5e6706c'
-    oldFile: !uuid '81b77a01c4a16f340196b97b7f3a5d18e2bd18a7'
-  /OpenAuth.Mvc/Views/Login/Index.cshtml:
-    newFile: !uuid 'fc60d69374a9d5d914935cd158313180220d29f0'
-    oldFile: !uuid '50c11fe85890dd8c8a761d592ac47fc18c673f22'
-  /OpenAuth.Mvc/Web.config:
-    newFile: !uuid '8ae33c7097c82f8665b10c79ded091f5780b7469'
-    oldFile: !uuid '73c3c30192200443c89eb576252f8e7dd0ed129c'
-  /OpenAuth.WebApi:
-    newFile: !uuid 'b9b1ca5729736dc9760888a86f27b74a0b734873'
-    oldFile: !uuid '7d00b198e84e45099087bb33c0346507c5ab0b6a'
-  /OpenAuth.WebApi/App_Start:
-    newFile: !uuid 'fe7b4954dd6e08336bf96392442b96e0066920b5'
-    oldFile: !uuid '5c1c02ad6799039ef6cbb5ade1356bbe168d4621'
-  /OpenAuth.WebApi/App_Start/BundleConfig.cs:
+    newFile: !uuid 'cd3b0ebab366a4a7ac16cc9646e9ca16d6ca46e1'
+    oldFile: !uuid '7d48d50c7e46024a80f732fb1ffec6612157b29e'
+  /packages:
     newFile: null
-    oldFile: !uuid '9cc7556db83f0a656d786f012642679bbc09c195'
-  /OpenAuth.WebApi/Areas:
-    newFile: !uuid '6c0b0bdcfde99300f30c714c6236be62aa963f85'
-    oldFile: !uuid '74d0536eb0a3a423abedf1f8e3f9d63b2d453488'
-  /OpenAuth.WebApi/Areas/SSO:
-    newFile: !uuid '1e4a6e6e0093198d8cd5debdcb6466ee7a9e8c85'
-    oldFile: !uuid '724323470dcfccd64e64f8406aa903c7b74d0262'
-  /OpenAuth.WebApi/Areas/SSO/Content:
-    newFile: !uuid 'fc15e85f7c7744a4d06b003b1ee3fc67a937ede7'
-    oldFile: null
-  /OpenAuth.WebApi/Areas/SSO/Content/Site.css:
-    newFile: !uuid 'd825a52a854bc645fa68839ccb5d40996a7ea93f'
-    oldFile: null
-  /OpenAuth.WebApi/Areas/SSO/Content/bootstrap.min.css:
-    newFile: !uuid 'df89a5030f2192f2efc2eef1e625b588903b735e'
-    oldFile: null
-  /OpenAuth.WebApi/Areas/SSO/Content/images:
-    newFile: !uuid '5716f2c837ebf37d5cee93d84bde4584fb17b0fe'
-    oldFile: null
-  /OpenAuth.WebApi/Areas/SSO/Content/images/logo.png:
-    newFile: !uuid 'a1cfdbeba87ecae5ddd684fab8952af63ccc4369'
-    oldFile: null
-  /OpenAuth.WebApi/Areas/SSO/Controllers:
-    newFile: !uuid 'e4f1a03c28e6e48459bf12b9e74c821e0c046e7e'
-    oldFile: !uuid '4a75b651ebfe0d9acefcee43791da4683d831f60'
-  /OpenAuth.WebApi/Areas/SSO/Controllers/CheckController.cs:
-    newFile: !uuid 'cf9388cc66b25871b8b319853e088a57f7d423f7'
-    oldFile: !uuid '2e8e94bab2b6165668b9bec97008aa33985dd6fb'
-  /OpenAuth.WebApi/Areas/SSO/Controllers/LoginController.cs:
-    newFile: !uuid 'd84ac0f4b11fea0eaeb3a95a4f22cb6ef897d482'
-    oldFile: !uuid '16dd087b528b08e0ff63dec0f7e5dec34dea8d87'
-  /OpenAuth.WebApi/Areas/SSO/Models:
+    oldFile: !uuid 'dfeeb4e3fa7c7ae4973b860b837c171064c042cb'
+  /packages/Respond.1.2.0:
     newFile: null
-    oldFile: !uuid '4b512c0b0cecb57c8722c27401951b2136cfde76'
-  /OpenAuth.WebApi/Areas/SSO/Models/AppInfo.cs:
+    oldFile: !uuid '8febf8d294e928cf51022b63634ce0d71e03be29'
+  /packages/Respond.1.2.0/content:
     newFile: null
-    oldFile: !uuid '2bd15d1490e0b677b02afec08aeb175126b83acd'
-  /OpenAuth.WebApi/Areas/SSO/Models/PassportLoginRequest.cs:
+    oldFile: !uuid '5fd41c416a92fc8e400c6ad9b21c77182aeb38b5'
+  /packages/Respond.1.2.0/content/Scripts:
     newFile: null
-    oldFile: !uuid '960b5e15b3c3bed115c45ca2d726dfeb8d926738'
-  /OpenAuth.WebApi/Areas/SSO/Models/ServiceContext.cs:
+    oldFile: !uuid 'ab389f69ddf3f42439002e49b28359fd51f133bf'
+  /packages/Respond.1.2.0/content/Scripts/respond.min.js:
     newFile: null
-    oldFile: !uuid '195a9a418924501bc2fa39a98350e05ea6d2724f'
-  /OpenAuth.WebApi/Areas/SSO/Models/Services:
+    oldFile: !uuid '94e308e86abc9d3403a472d5ba857e53ed334423'
+  /packages/bootstrap.3.0.0:
     newFile: null
-    oldFile: !uuid 'fd5df4593cad400300efbe27392b36d17eadae3d'
-  /OpenAuth.WebApi/Areas/SSO/Models/Services/AppInfoService.cs:
+    oldFile: !uuid '62a0248fd667bca267bd87833f810c6254f85803'
+  /packages/bootstrap.3.0.0/Content:
     newFile: null
-    oldFile: !uuid '736b4cb80e5a1b26a82edd1a719ee29091b7bb34'
-  /OpenAuth.WebApi/Areas/SSO/Models/Services/UserAuthSessionService.cs:
+    oldFile: !uuid '08321d67dd758ff4d42cf30c8c057f20b5ce1017'
+  /packages/bootstrap.3.0.0/Content/Content:
     newFile: null
-    oldFile: !uuid '6f26100da65283781f8374bee7a1548c5f90711a'
-  /OpenAuth.WebApi/Areas/SSO/Models/StringExtensions.cs:
+    oldFile: !uuid 'c532557e908744f749a3c5d7a12a05641b0ca309'
+  /packages/bootstrap.3.0.0/Content/Content/bootstrap.css:
     newFile: null
-    oldFile: !uuid '7cdb49e683be568f46da398521bcfad83e0466e1'
-  /OpenAuth.WebApi/Areas/SSO/Scripts:
-    newFile: !uuid '2781ca212b56d45b90cb7c287db117baa70fa61b'
-    oldFile: null
-  /OpenAuth.WebApi/Areas/SSO/Scripts/_references.js:
-    newFile: !uuid 'e560695ae3209ab1726537093dc6682b4f0d7b0b'
-    oldFile: null
-  /OpenAuth.WebApi/Areas/SSO/Scripts/bootstrap.js:
-    newFile: !uuid '5aa9982eda4133db3e31965fc0b504c114d053e3'
-    oldFile: null
-  /OpenAuth.WebApi/Areas/SSO/Scripts/bootstrap.min.js:
-    newFile: !uuid '9c96832ae2b2d1c65433f5595394378688322799'
-    oldFile: null
-  /OpenAuth.WebApi/Areas/SSO/Scripts/jquery-1.10.2.intellisense.js:
-    newFile: !uuid '2c4d454eb71714d396767d6bd110de2273b4fcb0'
-    oldFile: null
-  /OpenAuth.WebApi/Areas/SSO/Scripts/jquery-1.10.2.js:
-    newFile: !uuid 'd3e121b8602e2bfbed5d2b1fa960d09b8e7bf153'
-    oldFile: null
-  /OpenAuth.WebApi/Areas/SSO/Scripts/jquery-1.10.2.min.js:
-    newFile: !uuid '51aa758be2e7711b065030a454c2685cca2b1ccf'
-    oldFile: null
-  /OpenAuth.WebApi/Areas/SSO/Scripts/jquery-1.10.2.min.map:
-    newFile: !uuid '4dc4920bb828e8bfb5f7efc8f4c074af9e2784ab'
-    oldFile: null
-  /OpenAuth.WebApi/Areas/SSO/Scripts/modernizr-2.6.2.js:
-    newFile: !uuid 'cbfe1f390f429de1155aa9fd73bb426670912d46'
-    oldFile: null
-  /OpenAuth.WebApi/Areas/SSO/Scripts/respond.js:
-    newFile: !uuid '378d773d18054960feb2467a97c5541b7c65ecd2'
-    oldFile: null
-  /OpenAuth.WebApi/Areas/SSO/Scripts/respond.min.js:
-    newFile: !uuid 'a84813706b256b35d6cf77a362774cc373b8d592'
-    oldFile: null
-  /OpenAuth.WebApi/Areas/SSO/Views:
-    newFile: !uuid '05e40250f5e22eac1d206ba8213efef497a3e408'
-    oldFile: !uuid '0e9fec88ea8ad32a7b5fc96f07244defde2b1be4'
-  /OpenAuth.WebApi/Areas/SSO/Views/Login:
-    newFile: !uuid '4502618f7fad8fa1b25b2b368cb9dc55cd1d513c'
-    oldFile: !uuid '3756737b8354b8bd0a0f757ecb3fdbaa77fda1aa'
-  /OpenAuth.WebApi/Areas/SSO/Views/Login/Index.cshtml:
-    newFile: !uuid 'e1a1a597a1b62aedd03c37e7087efa22e107a256'
-    oldFile: !uuid '70d39d8fc476deb8414c9e51cf3a6c907eeef6bd'
-  /OpenAuth.WebApi/Content:
-    newFile: null
-    oldFile: !uuid '07012ee097870c3b0fd01d4a28a539cbec4ec8dd'
-  /OpenAuth.WebApi/Content/Site.css:
-    newFile: null
-    oldFile: !uuid 'd825a52a854bc645fa68839ccb5d40996a7ea93f'
-  /OpenAuth.WebApi/Content/bootstrap.css:
-    newFile: null
-    oldFile: !uuid '6d6e68281ddecfe6611fbb2c9f79306e69359cab'
-  /OpenAuth.WebApi/Content/bootstrap.min.css:
-    newFile: null
-    oldFile: !uuid 'df89a5030f2192f2efc2eef1e625b588903b735e'
-  /OpenAuth.WebApi/Global.asax.cs:
-    newFile: !uuid 'cc5fd9e90775b8c87b88142860e25e1d877c9c2a'
-    oldFile: !uuid '75faa7a4c87042c2c5a6f0331e63e962fd39bea6'
-  /OpenAuth.WebApi/OpenAuth.WebApi.csproj:
-    newFile: !uuid 'b3d6b36f9e7af76a4cd0a922a8b2e14126464002'
-    oldFile: !uuid '683fba51173deb6b2dc70d1d1bf718ec7997749f'
-  /OpenAuth.WebApi/Scripts:
-    newFile: null
-    oldFile: !uuid 'cf6a77849ae5ed1d28d1ff724141474d6c1bf18c'
-  /OpenAuth.WebApi/Scripts/_references.js:
-    newFile: null
-    oldFile: !uuid 'cbe7a470804985788af6cf4a4528208724d9f657'
-  /OpenAuth.WebApi/Scripts/bootstrap.js:
-    newFile: null
-    oldFile: !uuid '5aa9982eda4133db3e31965fc0b504c114d053e3'
-  /OpenAuth.WebApi/Scripts/bootstrap.min.js:
-    newFile: null
-    oldFile: !uuid '9c96832ae2b2d1c65433f5595394378688322799'
-  /OpenAuth.WebApi/Scripts/jquery-1.10.2.intellisense.js:
-    newFile: null
-    oldFile: !uuid '2c4d454eb71714d396767d6bd110de2273b4fcb0'
-  /OpenAuth.WebApi/Scripts/jquery-1.10.2.js:
-    newFile: null
-    oldFile: !uuid 'd3e121b8602e2bfbed5d2b1fa960d09b8e7bf153'
-  /OpenAuth.WebApi/Scripts/jquery-1.10.2.min.js:
-    newFile: null
-    oldFile: !uuid '51aa758be2e7711b065030a454c2685cca2b1ccf'
-  /OpenAuth.WebApi/Scripts/jquery-1.10.2.min.map:
-    newFile: null
-    oldFile: !uuid '4dc4920bb828e8bfb5f7efc8f4c074af9e2784ab'
-  /OpenAuth.WebApi/Scripts/modernizr-2.6.2.js:
-    newFile: null
-    oldFile: !uuid 'cbfe1f390f429de1155aa9fd73bb426670912d46'
-  /OpenAuth.WebApi/Scripts/respond.js:
-    newFile: null
-    oldFile: !uuid '378d773d18054960feb2467a97c5541b7c65ecd2'
-  /OpenAuth.WebApi/Scripts/respond.min.js:
-    newFile: null
-    oldFile: !uuid 'a84813706b256b35d6cf77a362774cc373b8d592'
-  /OpenAuth.WebApi/fonts:
+    oldFile: !uuid 'bbda4eed4afdc3cb938da2c517365faaf58545b5'
+  /packages/bootstrap.3.0.0/Content/fonts:
     newFile: null
     oldFile: !uuid '0f29faf8f04fc40ee88eb71b98b2671756f88ea2'
-  /OpenAuth.WebApi/fonts/glyphicons-halflings-regular.eot:
+  /packages/bootstrap.3.0.0/Content/fonts/glyphicons-halflings-regular.eot:
     newFile: null
     oldFile: !uuid '87eaa434234e2a984c261e0450a2f4ad837aa7b4'
-  /OpenAuth.WebApi/fonts/glyphicons-halflings-regular.svg:
+  /packages/bootstrap.3.0.0/Content/fonts/glyphicons-halflings-regular.svg:
     newFile: null
     oldFile: !uuid '5fee0685496c143a002985cdfb832dfd3001e6fc'
-  /OpenAuth.WebApi/fonts/glyphicons-halflings-regular.ttf:
+  /packages/bootstrap.3.0.0/Content/fonts/glyphicons-halflings-regular.ttf:
     newFile: null
     oldFile: !uuid 'be784dc1d5bcb92ab155f578f3723524a3dd9688'
-  /OpenAuth.WebApi/fonts/glyphicons-halflings-regular.woff:
+  /packages/bootstrap.3.0.0/Content/fonts/glyphicons-halflings-regular.woff:
     newFile: null
     oldFile: !uuid '2cc3e4852a5a42e6aadd6284e067b66e14a57bc7'
-  /OpenAuth.WebTest:
-    newFile: !uuid 'dfce5842230c8a4c9fbd8cd2d96d63887c01d859'
-    oldFile: !uuid '97f49c15067b5e8102a3b68da968f2ecd4c47542'
-  /OpenAuth.WebTest/Controllers:
-    newFile: !uuid '9bb7c4edf00b88b1bd77197035bf3ca24eeda200'
-    oldFile: !uuid 'aaf55599eabacb72198d6f2bfa7a23693f2d8bf6'
-  /OpenAuth.WebTest/Controllers/LoginController.cs:
-    newFile: !uuid '61c738ffeb530c77cd3f9465f3ae1153107b70fc'
-    oldFile: !uuid 'da2915ff2a8941073bab762aca3b48c143879471'
-  /OpenAuth.WebTest/Views:
-    newFile: !uuid '322737fa9d9e54003e5833492668408b83004b0c'
-    oldFile: !uuid '7e3ce0fb10e01facad44ae4beb5891f523d1fd3e'
-  /OpenAuth.WebTest/Views/Login:
-    newFile: !uuid '194f097fb35be36e07584ad3afc73b6007d7de16'
-    oldFile: !uuid '7df57fa5ae820f861b98e8cd9291c834286e0aaa'
-  /OpenAuth.WebTest/Views/Login/Index.cshtml:
-    newFile: !uuid '14510d0b56be6e75d20f789a59d1cf221d93bc1a'
-    oldFile: !uuid 'e42e6fd0bfd3809ac8fc157c47ec21e6c828aff4'
-  /OpenAuth.WebTest/Web.config:
-    newFile: !uuid '0b801eed4890a06fa3ee8cb75eb45172d31f9571'
-    oldFile: !uuid '7d5bf93f8e7fbe56edee4504898d5188f4f788a6'
-  /packages:
-    newFile: !uuid 'dfeeb4e3fa7c7ae4973b860b837c171064c042cb'
-    oldFile: null
-  /packages/Respond.1.2.0:
-    newFile: !uuid '8febf8d294e928cf51022b63634ce0d71e03be29'
-    oldFile: null
-  /packages/Respond.1.2.0/content:
-    newFile: !uuid '5fd41c416a92fc8e400c6ad9b21c77182aeb38b5'
-    oldFile: null
-  /packages/Respond.1.2.0/content/Scripts:
-    newFile: !uuid 'ab389f69ddf3f42439002e49b28359fd51f133bf'
-    oldFile: null
-  /packages/Respond.1.2.0/content/Scripts/respond.min.js:
-    newFile: !uuid '94e308e86abc9d3403a472d5ba857e53ed334423'
-    oldFile: null
-  /packages/bootstrap.3.0.0:
-    newFile: !uuid '62a0248fd667bca267bd87833f810c6254f85803'
-    oldFile: null
-  /packages/bootstrap.3.0.0/Content:
-    newFile: !uuid '08321d67dd758ff4d42cf30c8c057f20b5ce1017'
-    oldFile: null
-  /packages/bootstrap.3.0.0/Content/Content:
-    newFile: !uuid 'c532557e908744f749a3c5d7a12a05641b0ca309'
-    oldFile: null
-  /packages/bootstrap.3.0.0/Content/Content/bootstrap.css:
-    newFile: !uuid 'bbda4eed4afdc3cb938da2c517365faaf58545b5'
-    oldFile: null
-  /packages/bootstrap.3.0.0/Content/fonts:
-    newFile: !uuid '0f29faf8f04fc40ee88eb71b98b2671756f88ea2'
-    oldFile: null
-  /packages/bootstrap.3.0.0/Content/fonts/glyphicons-halflings-regular.eot:
-    newFile: !uuid '87eaa434234e2a984c261e0450a2f4ad837aa7b4'
-    oldFile: null
-  /packages/bootstrap.3.0.0/Content/fonts/glyphicons-halflings-regular.svg:
-    newFile: !uuid '5fee0685496c143a002985cdfb832dfd3001e6fc'
-    oldFile: null
-  /packages/bootstrap.3.0.0/Content/fonts/glyphicons-halflings-regular.ttf:
-    newFile: !uuid 'be784dc1d5bcb92ab155f578f3723524a3dd9688'
-    oldFile: null
-  /packages/bootstrap.3.0.0/Content/fonts/glyphicons-halflings-regular.woff:
-    newFile: !uuid '2cc3e4852a5a42e6aadd6284e067b66e14a57bc7'
-    oldFile: null
   /packages/jQuery.1.10.2:
-    newFile: !uuid '00a58fbb04cd0711d8ed5c3e23d6b9e2d1e65c06'
-    oldFile: null
+    newFile: null
+    oldFile: !uuid '00a58fbb04cd0711d8ed5c3e23d6b9e2d1e65c06'
   /packages/jQuery.1.10.2/Content:
-    newFile: !uuid '92b6fe7fccc567daddfaaf7ed6acb85ea52d6deb'
-    oldFile: null
+    newFile: null
+    oldFile: !uuid '92b6fe7fccc567daddfaaf7ed6acb85ea52d6deb'
   /packages/jQuery.1.10.2/Content/Scripts:
-    newFile: !uuid '472ae38ed21628c4e87c97fdb26e101629a726a1'
-    oldFile: null
+    newFile: null
+    oldFile: !uuid '472ae38ed21628c4e87c97fdb26e101629a726a1'
   /packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2.js:
-    newFile: !uuid 'c5c648255c1574dcc95c506b82c25044f0972dfd'
-    oldFile: null
-gitCommitId: !uuid '5f08a59f27b249baa5a7f690947cdd8478429a12'
-renames:
-  /Infrastructure/StringExtensions.cs: /OpenAuth.WebApi/Areas/SSO/Models/StringExtensions.cs
-  /OpenAuth.App/SSO/AppInfo.cs: /OpenAuth.WebApi/Areas/SSO/Models/AppInfo.cs
-  /OpenAuth.App/SSO/ServiceContext.cs: /OpenAuth.WebApi/Areas/SSO/Models/ServiceContext.cs
-  /OpenAuth.App/SSO/UserAuthSessionService.cs: /OpenAuth.WebApi/Areas/SSO/Models/Services/UserAuthSessionService.cs
-  /OpenAuth.WebApi/Areas/SSO/Content/Site.css: /OpenAuth.WebApi/Content/Site.css
-  /OpenAuth.WebApi/Areas/SSO/Content/bootstrap.min.css: /OpenAuth.WebApi/Content/bootstrap.min.css
-  /OpenAuth.WebApi/Areas/SSO/Scripts/_references.js: /OpenAuth.WebApi/Scripts/_references.js
-  /OpenAuth.WebApi/Areas/SSO/Scripts/bootstrap.js: /OpenAuth.WebApi/Scripts/bootstrap.js
-  /OpenAuth.WebApi/Areas/SSO/Scripts/bootstrap.min.js: /OpenAuth.WebApi/Scripts/bootstrap.min.js
-  /OpenAuth.WebApi/Areas/SSO/Scripts/jquery-1.10.2.intellisense.js: /OpenAuth.WebApi/Scripts/jquery-1.10.2.intellisense.js
-  /OpenAuth.WebApi/Areas/SSO/Scripts/jquery-1.10.2.js: /OpenAuth.WebApi/Scripts/jquery-1.10.2.js
-  /OpenAuth.WebApi/Areas/SSO/Scripts/jquery-1.10.2.min.js: /OpenAuth.WebApi/Scripts/jquery-1.10.2.min.js
-  /OpenAuth.WebApi/Areas/SSO/Scripts/jquery-1.10.2.min.map: /OpenAuth.WebApi/Scripts/jquery-1.10.2.min.map
-  /OpenAuth.WebApi/Areas/SSO/Scripts/modernizr-2.6.2.js: /OpenAuth.WebApi/Scripts/modernizr-2.6.2.js
-  /OpenAuth.WebApi/Areas/SSO/Scripts/respond.js: /OpenAuth.WebApi/Scripts/respond.js
-  /OpenAuth.WebApi/Areas/SSO/Scripts/respond.min.js: /OpenAuth.WebApi/Scripts/respond.min.js
-  /packages/bootstrap.3.0.0/Content/Content/bootstrap.css: /OpenAuth.WebApi/Content/bootstrap.css
-  /packages/bootstrap.3.0.0/Content/fonts/glyphicons-halflings-regular.eot: /OpenAuth.WebApi/fonts/glyphicons-halflings-regular.eot
-  /packages/bootstrap.3.0.0/Content/fonts/glyphicons-halflings-regular.svg: /OpenAuth.WebApi/fonts/glyphicons-halflings-regular.svg
-  /packages/bootstrap.3.0.0/Content/fonts/glyphicons-halflings-regular.ttf: /OpenAuth.WebApi/fonts/glyphicons-halflings-regular.ttf
-  /packages/bootstrap.3.0.0/Content/fonts/glyphicons-halflings-regular.woff: /OpenAuth.WebApi/fonts/glyphicons-halflings-regular.woff
-revisionId: 160
+    newFile: null
+    oldFile: !uuid 'c5c648255c1574dcc95c506b82c25044f0972dfd'
+gitCommitId: !uuid 'b76e77b15cd5b38e55a4c2387531cd3c82f81459'
+renames: {
+  }
+revisionId: 161
