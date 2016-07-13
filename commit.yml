@@ -2,49 +2,16 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.App:
-    newFile: !uuid '5ea9291ae4fea72f8ef10abd828e9f4fb002fd18'
-    oldFile: !uuid 'b0368aa0ee3483e7132f30c28d8cac141a2c460d'
-  /OpenAuth.App/ModuleElementManagerApp.cs:
-    newFile: !uuid '5514229ded3ab5eb61192360094f2afb85789c2d'
-    oldFile: !uuid '8d6391be31806450b30f92f905bd4cfb6802907b'
-  /OpenAuth.App/ModuleManagerApp.cs:
-    newFile: !uuid 'd4ef046b5650de278cf2eeddca41ffc38cb4395b'
-    oldFile: !uuid 'd28b6593b87279b8a1aa3db4b55a436c40055325'
-  /OpenAuth.App/SSO:
-    newFile: !uuid '5915a6786d0c0e981c5808d537269f09cff8002e'
-    oldFile: !uuid '57d75255202de32c1def0a11eb64f8aae1ecdc06'
-  /OpenAuth.App/SSO/AuthUtil.cs:
-    newFile: !uuid 'a7fe60c06876f7318b022e942f1bc716f4eac15f'
-    oldFile: !uuid 'fcb730ab55ceb8f86e18324365287c58c508b0d6'
-  /OpenAuth.Mvc:
-    newFile: !uuid '080db1b6683e31b01c4cf627a3c4be1270981cb6'
-    oldFile: !uuid 'dee06e7414330d2d17a2c583f25b799dc40cf0e8'
-  /OpenAuth.Mvc/Controllers:
-    newFile: !uuid 'e606556b1ab1bb26b42bddc3dd9ef0fcf676d0d0'
-    oldFile: !uuid 'ffe2cd8a02c18b7d9d68748a9325685fe4673a6a'
-  /OpenAuth.Mvc/Controllers/ResourceManagerController.cs:
-    newFile: !uuid 'a736fd627c395304941f912a3745bd0f54fd7abc'
-    oldFile: !uuid 'e9f88718e17a849f15cf145b25f32d8f36d83d4b'
-  /OpenAuth.Mvc/Controllers/StockManagerController.cs:
-    newFile: !uuid 'a52521d8ce3ab1f14961553757cfc8c4f353b711'
-    oldFile: !uuid 'e75999ef4c014a4954cefe65159d81a203bfa239'
-  /OpenAuth.WebApi:
-    newFile: !uuid '3c1c5c7d24b2e8e4ba3126945977390c3b24a595'
-    oldFile: !uuid 'b9b1ca5729736dc9760888a86f27b74a0b734873'
-  /OpenAuth.WebApi/Areas:
-    newFile: !uuid 'd1b9dfa812d121e2f652010ccf0413cb42086099'
-    oldFile: !uuid '6c0b0bdcfde99300f30c714c6236be62aa963f85'
-  /OpenAuth.WebApi/Areas/SSO:
-    newFile: !uuid 'd7ebd73ef425dfc298b161270fa0f1440282253b'
-    oldFile: !uuid '1e4a6e6e0093198d8cd5debdcb6466ee7a9e8c85'
-  /OpenAuth.WebApi/Areas/SSO/Controllers:
-    newFile: !uuid '131e76bfc83373b8e41d45b6560870120f60d09f'
-    oldFile: !uuid 'e4f1a03c28e6e48459bf12b9e74c821e0c046e7e'
-  /OpenAuth.WebApi/Areas/SSO/Controllers/CheckController.cs:
-    newFile: !uuid '719490bb7ae5737d93b0dcb4b4297fb06dd6dace'
-    oldFile: !uuid 'cf9388cc66b25871b8b319853e088a57f7d423f7'
-gitCommitId: !uuid '860af2a0f93b8a4c8fe629eeaf7b2e5f36279b60'
+  /OpenAuth.Domain:
+    newFile: !uuid '5d1d40e50bfd3d717133c88731c0055a58c148b7'
+    oldFile: !uuid 'd9cc5ac052d94c3f5c6bd979335b15ce9d8361b4'
+  /OpenAuth.Domain/Service:
+    newFile: !uuid '157a108e406b8b5067a90a03fee153b9d6155b7a'
+    oldFile: !uuid '82b1a547cdfc0e1cf73a5d918ac4895eb7be98eb'
+  /OpenAuth.Domain/Service/ModuleEleManService.cs:
+    newFile: !uuid '6b042f74af0ad5818e5f3000d6a9c83d08a54407'
+    oldFile: !uuid 'ba38eb099b98233a981f03da9c550c6f0ab3f032'
+gitCommitId: !uuid 'd66fd4b25e4f79f48cf18ceac612dc382b1d965e'
 renames: {
   }
-revisionId: 164
+revisionId: 165
