@@ -2,16 +2,10 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.App:
-    newFile: !uuid 'b0368aa0ee3483e7132f30c28d8cac141a2c460d'
-    oldFile: !uuid '0155d6bb77f4cbf88efab53ced37fb428b3889ce'
-  /OpenAuth.App/SSO:
-    newFile: !uuid '57d75255202de32c1def0a11eb64f8aae1ecdc06'
-    oldFile: !uuid 'b1ce77f3a372c2b4124aa8e138706927c9e53750'
-  /OpenAuth.App/SSO/SSOAuthUtil.cs:
-    newFile: !uuid 'caa9aaf1286b45c83642a070935e0e86dbe52028'
-    oldFile: !uuid 'cd3b0ebab366a4a7ac16cc9646e9ca16d6ca46e1'
-gitCommitId: !uuid '919158a76ba7f3246cc8ba3d82f4cd9418e0e059'
+  /建表&初始化数据.sql:
+    newFile: !uuid '5e2a1ecb5adbee61200c3b9f4c415c31b6dd83c0'
+    oldFile: !uuid 'c50bb3995f21e715248878a52644ba1756c919b1'
+gitCommitId: !uuid '5bfba2aee4097d7f8c4f6a3669123b837720a5b0'
 renames: {
   }
-revisionId: 162
+revisionId: 163
