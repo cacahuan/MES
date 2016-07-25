@@ -3,57 +3,12 @@ branches: {
   }
 fileChange:
   /Infrastructure:
-    newFile: !uuid 'f96fb20cb1c20bab9c0252d6fb3386f50be502be'
-    oldFile: !uuid 'b23870dfd9547ad5898de102bb1ef4c16513729d'
-  /Infrastructure/Auth:
-    newFile: !uuid 'fa9c3cfa7bde29f2f254ad00c0db80b9cf57bdad'
-    oldFile: null
-  /Infrastructure/Auth/CacheKey.cs:
-    newFile: !uuid '5018e5f3b7f3cd49f9a64c59516f3e60986c1532'
-    oldFile: null
-  /Infrastructure/Auth/CacheSession.cs:
-    newFile: !uuid 'e3c46428c76ce7f31369211e5a5cffaadcf452e5'
-    oldFile: null
-  /Infrastructure/Auth/FormsAuthenticationService.cs:
-    newFile: !uuid 'f018f94627f8f52cc3ba202d1cecb464b6187cc9'
-    oldFile: null
-  /Infrastructure/Auth/IAuthenticationService.cs:
-    newFile: !uuid '9ef3b2dd5a66c76faa275a2fafadae60d28f667a'
-    oldFile: null
-  /Infrastructure/Auth/UserContext.cs:
-    newFile: !uuid '7e623768dc0a93846efd1b2d055ea974f848fd27'
-    oldFile: null
-  /Infrastructure/DIContainer.cs:
-    newFile: !uuid 'f3673c409d56e30dd9a412a56b30806cda320c36'
-    oldFile: null
-  /Infrastructure/Infrastructure.csproj:
-    newFile: !uuid '477b5984dc8a0547c8bb8896b554ed68ddf95a3d'
-    oldFile: !uuid 'b722612066596b7865234414f3c5fdd5132a587b'
-  /Infrastructure/MVC:
-    newFile: !uuid '0a619b7f4dcc14b190509d04612163da75966d9d'
-    oldFile: null
-  /Infrastructure/MVC/AuthenticationAttribute.cs:
-    newFile: !uuid 'fe420cc82aa7467cd75561bd3ff37a61f7b59c10'
-    oldFile: null
-  /Infrastructure/MVC/JsonExceptionAttribute.cs:
-    newFile: !uuid '36f91484e2a3e22648d8bacc5d325d8a4667e5d2'
-    oldFile: null
-  /Infrastructure/MVC/LogExceptionAttribute.cs:
-    newFile: !uuid 'c308761b4a65f95d4f98bdb410fb145c445f5c5e'
-    oldFile: null
-  /Infrastructure/MVC/NoFilterAttribute.cs:
-    newFile: !uuid 'f5d6141ea8cc45efd59404d18a64041c4dd8f282'
-    oldFile: null
-  /Infrastructure/MVC/UiResponse.cs:
-    newFile: !uuid '085d5bf91c9dcdeaebd3222768faf28b83d288ee'
-    oldFile: null
-  /Infrastructure/WebUtility.cs:
-    newFile: !uuid '2c811feba136b7a378335a3868ceee371808b480'
-    oldFile: null
-  /Infrastructure/packages.config:
-    newFile: !uuid 'a82dcecad8fab5971659b45dbdcc11bd32f30eca'
-    oldFile: !uuid '6be7a119a6070d15c4f47ec7c3b95a394e4505be'
-gitCommitId: !uuid '6a507d0fa7a0f179f05c40929a44c6b605a3361e'
+    newFile: !uuid '759429dad1a65a604973b3300c173fe3c2d5da1d'
+    oldFile: !uuid '81230ea6f018e7034a637da06958a0889d0ccc58'
+  /Infrastructure/HttpHelper.cs:
+    newFile: !uuid '5bf4539b6325e14b6ee6895f2c288a0bf38c8305'
+    oldFile: !uuid '1aa0c52f40dc9c11e56581cf8ae0e28a6fe2136f'
+gitCommitId: !uuid '53798eddc3a03512473611b12336aaf51d201033'
 renames: {
   }
-revisionId: 173
+revisionId: 174
