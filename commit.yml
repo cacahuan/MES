@@ -2,13 +2,37 @@
 branches: {
   }
 fileChange:
-  /Infrastructure:
-    newFile: !uuid '759429dad1a65a604973b3300c173fe3c2d5da1d'
-    oldFile: !uuid '81230ea6f018e7034a637da06958a0889d0ccc58'
-  /Infrastructure/HttpHelper.cs:
-    newFile: !uuid '5bf4539b6325e14b6ee6895f2c288a0bf38c8305'
-    oldFile: !uuid '1aa0c52f40dc9c11e56581cf8ae0e28a6fe2136f'
-gitCommitId: !uuid '53798eddc3a03512473611b12336aaf51d201033'
+  /OpenAuth.App:
+    newFile: !uuid '557ec75375b213a16e5cd3ab2f67195d6407b484'
+    oldFile: !uuid '71bae63b572858fe66dd9602b2066695aa25ae76'
+  /OpenAuth.App/SSO:
+    newFile: !uuid '61ea9bf41a4acbbf52925787bffe8b23a5a3e88a'
+    oldFile: !uuid 'b06acd4ede71ac9cb726995078bb0b4e1036de9e'
+  /OpenAuth.App/SSO/AuthUtil.cs:
+    newFile: !uuid '5b180b8b8f5be929794c5e0c0253889428c0021b'
+    oldFile: !uuid '04d8796fddca9fe5341f23e798d42a1b2c0308c8'
+  /OpenAuth.Repository:
+    newFile: !uuid '552bdec9cb9eb760f68a5fd3a6b646a5049b062d'
+    oldFile: !uuid '66c6a1f20838853292229962034365e3a7886cbc'
+  /OpenAuth.Repository/CodeTemplates:
+    newFile: null
+    oldFile: !uuid 'efdd6a0ce88a955f6fd324b98dbfc8d91e318108'
+  /OpenAuth.Repository/CodeTemplates/ReverseEngineerCodeFirst:
+    newFile: null
+    oldFile: !uuid '91b86e27ad960b6d84c4679ef15b8675168e23c0'
+  /OpenAuth.Repository/CodeTemplates/ReverseEngineerCodeFirst/Context.tt:
+    newFile: null
+    oldFile: !uuid 'ce38b40c10f775a50b56ac8e98ce00e5e923c2dc'
+  /OpenAuth.Repository/CodeTemplates/ReverseEngineerCodeFirst/Entity.tt:
+    newFile: null
+    oldFile: !uuid '4b7ed00a064f32e47bf47935a0723a8188531ce7'
+  /OpenAuth.Repository/CodeTemplates/ReverseEngineerCodeFirst/Mapping.tt:
+    newFile: null
+    oldFile: !uuid 'ddb3a39a7c1c2b4d60d055328108b7455883f4df'
+  /OpenAuth.Repository/OpenAuth.Repository.csproj:
+    newFile: !uuid '968216a61cb27e6d2f7eb55d8e2285a32caaf110'
+    oldFile: !uuid '5671e77f9d49fc1ae2a66afc28156e713c4ff770'
+gitCommitId: !uuid '9019e30f75fe66c926f1eff0b9503eaeaafd78d0'
 renames: {
   }
-revisionId: 174
+revisionId: 175
