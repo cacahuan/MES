@@ -2,28 +2,22 @@
 branches: {
   }
 fileChange:
-  /Infrastructure:
-    newFile: !uuid '2c33511a9e1354a649680b357091b34b96b54361'
-    oldFile: !uuid '81230ea6f018e7034a637da06958a0889d0ccc58'
-  /Infrastructure/Infrastructure.csproj:
-    newFile: !uuid '7f2b60d841fa4fbc38af09344a3e4680c6a34d16'
-    oldFile: !uuid '278fe132eb82fa6447db083bb5a0720ca579dfb2'
-  /Infrastructure/packages.config:
-    newFile: !uuid '6be7a119a6070d15c4f47ec7c3b95a394e4505be'
-    oldFile: !uuid '51f427f2557ce800ed6027506b8462b9a7679903'
   /OpenAuth.Mvc:
-    newFile: !uuid '378127cb77239616fea9513750d8271458206585'
-    oldFile: !uuid 'a3655a1346525f52853c45d784ce53863261a603'
-  /OpenAuth.Mvc/Web.config:
-    newFile: !uuid '155883da4f3f7183d394dc8226bf0a3ee8444539'
-    oldFile: !uuid '8ae33c7097c82f8665b10c79ded091f5780b7469'
-  /OpenAuth.WebApi:
-    newFile: !uuid '86fd2056d36420460fa16172bc65110e16f624c1'
-    oldFile: !uuid '4c14277e696f88be9b58875aadb168f0ed0e2111'
-  /OpenAuth.WebApi/Web.config:
-    newFile: !uuid '1703f74c35d1a422f2cf16826cdf1ce54339b0fd'
-    oldFile: !uuid 'b1a4590025d29adb39d76446c68bb609f61c612f'
-gitCommitId: !uuid '78092c1aa5874ec8433354844b9c93fcbd0cf5e9'
+    newFile: !uuid 'aa48cded23a761b781ac8392645a425a866e5e7f'
+    oldFile: !uuid '378127cb77239616fea9513750d8271458206585'
+  /OpenAuth.Mvc/Content:
+    newFile: !uuid '873ddcc61d51ecc66ce34764faeed6f10222acc6'
+    oldFile: !uuid '442157e6725548a6acf8dc4dc97bbe0cb27bd353'
+  /OpenAuth.Mvc/Content/BJUI:
+    newFile: !uuid 'd2edaa9317510984f9360b55e8dbc0f1c91d1321'
+    oldFile: !uuid 'd352d738aeda184c8de7434376aeedd3e5a15565'
+  /OpenAuth.Mvc/Content/BJUI/js:
+    newFile: !uuid '14d527a9904e25f401f0d57d705ea5126752dd2e'
+    oldFile: !uuid 'f3134b61fdc70d4474df6603d27bdced0cc49074'
+  /OpenAuth.Mvc/Content/BJUI/js/bjui-all.js:
+    newFile: !uuid '64eb46922718467ab65785c3ca537ef799619026'
+    oldFile: !uuid '66c77eedf7175a0d2567a8a662d98d3dc1a0c884'
+gitCommitId: !uuid '35d76eb2b1f981047c3fe0d8f0476ffbe9b8804a'
 renames: {
   }
-revisionId: 169
+revisionId: 170
