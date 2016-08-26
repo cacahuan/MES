@@ -2,19 +2,22 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.Mvc:
-    newFile: !uuid 'bb44ab16bd9030108d4a335ab205af057f3b4612'
-    oldFile: !uuid 'aa48cded23a761b781ac8392645a425a866e5e7f'
-  /OpenAuth.Mvc/Web.config:
-    newFile: !uuid '8ae33c7097c82f8665b10c79ded091f5780b7469'
-    oldFile: !uuid '155883da4f3f7183d394dc8226bf0a3ee8444539'
-  /OpenAuth.WebApi:
-    newFile: !uuid '4c14277e696f88be9b58875aadb168f0ed0e2111'
-    oldFile: !uuid '86fd2056d36420460fa16172bc65110e16f624c1'
-  /OpenAuth.WebApi/Web.config:
-    newFile: !uuid 'b1a4590025d29adb39d76446c68bb609f61c612f'
-    oldFile: !uuid '1703f74c35d1a422f2cf16826cdf1ce54339b0fd'
-gitCommitId: !uuid 'ece6a57d6ed64c36804e4e9b364b15ceb4072090'
+  /Infrastructure:
+    newFile: !uuid 'b23870dfd9547ad5898de102bb1ef4c16513729d'
+    oldFile: !uuid '2c33511a9e1354a649680b357091b34b96b54361'
+  /Infrastructure/Cache:
+    newFile: !uuid 'e75b4cc239c84e2b21daba7c7fbf4a7e439d1f9a'
+    oldFile: !uuid '8c1aa7095750d5d65682f2f0ea1717374607494e'
+  /Infrastructure/Cache/ICache.cs:
+    newFile: !uuid '7ade6edbb339e7a5d24024dca8c24398cbe9b5eb'
+    oldFile: null
+  /Infrastructure/Cache/RuntimeMemoryCache.cs:
+    newFile: !uuid 'e067c237e607bb05b1741a9036706bbb36a3deca'
+    oldFile: null
+  /Infrastructure/Infrastructure.csproj:
+    newFile: !uuid 'b722612066596b7865234414f3c5fdd5132a587b'
+    oldFile: !uuid '7f2b60d841fa4fbc38af09344a3e4680c6a34d16'
+gitCommitId: !uuid '981b595bccef54ea4264b69158d3717f22e0a5af'
 renames: {
   }
-revisionId: 171
+revisionId: 172
