@@ -2,82 +2,16 @@
 branches: {
   }
 fileChange:
-  /Infrastructure:
-    newFile: !uuid 'fcb4e0b2c9eed5bd28b39d8211a1ce887dc5aaed'
-    oldFile: !uuid '759429dad1a65a604973b3300c173fe3c2d5da1d'
-  /Infrastructure/Auth:
-    newFile: !uuid 'fa9c3cfa7bde29f2f254ad00c0db80b9cf57bdad'
-    oldFile: null
-  /Infrastructure/Auth/CacheKey.cs:
-    newFile: !uuid '5018e5f3b7f3cd49f9a64c59516f3e60986c1532'
-    oldFile: null
-  /Infrastructure/Auth/CacheSession.cs:
-    newFile: !uuid 'e3c46428c76ce7f31369211e5a5cffaadcf452e5'
-    oldFile: null
-  /Infrastructure/Auth/FormsAuthenticationService.cs:
-    newFile: !uuid 'f018f94627f8f52cc3ba202d1cecb464b6187cc9'
-    oldFile: null
-  /Infrastructure/Auth/IAuthenticationService.cs:
-    newFile: !uuid '9ef3b2dd5a66c76faa275a2fafadae60d28f667a'
-    oldFile: null
-  /Infrastructure/Auth/UserContext.cs:
-    newFile: !uuid '7e623768dc0a93846efd1b2d055ea974f848fd27'
-    oldFile: null
-  /Infrastructure/Cache:
-    newFile: !uuid 'e75b4cc239c84e2b21daba7c7fbf4a7e439d1f9a'
-    oldFile: !uuid '8c1aa7095750d5d65682f2f0ea1717374607494e'
-  /Infrastructure/Cache/ICache.cs:
-    newFile: !uuid '7ade6edbb339e7a5d24024dca8c24398cbe9b5eb'
-    oldFile: null
-  /Infrastructure/Cache/RuntimeMemoryCache.cs:
-    newFile: !uuid 'e067c237e607bb05b1741a9036706bbb36a3deca'
-    oldFile: null
-  /Infrastructure/DIContainer.cs:
-    newFile: !uuid 'f3673c409d56e30dd9a412a56b30806cda320c36'
-    oldFile: null
-  /Infrastructure/Infrastructure.csproj:
-    newFile: !uuid '477b5984dc8a0547c8bb8896b554ed68ddf95a3d'
-    oldFile: !uuid '278fe132eb82fa6447db083bb5a0720ca579dfb2'
-  /Infrastructure/MVC:
-    newFile: !uuid '0a619b7f4dcc14b190509d04612163da75966d9d'
-    oldFile: null
-  /Infrastructure/MVC/AuthenticationAttribute.cs:
-    newFile: !uuid 'fe420cc82aa7467cd75561bd3ff37a61f7b59c10'
-    oldFile: null
-  /Infrastructure/MVC/JsonExceptionAttribute.cs:
-    newFile: !uuid '36f91484e2a3e22648d8bacc5d325d8a4667e5d2'
-    oldFile: null
-  /Infrastructure/MVC/LogExceptionAttribute.cs:
-    newFile: !uuid 'c308761b4a65f95d4f98bdb410fb145c445f5c5e'
-    oldFile: null
-  /Infrastructure/MVC/NoFilterAttribute.cs:
-    newFile: !uuid 'f5d6141ea8cc45efd59404d18a64041c4dd8f282'
-    oldFile: null
-  /Infrastructure/MVC/UiResponse.cs:
-    newFile: !uuid '085d5bf91c9dcdeaebd3222768faf28b83d288ee'
-    oldFile: null
-  /Infrastructure/WebUtility.cs:
-    newFile: !uuid '2c811feba136b7a378335a3868ceee371808b480'
-    oldFile: null
-  /Infrastructure/packages.config:
-    newFile: !uuid 'a82dcecad8fab5971659b45dbdcc11bd32f30eca'
-    oldFile: !uuid '51f427f2557ce800ed6027506b8462b9a7679903'
   /OpenAuth.Mvc:
-    newFile: !uuid '578fbb125d4f8be172138df200c8c176b6d4b9cb'
-    oldFile: !uuid '532cc375168d3f8f0ab1726374f7ca216716c870'
-  /OpenAuth.Mvc/Content:
-    newFile: !uuid '5efee5482193cb79f6e45a16dc4ff217210fcb0b'
-    oldFile: !uuid '8789d10d42e08e448e66dc9a7952f54cfbf7c5f2'
-  /OpenAuth.Mvc/Content/BJUI:
-    newFile: !uuid 'd2edaa9317510984f9360b55e8dbc0f1c91d1321'
-    oldFile: !uuid 'd352d738aeda184c8de7434376aeedd3e5a15565'
-  /OpenAuth.Mvc/Content/BJUI/js:
-    newFile: !uuid '14d527a9904e25f401f0d57d705ea5126752dd2e'
-    oldFile: !uuid 'f3134b61fdc70d4474df6603d27bdced0cc49074'
-  /OpenAuth.Mvc/Content/BJUI/js/bjui-all.js:
-    newFile: !uuid '64eb46922718467ab65785c3ca537ef799619026'
-    oldFile: !uuid '66c77eedf7175a0d2567a8a662d98d3dc1a0c884'
-gitCommitId: !uuid '26225ad305314784556576008e07b8dda4ab04de'
+    newFile: !uuid '9ed7a119cdf2aff2a89d43a36f60f5dd4ec33a65'
+    oldFile: !uuid '578fbb125d4f8be172138df200c8c176b6d4b9cb'
+  /OpenAuth.Mvc/BllScripts:
+    newFile: !uuid '27df84d3fc88a11951f45148bd477a22090d8274'
+    oldFile: !uuid '8600124a8c11abbdf11c4a413d662e9c194400ac'
+  /OpenAuth.Mvc/BllScripts/userRoleManager.js:
+    newFile: !uuid 'e4aa2e8a85692f44e99b402d0e4ee59195902d53'
+    oldFile: !uuid 'a7ad4bb5f1051f89bae792740a8d3db1b8b4a380'
+gitCommitId: !uuid '04d69e065e62e9a322e245097aa42d58d252fd3f'
 renames: {
   }
-revisionId: 180
+revisionId: 181
