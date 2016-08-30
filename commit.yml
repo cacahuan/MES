@@ -2,13 +2,16 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.Mvc:
-    newFile: !uuid '532cc375168d3f8f0ab1726374f7ca216716c870'
-    oldFile: !uuid '7ffd6999a7f2cdae163dfc54cdd424f3a2c4fa79'
-  /OpenAuth.Mvc/OpenAuth.Mvc.csproj:
-    newFile: !uuid '8120af01a941858b4a12e1c678cc047af93bd4ff'
-    oldFile: !uuid 'ea0e7d764366bb55aade077609a04919f2bd3bba'
-gitCommitId: !uuid '5d24487ba9167964b85492d0bc9d497254cb4b97'
+  /OpenAuth.App:
+    newFile: !uuid 'ffa26fbdbc194f183ebd6e059661486b2ed799c7'
+    oldFile: !uuid '702b26100edf9d1d51ecd56d803c6a93e26fcc8a'
+  /OpenAuth.App/SSO:
+    newFile: !uuid 'ac7cf869999bdfd4fbb11bc3db4b6b836f0c0927'
+    oldFile: !uuid '61ea9bf41a4acbbf52925787bffe8b23a5a3e88a'
+  /OpenAuth.App/SSO/SSOAuthUtil.cs:
+    newFile: !uuid 'f34d64b2ac06fecdf11163c2fb0d3c8a05260857'
+    oldFile: !uuid 'caa9aaf1286b45c83642a070935e0e86dbe52028'
+gitCommitId: !uuid 'db871599bc96222c4ef083ea14ab0838fd11518f'
 renames: {
   }
-revisionId: 173
+revisionId: 174
