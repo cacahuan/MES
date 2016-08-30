@@ -2,31 +2,55 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.App:
-    newFile: !uuid '4dde6964a4be6b0190a77025ef0f75ebe0043df9'
-    oldFile: !uuid 'ffa26fbdbc194f183ebd6e059661486b2ed799c7'
-  /OpenAuth.App/SSO:
-    newFile: !uuid 'deb305cb6ccb3943c3b6e11c79d3e02c027bdc9e'
-    oldFile: !uuid 'ac7cf869999bdfd4fbb11bc3db4b6b836f0c0927'
-  /OpenAuth.App/SSO/SSOAuthUtil.cs:
-    newFile: !uuid '14aace9c864c40326a3a55e01a0fc3448d1ee3fc'
-    oldFile: !uuid 'f34d64b2ac06fecdf11163c2fb0d3c8a05260857'
-  /OpenAuth.App/SSO/SSOController.cs:
-    newFile: !uuid 'bec7c68ab1831482b0934d6e43e2f0f04e5b54ee'
-    oldFile: !uuid '2f21a9e3b618c6601cf451643d40438065fc2b92'
-  /OpenAuth.Mvc:
-    newFile: !uuid 'a25885532ee38267ec2210dba99918096b39ea64'
-    oldFile: !uuid '9ed7a119cdf2aff2a89d43a36f60f5dd4ec33a65'
-  /OpenAuth.Mvc/Views:
-    newFile: !uuid 'edbae76944681387bb222233b91ec6ec93d41dd0'
-    oldFile: !uuid '5f3fb7bf63af281cff238584379e0b4c24ce07dd'
-  /OpenAuth.Mvc/Views/Designer:
-    newFile: !uuid '0ba55b3ca888e79e03adaaca96fbce4a72106654'
-    oldFile: !uuid '138d54045568bef9db2547137e8b5a891d335a70'
-  /OpenAuth.Mvc/Views/Designer/Index.cshtml:
-    newFile: !uuid '4ba13ac2ca8bef6cc22740cb51f9272ff0f99a96'
-    oldFile: !uuid 'd4cc5988f035cea0149f865277c6ca3e491a67ca'
-gitCommitId: !uuid 'ba897b1d88be47ec9ac56ba0b46aaa99d877f0fe'
+  /Infrastructure:
+    newFile: !uuid '21ab21a27fa02cb44e1d2525a31f8af525cc0182'
+    oldFile: !uuid 'fcb4e0b2c9eed5bd28b39d8211a1ce887dc5aaed'
+  /Infrastructure/Auth:
+    newFile: null
+    oldFile: !uuid 'fa9c3cfa7bde29f2f254ad00c0db80b9cf57bdad'
+  /Infrastructure/Auth/CacheKey.cs:
+    newFile: null
+    oldFile: !uuid '5018e5f3b7f3cd49f9a64c59516f3e60986c1532'
+  /Infrastructure/Auth/CacheSession.cs:
+    newFile: null
+    oldFile: !uuid 'e3c46428c76ce7f31369211e5a5cffaadcf452e5'
+  /Infrastructure/Auth/FormsAuthenticationService.cs:
+    newFile: null
+    oldFile: !uuid 'f018f94627f8f52cc3ba202d1cecb464b6187cc9'
+  /Infrastructure/Auth/IAuthenticationService.cs:
+    newFile: null
+    oldFile: !uuid '9ef3b2dd5a66c76faa275a2fafadae60d28f667a'
+  /Infrastructure/Auth/UserContext.cs:
+    newFile: null
+    oldFile: !uuid '7e623768dc0a93846efd1b2d055ea974f848fd27'
+  /Infrastructure/DIContainer.cs:
+    newFile: null
+    oldFile: !uuid 'f3673c409d56e30dd9a412a56b30806cda320c36'
+  /Infrastructure/Infrastructure.csproj:
+    newFile: !uuid 'adce8b36ae4dc51b16e21fd29ba9dfd92ac4074b'
+    oldFile: !uuid '477b5984dc8a0547c8bb8896b554ed68ddf95a3d'
+  /Infrastructure/MVC:
+    newFile: null
+    oldFile: !uuid '0a619b7f4dcc14b190509d04612163da75966d9d'
+  /Infrastructure/MVC/AuthenticationAttribute.cs:
+    newFile: null
+    oldFile: !uuid 'fe420cc82aa7467cd75561bd3ff37a61f7b59c10'
+  /Infrastructure/MVC/JsonExceptionAttribute.cs:
+    newFile: null
+    oldFile: !uuid '36f91484e2a3e22648d8bacc5d325d8a4667e5d2'
+  /Infrastructure/MVC/LogExceptionAttribute.cs:
+    newFile: null
+    oldFile: !uuid 'c308761b4a65f95d4f98bdb410fb145c445f5c5e'
+  /Infrastructure/MVC/NoFilterAttribute.cs:
+    newFile: null
+    oldFile: !uuid 'f5d6141ea8cc45efd59404d18a64041c4dd8f282'
+  /Infrastructure/MVC/UiResponse.cs:
+    newFile: null
+    oldFile: !uuid '085d5bf91c9dcdeaebd3222768faf28b83d288ee'
+  /Infrastructure/WebUtility.cs:
+    newFile: null
+    oldFile: !uuid '2c811feba136b7a378335a3868ceee371808b480'
+gitCommitId: !uuid 'a8fd59e247815e91880c1ab88e131b0fa39b9c40'
 renames: {
   }
-revisionId: 182
+revisionId: 183
