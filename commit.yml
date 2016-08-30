@@ -2,16 +2,31 @@
 branches: {
   }
 fileChange:
+  /OpenAuth.App:
+    newFile: !uuid '4dde6964a4be6b0190a77025ef0f75ebe0043df9'
+    oldFile: !uuid 'ffa26fbdbc194f183ebd6e059661486b2ed799c7'
+  /OpenAuth.App/SSO:
+    newFile: !uuid 'deb305cb6ccb3943c3b6e11c79d3e02c027bdc9e'
+    oldFile: !uuid 'ac7cf869999bdfd4fbb11bc3db4b6b836f0c0927'
+  /OpenAuth.App/SSO/SSOAuthUtil.cs:
+    newFile: !uuid '14aace9c864c40326a3a55e01a0fc3448d1ee3fc'
+    oldFile: !uuid 'f34d64b2ac06fecdf11163c2fb0d3c8a05260857'
+  /OpenAuth.App/SSO/SSOController.cs:
+    newFile: !uuid 'bec7c68ab1831482b0934d6e43e2f0f04e5b54ee'
+    oldFile: !uuid '2f21a9e3b618c6601cf451643d40438065fc2b92'
   /OpenAuth.Mvc:
-    newFile: !uuid '9ed7a119cdf2aff2a89d43a36f60f5dd4ec33a65'
-    oldFile: !uuid '578fbb125d4f8be172138df200c8c176b6d4b9cb'
-  /OpenAuth.Mvc/BllScripts:
-    newFile: !uuid '27df84d3fc88a11951f45148bd477a22090d8274'
-    oldFile: !uuid '8600124a8c11abbdf11c4a413d662e9c194400ac'
-  /OpenAuth.Mvc/BllScripts/userRoleManager.js:
-    newFile: !uuid 'e4aa2e8a85692f44e99b402d0e4ee59195902d53'
-    oldFile: !uuid 'a7ad4bb5f1051f89bae792740a8d3db1b8b4a380'
-gitCommitId: !uuid '04d69e065e62e9a322e245097aa42d58d252fd3f'
+    newFile: !uuid 'a25885532ee38267ec2210dba99918096b39ea64'
+    oldFile: !uuid '9ed7a119cdf2aff2a89d43a36f60f5dd4ec33a65'
+  /OpenAuth.Mvc/Views:
+    newFile: !uuid 'edbae76944681387bb222233b91ec6ec93d41dd0'
+    oldFile: !uuid '5f3fb7bf63af281cff238584379e0b4c24ce07dd'
+  /OpenAuth.Mvc/Views/Designer:
+    newFile: !uuid '0ba55b3ca888e79e03adaaca96fbce4a72106654'
+    oldFile: !uuid '138d54045568bef9db2547137e8b5a891d335a70'
+  /OpenAuth.Mvc/Views/Designer/Index.cshtml:
+    newFile: !uuid '4ba13ac2ca8bef6cc22740cb51f9272ff0f99a96'
+    oldFile: !uuid 'd4cc5988f035cea0149f865277c6ca3e491a67ca'
+gitCommitId: !uuid 'ba897b1d88be47ec9ac56ba0b46aaa99d877f0fe'
 renames: {
   }
-revisionId: 181
+revisionId: 182
