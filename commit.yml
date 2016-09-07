@@ -2,37 +2,19 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.App:
-    newFile: !uuid 'd85a1b3c69e7b04f1a7f900ff832499a289e8083'
-    oldFile: !uuid 'aed30e0b7f3f82f8e81165b30ea6b62a7621a92f'
-  /OpenAuth.App/ApplyTransitionHistoryApp.cs:
-    newFile: !uuid '0136bd761d1a4e564bde30cbeb84dae81993d9d2'
-    oldFile: !uuid '80bf49760c5fbf3117b7c2ee74557c8202fff1ca'
-  /OpenAuth.App/CommonApplyApp.cs:
-    newFile: !uuid 'c28077f0c269ed0c5a33575247bbd56b1cbde360'
-    oldFile: !uuid 'd72ea88b79a7a0dfe4bc984afc161244d04dfa28'
-  /OpenAuth.Mvc:
-    newFile: !uuid '2464d7f5d3accf7825dc8a014ff4a787364f78c4'
-    oldFile: !uuid '05ab3e680bbf23b6620c26c0408e77b0cf2c1069'
-  /OpenAuth.Mvc/Controllers:
-    newFile: !uuid '61b637cd60ce1e4fe631b7b2c5ed3894fac8209b'
-    oldFile: !uuid '76f1e9d03e3f85c93da91b70a63a93398a34695b'
-  /OpenAuth.Mvc/Controllers/CommonAppliesController.cs:
-    newFile: !uuid 'ad4ad7f5571e9bc4186b8cf8aa6a67d2c276e760'
-    oldFile: !uuid '711a146d8b734f4436cba0f5063c59daeb07c644'
-  /OpenAuth.Mvc/Views:
-    newFile: !uuid '13cede5ecbf72a928e57de601d23b5c329d6aa37'
-    oldFile: !uuid 'e149db3c403357e6915cb00f32c6895825d682f1'
-  /OpenAuth.Mvc/Views/CommonApplies:
-    newFile: !uuid '77d1e6c935ee8647447c4b3b9e4a1d5ef31059e7'
-    oldFile: !uuid 'e90be263a2c2ba9f4304dc34937d54c044322502'
-  /OpenAuth.Mvc/Views/CommonApplies/Index.cshtml:
-    newFile: !uuid 'b04ed607c087333542cc2ba554e716435734cf06'
-    oldFile: !uuid '1c8128bdd131063b90b3248e442d558ae921f51b'
   /Workflow初始化脚本.sql:
-    newFile: !uuid '78359cfbe8486ac4757dbaab8a4be0a6a99132ab'
-    oldFile: !uuid '82d77e07fc12412fd96f92ef6309a58af3cf58ee'
-gitCommitId: !uuid '7aff8036effbdb2c32f22bf7a69f047e0e7ad0b8'
+    newFile: !uuid '6f70f7c25c4dcf4904bcf43957c2233a320c072f'
+    oldFile: !uuid '78359cfbe8486ac4757dbaab8a4be0a6a99132ab'
+  /建表&初始化数据.sql:
+    newFile: !uuid '17c35b73cb1d06fdf3dc35d9434656e25e462b05'
+    oldFile: !uuid '3641659a639a14ac40c6e22c4415d0c0a037dada'
+  /数据库设计关系图:
+    newFile: !uuid '0af9a2a9a5e8686f1ca2e381694dbacc41d61a8e'
+    oldFile: !uuid '9a0289ea6956635e9137c00f5e8b1d56cdba2a7b'
+  /数据库设计关系图/OpenAuthDB.pdm:
+    newFile: !uuid 'f780628dd9226d8e19f994fed858562f24eb2ec2'
+    oldFile: !uuid '4c3d4fada72ae6d6fb35c9dbcf8c325638d7cf67'
+gitCommitId: !uuid 'f59c033cd57f1f58eb5727744dc3723a6fdcb0ad'
 renames: {
   }
-revisionId: 187
+revisionId: 188
