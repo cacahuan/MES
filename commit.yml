@@ -2,19 +2,10 @@
 branches: {
   }
 fileChange:
-  /Workflow初始化脚本.sql:
-    newFile: !uuid '6f70f7c25c4dcf4904bcf43957c2233a320c072f'
-    oldFile: !uuid '78359cfbe8486ac4757dbaab8a4be0a6a99132ab'
-  /建表&初始化数据.sql:
-    newFile: !uuid '17c35b73cb1d06fdf3dc35d9434656e25e462b05'
-    oldFile: !uuid '3641659a639a14ac40c6e22c4415d0c0a037dada'
-  /数据库设计关系图:
-    newFile: !uuid '0af9a2a9a5e8686f1ca2e381694dbacc41d61a8e'
-    oldFile: !uuid '9a0289ea6956635e9137c00f5e8b1d56cdba2a7b'
-  /数据库设计关系图/OpenAuthDB.pdm:
-    newFile: !uuid 'f780628dd9226d8e19f994fed858562f24eb2ec2'
-    oldFile: !uuid '4c3d4fada72ae6d6fb35c9dbcf8c325638d7cf67'
-gitCommitId: !uuid 'f59c033cd57f1f58eb5727744dc3723a6fdcb0ad'
+  /README.md:
+    newFile: !uuid '087d152da18582e85a93d3532b99edc7ff809ea9'
+    oldFile: !uuid 'a37c642100da2a88f612d793b66b2fc4d435495f'
+gitCommitId: !uuid 'e7bd2711e830050dfec84de79108d81a1a336afe'
 renames: {
   }
-revisionId: 193
+revisionId: 194
