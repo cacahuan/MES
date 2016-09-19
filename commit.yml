@@ -2,10 +2,19 @@
 branches: {
   }
 fileChange:
-  /建表&初始化数据.sql:
-    newFile: !uuid '63124a0244db0aeed15d3fe077ad083ca7a20076'
-    oldFile: !uuid '6173cf7ee6fad5dd67aa02a65dfd281fe6d8a3d8'
-gitCommitId: !uuid '5412c8b7bd7b63a9663420bc2c1b32ab431fdec0'
+  /OpenAuth.Mvc:
+    newFile: !uuid '0b44f2762e8fddca7abce54276a674eaed493bd9'
+    oldFile: !uuid '1c7bd1a1a9db46a56082f5e84299e70fbde04362'
+  /OpenAuth.Mvc/Views:
+    newFile: !uuid 'c1c34b042fc41341e6e95f9cb819736e286ba569'
+    oldFile: !uuid '3302f9577c739d57b66050148916b698ad429696'
+  /OpenAuth.Mvc/Views/Shared:
+    newFile: !uuid 'd31eb22a021325def568b20e6e66645a36bcad24'
+    oldFile: !uuid 'a32014ac3df332d0e758115f06b06c04d11b4bcc'
+  /OpenAuth.Mvc/Views/Shared/_BjuiLayout.cshtml:
+    newFile: !uuid '6cdc89deb5b2945b3e83487724a94a5e23771dfe'
+    oldFile: !uuid '15f0a23cb7f6ad257b14aae2b802598c519b7e05'
+gitCommitId: !uuid '5385d4e03e36a5f600341b02411b84c082ed68ff'
 renames: {
   }
-revisionId: 196
+revisionId: 197
