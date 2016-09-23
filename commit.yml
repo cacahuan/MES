@@ -2,19 +2,10 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.Mvc:
-    newFile: !uuid '00d61724b43ffd047ed37adabfa953bdc78b5ddb'
-    oldFile: !uuid '5645b66363a45ba009f382fe3bca6326bacc63d8'
-  /OpenAuth.Mvc/Views:
-    newFile: !uuid 'c1c34b042fc41341e6e95f9cb819736e286ba569'
-    oldFile: !uuid '3302f9577c739d57b66050148916b698ad429696'
-  /OpenAuth.Mvc/Views/Shared:
-    newFile: !uuid 'd31eb22a021325def568b20e6e66645a36bcad24'
-    oldFile: !uuid 'a32014ac3df332d0e758115f06b06c04d11b4bcc'
-  /OpenAuth.Mvc/Views/Shared/_BjuiLayout.cshtml:
-    newFile: !uuid '6cdc89deb5b2945b3e83487724a94a5e23771dfe'
-    oldFile: !uuid '15f0a23cb7f6ad257b14aae2b802598c519b7e05'
-gitCommitId: !uuid 'd4d7173c21ea778c52a0d443c0c0767d96ec93f8'
+  /README.md:
+    newFile: !uuid '75ddd610471ef98405622e522c5340a360ec5617'
+    oldFile: !uuid '0b2e39a894890cc26b0469899137dc37c60937c8'
+gitCommitId: !uuid '94cbfd8d8cdce44f806c63f0e107d0a95f70a62e'
 renames: {
   }
-revisionId: 200
+revisionId: 201
