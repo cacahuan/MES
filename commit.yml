@@ -2,19 +2,16 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.Mvc:
-    newFile: !uuid '62b336a613684e9381f274d72f7f03961be1cfb9'
-    oldFile: !uuid '5703263a48ba354ed3036357735832ae0a730b43'
-  /OpenAuth.Mvc/Views:
-    newFile: !uuid '2f44b0d96d8043812f1251f8cef280452188984b'
-    oldFile: !uuid '48617bfcd8e7e6d4d05a5523de8455750d6e6db7'
-  /OpenAuth.Mvc/Views/Shared:
-    newFile: !uuid '29409201c78091e07c5b331a0b8335e8b7d34f0c'
-    oldFile: !uuid 'de54404db5c9d57a698511f0a8f7a74fe0caad6c'
-  /OpenAuth.Mvc/Views/Shared/Blank.cshtml:
-    newFile: !uuid '359bc17df144a9fc65db1f0a8d10edefa7ad6729'
+  /Infrastructure:
+    newFile: !uuid '42c7c547d585d6bf17c53ef77a4e3c6864ef3f3d'
+    oldFile: !uuid '44f116c158dad2be56d18903bf024c8bfa1109e2'
+  /Infrastructure/GenericHelpers.cs:
+    newFile: !uuid '43182db4403a5536aef7968c0e84f6132464f13a'
     oldFile: null
-gitCommitId: !uuid '8fca8cb00e2be0d2b53290a67a3339b19841993d'
+  /Infrastructure/TreeItem.cs:
+    newFile: !uuid 'c4db87bd8d2cb89e9023f20b9375b842266c4118'
+    oldFile: null
+gitCommitId: !uuid 'e68555e9762a244b2a6440a30dcc9b62233fe522'
 renames: {
   }
-revisionId: 203
+revisionId: 204
