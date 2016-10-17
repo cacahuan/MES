@@ -2,28 +2,19 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.App:
-    newFile: !uuid '09c6a5be2180bf2b776062d797ecf727d8ebe770'
-    oldFile: !uuid '399f335a8e90e6370ca2d35dab5313cf747e6ffc'
-  /OpenAuth.App/OrgManagerApp.cs:
-    newFile: !uuid '7e629fe9b1d547f64017e484d7952f8c43301ad2'
-    oldFile: !uuid '455273a36d99c36769f0e9e7bef0a5dcbad45dc8'
   /OpenAuth.Mvc:
-    newFile: !uuid '498e708e1066d702ced46bfcdcd3bc2c01755bc6'
-    oldFile: !uuid '62b336a613684e9381f274d72f7f03961be1cfb9'
-  /OpenAuth.Mvc/BllScripts:
-    newFile: !uuid '0f4225077ff9aadbb53c1b6f82e496cb02aa20df'
-    oldFile: !uuid 'e6baa1504937dd22adfbee97362209d978c48674'
-  /OpenAuth.Mvc/BllScripts/orgManager.js:
-    newFile: !uuid '81e06e02fb67eb013cb841f9485ea087c810e5bd'
-    oldFile: !uuid 'd8c7e31617c53c0a74df4363ac61ab70109f7b74'
-  /OpenAuth.Mvc/Controllers:
-    newFile: !uuid '956ccffe6bbca2d0e00c7a7b2444193c199009dc'
-    oldFile: !uuid 'c52b74b627043cc5069e01c07b2771a79fd20261'
-  /OpenAuth.Mvc/Controllers/OrgManagerController.cs:
-    newFile: !uuid '9a0feed86e5fe33583401ac038f03bc0c3072d58'
-    oldFile: !uuid 'c7c91d10a24f2e48ebd4cad1009868e356883fb1'
-gitCommitId: !uuid '62f3885380c95de5adc7fed2e33d8bfdf903cf92'
+    newFile: !uuid 'c2238fdca939efb965308953d8b1128efb2c7a72'
+    oldFile: !uuid '498e708e1066d702ced46bfcdcd3bc2c01755bc6'
+  /OpenAuth.Mvc/Views:
+    newFile: !uuid '7b0833c4b63e119d5532b2f06a7399acc43afe91'
+    oldFile: !uuid '2f44b0d96d8043812f1251f8cef280452188984b'
+  /OpenAuth.Mvc/Views/Home:
+    newFile: !uuid '45d55954924415603bc72042cb90e0dca54b249f'
+    oldFile: !uuid '7370daaca5bf7180681a69327fbbb2156b6e9357'
+  /OpenAuth.Mvc/Views/Home/Navbar.cshtml:
+    newFile: !uuid '612064479dfecd014afc700e17cf31c30e8a771c'
+    oldFile: null
+gitCommitId: !uuid 'e078ea62bf7782c5984a7d778d3a38195866c80c'
 renames: {
   }
-revisionId: 205
+revisionId: 206
