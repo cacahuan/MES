@@ -2,43 +2,240 @@
 branches: {
   }
 fileChange:
+  /OpenAuth.Domain:
+    newFile: !uuid 'bcc4031ac089c5fc2313e09a4edc5135fdd0fd28'
+    oldFile: !uuid '6bc92a341476f13f4f6dd238899735b048041ba8'
+  /OpenAuth.Domain/Service:
+    newFile: !uuid '64af342094155f0185c41aeadba5f98217a9431f'
+    oldFile: !uuid 'ccfc734eb041e570014ca9a7ebc9216ddb7b4701'
+  /OpenAuth.Domain/Service/ModuleEleManService.cs:
+    newFile: !uuid '262b863c8770761c024106a63130f9f11a47cf3d'
+    oldFile: !uuid '6f6fe88074568ed647b6147d87f4b16c9d80abfb'
   /OpenAuth.Mvc:
-    newFile: !uuid 'b4f06694f05dcf981df36770fa33718a2f6ee084'
-    oldFile: !uuid '2c8969e0cb7def86701af4b0848ee5c413f2aa41'
+    newFile: !uuid '76ad5dfa949415a4f2f7f1f498d8bdfc5676149d'
+    oldFile: !uuid 'b4f06694f05dcf981df36770fa33718a2f6ee084'
   /OpenAuth.Mvc/BllScripts:
-    newFile: !uuid '6a0067a1acf2a382dfac96d93566f15c9fc78a54'
-    oldFile: !uuid '88b95a637e3344da98d7f0e48633fbf847c8eeb9'
-  /OpenAuth.Mvc/BllScripts/assignModule.js:
-    newFile: !uuid 'fb469145ba987037d33c9cc93085d6690966b8c4'
-    oldFile: !uuid '2ce53e381160791a74da7c6ca25f6e07d70d4969'
+    newFile: !uuid 'ced15d80d770b1baef0a359273d7cad24e8c1d15'
+    oldFile: !uuid '6a0067a1acf2a382dfac96d93566f15c9fc78a54'
+  /OpenAuth.Mvc/BllScripts/assignModuleElement.js:
+    newFile: !uuid 'e35cbfa6ee80634d4bbc6fef3df6f7b58e7c65aa'
+    oldFile: !uuid 'c2b481b247c3bdb218dd80b239f0e20fd510eef8'
+  /OpenAuth.Mvc/BllScripts/roleManager.js:
+    newFile: !uuid '29f59bcfb69bfa7d5aa1958e5ee22a4459a37d26'
+    oldFile: !uuid '95b7350462e67e9ede16e4054ec734d0423c5d48'
   /OpenAuth.Mvc/BllScripts/usermanager.js:
-    newFile: !uuid '292900257097676fae77f285e4ec10a2b146ad03'
-    oldFile: !uuid '7eb7cd30d554840c26570f0c1aa090fbe047e6ec'
+    newFile: !uuid '9b61b3887aa0d7e2352180ce14819466f195107e'
+    oldFile: !uuid '292900257097676fae77f285e4ec10a2b146ad03'
   /OpenAuth.Mvc/Content:
-    newFile: !uuid '92ce033c7a61e523c70374e9b4b3514fbb98b06f'
-    oldFile: !uuid '28336d3e4255430896d7a0d47f29531ab20725b2'
+    newFile: !uuid '149a092f1bbcb103aa81976d7e375b816fdb3a04'
+    oldFile: !uuid '92ce033c7a61e523c70374e9b4b3514fbb98b06f'
   /OpenAuth.Mvc/Content/mylayer.css:
-    newFile: !uuid '628a9ccde327eba34f6e72a86a1f69604e91bd90'
-    oldFile: null
+    newFile: !uuid 'a9217cb5fa4162168b9dfd8cc95094844aacf9f1'
+    oldFile: !uuid '628a9ccde327eba34f6e72a86a1f69604e91bd90'
+  /OpenAuth.Mvc/Content/plugins:
+    newFile: !uuid '5e42c2b9d56dff555fe4e664d0551c854a36e5f7'
+    oldFile: !uuid '38ef9ca8d768b361b2aacebcd87654c2168a033e'
+  /OpenAuth.Mvc/Content/plugins/zTree:
+    newFile: !uuid 'c1e61f89a7028983d602ed5f78aced3724bfcf3d'
+    oldFile: !uuid 'fcfde2616d12ff477b7690c8997fd05b15242a6d'
+  /OpenAuth.Mvc/Content/plugins/zTree/css:
+    newFile: !uuid 'ecfa2a79e184cf62711afde4a1140e7ac2333561'
+    oldFile: !uuid '420ea1dec4355428f40941f0cbed939626b61d60'
+  /OpenAuth.Mvc/Content/plugins/zTree/css/zTreeStyle:
+    newFile: null
+    oldFile: !uuid '5fd2c673280252ba5a89fac76f57bdeeb0a21159'
+  /OpenAuth.Mvc/Content/plugins/zTree/css/zTreeStyle/img:
+    newFile: null
+    oldFile: !uuid '77e941bcd79ff837d075a1d29557e8c848004513'
+  /OpenAuth.Mvc/Content/plugins/zTree/css/zTreeStyle/img/diy:
+    newFile: null
+    oldFile: !uuid 'a0f7c878936d7aa3050c745e932919e0d7dd5af6'
+  /OpenAuth.Mvc/Content/plugins/zTree/css/zTreeStyle/img/diy/1_close.png:
+    newFile: null
+    oldFile: !uuid '68ccb3c3b90170df7cddab1fe6e8e455c3854573'
+  /OpenAuth.Mvc/Content/plugins/zTree/css/zTreeStyle/img/diy/1_open.png:
+    newFile: null
+    oldFile: !uuid 'd6ff36d3a99012028c6cf3d4009719108e31bc79'
+  /OpenAuth.Mvc/Content/plugins/zTree/css/zTreeStyle/img/diy/2.png:
+    newFile: null
+    oldFile: !uuid '9eff506ba391fa1ddf0dc44d02ae84403700321b'
+  /OpenAuth.Mvc/Content/plugins/zTree/css/zTreeStyle/img/diy/3.png:
+    newFile: null
+    oldFile: !uuid 'd7ba6d0c675c35197e2dae8a379155e67c0ac6cb'
+  /OpenAuth.Mvc/Content/plugins/zTree/css/zTreeStyle/img/diy/4.png:
+    newFile: null
+    oldFile: !uuid '753e2bfd5725b1f32cda4e41c36a448a4b12c280'
+  /OpenAuth.Mvc/Content/plugins/zTree/css/zTreeStyle/img/diy/5.png:
+    newFile: null
+    oldFile: !uuid '0c5eccd562c303cf5197629ef5f2666b6180bd48'
+  /OpenAuth.Mvc/Content/plugins/zTree/css/zTreeStyle/img/diy/6.png:
+    newFile: null
+    oldFile: !uuid '070b8352d7770e6be4b6f3cbc61f7ee21ae3e4da'
+  /OpenAuth.Mvc/Content/plugins/zTree/css/zTreeStyle/img/diy/7.png:
+    newFile: null
+    oldFile: !uuid '532b037f2045cfa26c62d23cb928ff7405f6fc18'
+  /OpenAuth.Mvc/Content/plugins/zTree/css/zTreeStyle/img/diy/8.png:
+    newFile: null
+    oldFile: !uuid 'a8f3a86e7091de4acdd38745f74b30f0f3d40f9e'
+  /OpenAuth.Mvc/Content/plugins/zTree/css/zTreeStyle/img/diy/9.png:
+    newFile: null
+    oldFile: !uuid '4db73cd41c95bc74496175625ce9ed3737e599f5'
+  /OpenAuth.Mvc/Content/plugins/zTree/css/zTreeStyle/img/line_conn.gif:
+    newFile: null
+    oldFile: !uuid 'd561d36a915776730eb3069cee4c949f027667ed'
+  /OpenAuth.Mvc/Content/plugins/zTree/css/zTreeStyle/img/loading.gif:
+    newFile: null
+    oldFile: !uuid 'e8c289293b11c889703d83dce6631fce90da4630'
+  /OpenAuth.Mvc/Content/plugins/zTree/css/zTreeStyle/img/zTreeStandard.gif:
+    newFile: null
+    oldFile: !uuid '50c94fd41ef9f1f7c07442d669923fd7a3226f55'
+  /OpenAuth.Mvc/Content/plugins/zTree/css/zTreeStyle/img/zTreeStandard.png:
+    newFile: null
+    oldFile: !uuid 'ffda01ef1cccc398ee4e2327f4093ba1130a4961'
+  /OpenAuth.Mvc/Content/plugins/zTree/css/zTreeStyle/zTreeStyle.css:
+    newFile: null
+    oldFile: !uuid '4a1705b145cf7d58cbf1916a7c0cecf9c88578c5'
   /OpenAuth.Mvc/Controllers:
-    newFile: !uuid 'f3d873546d85f445cde1ba124c4ea026a0ca836f'
-    oldFile: !uuid 'ae25e52f4b37c460086a843926f8bdac79599858'
+    newFile: !uuid '339db4b8a0fe5fbfa69cf03e81fdae5fb41c1f63'
+    oldFile: !uuid 'f3d873546d85f445cde1ba124c4ea026a0ca836f'
   /OpenAuth.Mvc/Controllers/ModuleManagerController.cs:
-    newFile: !uuid '1db044a142c9970bcf198c1643e0116655668048'
-    oldFile: !uuid '06bad717e95dd09db6f2e23e93660fc22879b0a0'
+    newFile: !uuid 'a31d357bb8e610e8bb87b32b61bb3d8361f5c563'
+    oldFile: !uuid '1db044a142c9970bcf198c1643e0116655668048'
   /OpenAuth.Mvc/OpenAuth.Mvc.csproj:
-    newFile: !uuid '55389211abe583a5b61488da5b8eadb790f8e569'
-    oldFile: !uuid '491cb1b1a1cacb7cb53f378c33e65bc5cae14f22'
+    newFile: !uuid '227449a911bc0ff30109720b83c3ea16476dc02b'
+    oldFile: !uuid '55389211abe583a5b61488da5b8eadb790f8e569'
   /OpenAuth.Mvc/Views:
-    newFile: !uuid '55825bfd28afcb5b36d0f3039c2850ef3fa21089'
-    oldFile: !uuid 'af4246417c85c124eff986cb1644435c3e74b695'
-  /OpenAuth.Mvc/Views/ModuleManager:
-    newFile: !uuid 'eff53f7b45d7b19d9c3072e90e63822d9a057ee7'
-    oldFile: !uuid '6ae7f4563be80e4d7238cdab34b23d92819dd588'
-  /OpenAuth.Mvc/Views/ModuleManager/Assign.cshtml:
-    newFile: !uuid '0a6a58ca934872aa8a8b9a55399803cd61a89d11'
-    oldFile: !uuid 'c477608d90533c366380cc81632c33703698117e'
-gitCommitId: !uuid '5d2569dddd614fcaaaeb2bf0bd1114b031eef388'
-renames: {
-  }
-revisionId: 213
+    newFile: !uuid '1ef3d4096b5c0103f93e0758ab264effd6dded44'
+    oldFile: !uuid '55825bfd28afcb5b36d0f3039c2850ef3fa21089'
+  /OpenAuth.Mvc/Views/ModuleElementManager:
+    newFile: !uuid '07b2f16c72df7d8309ba97bd05d87f10dfa64f9b'
+    oldFile: !uuid '93aa29a09acc05334f42352393f91bde027ccfcc'
+  /OpenAuth.Mvc/Views/ModuleElementManager/AssignModuleElement.cshtml:
+    newFile: !uuid '6515c7dfe56204a223d3ee4889f58e7591c7f1bc'
+    oldFile: !uuid 'a06e4e69d4cb732313d96c062b45fe8d31997da9'
+  /OpenAuth.Mvc/obj:
+    newFile: !uuid '08daffd59c34fb9f68611dccf0e352e9e9b94720'
+    oldFile: !uuid '72e383d3ef77605dde90cf6a614caacc4aa68176'
+  /OpenAuth.Mvc/obj/Release:
+    newFile: !uuid 'c556ecb71d64a974ead3e33ffd969a74cb555faa'
+    oldFile: !uuid 'f5c801f533b0c2190eacc5f1f4a644edb751301c'
+  /OpenAuth.Mvc/obj/Release/Package:
+    newFile: !uuid 'f642e5870556a2f63d0955fb70a97dbfe10e6215'
+    oldFile: !uuid '485814d57b0a046c6467a71276b9b01b21c5ed45'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp:
+    newFile: !uuid '9b54784acff4c94e1ed32799206fbe12356306a6'
+    oldFile: !uuid 'f9aa35a8f6149ce78066cb41ed908e38131b27d0'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/BllScripts:
+    newFile: !uuid '33d627d61cd385fc2ceaf7fe3282c8ae787f38d4'
+    oldFile: !uuid '316e845f3f622a6350f1861b5bcda7c6afe675ab'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/BllScripts/assignModuleElement.js:
+    newFile: !uuid 'c2b481b247c3bdb218dd80b239f0e20fd510eef8'
+    oldFile: null
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content:
+    newFile: !uuid 'ace47b5f599e7c4104efba16fb45ed7fb689bcec'
+    oldFile: !uuid '5db31be94201d1299bcabce8f80b77c2916fa706'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/styles:
+    newFile: !uuid 'd3d07126d56da3977aa5070b3035c9f8e4b16426'
+    oldFile: !uuid '824502b8a155f7243d6299c94b49316554d3a650'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/styles/zTreeStyle:
+    newFile: !uuid '9ba9a3f452a8d77ff0507ee353ec0127de2d5ebc'
+    oldFile: !uuid '0182cc52705524a0eb74565d7bb7f4538f4822c4'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/styles/zTreeStyle/img:
+    newFile: !uuid '77e941bcd79ff837d075a1d29557e8c848004513'
+    oldFile: !uuid 'e70b9f248030f256cef7c556529f55a945c23433'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/styles/zTreeStyle/img/diy:
+    newFile: !uuid 'a0f7c878936d7aa3050c745e932919e0d7dd5af6'
+    oldFile: !uuid '3ebe8094a817d814942f617152dd18781266e872'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/styles/zTreeStyle/img/diy/1_close.png:
+    newFile: !uuid '68ccb3c3b90170df7cddab1fe6e8e455c3854573'
+    oldFile: null
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/styles/zTreeStyle/img/diy/1_open.png:
+    newFile: !uuid 'd6ff36d3a99012028c6cf3d4009719108e31bc79'
+    oldFile: null
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/styles/zTreeStyle/img/diy/2.png:
+    newFile: !uuid '9eff506ba391fa1ddf0dc44d02ae84403700321b'
+    oldFile: null
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/styles/zTreeStyle/img/diy/3.png:
+    newFile: !uuid 'd7ba6d0c675c35197e2dae8a379155e67c0ac6cb'
+    oldFile: null
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/styles/zTreeStyle/img/diy/5.png:
+    newFile: !uuid '0c5eccd562c303cf5197629ef5f2666b6180bd48'
+    oldFile: null
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/styles/zTreeStyle/img/diy/6.png:
+    newFile: !uuid '070b8352d7770e6be4b6f3cbc61f7ee21ae3e4da'
+    oldFile: null
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/styles/zTreeStyle/img/diy/7.png:
+    newFile: !uuid '532b037f2045cfa26c62d23cb928ff7405f6fc18'
+    oldFile: null
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/styles/zTreeStyle/img/diy/8.png:
+    newFile: !uuid 'a8f3a86e7091de4acdd38745f74b30f0f3d40f9e'
+    oldFile: null
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/styles/zTreeStyle/img/diy/9.png:
+    newFile: !uuid '4db73cd41c95bc74496175625ce9ed3737e599f5'
+    oldFile: null
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/styles/zTreeStyle/img/line_conn.gif:
+    newFile: !uuid 'd561d36a915776730eb3069cee4c949f027667ed'
+    oldFile: null
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/styles/zTreeStyle/img/loading.gif:
+    newFile: !uuid 'e8c289293b11c889703d83dce6631fce90da4630'
+    oldFile: null
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/styles/zTreeStyle/img/zTreeStandard.gif:
+    newFile: !uuid '50c94fd41ef9f1f7c07442d669923fd7a3226f55'
+    oldFile: null
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/styles/zTreeStyle/img/zTreeStandard.png:
+    newFile: !uuid 'ffda01ef1cccc398ee4e2327f4093ba1130a4961'
+    oldFile: null
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/styles/zTreeStyle/zTreeStyle.css:
+    newFile: !uuid 'f06554e33d9831949b5531de5f47893b941434db'
+    oldFile: null
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Views:
+    newFile: !uuid 'bac1a01f587ebf9b08de648db68d0688b6b8f235'
+    oldFile: !uuid '42d9c784521d13d53df52503b3bc1dde0720e738'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Views/ModuleElementManager:
+    newFile: !uuid 'd7d6cf0c86753a509cf94e95db7de7b4c8a5f810'
+    oldFile: !uuid '8db44fd4b631d1a332955224669a4a1b04ba8e6b'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Views/ModuleElementManager/AssignModuleElement.cshtml:
+    newFile: !uuid 'a06e4e69d4cb732313d96c062b45fe8d31997da9'
+    oldFile: null
+  /Release:
+    newFile: !uuid '19da1d19b9530b9f3a9ac78d34c78db0ce92d592'
+    oldFile: null
+  /Release/Content:
+    newFile: !uuid '040d542197f9a236ce23192fc8370a263f14c043'
+    oldFile: null
+  /Release/Content/BJUI:
+    newFile: !uuid '58822d15773946b12f127e8ea5a24eba012d889d'
+    oldFile: null
+  /Release/Content/BJUI/themes:
+    newFile: !uuid 'a3030897322623b629deb4f47915584fe1d44a4e'
+    oldFile: null
+  /Release/Content/BJUI/themes/css:
+    newFile: !uuid '8ccc68318898c552fc25487010dc5e86135d49ed'
+    oldFile: null
+  /Release/Content/BJUI/themes/css/img:
+    newFile: !uuid 'e3c3cca75e6aa97e3122dd8d70af6700f628f91e'
+    oldFile: null
+  /Release/Content/BJUI/themes/css/img/diy:
+    newFile: !uuid 'b05318c62fc86e1a341446396421599ed23a2d73'
+    oldFile: null
+  /Release/Content/BJUI/themes/css/img/diy/6.png:
+    newFile: !uuid '070b8352d7770e6be4b6f3cbc61f7ee21ae3e4da'
+    oldFile: null
+gitCommitId: !uuid 'de50581f8bb4b1347efd05d5a297c9c7980ac242'
+renames:
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/styles/zTreeStyle/img/diy/1_close.png: /OpenAuth.Mvc/Content/plugins/zTree/css/zTreeStyle/img/diy/1_close.png
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/styles/zTreeStyle/img/diy/1_open.png: /OpenAuth.Mvc/Content/plugins/zTree/css/zTreeStyle/img/diy/1_open.png
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/styles/zTreeStyle/img/diy/2.png: /OpenAuth.Mvc/Content/plugins/zTree/css/zTreeStyle/img/diy/2.png
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/styles/zTreeStyle/img/diy/3.png: /OpenAuth.Mvc/Content/plugins/zTree/css/zTreeStyle/img/diy/3.png
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/styles/zTreeStyle/img/diy/5.png: /OpenAuth.Mvc/Content/plugins/zTree/css/zTreeStyle/img/diy/5.png
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/styles/zTreeStyle/img/diy/6.png: /OpenAuth.Mvc/Content/plugins/zTree/css/zTreeStyle/img/diy/6.png
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/styles/zTreeStyle/img/diy/7.png: /OpenAuth.Mvc/Content/plugins/zTree/css/zTreeStyle/img/diy/7.png
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/styles/zTreeStyle/img/diy/8.png: /OpenAuth.Mvc/Content/plugins/zTree/css/zTreeStyle/img/diy/8.png
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/styles/zTreeStyle/img/diy/9.png: /OpenAuth.Mvc/Content/plugins/zTree/css/zTreeStyle/img/diy/9.png
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/styles/zTreeStyle/img/line_conn.gif: /OpenAuth.Mvc/Content/plugins/zTree/css/zTreeStyle/img/line_conn.gif
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/styles/zTreeStyle/img/loading.gif: /OpenAuth.Mvc/Content/plugins/zTree/css/zTreeStyle/img/loading.gif
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/styles/zTreeStyle/img/zTreeStandard.gif: /OpenAuth.Mvc/Content/plugins/zTree/css/zTreeStyle/img/zTreeStandard.gif
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/styles/zTreeStyle/img/zTreeStandard.png: /OpenAuth.Mvc/Content/plugins/zTree/css/zTreeStyle/img/zTreeStandard.png
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/styles/zTreeStyle/zTreeStyle.css: /OpenAuth.Mvc/Content/plugins/zTree/css/zTreeStyle/zTreeStyle.css
+  /Release/Content/BJUI/themes/css/img/diy/6.png: /OpenAuth.Mvc/Content/plugins/zTree/css/zTreeStyle/img/diy/6.png
+revisionId: 214
