@@ -3,36 +3,216 @@ branches: {
   }
 fileChange:
   /OpenAuth.Mvc:
-    newFile: !uuid 'a6ab377bbfb21f6b369894e66d6e0d818ab177d1'
-    oldFile: !uuid '8032d88140d53adf2096de9982e426a1a05cb58e'
+    newFile: !uuid '990d5f59f515bd2e6f3605243108c3c4fe6fd35a'
+    oldFile: !uuid 'a6ab377bbfb21f6b369894e66d6e0d818ab177d1'
   /OpenAuth.Mvc/BllScripts:
-    newFile: !uuid '4f1ea4c9904e70aea6d3ccbf1dbc749323b065a0'
-    oldFile: !uuid '5fe69a580b19a4a3b87beba63018c239ae1a531d'
+    newFile: !uuid '015434d40ecb13a422642bacceb7fc851ad25f68'
+    oldFile: !uuid '4f1ea4c9904e70aea6d3ccbf1dbc749323b065a0'
   /OpenAuth.Mvc/BllScripts/commonApply.js:
-    newFile: !uuid 'c01520ced47f822d1a731da2d48a0f279e685f3b'
-    oldFile: !uuid '2700e347de701580baec1f3cdaa5b2e04669a592'
-  /OpenAuth.Mvc/BllScripts/processDetail.js:
-    newFile: !uuid 'c2bf8b902de1b62c4dce602efc3e1ad7a3773ac3'
-    oldFile: !uuid 'f83f6bc2620fb8c2832bbe91005e7527dcd89faf'
-  /OpenAuth.Mvc/BllScripts/workflowSchemaManager.js:
-    newFile: !uuid 'ad4556840bed6c30572805c520fc90b18b17cb74'
-    oldFile: !uuid 'a4179d85080d1965add147956e48d9fe5735c39b'
+    newFile: !uuid '1cbb74cd2137b04c4d3db2b684a4b481541b4218'
+    oldFile: !uuid 'c01520ced47f822d1a731da2d48a0f279e685f3b'
+  /OpenAuth.Mvc/Content:
+    newFile: !uuid '969923c4dff22028b00607c953091b9c998efb5c'
+    oldFile: !uuid '713403249d99938e8ed96848317cf9bc930be1d4'
+  /OpenAuth.Mvc/Content/jquery-ui.min.css:
+    newFile: null
+    oldFile: !uuid '91f16a3b8d5a77a742e698ad5073f81c4b617767'
+  /OpenAuth.Mvc/Content/plugins:
+    newFile: !uuid '50420ab60eb5c0a5c330ca9590e3a51d8c506dd0'
+    oldFile: !uuid '5e42c2b9d56dff555fe4e664d0551c854a36e5f7'
+  /OpenAuth.Mvc/Content/plugins/jQueryUI:
+    newFile: !uuid 'bd9607ea56a261f18490e84eb3910c3dee69dfa2'
+    oldFile: !uuid 'a1e53024673d5b1e89170d051d49339e409a7c7a'
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base:
+    newFile: !uuid '6482f1bdef33584f8c9072b5fb412ed27a3c2eb6'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/accordion.css:
+    newFile: !uuid '13e57528b58683c49d144018860c47372f12432c'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/all.css:
+    newFile: !uuid '0bab99138376477deb246819acc27218600d8462'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/autocomplete.css:
+    newFile: !uuid 'c21c54f60394636c54cb16d1380e6dba260f1327'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/base.css:
+    newFile: !uuid '7f53172644d9a8a34d67a16a397630cca97ef2c8'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/button.css:
+    newFile: !uuid '7f11bdd27d826532cf5d022ba20750bb7d30c48a'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/core.css:
+    newFile: !uuid '154f1f89f606282efa74af7e83aad91d95abfc00'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/datepicker.css:
+    newFile: !uuid 'ea559d876e9f5817d54aa3f8ab22944cb79812d6'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/dialog.css:
+    newFile: !uuid '66b90cc87b5e8c683ab0588f7cb3f297b7284504'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/draggable.css:
+    newFile: !uuid 'df01f29f3cde4619e1938b46439544d98e3ce596'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/images:
+    newFile: !uuid '9ce4104c2dc41dae1623bcfa225f7ca227f0d09e'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/images/toggle-collapse-dark.png:
+    newFile: !uuid '76577a57a23105b4c821b851902cda145e348d9c'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/images/toggle-collapse-light.png:
+    newFile: !uuid 'ed1612fd9b7f76f56dede10ce96cacbbfc0699d8'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/images/toggle-expand-dark.png:
+    newFile: !uuid 'cfb42a451247095be68232ab38f75842893ce407'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/images/toggle-expand-light.png:
+    newFile: !uuid '27b52344dcdfe9b55cde5f3a95883c2d905636aa'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/images/ui-bg_diagonals-thick_18_b81900_40x40.png:
+    newFile: !uuid '7e4af1db3ac79771f85b26e10e3ae8710059765e'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/images/ui-bg_diagonals-thick_20_666666_40x40.png:
+    newFile: !uuid 'efd1ff3e7bbb28391e02788cff94f93bdb085679'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/images/ui-bg_flat_0_aaaaaa_40x100.png:
+    newFile: !uuid '5b5dab2ab7b1c50dea9cfe73dc5a269a92d2d4b4'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/images/ui-bg_flat_10_000000_40x100.png:
+    newFile: !uuid '0a5aa914b236c0b1552513ab4d5fdda1aa4eef51'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/images/ui-bg_flat_75_ffffff_40x100.png:
+    newFile: !uuid 'ac8b229af950c29356abf64a6c4aa894575445f0'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/images/ui-bg_glass_100_f6f6f6_1x400.png:
+    newFile: !uuid '068406ca901c5d06855a86906b2e36d0d3f79980'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/images/ui-bg_glass_100_fdf5ce_1x400.png:
+    newFile: !uuid '979591a8a9e0232ca073fe0689418fe58a16da90'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/images/ui-bg_glass_55_fbf9ee_1x400.png:
+    newFile: !uuid 'ad3d6346e00f246102f72f2e026ed0491988b394'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/images/ui-bg_glass_65_ffffff_1x400.png:
+    newFile: !uuid '42ccba269b6e91bef12ad0fa18be651b5ef0ee68'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/images/ui-bg_glass_75_dadada_1x400.png:
+    newFile: !uuid '5a46b47cb16631068aee9e0bd61269fc4e95e5cd'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/images/ui-bg_glass_75_e6e6e6_1x400.png:
+    newFile: !uuid '86c2baa655eac8539db34f8d9adb69ec1226201c'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/images/ui-bg_glass_95_fef1ec_1x400.png:
+    newFile: !uuid '4443fdc1a156babad4336f004eaf5ca5dfa0f9ab'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/images/ui-bg_gloss-wave_35_f6a828_500x100.png:
+    newFile: !uuid '8dc23e251b0505078f3a0912ddf41db6a89bf72e'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/images/ui-bg_highlight-soft_100_eeeeee_1x100.png:
+    newFile: !uuid 'f9b25ef80d30a7a6f6fa40e7c77dcd78aba85ea5'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png:
+    newFile: !uuid '7c9fa6c6edcfcdd3e5b77e6f547b719e6fc66e30'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/images/ui-bg_highlight-soft_75_ffe45c_1x100.png:
+    newFile: !uuid '6a479d12cc304f7c5259a9db8a4827c13d693543'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/images/ui-icons_222222_256x240.png:
+    newFile: !uuid 'ee039dc096a38a3753f92519546eee94bcfbeffa'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/images/ui-icons_228ef1_256x240.png:
+    newFile: !uuid '1e787bb98f072e1080b4557a20a86cd79b814040'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/images/ui-icons_2e83ff_256x240.png:
+    newFile: !uuid '45e8928e5284adacea3f9ec07b9b50667d2ac65f'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/images/ui-icons_454545_256x240.png:
+    newFile: !uuid '7ec70d11bfb2f77374dfd00ef61ba0c3647b5a0c'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/images/ui-icons_888888_256x240.png:
+    newFile: !uuid '5ba708c39172a69e069136bd1309c4322c61f571'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/images/ui-icons_cd0a0a_256x240.png:
+    newFile: !uuid '7930a558099bc8d92b4264eb67a0f040460f4a4f'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/images/ui-icons_ef8c08_256x240.png:
+    newFile: !uuid '5dcbe012df24899416caee1a55d1bdf6c22fd837'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/images/ui-icons_ffd27a_256x240.png:
+    newFile: !uuid 'dd39c1b25bbb7734571820d7890a0401c2b70d53'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/images/ui-icons_ffffff_256x240.png:
+    newFile: !uuid '39e64723fe6a862f00d5e2578110ce781288070e'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/jquery-ui.min.css:
+    newFile: !uuid '91f16a3b8d5a77a742e698ad5073f81c4b617767'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/jquery-ui.structure.min.css:
+    newFile: !uuid 'e8d7af888f7df8965e973a9584604b1b43d1f59f'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/jquery-ui.theme.min.css:
+    newFile: !uuid '6fbe018ff88b8d5da6e9357fab342e4673550b9e'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/jquery.treeTable.css:
+    newFile: !uuid '98db139558c28264cab644b947cb323ad7fb8a79'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/menu.css:
+    newFile: !uuid '221fc51762137a161c403cd8782567ae3184502d'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/progressbar.css:
+    newFile: !uuid '5e43600b7a85694350d8275408c1c969773505ca'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/resizable.css:
+    newFile: !uuid '23d9a076a9d802d4286d5c3239b8de4cddccdb51'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/selectable.css:
+    newFile: !uuid '482597cec4729bf9c0c29e7704e44e89734f523a'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/selectmenu.css:
+    newFile: !uuid '2417b6b4018b4ab614cd98a4f242904cf780ab6b'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/slider.css:
+    newFile: !uuid '7c4f01ad8c897218c3244fbe696f807b361950c6'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/sortable.css:
+    newFile: !uuid '1c27badb481a735efa40ee6c87ef6764acf2d974'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/spinner.css:
+    newFile: !uuid '9a9b78b4f5cea21b6357a7b096547e2c94635b3e'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/tabs.css:
+    newFile: !uuid 'c92a1b874c5dff3fb03a2d129debea66bbd6196c'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/theme.css:
+    newFile: !uuid '9deb499925894e36d00ea2b69e59c72ce34f71cc'
+    oldFile: null
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/tooltip.css:
+    newFile: !uuid '6eb8b915d172aac8614177a1f2e9d4dc165173ed'
+    oldFile: null
+  /OpenAuth.Mvc/OpenAuth.Mvc.csproj:
+    newFile: !uuid '3f6cf46d49bbf7de55a9ae0867b6dd883ed9d767'
+    oldFile: !uuid '2cba6907e5b7eeaea1c4d2a45c8462b114dc17ff'
   /OpenAuth.Mvc/Views:
-    newFile: !uuid '9054df956c8589647e0948f9e864a7b6c8e398c3'
-    oldFile: !uuid 'b5ae82f4133abf2193a1445273fd09154c41fd64'
+    newFile: !uuid 'ed21b750c0160a045461a390309b728ac5630cb0'
+    oldFile: !uuid '9054df956c8589647e0948f9e864a7b6c8e398c3'
   /OpenAuth.Mvc/Views/CommonApplies:
-    newFile: !uuid 'f3e38bc783dd146afdb093a27902aa0f2165a69f'
-    oldFile: !uuid '4ee1543c7ba15fa950353bf2ea48549c056bf9e1'
+    newFile: !uuid '2c57f02ba44ca65b1c2557f60a364e0dbfb8cfca'
+    oldFile: !uuid 'f3e38bc783dd146afdb093a27902aa0f2165a69f'
   /OpenAuth.Mvc/Views/CommonApplies/Detail.cshtml:
-    newFile: !uuid 'bac1d8196f65e7e994e5d6f13d8d0df5d471c94b'
-    oldFile: !uuid '3f2cd21ec37b2cd26e80e4125ae622fafc4a2d70'
+    newFile: !uuid 'a17b0bf50e709ed76f3700f2e931ac4155e598c7'
+    oldFile: !uuid 'bac1d8196f65e7e994e5d6f13d8d0df5d471c94b'
   /OpenAuth.Mvc/Views/Designer:
-    newFile: !uuid '04d44b99b19fd041a03987a6cf782e369dadc79a'
-    oldFile: !uuid 'c0f86ba29d509a455eef4bd8780c2c710540a5ad'
+    newFile: !uuid '89a7c3b7c6c4d2c5a5a8a8b6517b2b47ef4233ec'
+    oldFile: !uuid '04d44b99b19fd041a03987a6cf782e369dadc79a'
   /OpenAuth.Mvc/Views/Designer/Index.cshtml:
-    newFile: !uuid '597a2c59cecd73c22bc94981b9f60c8c9556d320'
-    oldFile: !uuid '8fb32632edd2ab5d9a61489a30e14701a1d9d2a8'
-gitCommitId: !uuid 'fb28ea548865f8215f3c25441a53f26e58e4dc58'
-renames: {
-  }
-revisionId: 219
+    newFile: !uuid '4e9653ab02b833fa4a2dc88fa15e4b94cee34c6c'
+    oldFile: !uuid '597a2c59cecd73c22bc94981b9f60c8c9556d320'
+  /OpenAuth.Mvc/Views/Shared:
+    newFile: !uuid 'ac269f29e4a92e14723cc68628e6128bcfc6bcae'
+    oldFile: !uuid 'a6652c3b788b76d560981cd13cfec6d9b1fbc1e5'
+  /OpenAuth.Mvc/Views/Shared/_Layout.cshtml:
+    newFile: !uuid '2a9f499e78fb4d25aca62260832a18e19bf2bf5e'
+    oldFile: !uuid 'b1a4eeb9ce2c8e72970605b41871dd103046dfb7'
+gitCommitId: !uuid '956137ac3a491bc3eeb88405e8ee3538f3c03123'
+renames:
+  /OpenAuth.Mvc/Content/plugins/jQueryUI/base/jquery-ui.min.css: /OpenAuth.Mvc/Content/jquery-ui.min.css
+revisionId: 220
