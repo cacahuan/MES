@@ -2,25 +2,31 @@
 branches: {
   }
 fileChange:
+  /OpenAuth.App:
+    newFile: !uuid '7a401ac3166ede4ceb0d6f9fab84b7ab49f2d120'
+    oldFile: !uuid '6d52ba61851ffcf0a29f9cbe8c3f60b6323ae3af'
+  /OpenAuth.App/WorkflowSchemasManagerApp.cs:
+    newFile: !uuid '13c42136e4b73729eacc3faabeaef9829352e615'
+    oldFile: !uuid 'e1e02108c288821cef09dbed3f18c27550b38e60'
   /OpenAuth.Mvc:
-    newFile: !uuid '450402bfd266c67e03d1c9b68a185d8102a09e82'
-    oldFile: !uuid '990d5f59f515bd2e6f3605243108c3c4fe6fd35a'
+    newFile: !uuid '8a35d7431d0a20c3c7ebd6c112fdd1492b2f91a3'
+    oldFile: !uuid '450402bfd266c67e03d1c9b68a185d8102a09e82'
   /OpenAuth.Mvc/BllScripts:
-    newFile: !uuid '9e9f49035585453dee2d43824286b334c1ee111c'
-    oldFile: !uuid '015434d40ecb13a422642bacceb7fc851ad25f68'
+    newFile: !uuid '1d2a7ac4282d926b6fc9982fd44eebd9d89c10bb'
+    oldFile: !uuid '9e9f49035585453dee2d43824286b334c1ee111c'
   /OpenAuth.Mvc/BllScripts/processDetail.js:
-    newFile: !uuid '4603a9022dd1bdfc575704907d59058d643c69d1'
-    oldFile: !uuid 'c2bf8b902de1b62c4dce602efc3e1ad7a3773ac3'
-  /OpenAuth.Mvc/Views:
-    newFile: !uuid 'd8d41b222f485e61ec4cdc756073c3f5dff16794'
-    oldFile: !uuid 'ed21b750c0160a045461a390309b728ac5630cb0'
-  /OpenAuth.Mvc/Views/CommonApplies:
-    newFile: !uuid '0230c26cf7df7d296974128eebd551fd096e696b'
-    oldFile: !uuid '2c57f02ba44ca65b1c2557f60a364e0dbfb8cfca'
-  /OpenAuth.Mvc/Views/CommonApplies/Detail.cshtml:
-    newFile: !uuid 'bae710275a989204d0094c6b5daead5332a12f5e'
-    oldFile: !uuid 'a17b0bf50e709ed76f3700f2e931ac4155e598c7'
-gitCommitId: !uuid 'b1ee459c9e736760f8440ea184d179333a909f00'
+    newFile: !uuid '4674add0eea1055329755985c485c341b39d65b3'
+    oldFile: !uuid '4603a9022dd1bdfc575704907d59058d643c69d1'
+  /OpenAuth.Mvc/BllScripts/workflowSchemaManager.js:
+    newFile: !uuid '41078066710b761b83bd3e3856d2deba63c8103c'
+    oldFile: !uuid 'ad4556840bed6c30572805c520fc90b18b17cb74'
+  /OpenAuth.Mvc/Controllers:
+    newFile: !uuid '3526a5fea0fb16d5c4bdd26c49553c2c20df06ef'
+    oldFile: !uuid 'cfba8299c0bbe9836133477dc6508eb1af991cf9'
+  /OpenAuth.Mvc/Controllers/WorkflowSchemasController.cs:
+    newFile: !uuid '4c785b7a3de5603e8d39bea4999850e8691e6454'
+    oldFile: !uuid '73176b41bfec4372f94e3ec8c524b1df6c69f30c'
+gitCommitId: !uuid 'c12466e8f3b2b871e168a0b74db0f25d7cf8baaa'
 renames: {
   }
-revisionId: 221
+revisionId: 222
