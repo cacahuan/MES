@@ -3,57 +3,42 @@ branches: {
   }
 fileChange:
   /OpenAuth.Mvc:
-    newFile: !uuid '8f4fcf3353dd21728b64b1640091c103b5fb8c47'
-    oldFile: !uuid '253968908d25669604bf18f23882a89fd40504ed'
-  /OpenAuth.Mvc/Controllers:
-    newFile: !uuid 'cfba8299c0bbe9836133477dc6508eb1af991cf9'
-    oldFile: !uuid '70257e7057915bdd3855ce31ceec24f5756d497e'
-  /OpenAuth.Mvc/Controllers/BaseController.cs:
-    newFile: !uuid 'b1aacd5e051e9b20ad2757b6c32b244b6f426953'
-    oldFile: !uuid '093c948bbabd0cf4f2129dbc936ba2855b4f2d16'
-  /OpenAuth.Mvc/Controllers/HomeController.cs:
-    newFile: !uuid 'f1c50633ed4a701fa8b747b822a2cb6addc3fd3a'
-    oldFile: !uuid '87129b56b36cadc7f75b0639cda97f0159a8da16'
+    newFile: !uuid '8032d88140d53adf2096de9982e426a1a05cb58e'
+    oldFile: !uuid '8f4fcf3353dd21728b64b1640091c103b5fb8c47'
+  /OpenAuth.Mvc/BllScripts:
+    newFile: !uuid '5fe69a580b19a4a3b87beba63018c239ae1a531d'
+    oldFile: !uuid '22b664da2e82f0f2765556a1a91f4c9beec1c689'
+  /OpenAuth.Mvc/BllScripts/commonApply.js:
+    newFile: !uuid '2700e347de701580baec1f3cdaa5b2e04669a592'
+    oldFile: !uuid 'f47d1e5d2a656d13d1d30679ad81b1c15f056bae'
+  /OpenAuth.Mvc/BllScripts/workflowSchemaManager.js:
+    newFile: !uuid 'a4179d85080d1965add147956e48d9fe5735c39b'
+    oldFile: !uuid '8ed0bc829b5d5eea4fc49dfb3a6ea34792743366'
+  /OpenAuth.Mvc/Content:
+    newFile: !uuid '713403249d99938e8ed96848317cf9bc930be1d4'
+    oldFile: !uuid '149a092f1bbcb103aa81976d7e375b816fdb3a04'
+  /OpenAuth.Mvc/Content/jquery-ui.min.css:
+    newFile: !uuid '91f16a3b8d5a77a742e698ad5073f81c4b617767'
+    oldFile: null
+  /OpenAuth.Mvc/OpenAuth.Mvc.csproj:
+    newFile: !uuid '2cba6907e5b7eeaea1c4d2a45c8462b114dc17ff'
+    oldFile: !uuid '227449a911bc0ff30109720b83c3ea16476dc02b'
   /OpenAuth.Mvc/Views:
-    newFile: !uuid '9dae8bb366ff1421337c87c89e49a94f158d86c6'
-    oldFile: !uuid 'bbe554537373ca33cad549318d676255a16f8615'
-  /OpenAuth.Mvc/Views/Home:
-    newFile: !uuid 'ca8469ab313497fa9951adb2c5b8dd53ee334347'
-    oldFile: !uuid '45d55954924415603bc72042cb90e0dca54b249f'
-  /OpenAuth.Mvc/Views/Home/Navbar.cshtml:
-    newFile: !uuid 'fd2d0592a3cc26312d70f1081cbb2fa239737855'
-    oldFile: !uuid '612064479dfecd014afc700e17cf31c30e8a771c'
-  /OpenAuth.Mvc/Views/Login:
-    newFile: !uuid '7d598b8a3311016f943f7cb61738836b04b87636'
-    oldFile: !uuid '7697d6f9d8e03b59cffec85db61c122a0919d18a'
-  /OpenAuth.Mvc/Views/Login/Index.cshtml:
-    newFile: !uuid '801329ccd456c59fab466208ba438439a4f2bcf6'
-    oldFile: !uuid '55da0d906eba1e2ded72f5b2d7f10246eca7c2e3'
-  /OpenAuth.Mvc/Views/ModuleElementManager:
-    newFile: !uuid '18058dc092d243312e092d1df854de7c01ff763b'
-    oldFile: !uuid '07b2f16c72df7d8309ba97bd05d87f10dfa64f9b'
-  /OpenAuth.Mvc/Views/ModuleElementManager/AssignModuleElement.cshtml:
-    newFile: !uuid '8d929488ef0fd9ccf53770c04a66f8a609f64d0b'
-    oldFile: !uuid '6515c7dfe56204a223d3ee4889f58e7591c7f1bc'
-  /OpenAuth.Mvc/Views/ResourceManager:
-    newFile: !uuid '4b26f2b223994e14943172d0856ba877178f925a'
-    oldFile: !uuid '40a16a65ac9cbdb00cc567438fca389d19b8fb87'
-  /OpenAuth.Mvc/Views/ResourceManager/AssignRes.cshtml:
-    newFile: !uuid 'fdf8c2e54539322149ee2b87619702a1f0900048'
-    oldFile: !uuid 'a5bf54dbfde1444013ed80ccb57f5ecf55717c06'
-  /OpenAuth.Mvc/Views/RoleManager:
-    newFile: !uuid 'c212ae051bf6576e084fb27c0a2e78980e8a02ff'
-    oldFile: !uuid '6c5ef7d1f7fda1bb5f25b578b1ee35fb5ed7aca2'
-  /OpenAuth.Mvc/Views/RoleManager/LookupMulti.cshtml:
-    newFile: !uuid 'db16adf50af20767d7368808a37dc895952727db'
-    oldFile: !uuid 'eeb76e9e1dc7e24f47fa70c7bb467dcafbd5efb1'
-  /OpenAuth.Mvc/Views/Shared:
-    newFile: !uuid 'a6652c3b788b76d560981cd13cfec6d9b1fbc1e5'
-    oldFile: !uuid '3e789d21a55e5f55d2cf6c00a1992d7fa2e6cded'
-  /OpenAuth.Mvc/Views/Shared/_Layout.cshtml:
-    newFile: !uuid 'b1a4eeb9ce2c8e72970605b41871dd103046dfb7'
-    oldFile: !uuid '09c002dee90c4f28eaa3ca1052821ba6945e0b2b'
-gitCommitId: !uuid '53f7fe403bbf6cd447df16b8223962dcc3e0dd25'
+    newFile: !uuid 'b5ae82f4133abf2193a1445273fd09154c41fd64'
+    oldFile: !uuid '9dae8bb366ff1421337c87c89e49a94f158d86c6'
+  /OpenAuth.Mvc/Views/CommonApplies:
+    newFile: !uuid '4ee1543c7ba15fa950353bf2ea48549c056bf9e1'
+    oldFile: !uuid 'fe2a450041df33ac1525e27da73fbdc3f1231d1e'
+  /OpenAuth.Mvc/Views/CommonApplies/Detail.cshtml:
+    newFile: !uuid '3f2cd21ec37b2cd26e80e4125ae622fafc4a2d70'
+    oldFile: !uuid '7a62f8dd6dfcc2c37e53641fad0a5558520a5e8d'
+  /OpenAuth.Mvc/Views/Designer:
+    newFile: !uuid 'c0f86ba29d509a455eef4bd8780c2c710540a5ad'
+    oldFile: !uuid '0714e3c758021fdad4e4dea6154729d582baf836'
+  /OpenAuth.Mvc/Views/Designer/Index.cshtml:
+    newFile: !uuid '8fb32632edd2ab5d9a61489a30e14701a1d9d2a8'
+    oldFile: !uuid 'cb080b7d1caf11d52322e1306ba3ebb51b5b95b6'
+gitCommitId: !uuid 'be47dc50ea9ed16e0556a3e63b3f74f01017de75'
 renames: {
   }
-revisionId: 217
+revisionId: 218
