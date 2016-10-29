@@ -3,33 +3,33 @@ branches: {
   }
 fileChange:
   /OpenAuth.Mvc:
-    newFile: !uuid '5695fc8496a550f1c29a02b1a8734847383a389c'
-    oldFile: !uuid '02e4e94e79257b0e685737a68f81c623f663f0ed'
-  /OpenAuth.Mvc/BllScripts:
-    newFile: !uuid 'cd2eb07ce20121e336cf867ee3311f346f320241'
-    oldFile: !uuid '02cadbf901a4c3eba0c1d5112f177d374750d790'
-  /OpenAuth.Mvc/BllScripts/categoryManager.js:
-    newFile: !uuid '5bab5ed702c28d90db8a2b62f4da6de7389af6fb'
-    oldFile: !uuid '4cef9b0834564e0f973bd7a829945ae1a4615cae'
-  /OpenAuth.Mvc/BllScripts/commonApply.js:
-    newFile: !uuid '1f4ae2683f97bee959d7a0157311b0253e04f325'
-    oldFile: !uuid '02ab136667111d19491297a41c8038b2e41a3c2b'
-  /OpenAuth.Mvc/BllScripts/login.js:
-    newFile: !uuid '093038c396c724776ea0f5cd44f3a7a83d22fa77'
-    oldFile: !uuid 'f63bb2325e869ee583eecc95a3a90ce2cd56d86b'
-  /OpenAuth.Mvc/BllScripts/modulemanager.js:
-    newFile: !uuid 'b65686284dbbe48f7ed5e230d2f3a1dce078dabc'
-    oldFile: !uuid '4a30a16e12ab432bdc5760dc44ee797f4d0e1433'
-  /OpenAuth.Mvc/BllScripts/orgManager.js:
-    newFile: !uuid '0f92b9dbb3bdc50ff805013188ed607a7d311516'
-    oldFile: !uuid 'db81bb274f47d1fc4a59378a0fc53d19e3536ebd'
-  /OpenAuth.Mvc/BllScripts/roleManager.js:
-    newFile: !uuid 'ef821a33ef1fd7e248e2122d3d168d0557b1b373'
-    oldFile: !uuid 'b8a7bbeb65a85cdda7f6c9aa5369e0ef06583f85'
-  /OpenAuth.Mvc/BllScripts/stockManager.js:
-    newFile: !uuid '9913657503931a6edd47bbd96ebc28ebfe9315c7'
-    oldFile: !uuid '949de2c3987ea9648f056abc811b5689df4dbd66'
-gitCommitId: !uuid '74d86823114bd80fd53b2812077bc260c3fd9230'
+    newFile: !uuid '4df0ea901c7e084fc460cdcb665363e6906cfeed'
+    oldFile: !uuid '5695fc8496a550f1c29a02b1a8734847383a389c'
+  /OpenAuth.Mvc/Images:
+    newFile: !uuid '01be4ad3e236cd5bdf78348809886ab1aacbd288'
+    oldFile: !uuid 'b934fa50fb926cd1747b527d93d687d479e19dc7'
+  /OpenAuth.Mvc/Images/login:
+    newFile: !uuid '7ea3bb1c8c8d9c61df572ec0d8c68283b714023e'
+    oldFile: !uuid 'a26547feb99725914c553a993f5b310098786239'
+  /OpenAuth.Mvc/Images/login/bg.jpg:
+    newFile: !uuid 'b408184c48ad49ef6eeb3bfdd307136aca0aa914'
+    oldFile: null
+  /OpenAuth.Mvc/Images/login/bg2.png:
+    newFile: null
+    oldFile: !uuid '5b24c6b9ac6e4709800c1d74685cd89842576079'
+  /OpenAuth.Mvc/OpenAuth.Mvc.csproj:
+    newFile: !uuid 'd01c0deb9f450548245da51140cbaae1df9e6468'
+    oldFile: !uuid '9fd25113fe9549f079f6c644a5a943f994c97f2d'
+  /OpenAuth.Mvc/Views:
+    newFile: !uuid '5092dfea83f925d0c8dd251ec41cd6f638e55540'
+    oldFile: !uuid 'bc373dfd937c950d2f0e712d4e79ab9801de4a05'
+  /OpenAuth.Mvc/Views/Login:
+    newFile: !uuid '71bc5af0238d49e792f8267ead82a80ece218dd8'
+    oldFile: !uuid '5feeeaca63f4d08ebcf25cfb04bad17499e42d25'
+  /OpenAuth.Mvc/Views/Login/Index.cshtml:
+    newFile: !uuid '94f10c8b25220ec4cd3b08642a834f593a74a785'
+    oldFile: !uuid '06aaa28ae247fab87d0d3c2d9dc7acc98b4c2558'
+gitCommitId: !uuid '80fdc3ff972fd8df987c98fe58549b8c46e5264a'
 renames: {
   }
-revisionId: 227
+revisionId: 228
