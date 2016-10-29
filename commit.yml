@@ -2,34 +2,31 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.Mvc:
-    newFile: !uuid '4df0ea901c7e084fc460cdcb665363e6906cfeed'
-    oldFile: !uuid '5695fc8496a550f1c29a02b1a8734847383a389c'
-  /OpenAuth.Mvc/Images:
-    newFile: !uuid '01be4ad3e236cd5bdf78348809886ab1aacbd288'
-    oldFile: !uuid 'b934fa50fb926cd1747b527d93d687d479e19dc7'
-  /OpenAuth.Mvc/Images/login:
-    newFile: !uuid '7ea3bb1c8c8d9c61df572ec0d8c68283b714023e'
-    oldFile: !uuid 'a26547feb99725914c553a993f5b310098786239'
-  /OpenAuth.Mvc/Images/login/bg.jpg:
-    newFile: !uuid 'b408184c48ad49ef6eeb3bfdd307136aca0aa914'
-    oldFile: null
-  /OpenAuth.Mvc/Images/login/bg2.png:
+  /Release:
     newFile: null
-    oldFile: !uuid '5b24c6b9ac6e4709800c1d74685cd89842576079'
-  /OpenAuth.Mvc/OpenAuth.Mvc.csproj:
-    newFile: !uuid 'd01c0deb9f450548245da51140cbaae1df9e6468'
-    oldFile: !uuid '9fd25113fe9549f079f6c644a5a943f994c97f2d'
-  /OpenAuth.Mvc/Views:
-    newFile: !uuid '5092dfea83f925d0c8dd251ec41cd6f638e55540'
-    oldFile: !uuid 'bc373dfd937c950d2f0e712d4e79ab9801de4a05'
-  /OpenAuth.Mvc/Views/Login:
-    newFile: !uuid '71bc5af0238d49e792f8267ead82a80ece218dd8'
-    oldFile: !uuid '5feeeaca63f4d08ebcf25cfb04bad17499e42d25'
-  /OpenAuth.Mvc/Views/Login/Index.cshtml:
-    newFile: !uuid '94f10c8b25220ec4cd3b08642a834f593a74a785'
-    oldFile: !uuid '06aaa28ae247fab87d0d3c2d9dc7acc98b4c2558'
-gitCommitId: !uuid '80fdc3ff972fd8df987c98fe58549b8c46e5264a'
+    oldFile: !uuid '19da1d19b9530b9f3a9ac78d34c78db0ce92d592'
+  /Release/Content:
+    newFile: null
+    oldFile: !uuid '040d542197f9a236ce23192fc8370a263f14c043'
+  /Release/Content/BJUI:
+    newFile: null
+    oldFile: !uuid '58822d15773946b12f127e8ea5a24eba012d889d'
+  /Release/Content/BJUI/themes:
+    newFile: null
+    oldFile: !uuid 'a3030897322623b629deb4f47915584fe1d44a4e'
+  /Release/Content/BJUI/themes/css:
+    newFile: null
+    oldFile: !uuid '8ccc68318898c552fc25487010dc5e86135d49ed'
+  /Release/Content/BJUI/themes/css/img:
+    newFile: null
+    oldFile: !uuid 'e3c3cca75e6aa97e3122dd8d70af6700f628f91e'
+  /Release/Content/BJUI/themes/css/img/diy:
+    newFile: null
+    oldFile: !uuid 'b05318c62fc86e1a341446396421599ed23a2d73'
+  /Release/Content/BJUI/themes/css/img/diy/6.png:
+    newFile: null
+    oldFile: !uuid '070b8352d7770e6be4b6f3cbc61f7ee21ae3e4da'
+gitCommitId: !uuid '48478c0da9a84683e7cc59804f10eb5e4d0b762c'
 renames: {
   }
-revisionId: 228
+revisionId: 229
