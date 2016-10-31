@@ -3,12 +3,9 @@ branches: {
   }
 fileChange:
   /README.md:
-    newFile: !uuid '086c16750a27ecf96478d3995b2c1c89a1e47804'
-    oldFile: !uuid 'a37c642100da2a88f612d793b66b2fc4d435495f'
-  /建表&初始化数据.sql:
-    newFile: !uuid '12fd7e982df305d268a8f50b223bfc38638371be'
-    oldFile: !uuid '63124a0244db0aeed15d3fe077ad083ca7a20076'
-gitCommitId: !uuid '338e737438cee9aae76cccbbb93011b8a0cbc56b'
+    newFile: !uuid '00f7fd4be7a996663d03de5e431d0539d80de52c'
+    oldFile: !uuid '086c16750a27ecf96478d3995b2c1c89a1e47804'
+gitCommitId: !uuid 'd0a133cd8632ca279c205623aecce3d6630f9bfe'
 renames: {
   }
-revisionId: 232
+revisionId: 233
