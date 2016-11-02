@@ -3,15 +3,1161 @@ branches: {
   }
 fileChange:
   /OpenAuth.Mvc:
-    newFile: !uuid '535261d5e77386bc15c0966de6fa5269e07bfb70'
-    oldFile: !uuid 'bcfa6d69429db9c6677eacddb8b70396eb93ba48'
+    newFile: !uuid '9fd7e81aab31c5944c9c82e518cec21f08e179ab'
+    oldFile: !uuid '535261d5e77386bc15c0966de6fa5269e07bfb70'
   /OpenAuth.Mvc/Controllers:
-    newFile: !uuid '5e3107a4874c5156544fa34f1367428dc3e8d0e0'
-    oldFile: !uuid '07eebffc8f21e4f33411565518dc818f620f0f57'
-  /OpenAuth.Mvc/Controllers/ErrorController.cs:
-    newFile: !uuid 'b2f1690dfcd5a2f7568ed549adb95d901705e246'
-    oldFile: !uuid 'b3863c79a954e56bf022864bb768adca1e2ed539'
-gitCommitId: !uuid '07a3da8995594cfc0cdef54438742941e83ee001'
+    newFile: !uuid '175317d5269b13863f4f49b46769d684ca3532b0'
+    oldFile: !uuid '5e3107a4874c5156544fa34f1367428dc3e8d0e0'
+  /OpenAuth.Mvc/Controllers/CommonAppliesController.cs:
+    newFile: !uuid '371abb3716bf9e9ecd18070976a4d88f6fe83c7c'
+    oldFile: !uuid '9f6ecd24163bb7878619c2b4ac65ef39566d5f81'
+  /OpenAuth.Mvc/obj:
+    newFile: null
+    oldFile: !uuid '08daffd59c34fb9f68611dccf0e352e9e9b94720'
+  /OpenAuth.Mvc/obj/Release:
+    newFile: null
+    oldFile: !uuid 'c556ecb71d64a974ead3e33ffd969a74cb555faa'
+  /OpenAuth.Mvc/obj/Release/Package:
+    newFile: null
+    oldFile: !uuid 'f642e5870556a2f63d0955fb70a97dbfe10e6215'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp:
+    newFile: null
+    oldFile: !uuid '9b54784acff4c94e1ed32799206fbe12356306a6'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/BllScripts:
+    newFile: null
+    oldFile: !uuid '33d627d61cd385fc2ceaf7fe3282c8ae787f38d4'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/BllScripts/assignModule.js:
+    newFile: null
+    oldFile: !uuid '43910c87529c3756aba2bb59e59de8978e105678'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/BllScripts/assignModuleElement.js:
+    newFile: null
+    oldFile: !uuid 'c2b481b247c3bdb218dd80b239f0e20fd510eef8'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/BllScripts/categoryManager.js:
+    newFile: null
+    oldFile: !uuid '85d29c708aa8229fc4c676d423350465ad65bdd9'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/BllScripts/commonApply.js:
+    newFile: null
+    oldFile: !uuid '56e16402f7b2859cd36dd11ee968b6d8c203765a'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/BllScripts/moduleElementMan.js:
+    newFile: null
+    oldFile: !uuid '7126f5856df70c347c360e0db4ce666260f83cda'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/BllScripts/orgManager.js:
+    newFile: null
+    oldFile: !uuid 'e2339046aa2a30e4ef684238c96def7cb3bbbb01'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/BllScripts/roleManager.js:
+    newFile: null
+    oldFile: !uuid 'fdf5135deede4a99140eb84b5a1722cd303921f2'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/BllScripts/stockManager.js:
+    newFile: null
+    oldFile: !uuid '977d0365ddb1e2f1a5516f410887dc499ddaa4e9'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content:
+    newFile: null
+    oldFile: !uuid 'ace47b5f599e7c4104efba16fb45ed7fb689bcec'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI:
+    newFile: null
+    oldFile: !uuid '788ef0b0661f4fb56bb36ac5ee4cfcdbc0a458be'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/images:
+    newFile: null
+    oldFile: !uuid '837f2d22435af017ada38abbc141df192d58d09d'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/images/captcha.jpeg:
+    newFile: null
+    oldFile: !uuid 'bc460b0e49f2581f8719642e20349e576e77670d'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/images/datagrid:
+    newFile: null
+    oldFile: !uuid '4ab9d5c24bc8de4b84658e825678397071b094d3'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/images/datagrid/AU.gif:
+    newFile: null
+    oldFile: !uuid '5269c6a0e0a2c5ff0554266d9fdb854c5e8c2807'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/images/datagrid/BR.gif:
+    newFile: null
+    oldFile: !uuid '8c8661626bae57026266d56824709a9283d8c7ff'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/images/datagrid/CN.gif:
+    newFile: null
+    oldFile: !uuid 'b052530978823707ba275dd861a188e55cc0f181'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/images/datagrid/DE.gif:
+    newFile: null
+    oldFile: !uuid 'deb64b067bc430e7c11959e05ace7395fb55bd7c'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/images/datagrid/FR.gif:
+    newFile: null
+    oldFile: !uuid '43d0b80172e97a08147c64f811ea5c7775ad46fb'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/images/datagrid/HK.gif:
+    newFile: null
+    oldFile: !uuid '798af96da88c89898a93887904e8e86bb31e1e33'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/images/datagrid/JP.gif:
+    newFile: null
+    oldFile: !uuid '444c1d05c59ed6a43e63fc7cc7b809f47422ccca'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/images/datagrid/UK.gif:
+    newFile: null
+    oldFile: !uuid 'b42502de4b0108d98a6ce443709bd95e88523352'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/images/datagrid/US.gif:
+    newFile: null
+    oldFile: !uuid '8f198f73a777a6af8d3c8e0b9b2ce48168a216dd'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/images/loginbg_01.jpg:
+    newFile: null
+    oldFile: !uuid 'f64666f043c4a17873bf0fdf2ccfa31efee69117'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/images/loginbg_02.jpg:
+    newFile: null
+    oldFile: !uuid '83f4e920288294abb4b905486f0fa8251e2f2995'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/images/loginbg_03.jpg:
+    newFile: null
+    oldFile: !uuid '6649e8f6fcbd0f8e528503f6450595fe42227e7e'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/images/loginbg_04.jpg:
+    newFile: null
+    oldFile: !uuid '08aa51ef43e59950c9e194b5a46ba7a03fcd0b52'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/images/logo.png:
+    newFile: null
+    oldFile: !uuid '64232e8228d7f38241764351b32a1b0efda9056f'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/js:
+    newFile: null
+    oldFile: !uuid '5ce4040e8e3fbcfcb8c468a41cbc0a6b03c117e7'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/js/bjui-all.js:
+    newFile: null
+    oldFile: !uuid '64eb46922718467ab65785c3ca537ef799619026'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/js/jquery.cookie.js:
+    newFile: null
+    oldFile: !uuid '1bd9dc61249b7bbb8a0ef650edf3fd0da6a5f91c'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/js/sha256.js:
+    newFile: null
+    oldFile: !uuid '8b5b2ff4895ce0611233a14908d6884be65c2fac'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/other:
+    newFile: null
+    oldFile: !uuid 'a1d4d4acca1eae5f5dce25f95884e4a8198890b7'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/other/html5shiv.min.js:
+    newFile: null
+    oldFile: !uuid 'd4c731ad54418e550e181c6cb49be869076e51d8'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/other/jquery.iframe-transport.js:
+    newFile: null
+    oldFile: !uuid 'e8ef07736614ab5f1f726ee2b5d7e94716433e79'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/other/respond.min.js:
+    newFile: null
+    oldFile: !uuid '80a7b69dcce544dfa87ae851d92acdae0e93fb0f'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes:
+    newFile: null
+    oldFile: !uuid 'e434ab8eddab0d1933a7da890f910cdbd26f89e6'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/blue:
+    newFile: null
+    oldFile: !uuid '88e318c08903f3617c3001d2823eacd18da2b3ac'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/blue/core.css:
+    newFile: null
+    oldFile: !uuid '3505acc43a4f0a533ce7a2d8cd281f77015728e3'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/blue/purple.png:
+    newFile: null
+    oldFile: !uuid 'f4b74458e75f93aae6fc4a8adf7c6d841ea13cd5'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/blue/purple@2x.png:
+    newFile: null
+    oldFile: !uuid '17e0077883465a86dbc25edcd31a7f7ee3656e61'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/blue/topbg.png:
+    newFile: null
+    oldFile: !uuid '4ed814553bfbf9d5256ecec8a58ec1baf31a68f8'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/blue/zTreeStandard.png:
+    newFile: null
+    oldFile: !uuid '9d18fbe8b03d41025636be8531d967ab2bfc85d1'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/css:
+    newFile: null
+    oldFile: !uuid 'be45293c636694e7e12deaf37e58226d4cef26b4'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/css/FA:
+    newFile: null
+    oldFile: !uuid '3b71875d7abf011717748c96069b8f44d9aab50d'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/css/FA/css:
+    newFile: null
+    oldFile: !uuid '6bfce8bc2f7f052f54d08886ca20c26afc63f724'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/css/FA/css/font-awesome.css:
+    newFile: null
+    oldFile: !uuid '880eb825032d4ae1012e8f54f8e5e615817116ac'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/css/FA/fonts:
+    newFile: null
+    oldFile: !uuid 'c3532df14a3a8eb75cd307ce6daee459ec56ccf5'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/css/FA/fonts/FontAwesome.otf:
+    newFile: null
+    oldFile: !uuid '681bdd4d4c8dddbaeb4d4f2a1f58c38cad92afe0'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/css/FA/fonts/fontawesome-webfont.eot:
+    newFile: null
+    oldFile: !uuid 'a30335d748c65c0bab5880b4e6dba53f5c79206c'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/css/FA/fonts/fontawesome-webfont.svg:
+    newFile: null
+    oldFile: !uuid '6fd19abcb9ec83a925f17e9db1d44ad3fe2699b3'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/css/FA/fonts/fontawesome-webfont.ttf:
+    newFile: null
+    oldFile: !uuid 'd7994e13086b1ac1a216bd754c93e1bccd65f237'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/css/FA/fonts/fontawesome-webfont.woff:
+    newFile: null
+    oldFile: !uuid '6fd4ede0f30f170eecb4156beb7235bf01fff00b'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/css/FA/fonts/fontawesome-webfont.woff2:
+    newFile: null
+    oldFile: !uuid '5560193ccc5d768df40766ba54491f1822ed683c'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/css/bootstrap.css:
+    newFile: null
+    oldFile: !uuid '377dff300420b0b7be693dfe4d18d180b0f04252'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/css/ie7.css:
+    newFile: null
+    oldFile: !uuid 'b632f15bd055260fa99223f7ed0acfeb8afc2e20'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/css/img:
+    newFile: null
+    oldFile: !uuid '63ca7014f354c33f366e45ca51a300f4b941c9ae'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/css/img/changed-flag-icon.png:
+    newFile: null
+    oldFile: !uuid '42f57bd6dbf8538662f67234a78a16b7730f0936'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/css/img/diy:
+    newFile: null
+    oldFile: !uuid 'a0f7c878936d7aa3050c745e932919e0d7dd5af6'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/css/img/diy/1_close.png:
+    newFile: null
+    oldFile: !uuid '68ccb3c3b90170df7cddab1fe6e8e455c3854573'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/css/img/diy/1_open.png:
+    newFile: null
+    oldFile: !uuid 'd6ff36d3a99012028c6cf3d4009719108e31bc79'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/css/img/diy/2.png:
+    newFile: null
+    oldFile: !uuid '9eff506ba391fa1ddf0dc44d02ae84403700321b'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/css/img/diy/3.png:
+    newFile: null
+    oldFile: !uuid 'd7ba6d0c675c35197e2dae8a379155e67c0ac6cb'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/css/img/diy/4.png:
+    newFile: null
+    oldFile: !uuid '753e2bfd5725b1f32cda4e41c36a448a4b12c280'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/css/img/diy/5.png:
+    newFile: null
+    oldFile: !uuid '0c5eccd562c303cf5197629ef5f2666b6180bd48'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/css/img/diy/6.png:
+    newFile: null
+    oldFile: !uuid '070b8352d7770e6be4b6f3cbc61f7ee21ae3e4da'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/css/img/diy/7.png:
+    newFile: null
+    oldFile: !uuid '532b037f2045cfa26c62d23cb928ff7405f6fc18'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/css/img/diy/8.png:
+    newFile: null
+    oldFile: !uuid 'a8f3a86e7091de4acdd38745f74b30f0f3d40f9e'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/css/img/diy/9.png:
+    newFile: null
+    oldFile: !uuid '4db73cd41c95bc74496175625ce9ed3737e599f5'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/css/img/error-bg.png:
+    newFile: null
+    oldFile: !uuid '598a17bff4ddb9afd06b186aac5194ed5dea6088'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/css/img/line_conn.gif:
+    newFile: null
+    oldFile: !uuid 'd561d36a915776730eb3069cee4c949f027667ed'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/css/img/line_conn.png:
+    newFile: null
+    oldFile: !uuid 'b733a7102ce98f19a2e6b5a9614c9309f9228948'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/css/img/loading.gif:
+    newFile: null
+    oldFile: !uuid 'e8c289293b11c889703d83dce6631fce90da4630'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/css/img/logo.png:
+    newFile: null
+    oldFile: !uuid '8e7af9c2cb7a2fe977a9423f16c2672f3aab2695'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/css/style.css:
+    newFile: null
+    oldFile: !uuid '28c47b2cba934057852f0a5e85625a0e613a1793'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/default:
+    newFile: null
+    oldFile: !uuid 'cd0bf2ab48a3dba417d0f95515f76251544b1ad4'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/default/core.css:
+    newFile: null
+    oldFile: !uuid '6fd666d9c343c1612ebb5580dfed8e34348bd214'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/default/purple.png:
+    newFile: null
+    oldFile: !uuid '42d1b49a0d42a16fb9263c83f6e989b7fe9a33a6'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/default/purple@2x.png:
+    newFile: null
+    oldFile: !uuid 'e42c868b935a7eec618b9bc7d7f4e66a311443cc'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/default/topbg.png:
+    newFile: null
+    oldFile: !uuid '8e41d4ff2a4be656b13a2b36bade3b07619993c8'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/default/zTreeStandard.png:
+    newFile: null
+    oldFile: !uuid '9d18fbe8b03d41025636be8531d967ab2bfc85d1'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/fonts:
+    newFile: null
+    oldFile: !uuid '05ea5c382cdc7abe948d5ebe0822de2495d2ecef'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/fonts/glyphicons-halflings-regular.eot:
+    newFile: null
+    oldFile: !uuid '4a4ca865d67e86f961bc6e2ef00bffa4e34bb9ed'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/fonts/glyphicons-halflings-regular.svg:
+    newFile: null
+    oldFile: !uuid 'e3e2dc739dd851f2d7d291be032e30b909e3e95f'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/fonts/glyphicons-halflings-regular.ttf:
+    newFile: null
+    oldFile: !uuid '67fa00bf83801d2fa568546b982c80d27f6ef74e'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/fonts/glyphicons-halflings-regular.woff:
+    newFile: null
+    oldFile: !uuid '8c54182aa5d4d1ab3c9171976b615c1dcb1dc187'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/green:
+    newFile: null
+    oldFile: !uuid 'ce80c9f8c64fb20f947bdbc0954ac8dd16c257d6'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/green/core.css:
+    newFile: null
+    oldFile: !uuid 'ab29067ca5e788831de3d8d429a3de6415c4aea4'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/green/purple.png:
+    newFile: null
+    oldFile: !uuid '17bdefbbbf565b7e23f7de951610b628f0e02dad'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/green/purple@2x.png:
+    newFile: null
+    oldFile: !uuid 'd68bb40178dde83d63fd63f02921b3cd2701a4d5'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/green/topbg.png:
+    newFile: null
+    oldFile: !uuid '599fc639db464449835e98eee92de8bda3d179a7'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/green/zTreeStandard.png:
+    newFile: null
+    oldFile: !uuid '1522e005fd780928b1bf7bb163cb3620ac1c341b'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/orange:
+    newFile: null
+    oldFile: !uuid '5499c4ce3934180b036eb0a57648a843db0341b1'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/orange/core.css:
+    newFile: null
+    oldFile: !uuid 'c9212010e088d395832efdea7ea7d141c3f55660'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/orange/purple.png:
+    newFile: null
+    oldFile: !uuid '8e4d23679008360935125e7b6eefc08ed6ca7758'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/orange/purple@2x.png:
+    newFile: null
+    oldFile: !uuid 'ca9e2a9c4911f748d73004dcb810f653be68c522'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/orange/topbg.png:
+    newFile: null
+    oldFile: !uuid '9adb18de3c12ef85b76c0128b8dacc84cb4869fd'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/orange/zTreeStandard.png:
+    newFile: null
+    oldFile: !uuid '94f50f893a8fabc266bf4308a901071099c6e2d5'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/purple:
+    newFile: null
+    oldFile: !uuid '8368cae43a12700596a20e8b5e4b162b88ff4992'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/purple/core.css:
+    newFile: null
+    oldFile: !uuid '172af88ea99658abdfcddb305e6812f154b3f2bf'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/purple/purple.png:
+    newFile: null
+    oldFile: !uuid '820566aa6ccd7bf4cb83c9e9d839a4bbd4197bd1'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/purple/purple@2x.png:
+    newFile: null
+    oldFile: !uuid '75dc0c2ca49f79d5421b98f79232bd8d35d99324'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/purple/topbg.png:
+    newFile: null
+    oldFile: !uuid '4b22d1624e1b1cf43fa588cf8c6bd01790f62852'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/BJUI/themes/purple/zTreeStandard.png:
+    newFile: null
+    oldFile: !uuid '24a9c9811c101422c03129f6035f76e0ca7c38cd'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/bootstrap.js:
+    newFile: null
+    oldFile: !uuid '53da1c77c084d31b416536df1d7c055a5e362637'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/bootstrapSelect:
+    newFile: null
+    oldFile: !uuid 'ce2e77260a5a6a3804a785284fc90fff9487863c'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/bootstrapSelect/bootstrap-select.css:
+    newFile: null
+    oldFile: !uuid 'eb319608d60acfc8892c05c73555c3067fe8d84c'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/bootstrapSelect/bootstrap-select.js:
+    newFile: null
+    oldFile: !uuid '860ae1ce966e61cf488f1a0d61ba0ff3e83007a6'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/bootstrapSelect/defaults-zh_CN.js:
+    newFile: null
+    oldFile: !uuid '1551aa8bff65ee2d75e14c322390635651a5642c'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/bootstrapSelect/defaults-zh_CN.min.js:
+    newFile: null
+    oldFile: !uuid '829c3a62e226dcbd057fae52eedcced7f6007c71'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/colorpicker:
+    newFile: null
+    oldFile: !uuid 'a219e1581bcba22551d55a44b9ce6cd351a57c04'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/colorpicker/css:
+    newFile: null
+    oldFile: !uuid '66e9bbf11c982eb32358992ecc60dbf87a031108'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/colorpicker/css/bootstrap-colorpicker.css:
+    newFile: null
+    oldFile: !uuid 'ca0a3037f6e4cffe4a8705c0ffbfbf0db12943da'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/colorpicker/css/bootstrap-colorpicker.min.css:
+    newFile: null
+    oldFile: !uuid '98df370d60ba49d07d3f0695a18ee224fd910239'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/colorpicker/img:
+    newFile: null
+    oldFile: !uuid '58bf87f9043dfd81805ace49ddcef82dc1bc1c10'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/colorpicker/img/bootstrap-colorpicker:
+    newFile: null
+    oldFile: !uuid 'e078653cca378ca2ee9bc0bd7f0b90e7c6f93c29'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/colorpicker/img/bootstrap-colorpicker/alpha-horizontal.png:
+    newFile: null
+    oldFile: !uuid 'd0a65c08b0ed34d969cb0e93165a2e8b0ef9dbd7'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/colorpicker/img/bootstrap-colorpicker/alpha.png:
+    newFile: null
+    oldFile: !uuid '38043f1c85f20fe8ce37ad380bebe2d42d14fb29'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/colorpicker/img/bootstrap-colorpicker/hue-horizontal.png:
+    newFile: null
+    oldFile: !uuid 'a0d9add8e7b12c40e3aef1a095e3ae15ac2e4969'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/colorpicker/img/bootstrap-colorpicker/hue.png:
+    newFile: null
+    oldFile: !uuid 'd89560e999f86c349ddc78c298b0328293f13e1e'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/colorpicker/img/bootstrap-colorpicker/saturation.png:
+    newFile: null
+    oldFile: !uuid '594ae50ed77608cf6373d6b39e5cacb9f63b7bbe'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/colorpicker/js:
+    newFile: null
+    oldFile: !uuid '00270e9aebfedafcc5f57fa8c3e27700be057c7d'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/colorpicker/js/bootstrap-colorpicker.js:
+    newFile: null
+    oldFile: !uuid 'b4f6075aa12631846437a5c4cece3924f024d044'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/download:
+    newFile: null
+    oldFile: !uuid '14ea6fc733aad523518a2df2fb14589f7fa8777e'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/download/jquery.fileDownload.js:
+    newFile: null
+    oldFile: !uuid '862454f02a245e18fe2b4ce7d111fc74b1c4ed5d'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/dragsort:
+    newFile: null
+    oldFile: !uuid '7ca3e1ab1cb078721767b0d06fa1f0fbf18815d0'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/dragsort/jquery.dragsort-0.5.1.js:
+    newFile: null
+    oldFile: !uuid 'aa813fc4de515c1b43f8b6e3eac0dff4b6743716'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/echarts:
+    newFile: null
+    oldFile: !uuid '2374a5a7237144be2cc24251f70b64e5109edca8'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/echarts/chart:
+    newFile: null
+    oldFile: !uuid '4762c4e2d0dc4a217b287a21570e3ecdb4b7363a'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/echarts/chart/eventRiver.js:
+    newFile: null
+    oldFile: !uuid '9f93c4e570e8270f0e088001979447b4b89520d9'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/echarts/chart/k.js:
+    newFile: null
+    oldFile: !uuid '3a07f0c24a36859e123aa1feab6732e9388437ce'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/echarts/theme:
+    newFile: null
+    oldFile: !uuid 'd61d9e1800223f26b6d9b97617afe1256b1f9fe3'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/echarts/theme/blue.js:
+    newFile: null
+    oldFile: !uuid '7c687b5cf37d187cc3dc19b39631eb5b213213d0'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/echarts/theme/dark.js:
+    newFile: null
+    oldFile: !uuid 'e6b6d8f51714712ef3bdeaa56b90bf06d88f42cb'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/echarts/theme/default.js:
+    newFile: null
+    oldFile: !uuid 'a4f68e6e708b22e06e6552961ebb55a6fdab889e'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/echarts/theme/gray.js:
+    newFile: null
+    oldFile: !uuid '32b949727604cf7ad7bd6dcdf7ecedf1f2ab8fce'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/echarts/theme/green.js:
+    newFile: null
+    oldFile: !uuid '20e9c94c25e60a849f13cf6b0eac4ebdd4070bf7'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/echarts/theme/helianthus.js:
+    newFile: null
+    oldFile: !uuid 'e610677bea42fcf0811d498fac9cdb3f29aa059f'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/echarts/theme/infographic.js:
+    newFile: null
+    oldFile: !uuid '2d5c8787974c0236f946e989945c8e150f1b0b99'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/echarts/theme/macarons.js:
+    newFile: null
+    oldFile: !uuid 'dcb69d75f27f5ebad77751c533ddc391f0525978'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/echarts/theme/red.js:
+    newFile: null
+    oldFile: !uuid 'f05a4fa8ab91e098348e94e44a2128542aa0a2a5'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/echarts/theme/shine.js:
+    newFile: null
+    oldFile: !uuid '9061c251edd238c33a2bda99c6ffc281b7981341'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/highcharts:
+    newFile: null
+    oldFile: !uuid '2fb7f51ba934c704e7659347df77740a8ce75204'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/highcharts/adapters:
+    newFile: null
+    oldFile: !uuid '856a5c4d88d3c815857dcbac6ad5c054a0f7ef4e'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/highcharts/adapters/standalone-framework.js:
+    newFile: null
+    oldFile: !uuid 'c3ff31b404f26b9b5f8f7075b6c528b014dc604b'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/highcharts/highcharts-3d.js:
+    newFile: null
+    oldFile: !uuid '34680d18ba8da4b6e7d49e1bc40d9c21412beaa2'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/highcharts/highcharts-all.js:
+    newFile: null
+    oldFile: !uuid '350db6efa04a3ff7706ea98ab512568d303f84fd'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/highcharts/highcharts-more.js:
+    newFile: null
+    oldFile: !uuid 'e3c5c695c99239e93b659babc19829803469e4cf'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/highcharts/highcharts.js:
+    newFile: null
+    oldFile: !uuid 'd37670c432ff9b38854d2b341367adeff1635609'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/highcharts/modules:
+    newFile: null
+    oldFile: !uuid '39c20f9a57ece122673dbe07cad3ce6340fbaf84'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/highcharts/modules/canvas-tools.js:
+    newFile: null
+    oldFile: !uuid '8c854df28fa51fa1742e2f9af2a6ae4e08d5fe60'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/highcharts/modules/data.js:
+    newFile: null
+    oldFile: !uuid '42a5fdba4c835c052eccce618bce2797c4965848'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/highcharts/modules/drilldown.js:
+    newFile: null
+    oldFile: !uuid 'f8e3517699bc776d76b633e4be96d76a7ea35a46'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/highcharts/modules/exporting.js:
+    newFile: null
+    oldFile: !uuid '6e2e417f4bb24a03a0316c9f3483c4f37615ccf9'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/highcharts/modules/funnel.js:
+    newFile: null
+    oldFile: !uuid '8a8a192ff22e3d06ec8d2ba70e43d5d150881508'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/highcharts/modules/heatmap.js:
+    newFile: null
+    oldFile: !uuid '6d9705c8be637738148d63addc3b19bdae1ca801'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/highcharts/modules/no-data-to-display.js:
+    newFile: null
+    oldFile: !uuid '99ea2c120fd3a5e472ddce903f0ddf54b5883987'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/highcharts/modules/solid-gauge.js:
+    newFile: null
+    oldFile: !uuid '283ac429ab12ce7be585fcccee5abb3664dd43dd'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/highcharts/themes:
+    newFile: null
+    oldFile: !uuid 'e5c3cca88104e4eb2d2429f8cb36c1474c4bdc7b'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/highcharts/themes/dark-blue.js:
+    newFile: null
+    oldFile: !uuid '7cf7138ab0bfe06204707b5d993b7d4884fd3be1'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/highcharts/themes/dark-green.js:
+    newFile: null
+    oldFile: !uuid '4a7ad586a2aacb726bc565167cb1382101065abb'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/highcharts/themes/dark-unica.js:
+    newFile: null
+    oldFile: !uuid '4f1f8df5d91cb661afd62c86f9bec5f3106a6475'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/highcharts/themes/gray.js:
+    newFile: null
+    oldFile: !uuid 'd9a40169fd68f586fbabbf66a9bd76767b2fafd3'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/highcharts/themes/grid-light.js:
+    newFile: null
+    oldFile: !uuid 'acf53aecec26e32b3254e8fbae8c1657f7ab26a5'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/highcharts/themes/grid.js:
+    newFile: null
+    oldFile: !uuid '70342f5ec8d8849fb8baf75aa01b897028a04ce3'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/highcharts/themes/sand-signika.js:
+    newFile: null
+    oldFile: !uuid '2f1e34ed9b9c7250ecfd51baa6a5f314b93d594e'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/highcharts/themes/skies.js:
+    newFile: null
+    oldFile: !uuid 'd58b1f24682157145b618e7eb787e93befe01b5c'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/icheck:
+    newFile: null
+    oldFile: !uuid 'a9b50963cb49ccc430d79044463f57631fdd6fbe'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/icheck/icheck.js:
+    newFile: null
+    oldFile: !uuid 'b4da5ba558596cfca4854702a70aa81cdc35d2c5'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/icheck/icheck.min.js:
+    newFile: null
+    oldFile: !uuid '921eae94e07efdef37f2d6b7604e23083397f93d'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/jqGrid:
+    newFile: null
+    oldFile: !uuid '5aa8b06facfb0758bf3f54594303ec2fbe768de9'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/jqGrid/i18n:
+    newFile: null
+    oldFile: !uuid 'a5e09e373e5f9e44ca81c2d7cc9ba02be15c5531'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/jqGrid/i18n/grid.locale-ar.js:
+    newFile: null
+    oldFile: !uuid 'b557e053740e79ed6a8313cfbd57beb90fd80362'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/jqGrid/i18n/grid.locale-bg.js:
+    newFile: null
+    oldFile: !uuid '9c9d2539e46ef8e1f227f3ab4ca83bc71590aeb7'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/jqGrid/i18n/grid.locale-bg1251.js:
+    newFile: null
+    oldFile: !uuid '03c249d45c0e50faf9c4ce233e4f0b29302239c4'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/jqGrid/i18n/grid.locale-cat.js:
+    newFile: null
+    oldFile: !uuid 'e3a8dd494b957cd672fbe6b5b859be6cc691df93'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/jqGrid/i18n/grid.locale-cn.js:
+    newFile: null
+    oldFile: !uuid 'e369c18ea9edf5cc1dd92258822eca8e08feb477'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/jqGrid/i18n/grid.locale-cs.js:
+    newFile: null
+    oldFile: !uuid '5df483959d2a7769a709075cdb6f3bf69301069c'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/jqGrid/i18n/grid.locale-da.js:
+    newFile: null
+    oldFile: !uuid '073a61aac089c86c132101120c8549ade5cf10e5'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/jqGrid/i18n/grid.locale-de.js:
+    newFile: null
+    oldFile: !uuid '442e37cd69b1996cefd25454e880844eebadd728'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/jqGrid/i18n/grid.locale-dk.js:
+    newFile: null
+    oldFile: !uuid '05ac13923a93dcc53b0bd0bf9833fa48424055c4'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/jqGrid/i18n/grid.locale-el.js:
+    newFile: null
+    oldFile: !uuid '00baeeaf7ff30977d30ae85269b6e6b80a061b9e'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/jqGrid/i18n/grid.locale-en.js:
+    newFile: null
+    oldFile: !uuid '6929885ecfd6960369b43871df985f3080c7e699'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/jqGrid/i18n/grid.locale-es.js:
+    newFile: null
+    oldFile: !uuid '96c935b4b3d08432cd9632c2bf894d34b31cffe6'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/jqGrid/i18n/grid.locale-fa.js:
+    newFile: null
+    oldFile: !uuid 'fe6f669b0b74ed480d111566d0a8320082d03167'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/jqGrid/i18n/grid.locale-fi.js:
+    newFile: null
+    oldFile: !uuid 'a78ed9067c76b007ec9c79feae46018cf0dd6c40'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/jqGrid/i18n/grid.locale-fr.js:
+    newFile: null
+    oldFile: !uuid '7b8d9520b681e7b2b00c67411aac335b497f06f5'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/jqGrid/i18n/grid.locale-gl.js:
+    newFile: null
+    oldFile: !uuid '897f6cc0d1e0d607d21e00a0e5b4b36811f43494'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/jqGrid/i18n/grid.locale-he.js:
+    newFile: null
+    oldFile: !uuid 'faeab3bd7331afb5fe029cee6d3b640c387a586c'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/jqGrid/i18n/grid.locale-hr.js:
+    newFile: null
+    oldFile: !uuid 'a827f0e89c7f4b926d0fd7b92970cbf2b6c81414'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/jqGrid/i18n/grid.locale-hr1250.js:
+    newFile: null
+    oldFile: !uuid '12574863fcee8e58771dce804442b67bc6ecf29f'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/jqGrid/i18n/grid.locale-hu.js:
+    newFile: null
+    oldFile: !uuid '714786645500d2f75b1f809087bf8faad0b317bf'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/jqGrid/i18n/grid.locale-id.js:
+    newFile: null
+    oldFile: !uuid '2ff1dd96231edb9f53a24cfb0e02539bc437dcf6'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/jqGrid/i18n/grid.locale-is.js:
+    newFile: null
+    oldFile: !uuid 'bf4d6b296a73e210d5a8c3d76b2cce1d5a42daff'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/jqGrid/i18n/grid.locale-it.js:
+    newFile: null
+    oldFile: !uuid 'd323ac127fba7c4590704fece7921edcc35c3990'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/jqGrid/i18n/grid.locale-ja.js:
+    newFile: null
+    oldFile: !uuid '0d801adb5f8d0bb584169a5b1de9168c5c9499b6'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/jqGrid/i18n/grid.locale-kr.js:
+    newFile: null
+    oldFile: !uuid '54c52ecd1048e07d246304b6c0c62baa384b59ef'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/jqGrid/i18n/grid.locale-lt.js:
+    newFile: null
+    oldFile: !uuid '69a0421fda8eee85bd67094f38c297b79ce8d338'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/jqGrid/i18n/grid.locale-mne.js:
+    newFile: null
+    oldFile: !uuid 'bf663ca4dbe0123572856402b0d4b899f5c81c5c'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/jqGrid/i18n/grid.locale-nl.js:
+    newFile: null
+    oldFile: !uuid '46602e996f315949cdfe33ae26ff7628b6019a69'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/jqGrid/i18n/grid.locale-no.js:
+    newFile: null
+    oldFile: !uuid '9f129ebdb2ab80b2e0c572343899a879d8585f6e'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/jqGrid/i18n/grid.locale-pl.js:
+    newFile: null
+    oldFile: !uuid 'e3dd924d6ad82a32c246705ae0e5277efa14e3ba'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/jqGrid/i18n/grid.locale-pt-br.js:
+    newFile: null
+    oldFile: !uuid '86abb43a4d227dd2306ab0f00a8ee9a6c4e69e93'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/jqGrid/i18n/grid.locale-pt.js:
+    newFile: null
+    oldFile: !uuid '742ebdbe0708bcc09c2ba0d07da9d305716630cc'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/jqGrid/i18n/grid.locale-ro.js:
+    newFile: null
+    oldFile: !uuid 'ea6de24666d627c4532bdf4ce8f0f45a95897eca'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/jqGrid/i18n/grid.locale-ru.js:
+    newFile: null
+    oldFile: !uuid '8809c198fb23087285314152a6e9b49fec013241'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/jqGrid/i18n/grid.locale-sk.js:
+    newFile: null
+    oldFile: !uuid '9c044aa1035e071c1b2d8f2906af2a3bb16dbb5f'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/jqGrid/i18n/grid.locale-sr-latin.js:
+    newFile: null
+    oldFile: !uuid '075c1b796b993bbf7b2ab4cd7a71f81961506686'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/jqGrid/i18n/grid.locale-sr.js:
+    newFile: null
+    oldFile: !uuid '4e2f4701fcc4196403a2aeebb1f79b741e2ab122'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/jqGrid/i18n/grid.locale-sv.js:
+    newFile: null
+    oldFile: !uuid 'd47220df66d4d19bd981968e831a6385f71644e3'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/jqGrid/i18n/grid.locale-th.js:
+    newFile: null
+    oldFile: !uuid 'ab81d1f319dfa69e172305b9d4f687510672fcc5'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/jqGrid/i18n/grid.locale-tr.js:
+    newFile: null
+    oldFile: !uuid '57b8048b436558f37bb11857ad72fd0c13871149'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/jqGrid/i18n/grid.locale-tw.js:
+    newFile: null
+    oldFile: !uuid '87d33ba0fd04432c7235a0b539699d5eb71bc19e'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/jqGrid/i18n/grid.locale-ua.js:
+    newFile: null
+    oldFile: !uuid '4ff495df115703231b555eae98bdd52e7874a035'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/jqGrid/i18n/grid.locale-vi.js:
+    newFile: null
+    oldFile: !uuid '741c64db4848d9c149556e9b923803e1f81107d5'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/jqGrid/jquery.jqGrid.src.js:
+    newFile: null
+    oldFile: !uuid 'cf9ca90a6c640e04d9ae37fd7d79cb94c9aee4eb'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/js:
+    newFile: null
+    oldFile: !uuid '3372213cac36a17a165fdf578902e13325581d75'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/js/purl.js:
+    newFile: null
+    oldFile: !uuid 'd785ff3a1690d832c85d8104035a4ad3aad399d1'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/js/util.js:
+    newFile: null
+    oldFile: !uuid '3fd54aec0996b53c9c6ea64ea5d1a30169c172ba'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10:
+    newFile: null
+    oldFile: !uuid '7bcba0b9a0f08290cfc37dbfc173306797b11788'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/editor-content.css:
+    newFile: null
+    oldFile: !uuid 'eaa5ba3bc314a683204fe267a169c3242c3f6801'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/kindeditor-all-min.js:
+    newFile: null
+    oldFile: !uuid '51fe81e11fe9d6c598f311cc9f1fa23304ffbb15'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/kindeditor-all.js:
+    newFile: null
+    oldFile: !uuid 'f19aca61f4eb2fd74eb8fb229fa37c9b853ec816'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/kindeditor-min.js:
+    newFile: null
+    oldFile: !uuid '7b35f52fbf05a924ee82fecea27387a22f689e51'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/kindeditor.js:
+    newFile: null
+    oldFile: !uuid '7851a1bb757081616a3a509df1e969f009adb1f5'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/lang:
+    newFile: null
+    oldFile: !uuid '9c30e20c1d400d9a1a6e61ba2b4765784f1fd78d'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/lang/ar.js:
+    newFile: null
+    oldFile: !uuid '051619945e3586ceaed1d3f24437689034e44db0'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/lang/en.js:
+    newFile: null
+    oldFile: !uuid '39ce9098338b3a49a985a70e94f4a37941c4280e'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/lang/ko.js:
+    newFile: null
+    oldFile: !uuid '23410428b50a7aea0ccbeb40616fb5c931b8d79a'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/lang/zh_CN.js:
+    newFile: null
+    oldFile: !uuid 'c8506f3131e9d881cfed8e565c63c3e6f5300b1b'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/lang/zh_TW.js:
+    newFile: null
+    oldFile: !uuid 'ceac2afd9845dbb6cd860da9bd912cfcc9952523'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/license.txt:
+    newFile: null
+    oldFile: !uuid '4362b49151d7b34ef83b3067a8f9c9f877d72a0e'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/php:
+    newFile: null
+    oldFile: !uuid '093c0e0f046e657850e7aa92a3155755b69b8953'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/php/JSON.php:
+    newFile: null
+    oldFile: !uuid '0cddbddb41a372887ebdb6421d68c988a2713d4f'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/php/demo.php:
+    newFile: null
+    oldFile: !uuid '7ccb2d982428b8ada1b3c9d323de41d69a0f333f'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/php/file_manager_json.php:
+    newFile: null
+    oldFile: !uuid '2c6c1f31239d344be108d5025e8ac85925d47e63'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/php/upload_json.php:
+    newFile: null
+    oldFile: !uuid '9fa5631b6e9c923fb1d81c37ac4dbd513489c2b2'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins:
+    newFile: null
+    oldFile: !uuid '795aa4af6bcc773cb6c6dd419e56c70936a30e63'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/anchor:
+    newFile: null
+    oldFile: !uuid '1b2e4f65edc2e3c449c3d70f831c876ca19d11f5'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/anchor/anchor.js:
+    newFile: null
+    oldFile: !uuid '55ab894687def303ffa0a689cc9c49d984c19fb6'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/autoheight:
+    newFile: null
+    oldFile: !uuid '87e892df55f86a946b30dff828b60531a6742907'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/autoheight/autoheight.js:
+    newFile: null
+    oldFile: !uuid '546578bfaee91cc11f5eb73b7c5379e6b79434ea'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/baidumap:
+    newFile: null
+    oldFile: !uuid '0224d7a32e2f1a0edc277fec1e468f513593c423'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/baidumap/baidumap.js:
+    newFile: null
+    oldFile: !uuid '12751c4415c92275bba6eb14c50647ebf53d0dc6'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/baidumap/index.html:
+    newFile: null
+    oldFile: !uuid 'e106d1ac116e91127d58193c77a4369ce06f0260'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/baidumap/map.html:
+    newFile: null
+    oldFile: !uuid 'b65ea1d6b19c7ecd5dc49bc57cb002fc41980ae3'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/clearhtml:
+    newFile: null
+    oldFile: !uuid 'dbe059595d482267c49be6cea41f8736c4ecdceb'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/clearhtml/clearhtml.js:
+    newFile: null
+    oldFile: !uuid '1bf0e5dcad91a42d114b7e3acc426332357e1e5f'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/code:
+    newFile: null
+    oldFile: !uuid 'e97e5cfdf976d2a1501c40c54d9735a15338de58'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/code/code.js:
+    newFile: null
+    oldFile: !uuid '85e42259b744c3d865164fe68fc0399e518385b5'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/code/prettify.css:
+    newFile: null
+    oldFile: !uuid 'b8287e5f693f6e152b02060f57babb51494812bb'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/code/prettify.js:
+    newFile: null
+    oldFile: !uuid 'eef5ad7e6a07676b3919146d583d1c190bf1e163'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/emoticons:
+    newFile: null
+    oldFile: !uuid '74ab01d9d014a5826f8debc3aa095e57ee332cc5'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/emoticons/emoticons.js:
+    newFile: null
+    oldFile: !uuid 'a9900668b97356f0b291e3feb7c7331ef18a0eab'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/emoticons/images:
+    newFile: null
+    oldFile: !uuid '9fdc1ed5950d962b97fa7389c5c268aa5e7ee14b'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/emoticons/images/0.gif:
+    newFile: null
+    oldFile: !uuid '5be27cb0ecf9a21240e151962f59f94a2ce361ad'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/emoticons/images/1.gif:
+    newFile: null
+    oldFile: !uuid 'a2644a9ee85fd75515d8368633118e5df1a1bb3b'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/emoticons/images/10.gif:
+    newFile: null
+    oldFile: !uuid '905c15be3cee3fca3e8f0e48f0ffcfeb911def34'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/emoticons/images/100.gif:
+    newFile: null
+    oldFile: !uuid '92ad35d2bf72018f7b5bec0b607625ccd29f42bd'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/emoticons/images/101.gif:
+    newFile: null
+    oldFile: !uuid '1f27663ae037c9be9646c26703aad9c0aa90c57b'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/emoticons/images/102.gif:
+    newFile: null
+    oldFile: !uuid '748ded1ac4351e1ee26715098281d70099355c20'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/emoticons/images/103.gif:
+    newFile: null
+    oldFile: !uuid 'be9eaa05445ef7dbb0c709fbca695bbf06c47ec3'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/emoticons/images/104.gif:
+    newFile: null
+    oldFile: !uuid 'd7c2066316bacf3736264353fcbf79a5e5d5f4d4'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/emoticons/images/105.gif:
+    newFile: null
+    oldFile: !uuid '2f353cadc85e447155e636b50ab392a99b36f664'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/emoticons/images/106.gif:
+    newFile: null
+    oldFile: !uuid '51935349b48efeac0e0d50a2cc809817015d32b8'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/emoticons/images/107.gif:
+    newFile: null
+    oldFile: !uuid '70d38d3bb278969ef82a3c666c5e85192ad65948'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/emoticons/images/108.gif:
+    newFile: null
+    oldFile: !uuid '749d500830dfca329998faa17603870723402469'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/emoticons/images/109.gif:
+    newFile: null
+    oldFile: !uuid '6f57d5642f1e3ae11479f04d3558b6e9714f07d2'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/emoticons/images/11.gif:
+    newFile: null
+    oldFile: !uuid 'b512dd5da196b15a6fa31115da13cb24730c14ef'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/emoticons/images/110.gif:
+    newFile: null
+    oldFile: !uuid 'e253abcff6a046ec78559c5403e2e617a268ecb7'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/emoticons/images/111.gif:
+    newFile: null
+    oldFile: !uuid '0c567233d0b370a84f638df0825064ad8d82645e'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/emoticons/images/112.gif:
+    newFile: null
+    oldFile: !uuid 'c8ddce88a45b7fe4703a663ef2e6a7044c977601'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/emoticons/images/113.gif:
+    newFile: null
+    oldFile: !uuid '272710453f6b8f6fc9b6c34192c52dfe5a538293'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/emoticons/images/114.gif:
+    newFile: null
+    oldFile: !uuid '53918e2ae600a026da6e13bd2c26cb49c309f026'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/emoticons/images/115.gif:
+    newFile: null
+    oldFile: !uuid '4db33697339ec31270ead8d928986ad0d6a13685'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/emoticons/images/116.gif:
+    newFile: null
+    oldFile: !uuid '57326bd2fd865df3a6d418f636e10f1b8d10a50f'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/emoticons/images/117.gif:
+    newFile: null
+    oldFile: !uuid '14611b6ef950a82aaf12e5c183b7c4f0edc7c243'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/emoticons/images/118.gif:
+    newFile: null
+    oldFile: !uuid '8c255004ceea385e7d193d36f9791885db5de933'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/emoticons/images/119.gif:
+    newFile: null
+    oldFile: !uuid '65bb468b950af19bb195dbfdc7f13c07d1006ae1'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/emoticons/images/12.gif:
+    newFile: null
+    oldFile: !uuid '547529cab6ec7ccc19719487e644b132b40f9d9c'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/emoticons/images/120.gif:
+    newFile: null
+    oldFile: !uuid '5ce77c05f0a63219bbc4623ae223c5b8cd6942c6'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/emoticons/images/121.gif:
+    newFile: null
+    oldFile: !uuid 'a021abaa6d811cf0562ff82ccb24fa76bb9508df'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/emoticons/images/122.gif:
+    newFile: null
+    oldFile: !uuid '9a79e111c4884ad613e3778ea862c02d7de0c46d'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/emoticons/images/123.gif:
+    newFile: null
+    oldFile: !uuid 'b9480be25497315da11e549ef9e000fc9dc1df2e'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/emoticons/images/124.gif:
+    newFile: null
+    oldFile: !uuid '7fed47728048476cde5365750a27699a67a6cfc0'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/emoticons/images/125.gif:
+    newFile: null
+    oldFile: !uuid 'e2c3c11c92c14fa76e5ae842af7e4b51a4cdec70'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/emoticons/images/126.gif:
+    newFile: null
+    oldFile: !uuid '24105c988898cc03bf21c4ef26df1f7fb6f34824'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/emoticons/images/127.gif:
+    newFile: null
+    oldFile: !uuid '0cead364a05f031b024181e7c778f8b206763312'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/emoticons/images/128.gif:
+    newFile: null
+    oldFile: !uuid '3185861818bab566315b08e4484ebe313322d779'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/emoticons/images/129.gif:
+    newFile: null
+    oldFile: !uuid 'ffd7c6ba331d56153f3366f181bd8ac78c845e98'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/emoticons/images/13.gif:
+    newFile: null
+    oldFile: !uuid '34753001ef80a38a08e8a75f23482f528313fd1b'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/emoticons/images/130.gif:
+    newFile: null
+    oldFile: !uuid 'd828e3da103099151b00c5e700302d8d9c69f6a7'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/emoticons/images/131.gif:
+    newFile: null
+    oldFile: !uuid 'dcb096f0dab7daf71a3347e0b04c2e5fa3ff33ba'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/emoticons/images/132.gif:
+    newFile: null
+    oldFile: !uuid '1b272a690b6740b94956037d021a9f0aa7136b64'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/emoticons/images/133.gif:
+    newFile: null
+    oldFile: !uuid '0d0e864264353800e362f1e7b160d9be9980a7b3'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/emoticons/images/134.gif:
+    newFile: null
+    oldFile: !uuid 'cf48356e334edfac6890439290f2b5d8f109b594'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/emoticons/images/16.gif:
+    newFile: null
+    oldFile: !uuid 'ed5d29f428799b04d07715ccec87fd504d5325b8'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/emoticons/images/18.gif:
+    newFile: null
+    oldFile: !uuid 'b6af2189c8c6e5edaee66142a76d2ca56b45e8bc'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/emoticons/images/19.gif:
+    newFile: null
+    oldFile: !uuid 'e045ff2af252ee7a3abbc468442ef7bd98ab16f9'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/emoticons/images/35.gif:
+    newFile: null
+    oldFile: !uuid 'd6da2c33ab4139ac5ec7becbb7221008e0805034'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/emoticons/images/40.gif:
+    newFile: null
+    oldFile: !uuid '24a8eb69149cc1b139e24d3ada04246c42e05c71'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/emoticons/images/42.gif:
+    newFile: null
+    oldFile: !uuid 'f60897e40b26a3cc6529cb4ab5c2de8cd35a15c5'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/emoticons/images/static.gif:
+    newFile: null
+    oldFile: !uuid 'b8c444b5a2e0e25d8bbc988d8d72d1582e15e904'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/filemanager:
+    newFile: null
+    oldFile: !uuid '733ec720a4b6003f8560b9ac2a113cb415f931ed'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/filemanager/images:
+    newFile: null
+    oldFile: !uuid 'da254defe52cfbbe8de66877bc184a4e9bebd88e'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/filemanager/images/file-16.gif:
+    newFile: null
+    oldFile: !uuid '2cf6e47ede1f2e26bd3452c23176ebaf79a5fd57'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/filemanager/images/folder-16.gif:
+    newFile: null
+    oldFile: !uuid '850b5a350d8943232c10a12e42b3edf0c0d78472'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/multiimage:
+    newFile: null
+    oldFile: !uuid '026beffc5eccea7ec77a5c20cfd8c7df000529f4'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/multiimage/images:
+    newFile: null
+    oldFile: !uuid '60e0389b67e17f44c6168d431fc7d14a8773aa55'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/multiimage/images/select-files-en.png:
+    newFile: null
+    oldFile: !uuid 'a926a6e3a335ca8794ccadfd633f2e835998010d'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/multiimage/images/select-files-zh_CN.png:
+    newFile: null
+    oldFile: !uuid '5a31d364bfdfb327b8762f247ca5c50cdfdfb6b4'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/multiimage/multiimage.js:
+    newFile: null
+    oldFile: !uuid '5e6ecf8ec43ff6a06a34ddf7cb85055b67b39b0a'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/table:
+    newFile: null
+    oldFile: !uuid '0db69b0b2f6db23d4b963eb04306b3fd18f18da8'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/table/table.js:
+    newFile: null
+    oldFile: !uuid '4033b6ae3039c66a60f9136279848a780fe0bd5e'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/template:
+    newFile: null
+    oldFile: !uuid '4b0240a54da7a710274f277f6572494d004c85e1'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/template/html:
+    newFile: null
+    oldFile: !uuid '2de37f7647c22d0677ab7c4924a8b830a49747a6'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/template/html/1.html:
+    newFile: null
+    oldFile: !uuid '034126b72b4050d4159695c176e9dec8be8ff580'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/plugins/template/html/3.html:
+    newFile: null
+    oldFile: !uuid '873f0c65d948664fdc858c210578e1e7c9c6ba59'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/themes:
+    newFile: null
+    oldFile: !uuid '971995512a12fc1c43f11bde26bf5fbf49d63098'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/themes/common:
+    newFile: null
+    oldFile: !uuid 'f1487a17c9a2985a2e65887c25e1bd7fa2051249'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/kindeditor_4.1.10/themes/common/anchor.gif:
+    newFile: null
+    oldFile: !uuid '61145ea78138f12df43b666409bcc4b8e3231a60'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/niceValidator:
+    newFile: null
+    oldFile: !uuid '411d73dbf285f964ebd80c45341ab10747e5a569'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/niceValidator/images:
+    newFile: null
+    oldFile: !uuid '8affb983a03be2b51ffee29a066f8ab5afc542ba'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/niceValidator/images/validator_default.png:
+    newFile: null
+    oldFile: !uuid '5a9564095dcd02b4c9e56ea50ca536fa6dca8da8'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/styles:
+    newFile: null
+    oldFile: !uuid 'd3d07126d56da3977aa5070b3035c9f8e4b16426'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/styles/zTreeStyle:
+    newFile: null
+    oldFile: !uuid '9ba9a3f452a8d77ff0507ee353ec0127de2d5ebc'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/styles/zTreeStyle/img:
+    newFile: null
+    oldFile: !uuid '77e941bcd79ff837d075a1d29557e8c848004513'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/styles/zTreeStyle/img/diy:
+    newFile: null
+    oldFile: !uuid 'a0f7c878936d7aa3050c745e932919e0d7dd5af6'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/styles/zTreeStyle/img/diy/1_close.png:
+    newFile: null
+    oldFile: !uuid '68ccb3c3b90170df7cddab1fe6e8e455c3854573'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/styles/zTreeStyle/img/diy/1_open.png:
+    newFile: null
+    oldFile: !uuid 'd6ff36d3a99012028c6cf3d4009719108e31bc79'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/styles/zTreeStyle/img/diy/2.png:
+    newFile: null
+    oldFile: !uuid '9eff506ba391fa1ddf0dc44d02ae84403700321b'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/styles/zTreeStyle/img/diy/3.png:
+    newFile: null
+    oldFile: !uuid 'd7ba6d0c675c35197e2dae8a379155e67c0ac6cb'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/styles/zTreeStyle/img/diy/4.png:
+    newFile: null
+    oldFile: !uuid '753e2bfd5725b1f32cda4e41c36a448a4b12c280'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/styles/zTreeStyle/img/diy/5.png:
+    newFile: null
+    oldFile: !uuid '0c5eccd562c303cf5197629ef5f2666b6180bd48'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/styles/zTreeStyle/img/diy/6.png:
+    newFile: null
+    oldFile: !uuid '070b8352d7770e6be4b6f3cbc61f7ee21ae3e4da'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/styles/zTreeStyle/img/diy/7.png:
+    newFile: null
+    oldFile: !uuid '532b037f2045cfa26c62d23cb928ff7405f6fc18'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/styles/zTreeStyle/img/diy/8.png:
+    newFile: null
+    oldFile: !uuid 'a8f3a86e7091de4acdd38745f74b30f0f3d40f9e'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/styles/zTreeStyle/img/diy/9.png:
+    newFile: null
+    oldFile: !uuid '4db73cd41c95bc74496175625ce9ed3737e599f5'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/styles/zTreeStyle/img/line_conn.gif:
+    newFile: null
+    oldFile: !uuid 'd561d36a915776730eb3069cee4c949f027667ed'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/styles/zTreeStyle/img/loading.gif:
+    newFile: null
+    oldFile: !uuid 'e8c289293b11c889703d83dce6631fce90da4630'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/styles/zTreeStyle/img/zTreeStandard.gif:
+    newFile: null
+    oldFile: !uuid '50c94fd41ef9f1f7c07442d669923fd7a3226f55'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/styles/zTreeStyle/img/zTreeStandard.png:
+    newFile: null
+    oldFile: !uuid 'ffda01ef1cccc398ee4e2327f4093ba1130a4961'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/styles/zTreeStyle/zTreeStyle.css:
+    newFile: null
+    oldFile: !uuid 'f06554e33d9831949b5531de5f47893b941434db'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/swfupload:
+    newFile: null
+    oldFile: !uuid '4f4f3c6d595a2d04a20b4d464fae68093f665887'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/swfupload/swfupload.js:
+    newFile: null
+    oldFile: !uuid 'b33046b93b7ed8a3ccc9a4941099cbc219f4d686'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/themes:
+    newFile: null
+    oldFile: !uuid '91d0d99bbfdc38b834962e1c9db4fa84bf82cdab'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/themes/base:
+    newFile: null
+    oldFile: !uuid '01f66cb120a37000eec0c20611650d6760fb3264'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/themes/base/all.css:
+    newFile: null
+    oldFile: !uuid '0bab99138376477deb246819acc27218600d8462'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/themes/base/autocomplete.css:
+    newFile: null
+    oldFile: !uuid 'c21c54f60394636c54cb16d1380e6dba260f1327'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/themes/base/draggable.css:
+    newFile: null
+    oldFile: !uuid 'df01f29f3cde4619e1938b46439544d98e3ce596'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/themes/base/images:
+    newFile: null
+    oldFile: !uuid '6c1b5e1c861725d5f6d722220092dae45f69d03b'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/themes/base/images/ui-bg_flat_0_aaaaaa_40x100.png:
+    newFile: null
+    oldFile: !uuid '5b5dab2ab7b1c50dea9cfe73dc5a269a92d2d4b4'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/themes/base/images/ui-bg_flat_10_000000_40x100.png:
+    newFile: null
+    oldFile: !uuid '0a5aa914b236c0b1552513ab4d5fdda1aa4eef51'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/themes/base/images/ui-bg_flat_75_ffffff_40x100.png:
+    newFile: null
+    oldFile: !uuid 'ac8b229af950c29356abf64a6c4aa894575445f0'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/themes/base/images/ui-bg_glass_100_f6f6f6_1x400.png:
+    newFile: null
+    oldFile: !uuid '068406ca901c5d06855a86906b2e36d0d3f79980'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/themes/base/sortable.css:
+    newFile: null
+    oldFile: !uuid '1c27badb481a735efa40ee6c87ef6764acf2d974'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/uploadify:
+    newFile: null
+    oldFile: !uuid 'a2e5883e87f5afd61bbb17cd34e9c1b62a96308d'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/uploadify/scripts:
+    newFile: null
+    oldFile: !uuid '6c533ee05d10b7f37f716ad748f6d7085b655d9c'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/uploadify/scripts/jquery.uploadify.js:
+    newFile: null
+    oldFile: !uuid '2bdccdec4ab5e7e6b076dfb9f611b6fe350eb5fa'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/ztree:
+    newFile: null
+    oldFile: !uuid '531231d568a7a5345400f7dddd2b214ef476e2c1'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/ztree/jquery.ztree.all-3.5.js:
+    newFile: null
+    oldFile: !uuid '5cebed4b038f77fe621276574bf259dc496e341f'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/ztree/jquery.ztree.all-3.5.min.js:
+    newFile: null
+    oldFile: !uuid 'a9bfb078191ffaee751914d78e2c4b5114529267'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/ztree/jquery.ztree.core-3.5.js:
+    newFile: null
+    oldFile: !uuid '239f19132ad56893237bfcf60199d4262d75ca70'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Content/ztree/jquery.ztree.exedit-3.5.js:
+    newFile: null
+    oldFile: !uuid '245d1085048c8a6e49629a2d69c3bd8a699945d6'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Views:
+    newFile: null
+    oldFile: !uuid 'bac1a01f587ebf9b08de648db68d0688b6b8f235'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Views/CategoryManager:
+    newFile: null
+    oldFile: !uuid '582a0eba83718873edd89e629cde30700e9d62ff'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Views/CategoryManager/Index.cshtml:
+    newFile: null
+    oldFile: !uuid 'b72b3e91101198162c58d208dcc58f759891b00a'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Views/CommonApplies:
+    newFile: null
+    oldFile: !uuid '343307ebdc48bcee013d758319787c74195fd0ab'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Views/CommonApplies/Index.cshtml:
+    newFile: null
+    oldFile: !uuid 'b04ed607c087333542cc2ba554e716435734cf06'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Views/ModuleElementManager:
+    newFile: null
+    oldFile: !uuid 'd7d6cf0c86753a509cf94e95db7de7b4c8a5f810'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Views/ModuleElementManager/AssignModuleElement.cshtml:
+    newFile: null
+    oldFile: !uuid 'a06e4e69d4cb732313d96c062b45fe8d31997da9'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Views/ModuleElementManager/Index.cshtml:
+    newFile: null
+    oldFile: !uuid '45149988f43981117403028bf355c2d47f285bec'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Views/ModuleManager:
+    newFile: null
+    oldFile: !uuid 'ed6601294eab60ad562dbcdfe050356a654b548d'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Views/ModuleManager/Assign.cshtml:
+    newFile: null
+    oldFile: !uuid '9e17978b96f4738f876e6c2b487502ececa7bf94'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Views/RoleManager:
+    newFile: null
+    oldFile: !uuid '712957b951997fb5c2b28b3c9a867eaf397a6361'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Views/RoleManager/Index.cshtml:
+    newFile: null
+    oldFile: !uuid '2f6b03dc53d4d134aa52633ed95a0d3c9259997d'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Views/StockManager:
+    newFile: null
+    oldFile: !uuid 'abcd364e26252f50467d72ac8143d98e3396b747'
+  /OpenAuth.Mvc/obj/Release/Package/PackageTmp/Views/StockManager/Index.cshtml:
+    newFile: null
+    oldFile: !uuid 'cab48eea77178277b9a7e0d2fb5785440e2a2932'
+gitCommitId: !uuid 'b3b0174430ad38f58dbab5158560dbd22412479b'
 renames: {
   }
-revisionId: 235
+revisionId: 236
