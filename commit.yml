@@ -2,19 +2,10 @@
 branches: {
   }
 fileChange:
-  /Infrastructure:
-    newFile: !uuid '928197c7a2734a634fb31b23d2ca96ca62ced86f'
-    oldFile: !uuid 'b45645eaafd5d0adbcf6a9e945de672826836bce'
-  /Infrastructure/obj:
-    newFile: null
-    oldFile: !uuid 'f59c41931ca46fde413b8ab9b96173e58e55f395'
-  /Infrastructure/obj/Debug:
-    newFile: null
-    oldFile: !uuid '9215ece8f8e6ca67fdf885767f35fcb8951928e2'
-  /Infrastructure/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs:
-    newFile: null
-    oldFile: !uuid 'e69de29bb2d1d6434b8b29ae775ad8c2e48c5391'
-gitCommitId: !uuid '61b9b560d10aa56f3c502ee4659653c0b5f29ad9'
+  /README.md:
+    newFile: !uuid '75e647260267b65448bf48636bc0c2c76cffaead'
+    oldFile: !uuid '60fc1ee754d5c3a63a87f7520e052d3f314a3318'
+gitCommitId: !uuid '15df5826553c9e82e7439760f085262c10fe380d'
 renames: {
   }
-revisionId: 238
+revisionId: 239
