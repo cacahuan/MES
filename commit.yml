@@ -3,71 +3,18 @@ branches: {
   }
 fileChange:
   /Infrastructure:
-    newFile: !uuid 'b45645eaafd5d0adbcf6a9e945de672826836bce'
-    oldFile: !uuid '42c7c547d585d6bf17c53ef77a4e3c6864ef3f3d'
-  /Infrastructure/Cache:
-    newFile: !uuid '55ba4f151332115b4d974976a997bd60259498b1'
-    oldFile: !uuid 'e75b4cc239c84e2b21daba7c7fbf4a7e439d1f9a'
-  /Infrastructure/Cache/CacheContext.cs:
+    newFile: !uuid '928197c7a2734a634fb31b23d2ca96ca62ced86f'
+    oldFile: !uuid 'b45645eaafd5d0adbcf6a9e945de672826836bce'
+  /Infrastructure/obj:
     newFile: null
-    oldFile: !uuid '3d0e66e4c9f3aae247dddd3765d06f864bf5808e'
-  /Infrastructure/Cache/CacheObj.cs:
-    newFile: !uuid 'd1d59ac3aae210579e429ac6d3ac5f76474f09b0'
-    oldFile: null
-  /Infrastructure/Cache/CacheProvider.cs:
-    newFile: !uuid '667eff5dc2068202effccdad7e4a29940fe5d6fe'
-    oldFile: null
-  /Infrastructure/Cache/EnyimMemcachedContext.cs:
-    newFile: !uuid '24e407b756b925cb1ba2096d7d673383f104b9bf'
-    oldFile: !uuid '4944b4f591a72a2875ea50744869ae548544b8e0'
-  /Infrastructure/Cache/HttpApplicationContext.cs:
-    newFile: !uuid '3913cf5bab8c992d3a385455e436ad09b06653de'
-    oldFile: null
-  /Infrastructure/Cache/ICache.cs:
+    oldFile: !uuid 'f59c41931ca46fde413b8ab9b96173e58e55f395'
+  /Infrastructure/obj/Debug:
     newFile: null
-    oldFile: !uuid '7ade6edbb339e7a5d24024dca8c24398cbe9b5eb'
-  /Infrastructure/Cache/ICacheContext.cs:
-    newFile: !uuid 'a087c618c85d041f86a0f0adae010bff70d694de'
-    oldFile: null
-  /Infrastructure/Cache/ObjCacheProvider.cs:
-    newFile: !uuid '84c52d1cb80a4b79fba218e6e790bcdc9ebcaf02'
-    oldFile: null
-  /Infrastructure/Cache/RuntimeMemoryCache.cs:
+    oldFile: !uuid '9215ece8f8e6ca67fdf885767f35fcb8951928e2'
+  /Infrastructure/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs:
     newFile: null
-    oldFile: !uuid 'e067c237e607bb05b1741a9036706bbb36a3deca'
-  /Infrastructure/Cache/SessionContext.cs:
-    newFile: null
-    oldFile: !uuid '4b774f534fbc615d9fd48bd37cfc912aec696fad'
-  /Infrastructure/Infrastructure.csproj:
-    newFile: !uuid 'e63e35dadfb12b3ecbac146c480fdff6d66d0b96'
-    oldFile: !uuid '5c0345dde494aa45a2b1da6c6d55bac09dddda7a'
-  /OpenAuth.App:
-    newFile: !uuid 'db208a2783951dcd64bd993a81641ff13e7a24fe'
-    oldFile: !uuid 'b826ec2f39bc7c3aa6e01ec372dd88dacbf2a2a3'
-  /OpenAuth.App/OpenAuth.App.csproj:
-    newFile: !uuid 'de7f4437d98e64913cea61cc0aaab5b0f8453df4'
-    oldFile: !uuid 'b3133b170e49d030ddfa00468a9b1268617b0e7c'
-  /OpenAuth.App/SSO:
-    newFile: !uuid 'e75901dc88521e62f423c2e18922fb8fc3d441fe'
-    oldFile: !uuid '299df9d4c622b257e6c78ff28b061b2f833922f0'
-  /OpenAuth.App/SSO/AppInfoService.cs:
-    newFile: !uuid '90974a0857384680e91ab23a8f6b7eb2d10bca48'
-    oldFile: !uuid '794c62b8b6b3bdcca6fcb6118fb8a10b7c1bcd06'
-  /OpenAuth.App/SSO/SSOAuthAttribute.cs:
-    newFile: !uuid '3c019a069a3db2dc86eb48a0ffeefa595b4b6508'
-    oldFile: !uuid '83ca006ccf9717d34968b63474e8e18edd82bb11'
-  /OpenAuth.App/SSO/SSOController.cs:
-    newFile: !uuid '376d00070f232ed4a2bee0c78be8f444b47301b0'
-    oldFile: !uuid 'bec7c68ab1831482b0934d6e43e2f0f04e5b54ee'
-  /OpenAuth.App/SSO/ServiceContext.cs:
-    newFile: null
-    oldFile: !uuid '5861ba9ce9520c0061814597eb2c796f8baaeb1c'
-  /OpenAuth.App/SSO/UserAuthSessionService.cs:
-    newFile: !uuid '650246d5db6b564bad77000e5fcb333c47cf2fcf'
-    oldFile: !uuid '37d77014b75213e8f6e2f3f88fbfcfc25e06ec65'
-gitCommitId: !uuid '1a1ec43c57d71358fe54c13010b5d5d1264029c7'
-renames:
-  /Infrastructure/Cache/CacheProvider.cs: /OpenAuth.App/SSO/ServiceContext.cs
-  /Infrastructure/Cache/HttpApplicationContext.cs: /Infrastructure/Cache/SessionContext.cs
-  /Infrastructure/Cache/ICacheContext.cs: /Infrastructure/Cache/CacheContext.cs
-revisionId: 237
+    oldFile: !uuid 'e69de29bb2d1d6434b8b29ae775ad8c2e48c5391'
+gitCommitId: !uuid '61b9b560d10aa56f3c502ee4659653c0b5f29ad9'
+renames: {
+  }
+revisionId: 238
