@@ -2,10 +2,16 @@
 branches: {
   }
 fileChange:
-  /README.md:
-    newFile: !uuid '5c6d169a6996d79c919a7fd4066d98ac7c2ebfff'
-    oldFile: !uuid '75e647260267b65448bf48636bc0c2c76cffaead'
-gitCommitId: !uuid 'c5a365f93a644031e828d6de89afea16bb8b388f'
+  /OpenAuth.Mvc:
+    newFile: !uuid '9c49153d80249c9d30e35d5c5ec5c2075ff49ee0'
+    oldFile: !uuid '9fd7e81aab31c5944c9c82e518cec21f08e179ab'
+  /OpenAuth.Mvc/Content:
+    newFile: !uuid '1c6952a79073e339e61901c40e2a9245acd92ec8'
+    oldFile: !uuid '510a0df3ceb2802b5b49ef8433bdb695118e0177'
+  /OpenAuth.Mvc/Content/myace.css:
+    newFile: !uuid '1c3b9dec40330db2bc708abe07320377768fbd6d'
+    oldFile: !uuid 'a2daa54d6d783fd5035cc5a3ef19d3bc952852b4'
+gitCommitId: !uuid '4475cf88865851ad7a731d4dac90178a6a3cb93a'
 renames: {
   }
-revisionId: 240
+revisionId: 241
