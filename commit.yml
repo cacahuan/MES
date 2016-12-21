@@ -3,15 +3,24 @@ branches: {
   }
 fileChange:
   /OpenAuth.Mvc:
-    newFile: !uuid '9c49153d80249c9d30e35d5c5ec5c2075ff49ee0'
-    oldFile: !uuid '9fd7e81aab31c5944c9c82e518cec21f08e179ab'
-  /OpenAuth.Mvc/Content:
-    newFile: !uuid '1c6952a79073e339e61901c40e2a9245acd92ec8'
-    oldFile: !uuid '510a0df3ceb2802b5b49ef8433bdb695118e0177'
-  /OpenAuth.Mvc/Content/myace.css:
-    newFile: !uuid '1c3b9dec40330db2bc708abe07320377768fbd6d'
-    oldFile: !uuid 'a2daa54d6d783fd5035cc5a3ef19d3bc952852b4'
-gitCommitId: !uuid '4475cf88865851ad7a731d4dac90178a6a3cb93a'
+    newFile: !uuid '9fa9ca93d9033c33ecb8d9981fc694074666a7e8'
+    oldFile: !uuid '9c49153d80249c9d30e35d5c5ec5c2075ff49ee0'
+  /OpenAuth.Mvc/Models:
+    newFile: !uuid '5642965d38c70bd01811946694596b61f396c95f'
+    oldFile: !uuid 'a6369c1df318ee5489cf682b7d6912ccaae01ab1'
+  /OpenAuth.Mvc/Models/DefaultParcedProcessCache.cs:
+    newFile: !uuid '4535ec1df642c103002496dc946b8bf7d317b896'
+    oldFile: null
+  /OpenAuth.Mvc/Models/WorkflowInit.cs:
+    newFile: !uuid '0bdb73d78b467acdcf10de4aa686f745e2c35b22'
+    oldFile: !uuid '819ad16c3ab3c770c38cb9131557c9e580290144'
+  /OpenAuth.Mvc/OpenAuth.Mvc.csproj:
+    newFile: !uuid '5ba369f2dfad440b49fc43c0c6e2f7fea96565b5'
+    oldFile: !uuid 'd01c0deb9f450548245da51140cbaae1df9e6468'
+  /mysql建表&初始化数据.txt:
+    newFile: !uuid '31de676bc7d6d3ea8bbd85f1c2ed497d0cfb5d31'
+    oldFile: !uuid '9256392bd620796109e0551fc2fc78e32779de5a'
+gitCommitId: !uuid 'a3bdcf83ecd4e13d3c528306764aa3d9aa28c740'
 renames: {
   }
-revisionId: 241
+revisionId: 242
