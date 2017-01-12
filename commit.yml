@@ -2,1514 +2,208 @@
 branches: {
   }
 fileChange:
-  /:
-    newFile: !uuid '1461abb39e2d31bdcc0fbcdf6fb2ec47ac363a21'
-    oldFile: !uuid '705bc65ec5353b9d3c12b6a95b7398fee0b949e4'
-  /.gitignore:
-    newFile: !uuid 'bcc7735248af1b81229cbe45899b8724ae5d08f4'
-    oldFile: null
   /Infrastructure:
-    newFile: !uuid 'a3164472b2b1650d7360014788daee39ce4448b3'
-    oldFile: !uuid 'e2601acf8826b7676babc790cb0c21deb1ef47a9'
-  /Infrastructure/Infrastructure.csproj:
-    newFile: !uuid '79bcd758b89cc434aed4469a1417f3cb550336ad'
-    oldFile: !uuid 'c82cc7da6a87f67325adc00714eaab2fdbece36f'
-  /OpenAuth.App:
-    newFile: !uuid '866fc62d54ddead05479c16f11f4b7efa644b58e'
-    oldFile: !uuid '866fc62d54ddead05479c16f11f4b7efa644b58e'
+    newFile: !uuid 'fd6fba83dd10dd6990e56a223e8cea869a9fe035'
+    oldFile: !uuid 'a3164472b2b1650d7360014788daee39ce4448b3'
+  /Infrastructure/CommonHelper.cs:
+    newFile: !uuid 'e59f6a272fd3c20fd8a1753ec77961deb492ad38'
+    oldFile: null
+  /Infrastructure/Json.cs:
+    newFile: !uuid 'f30ccaf0c0ea4b645192f2c535a3bc8369ef0af7'
+    oldFile: null
   /OpenAuth.Domain:
-    newFile: !uuid '6a76e51f2ee3fab6cb17b1b2cc7b66c14c7fcaf2'
-    oldFile: !uuid '502d15b1eeb1e1d085a2932a3252f089a68b12ff'
-  /OpenAuth.Domain/ApplyTransitionHistory.cs:
-    newFile: null
-    oldFile: !uuid 'b258c9b042eb2d627ba493096cdab5b36ce58852'
-  /OpenAuth.Domain/Category.cs:
-    newFile: null
-    oldFile: !uuid 'a0d340c9112921ef05170d8bd440f0554d8869bc'
-  /OpenAuth.Domain/CommonApply.cs:
-    newFile: null
-    oldFile: !uuid '7b7e52c2fe540b1ec2dca923f546b5ded9da50fc'
+    newFile: !uuid '7f146b2b93af22cbbceabd9338e78cbb72d9e6b7'
+    oldFile: !uuid '6a76e51f2ee3fab6cb17b1b2cc7b66c14c7fcaf2'
   /OpenAuth.Domain/Core:
-    newFile: !uuid '4ed73b753594900c54545337f7838e7ac47aa997'
-    oldFile: !uuid '9c38e62447bc9bcc6e3ab8c8374799f3a223af2b'
-  /OpenAuth.Domain/Core/ApplyTransitionHistory.cs:
-    newFile: !uuid 'b258c9b042eb2d627ba493096cdab5b36ce58852'
+    newFile: !uuid '41506775421756ef8754d730021f8d79ecba0af8'
+    oldFile: !uuid '4ed73b753594900c54545337f7838e7ac47aa997'
+  /OpenAuth.Domain/Core/WFFrmMain.cs:
+    newFile: !uuid '6cb982efecf04e6e05d7623bc1515f37e0e3b7fc'
     oldFile: null
-  /OpenAuth.Domain/Core/Category.cs:
-    newFile: !uuid '83445d2efeda664db9516bfadeb6c65409874fd1'
+  /OpenAuth.Domain/Core/WFProcessInstance.cs:
+    newFile: !uuid '44377679430533742e8b14c5e77254e0402eb762'
     oldFile: null
-  /OpenAuth.Domain/Core/CommonApply.cs:
-    newFile: !uuid '7b7e52c2fe540b1ec2dca923f546b5ded9da50fc'
+  /OpenAuth.Domain/Core/WFProcessOperationHistory.cs:
+    newFile: !uuid '0b5d8b93b3cd165c2e841347f7be71e4f5b07da8'
     oldFile: null
-  /OpenAuth.Domain/Core/DicDetail.cs:
-    newFile: !uuid '54baa908a13a17254ea3c583ad33ad5e83aad17e'
+  /OpenAuth.Domain/Core/WFProcessScheme.cs:
+    newFile: !uuid '8d4640f54b8d7a13b74af3e51dad7e9d273438ca'
     oldFile: null
-  /OpenAuth.Domain/Core/DicIndex.cs:
-    newFile: !uuid '6c40102802d1c2d02b8343805e9e8eff98b76f47'
+  /OpenAuth.Domain/Core/WFProcessTransitionHistory.cs:
+    newFile: !uuid '00e596c6575ccd2eafc4c87b89f283bc8c4254b5'
     oldFile: null
-  /OpenAuth.Domain/Core/Entity.cs:
-    newFile: !uuid '9078e2ef640ac87d5699a20bd016b4d30b3eb6c0'
+  /OpenAuth.Domain/Core/WFSchemeContent.cs:
+    newFile: !uuid 'aaf49445d8c3c051f775df36552866ca5015ecb2'
     oldFile: null
-  /OpenAuth.Domain/Core/Module.cs:
-    newFile: !uuid 'e9488e103cb416f6dab9bdebb539f19b944980bb'
+  /OpenAuth.Domain/Core/WFSchemeInfo.cs:
+    newFile: !uuid '7413704d77830f57091407fa0b1a921d3add1c05'
     oldFile: null
-  /OpenAuth.Domain/Core/ModuleElement.cs:
-    newFile: !uuid '9de4abba11f884d5d9849addabd96b0a9de992d5'
+  /OpenAuth.Domain/Service:
+    newFile: !uuid 'd74485e26034eabbbc0012875db172489b9a017f'
+    oldFile: !uuid '39288139675bb6b84a9de88da8ae9628a3e8b98c'
+  /OpenAuth.Domain/Service/WorkflowService.cs:
+    newFile: !uuid '4d00c7f440a988b06c7aab143ad91ac3f19fe807'
     oldFile: null
-  /OpenAuth.Domain/Core/Org.cs:
-    newFile: !uuid '6f26e9010ff7613fb03a36762e8750ec1fcfbc33'
-    oldFile: null
-  /OpenAuth.Domain/Core/Relevance.cs:
-    newFile: !uuid '0293dbe464440948d95d11c5d88ac7938aff8afc'
-    oldFile: null
-  /OpenAuth.Domain/Core/Resource.cs:
-    newFile: !uuid 'b148e11e6ea6a57f9a45b3291f0e65c7c47acff7'
-    oldFile: null
-  /OpenAuth.Domain/Core/Role.cs:
-    newFile: !uuid '92e034de7f2a890aaebefc6f162bb27b7afb6a3f'
-    oldFile: null
-  /OpenAuth.Domain/Core/Stock.cs:
-    newFile: !uuid 'e6a43401f08677870d2f2d1214927d3adf82ec78'
-    oldFile: null
-  /OpenAuth.Domain/Core/User.cs:
-    newFile: !uuid '0ed7b3eb734f34e2477445aeac1406369bbf04f5'
-    oldFile: !uuid '6ea135f7cec369d638ba33f6034a7301d6c6b0d7'
-  /OpenAuth.Domain/Core/UserExt.cs:
-    newFile: !uuid 'f325641128ebef3a2489fd85d3035ad4c7b77ddc'
-    oldFile: null
-  /OpenAuth.Domain/Core/WorkflowScheme.cs:
-    newFile: !uuid '965e2cc16b724bcbd8739e62467e505f347d9d19'
-    oldFile: null
-  /OpenAuth.Domain/DicDetail.cs:
-    newFile: null
-    oldFile: !uuid 'ba0a4873781b8ad166440cf989949194081c48bf'
-  /OpenAuth.Domain/DicIndex.cs:
-    newFile: null
-    oldFile: !uuid '90da8b75cefec887a7c3b73950fb1a09bcc8ff14'
-  /OpenAuth.Domain/Entity.cs:
-    newFile: null
-    oldFile: !uuid '9078e2ef640ac87d5699a20bd016b4d30b3eb6c0'
-  /OpenAuth.Domain/Module.cs:
-    newFile: null
-    oldFile: !uuid '77734ce9e564eb1a63d737ddd9a60d2ea14fafd6'
-  /OpenAuth.Domain/ModuleElement.cs:
-    newFile: null
-    oldFile: !uuid '16f0df2460c482a35864fbc436cd6a679b4e78a7'
-  /OpenAuth.Domain/OpenAuth.Domain.csproj:
-    newFile: !uuid '978e8d2dbca586689c33b5fb5381141a12484489'
-    oldFile: !uuid '0c4144be936cb3218188d14594ac48e350957eec'
-  /OpenAuth.Domain/Org.cs:
-    newFile: null
-    oldFile: !uuid '67409deb8c27296a71c104c25be9ef6ba1e416f1'
-  /OpenAuth.Domain/Relevance.cs:
-    newFile: null
-    oldFile: !uuid 'e957781d664e205d6e14ea8a990478680a161068'
-  /OpenAuth.Domain/Resource.cs:
-    newFile: null
-    oldFile: !uuid '33dd0f04c890852d4729cb8abebbcc475fdd03ce'
-  /OpenAuth.Domain/Role.cs:
-    newFile: null
-    oldFile: !uuid '86b043430deadacb630d457b6814dde9f87c4757'
-  /OpenAuth.Domain/Stock.cs:
-    newFile: null
-    oldFile: !uuid 'e6a43401f08677870d2f2d1214927d3adf82ec78'
-  /OpenAuth.Domain/User.cs:
-    newFile: null
-    oldFile: !uuid '8b4b69d726ee4e7097382fdc2f0086520f85ee15'
-  /OpenAuth.Domain/WorkflowScheme.cs:
-    newFile: null
-    oldFile: !uuid '965e2cc16b724bcbd8739e62467e505f347d9d19'
   /OpenAuth.Mvc:
-    newFile: !uuid '62ac8e54a7e0332e6edb1cf20d47250d7f23dcf0'
-    oldFile: !uuid '9fa9ca93d9033c33ecb8d9981fc694074666a7e8'
-  /OpenAuth.Mvc/App_Start:
-    newFile: !uuid '6dd01e650cd0807a7af23db1111364a4f5c3f05f'
-    oldFile: !uuid '9a4f67f7e34c483bc5914dc4cfb772228a637a04'
-  /OpenAuth.Mvc/App_Start/BundleConfig.cs:
-    newFile: !uuid '0c29829a7c02e066120c642528531c58dfa74f29'
-    oldFile: !uuid '5d0652e074fb51331097f7b1d42bae685aae995f'
+    newFile: !uuid 'c7af704aba9b2a64f500b27d4c4f7446c1f62e0e'
+    oldFile: !uuid '62ac8e54a7e0332e6edb1cf20d47250d7f23dcf0'
+  /OpenAuth.Mvc/Areas:
+    newFile: !uuid 'd45cffd0c8150613bbee910883b8e78b2a0b9e77'
+    oldFile: null
+  /OpenAuth.Mvc/Areas/FlowManage:
+    newFile: !uuid '0fd7cd9e90f2dfa2c842b7ff759e231eb33a020b'
+    oldFile: null
+  /OpenAuth.Mvc/Areas/FlowManage/Controllers:
+    newFile: !uuid '5e3ef63c33c700e017fcf7074b03c1fc00d529fe'
+    oldFile: null
+  /OpenAuth.Mvc/Areas/FlowManage/Controllers/FlowDesignController.cs:
+    newFile: !uuid '4d26eee54f27f12156ccdc2343e8b265c7de93ac'
+    oldFile: null
+  /OpenAuth.Mvc/Areas/FlowManage/FlowManageAreaRegistration.cs:
+    newFile: !uuid 'ffa1b06411c09504fb06854b48e59cdaab0530ff'
+    oldFile: null
+  /OpenAuth.Mvc/Areas/FlowManage/Views:
+    newFile: !uuid 'e49f84a9a3c77fa13a155c3291a054700097844a'
+    oldFile: null
+  /OpenAuth.Mvc/Areas/FlowManage/Views/FlowDesign:
+    newFile: !uuid '8638a2c403d62346f4363c4484e27826aa9fe804'
+    oldFile: null
+  /OpenAuth.Mvc/Areas/FlowManage/Views/FlowDesign/FlowLineForm.cshtml:
+    newFile: !uuid '0a555e031b1c9f142a0dedbb06208830c201604f'
+    oldFile: null
+  /OpenAuth.Mvc/Areas/FlowManage/Views/FlowDesign/FlowNodeForm.cshtml:
+    newFile: !uuid '22db48ad80e1dec325424cb4a2207c053c5d6f07'
+    oldFile: null
+  /OpenAuth.Mvc/Areas/FlowManage/Views/FlowDesign/FlowSchemeBuider.cshtml:
+    newFile: !uuid 'f9887a7371c72bf969606f57909fc21c24e679af'
+    oldFile: null
+  /OpenAuth.Mvc/Areas/FlowManage/Views/FlowDesign/Index.cshtml:
+    newFile: !uuid '67f95a2ecf2d2302247356152d38d43fafbaa4ed'
+    oldFile: null
+  /OpenAuth.Mvc/Areas/FlowManage/Views/web.config:
+    newFile: !uuid 'cf0d3034dc747f280604df91816d2106a07f6bff'
+    oldFile: null
   /OpenAuth.Mvc/Content:
-    newFile: !uuid '6ff990a723e1a5f2c36e4e4ea771b38493cc0edd'
-    oldFile: !uuid '1c6952a79073e339e61901c40e2a9245acd92ec8'
-  /OpenAuth.Mvc/Content/plugins:
-    newFile: !uuid 'd6adb715b793886e1ba279cff583b95f7b6ea0df'
-    oldFile: !uuid '50420ab60eb5c0a5c330ca9590e3a51d8c506dd0'
-  /OpenAuth.Mvc/Content/plugins/ckeditor:
-    newFile: null
-    oldFile: !uuid '893058554f48d3fc36e78196c001cf13c29ff497'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/CHANGES.md:
-    newFile: null
-    oldFile: !uuid '249f0d416bb665657a01ac271a8727d34e4e19d7'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/LICENSE.md:
-    newFile: null
-    oldFile: !uuid 'cf70e61e62fc327f2111f3192625d07370a96174'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/README.md:
-    newFile: null
-    oldFile: !uuid '378c267eeff0bdb0910a52b2d2411c8359c460fe'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/adapters:
-    newFile: null
-    oldFile: !uuid 'cc9ae9b2987c4ed6fff5a1199c2c434fb9cc3270'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/adapters/jquery.js:
-    newFile: null
-    oldFile: !uuid '2851ea44f704fbe3a2abfb81c395c548f422562a'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/build-config.js:
-    newFile: null
-    oldFile: !uuid '59e52e3027aba4488ab677e5f9faba3c4cf8cd78'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/ckeditor.js:
-    newFile: null
-    oldFile: !uuid '90b26d8f1636c4a82b8c431347996417e7f519b5'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/config.js:
-    newFile: null
-    oldFile: !uuid '66f6fbfa8b0d6653b0d2ec811e1ce3e1c77daf1f'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/contents.css:
-    newFile: null
-    oldFile: !uuid '0874d26b80327e19dbc6e6fb96e2c07c0b115bf3'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang:
-    newFile: null
-    oldFile: !uuid '35c4b72a61368c13e5a65d0cba4a5c00883b8eaa'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/af.js:
-    newFile: null
-    oldFile: !uuid '899a6401b84ff5e66e5e965070d3d933b01ef37e'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/ar.js:
-    newFile: null
-    oldFile: !uuid '2c57ade9ca5d661794e5ead47716b8aef300182d'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/bg.js:
-    newFile: null
-    oldFile: !uuid 'af3c4bef56d28deac4516706960a68548c983012'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/bn.js:
-    newFile: null
-    oldFile: !uuid 'cace37369aa40b2f85ad0b5fd378d0d1289304f6'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/bs.js:
-    newFile: null
-    oldFile: !uuid '903340a5781c75c852c9f23955e9fec30bebe1e5'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/ca.js:
-    newFile: null
-    oldFile: !uuid 'ba85b2a2716106dc7bfd43c7bac7b4963d2c6d79'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/cs.js:
-    newFile: null
-    oldFile: !uuid '6674891816d36dedde777349b6f3c7292d1dc8ff'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/cy.js:
-    newFile: null
-    oldFile: !uuid 'a025e076503fc45c02bea35a38e06561977ea74a'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/da.js:
-    newFile: null
-    oldFile: !uuid '6ea9f3a43a6dabed630b2ab6d496791a3c1ed974'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/de.js:
-    newFile: null
-    oldFile: !uuid '76d794b843443e6842fafd7371f9a498aa99b5ab'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/el.js:
-    newFile: null
-    oldFile: !uuid '022b707b6deea4858f98f212dce6f909c195fe29'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/en-au.js:
-    newFile: null
-    oldFile: !uuid '2a3cd4dad53c1ae811a42a6528b921489ba780f6'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/en-ca.js:
-    newFile: null
-    oldFile: !uuid '0e2ce114ce81496ad216c89ec4f183823f1f640a'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/en-gb.js:
-    newFile: null
-    oldFile: !uuid '454e3e2a1277a678f0ebc9eb03e1e3b4ffb1a14a'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/en.js:
-    newFile: null
-    oldFile: !uuid 'cffe567fa1d049b8b045f0ed739a4e831b6c5d51'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/eo.js:
-    newFile: null
-    oldFile: !uuid '6d7e2579a70c2a2150eb12f4a7b322264dffe896'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/es.js:
-    newFile: null
-    oldFile: !uuid '7a631e0f087f1af422543830a876e8e3be2beed6'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/et.js:
-    newFile: null
-    oldFile: !uuid '38df2ad05cd80406a069531f0182511b0c8cf539'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/eu.js:
-    newFile: null
-    oldFile: !uuid '8b3f82c3d1bd6ee9b61c142f9298c4c7e24bdae7'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/fa.js:
-    newFile: null
-    oldFile: !uuid '094e08fc284b1c2685f4371747c1819a98d1348f'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/fi.js:
-    newFile: null
-    oldFile: !uuid '821bf76daf0ed2c39ce80fde93eb507bf7cf3cdd'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/fo.js:
-    newFile: null
-    oldFile: !uuid '7f618f05681ea18c5b37dc3809bd611871d5a99e'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/fr-ca.js:
-    newFile: null
-    oldFile: !uuid '56626232bfeed40aff12089e5a4491ad2233f9ee'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/fr.js:
-    newFile: null
-    oldFile: !uuid '653083be89e4b9f15adc3a2f288455672d8f0045'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/gl.js:
-    newFile: null
-    oldFile: !uuid 'bdf5600e4ea8a945e8240823f0770b23eb4bffd5'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/gu.js:
-    newFile: null
-    oldFile: !uuid 'c448cf4e19c7569a9846a10e2ca866896cd443ae'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/he.js:
-    newFile: null
-    oldFile: !uuid '1e0f3a3b8bb6cc34917c7dffddf49a20c1e45eb3'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/hi.js:
-    newFile: null
-    oldFile: !uuid 'd8d0ce84bb6d3cc559835409333628ed058a8bae'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/hr.js:
-    newFile: null
-    oldFile: !uuid '50ba14541203416f0d7a0b8cb0aadbf23e6d9c9c'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/hu.js:
-    newFile: null
-    oldFile: !uuid '6b28bba079163d109c3d5d758d3e14fe31cf2f71'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/id.js:
-    newFile: null
-    oldFile: !uuid '6c932ebe10e4103e0d7df9edd7a418e8a20375aa'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/is.js:
-    newFile: null
-    oldFile: !uuid 'b085dd70bb1582b314e88e7782a47c46fe5fdaa7'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/it.js:
-    newFile: null
-    oldFile: !uuid 'fb8c77d123c1554934a0451748823f45f2500430'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/ja.js:
-    newFile: null
-    oldFile: !uuid '4ee91d2732c911e2596ffc3db2ca131ace83c8b1'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/ka.js:
-    newFile: null
-    oldFile: !uuid 'b70f93161cc3b4a3b786157d98d3dcd5ff9b3b16'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/km.js:
-    newFile: null
-    oldFile: !uuid 'f6accb6ba12e7183df8243e9eba90a1097f7b2a4'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/ko.js:
-    newFile: null
-    oldFile: !uuid '2f198f115976c5797a566d3b8ae6f5bcac7e4440'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/ku.js:
-    newFile: null
-    oldFile: !uuid 'dbb92a31752553178c2e70f43ea407aecf39762a'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/lt.js:
-    newFile: null
-    oldFile: !uuid 'e3f725d422398a056135b8c5b58774ebbd44c96b'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/lv.js:
-    newFile: null
-    oldFile: !uuid '76c2f6a35397cedcc4175c59f9975f7999177a3b'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/mk.js:
-    newFile: null
-    oldFile: !uuid '65a42a44f8801f8b3a0dd01fd6c8191b13e60a9f'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/mn.js:
-    newFile: null
-    oldFile: !uuid 'b0dc5a210f2b8e9b05e3c190424c5cfb5f2897ef'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/ms.js:
-    newFile: null
-    oldFile: !uuid '24242b9575e7eb986e480d7cf7afd3dd0da4564c'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/nb.js:
-    newFile: null
-    oldFile: !uuid '09d74350184e34be82b710d507c438b2539dfaeb'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/nl.js:
-    newFile: null
-    oldFile: !uuid '39cd3a43773d4183f6c39583ed066074145f800c'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/no.js:
-    newFile: null
-    oldFile: !uuid 'df4efe1594fdcb750699042b8573a3600d70b0f3'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/pl.js:
-    newFile: null
-    oldFile: !uuid 'faa32304c79440b27cdd767e863acef319acc623'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/pt-br.js:
-    newFile: null
-    oldFile: !uuid 'c7373ceba437ce270cb0e55827b540f018a386cc'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/pt.js:
-    newFile: null
-    oldFile: !uuid '1ace58ca85308fa95987b2940272e8dca50b3281'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/ro.js:
-    newFile: null
-    oldFile: !uuid '11991e7c22294b4a41e7407d7540d56ef713ae07'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/ru.js:
-    newFile: null
-    oldFile: !uuid 'dedfa259a2d230298cd3c7d0c33cd692d7166096'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/si.js:
-    newFile: null
-    oldFile: !uuid '7e100f429877967c9b77c4a18ffe2b27205006cf'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/sk.js:
-    newFile: null
-    oldFile: !uuid '38ebb70f0350e6c03a8014abb5e7250f57e6392d'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/sl.js:
-    newFile: null
-    oldFile: !uuid 'd00e1db38995852f0adf245ccb80b1acfb285ff0'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/sq.js:
-    newFile: null
-    oldFile: !uuid '3ceabd24577eea27902985e5d1787361d9c392ec'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/sr-latn.js:
-    newFile: null
-    oldFile: !uuid 'd2fdb7592feb0b43110729ca67fd7c3115224abe'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/sr.js:
-    newFile: null
-    oldFile: !uuid '7f3693e0575e706c276fe8f5cea8bfcd576ac017'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/sv.js:
-    newFile: null
-    oldFile: !uuid '6506a92fb9c972325f44b29d0c13cb17866a3704'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/th.js:
-    newFile: null
-    oldFile: !uuid '4f22202f788a0805633232fc9a4e1c452af516a7'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/tr.js:
-    newFile: null
-    oldFile: !uuid '7b043e2ae429416c5dc04bf2743e2c835702c916'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/ug.js:
-    newFile: null
-    oldFile: !uuid '2717aa9529d871beb79b1a99c1ccafd5bb114201'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/uk.js:
-    newFile: null
-    oldFile: !uuid 'b3da02d000327efb8c5dde21f9a6951d6a8b8a9d'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/vi.js:
-    newFile: null
-    oldFile: !uuid '5e0c110c46a249b45003ad3a7e21eb1ee557e67d'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/zh-cn.js:
-    newFile: null
-    oldFile: !uuid '04b80d22029b877f3a8e5893e9d43bb0d3a7b525'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/lang/zh.js:
-    newFile: null
-    oldFile: !uuid '3e546ce0e5eed1271d98bbb95f8653a9eebd2368'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins:
-    newFile: null
-    oldFile: !uuid 'c4ff53fa4ee0a6edd6541c004e57ba90f2681fdb'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp:
-    newFile: null
-    oldFile: !uuid 'bda7fd0f95b0a39e51bec174c0ae813a4da9f4a0'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs:
-    newFile: null
-    oldFile: !uuid '5ec0f3527649a5d61b3d6b0c2366ecb312a99d9b'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js:
-    newFile: null
-    oldFile: !uuid 'b77792a098c0081be6b7925008f769b4b2db8d76'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang:
-    newFile: null
-    oldFile: !uuid 'a870e97585a10c5be1113a34a1ae03c14ae48e58'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt:
-    newFile: null
-    oldFile: !uuid '989ea46406b01e3f010bfa2774aa1fff660e351a'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js:
-    newFile: null
-    oldFile: !uuid '8aa032844805dcb62a5d7ad2b3b97aa1d4de7bac'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js:
-    newFile: null
-    oldFile: !uuid '486e22efea7db40c7c658743694e5340b1d92b5d'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js:
-    newFile: null
-    oldFile: !uuid '53b670ae29d5b89985eeb2c4b314760ad1f6f001'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js:
-    newFile: null
-    oldFile: !uuid 'cb41d4df173094afa75d88afcc5fc3e9921afdba'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js:
-    newFile: null
-    oldFile: !uuid 'abc48aae1a8c71e5f70953d179d6399e78dbff7a'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/da.js:
-    newFile: null
-    oldFile: !uuid '0cdd9523ab99ba3aff7820c9b8837e92635d5079'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/de.js:
-    newFile: null
-    oldFile: !uuid '969901bb1ea139c9d0ae3bab3a1a0f31e5eb3eb2'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/el.js:
-    newFile: null
-    oldFile: !uuid 'ba394e8d2e1970b5b7b2b3cdbb9653b08b9f6dbb'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/en.js:
-    newFile: null
-    oldFile: !uuid '5deb84e7303e9323e26e423e3f2987b5eba8b858'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js:
-    newFile: null
-    oldFile: !uuid '73bdd3a7162d43e71b8cf804d9e23ebefbe5dfb2'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/es.js:
-    newFile: null
-    oldFile: !uuid '5e6bdb5af89d40bfa595233a728ee278b99bc351'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/et.js:
-    newFile: null
-    oldFile: !uuid '5cfdb7361bae988a0a028bc660fe6a232fd48e1a'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js:
-    newFile: null
-    oldFile: !uuid 'aa88911a0d00580fae7c971a91c76f7c918337d1'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js:
-    newFile: null
-    oldFile: !uuid '73ea3194abb829315ffe89c7a18758a9b65b41d0'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js:
-    newFile: null
-    oldFile: !uuid '1c210f041f3d5939dac91cceae3a5ee8f55547b9'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js:
-    newFile: null
-    oldFile: !uuid 'b133415ddee16e0b9fbf9ba3ec3e7c6aeaa933bf'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js:
-    newFile: null
-    oldFile: !uuid 'f6f0c7caf4a2d37d49676dbecb1838d9c23c8de1'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js:
-    newFile: null
-    oldFile: !uuid 'fb58c120e078fd88063831a8c407a12e0ac77126'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/he.js:
-    newFile: null
-    oldFile: !uuid 'c22978e5d9a0a765baffdcacc31c6a0a6500e4bb'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js:
-    newFile: null
-    oldFile: !uuid '0f9bbc9b393b5eaf1ab96d6d9bbc9d5f87336f92'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js:
-    newFile: null
-    oldFile: !uuid 'f3c3394f3111e4d44c39b7b06ed9424a0a2c9abf'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js:
-    newFile: null
-    oldFile: !uuid '3de0bc06c61116c2ac8be38cdfbf4562eb872f59'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/id.js:
-    newFile: null
-    oldFile: !uuid 'fe06349102594dbc2a63c919093ff52e6dd5122a'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/it.js:
-    newFile: null
-    oldFile: !uuid '1f4d5a5f5af3f9e173eccf9558b64edf992bb19b'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js:
-    newFile: null
-    oldFile: !uuid '0536a94561dcfff186e16933335c58e4c79a37e1'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/km.js:
-    newFile: null
-    oldFile: !uuid '3dfd4a094cb87b915e7ebc32b0a07e25f15d79f0'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js:
-    newFile: null
-    oldFile: !uuid '650b68e48048c2b2fd82a0a4e53a26e06a49831a'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js:
-    newFile: null
-    oldFile: !uuid '6ceb4f7247ea5c0339d4889803b8813eabd56ade'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js:
-    newFile: null
-    oldFile: !uuid '550e595e6c60c361a736004a12416fd8cb659bcb'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js:
-    newFile: null
-    oldFile: !uuid '0b974bff53b68c66e08124f875e3dd5ebe3d8b1e'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js:
-    newFile: null
-    oldFile: !uuid 'b23b8c2f02b339d9f8bf107dcf90a2a424859370'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js:
-    newFile: null
-    oldFile: !uuid '28af84ab01e7d18b42b04d57840868984bad1bdc'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js:
-    newFile: null
-    oldFile: !uuid 'a0b430c5608dfb7e19c4cb6191941a865cf51bfe'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js:
-    newFile: null
-    oldFile: !uuid '277cf6e9f0c363085448c7d7416dedf0a22dfd94'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/no.js:
-    newFile: null
-    oldFile: !uuid '28a54e85fea10f21e746d4b3ce35d1ac2fe92572'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js:
-    newFile: null
-    oldFile: !uuid '5031e74c553256faa15a608d35ed7234b627be8d'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js:
-    newFile: null
-    oldFile: !uuid 'f5ab7c6ae7eecbc53b6e0e064da99927735fd797'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js:
-    newFile: null
-    oldFile: !uuid '79d72b1bad696fb08b378f6258bd8f9ffbc6f9db'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js:
-    newFile: null
-    oldFile: !uuid 'b6cda728ffabcdfd6dda2b696a70896b6628d6ab'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js:
-    newFile: null
-    oldFile: !uuid '8ea8f9a077e4869beb96fc7292df12cb37fcf783'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/si.js:
-    newFile: null
-    oldFile: !uuid '816dc754b8a79cab36c05128cf47a55f25d8c560'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js:
-    newFile: null
-    oldFile: !uuid '9d40e7905d55712d54710c3e40cd2af8c150b353'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js:
-    newFile: null
-    oldFile: !uuid 'f5dd31003c6465858060aed68d3691479f7f418a'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js:
-    newFile: null
-    oldFile: !uuid '9e4d6967dc11c711e71f6bbb0c05ef88e159c375'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js:
-    newFile: null
-    oldFile: !uuid '56a408307a69eafaa8d8e5f16999270a088a9b78'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js:
-    newFile: null
-    oldFile: !uuid 'e2dc7af8ef8813593ea22152d1d34c727315cc20'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js:
-    newFile: null
-    oldFile: !uuid '1fd8cf1274fe1401ff809186a7c5132526a27b7c'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/th.js:
-    newFile: null
-    oldFile: !uuid '25cf28cbf22e8f7be290c962316dc7e76524064d'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js:
-    newFile: null
-    oldFile: !uuid '768e522fac33965cb7ddd993ae3bc070c6963444'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js:
-    newFile: null
-    oldFile: !uuid '0b4441a96839082cc3a05e98f14cb43a7e4fb38a'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js:
-    newFile: null
-    oldFile: !uuid 'cf1eebf56ebe93ed28db2d4000e7a37efca4c328'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js:
-    newFile: null
-    oldFile: !uuid '52ada57bb7a13e13c1cc642511ca9bd82eca7077'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js:
-    newFile: null
-    oldFile: !uuid 'deed9ad71b922e782e12483442a9e291a9418005'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js:
-    newFile: null
-    oldFile: !uuid 'eb2a8bc0a48afe64bbb29d081603203b48922e98'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/about:
-    newFile: null
-    oldFile: !uuid 'a5f11efafbe8489190da14a6f9eca8713856c66c'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/about/dialogs:
-    newFile: null
-    oldFile: !uuid '98de88a4975e4619998bf1158e46814f679cef22'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/about/dialogs/about.js:
-    newFile: null
-    oldFile: !uuid 'd9b8194c2404fd84b3f24ffbd28b0053f954739c'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/about/dialogs/hidpi:
-    newFile: null
-    oldFile: !uuid '891cdf11f5003a64606ac83161fb802491b58f3d'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png:
-    newFile: null
-    oldFile: !uuid '10cc7368ad1bb65b16d037fa31e494906d60695e'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/about/dialogs/logo_ckeditor.png:
-    newFile: null
-    oldFile: !uuid 'f186eb87a09f826311e422cbf08cf6c98f1b2d8d'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/clipboard:
-    newFile: null
-    oldFile: !uuid '5df9361538b9b3b42c256f4b4f039c93f0faed66'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/clipboard/dialogs:
-    newFile: null
-    oldFile: !uuid '7fe1f8f6b32b25e1323abcc36c11f76460742206'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/clipboard/dialogs/paste.js:
-    newFile: null
-    oldFile: !uuid '0c7e256378eb1f071fcd555d55f3207af9d4106a'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/dialog:
-    newFile: null
-    oldFile: !uuid '6523ec3c98ceeabb4037ed7266c2c2c7dc253b9c'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/dialog/dialogDefinition.js:
-    newFile: null
-    oldFile: !uuid '2186b29d6c069f7ca312bf78c22a7fcd8717c4d0'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/fakeobjects:
-    newFile: null
-    oldFile: !uuid 'be412c07e61f02d3fab10a7de61a4e30f9e60d23'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/fakeobjects/images:
-    newFile: null
-    oldFile: !uuid 'c983fee82a5b41ba638d954983164b23f1acac48'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/fakeobjects/images/spacer.gif:
-    newFile: null
-    oldFile: !uuid '5bfd67a2d6f72ac3a55cbfcea5866e841d22f5d9'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/icons.png:
-    newFile: null
-    oldFile: !uuid 'c71008d700ecd88b3777e9e546b1c0e1e7c50b57'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/icons_hidpi.png:
-    newFile: null
-    oldFile: !uuid '0466c2bcc54b301feeaca624dac80213d9061da3'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/image:
-    newFile: null
-    oldFile: !uuid 'c811d0fb5e32dc78668bbf84b5247864804f1a0f'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/image/dialogs:
-    newFile: null
-    oldFile: !uuid '1ebb2f1ff84584ecbbeb49779899ca6ea11d830b'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/image/dialogs/image.js:
-    newFile: null
-    oldFile: !uuid 'c86de59051d5f7db8e2f466342ad1861a8a3bc31'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/image/images:
-    newFile: null
-    oldFile: !uuid '564c74743eb5d19a88ff3b7dff40bce8e012c68d'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/image/images/noimage.png:
-    newFile: null
-    oldFile: !uuid '159811305af7fc78662a53949f9c62bd702785af'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/link:
-    newFile: null
-    oldFile: !uuid '76885db8fb22651396e0366baa9ca11b020fa178'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/link/dialogs:
-    newFile: null
-    oldFile: !uuid 'cf9a20b2e74f92896376194e5a15d68e7258b724'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/link/dialogs/anchor.js:
-    newFile: null
-    oldFile: !uuid '562417a6901fe755a0037ef6c26ca2acd94de630'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/link/dialogs/link.js:
-    newFile: null
-    oldFile: !uuid '37085d3aaf9b6a2afb11a2d45b0fe7f6665dbc96'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/link/images:
-    newFile: null
-    oldFile: !uuid '6501923baf38e1ec93ad8d96ce8c8f7c3f78f8d7'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/link/images/anchor.png:
-    newFile: null
-    oldFile: !uuid 'c946ba5468e74b8f2a933f6ca98fe362514ccfda'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/link/images/hidpi:
-    newFile: null
-    oldFile: !uuid 'd34df069ab5c8676bffe3f3fe7fdcd1361760ccb'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/link/images/hidpi/anchor.png:
-    newFile: null
-    oldFile: !uuid '908b9fa34ca3fa3af1baf91baee4ece38d076c5d'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/magicline:
-    newFile: null
-    oldFile: !uuid '919d258fc88a8347e2e567b95e44d0e1807e3923'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/magicline/images:
-    newFile: null
-    oldFile: !uuid '717c8de129db07b34f7c509f278e835e4c32bad2'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/magicline/images/hidpi:
-    newFile: null
-    oldFile: !uuid 'd5d0aab814c750558996663aa1c4e5946f261765'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/magicline/images/hidpi/icon.png:
-    newFile: null
-    oldFile: !uuid '73a5f437dadc7213974eb7a5faceabdeb474a1cf'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/magicline/images/icon.png:
-    newFile: null
-    oldFile: !uuid 'b5de5ba95707440e8c56f4603c09cd3f16d39c71'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/pastefromword:
-    newFile: null
-    oldFile: !uuid '4ec4308f01a3c24b8c28dc5672e36c2abe30d7cb'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/pastefromword/filter:
-    newFile: null
-    oldFile: !uuid '6297ce471d34b4c26999b9f6593e47e8babc9296'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/pastefromword/filter/default.js:
-    newFile: null
-    oldFile: !uuid 'cc7a2e930fc88699a3cefe825fa974b3d54d825c'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/scayt:
-    newFile: null
-    oldFile: !uuid '899d02d39e4a2d2a9f9ccb9fde0facb9695cdfd9'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/scayt/LICENSE.md:
-    newFile: null
-    oldFile: !uuid '610c807808b853d556e10bc6328200534e60780f'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/scayt/README.md:
-    newFile: null
-    oldFile: !uuid '3b1ad94cb57864333b65dccaa87e130f273881b3'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/scayt/dialogs:
-    newFile: null
-    oldFile: !uuid '8e4c453fee9ee425aa162f5331295c8ff16bf350'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/scayt/dialogs/options.js:
-    newFile: null
-    oldFile: !uuid 'cc97b33a78fa5127c5ecd1416068c9f5be5cc20d'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/scayt/dialogs/toolbar.css:
-    newFile: null
-    oldFile: !uuid '861f43e3b47365e4dc48d906f9538389e8e5c5c1'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/specialchar:
-    newFile: null
-    oldFile: !uuid '332aba8c30b72449a5f027fa73584c9410208e19'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/specialchar/dialogs:
-    newFile: null
-    oldFile: !uuid '8acdb608dd01d0da3e8902587f545f0da88fa004'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/specialchar/dialogs/lang:
-    newFile: null
-    oldFile: !uuid 'c0f3efaa4d8c3c5ae4737166e3fe0d35806aa860'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt:
-    newFile: null
-    oldFile: !uuid 'ba95622175a90d7dfa1cad815bd18c588ff8dfc4'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/specialchar/dialogs/lang/ar.js:
-    newFile: null
-    oldFile: !uuid '389f3c20c967f8ea6ca4d976fc1005188611f5ef'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/specialchar/dialogs/lang/bg.js:
-    newFile: null
-    oldFile: !uuid 'c68b979180b3fb1f3c348733d3b3ec5e80810f6b'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/specialchar/dialogs/lang/ca.js:
-    newFile: null
-    oldFile: !uuid '907bb04364e5f1685a93cd607a3e03f97c951d3a'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/specialchar/dialogs/lang/cs.js:
-    newFile: null
-    oldFile: !uuid 'c9500d6c4c6d23dcdc57c2d1f2920529ab5739a3'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/specialchar/dialogs/lang/cy.js:
-    newFile: null
-    oldFile: !uuid '36a074f10f34c09f714f0796d8bb3a83af15df0d'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/specialchar/dialogs/lang/de.js:
-    newFile: null
-    oldFile: !uuid '73325db674dea6a805b8f284c2e1c90bc6bce346'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/specialchar/dialogs/lang/el.js:
-    newFile: null
-    oldFile: !uuid '70f90d95f7d538e0e5ec464c3e978ae167f466c8'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/specialchar/dialogs/lang/en.js:
-    newFile: null
-    oldFile: !uuid 'c973e03f2dedd2d633d053da66b3643b09f4d116'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/specialchar/dialogs/lang/eo.js:
-    newFile: null
-    oldFile: !uuid 'f937dc0ad4c6584c9ce2cc4e6b6eb5d4afaa2f9c'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/specialchar/dialogs/lang/es.js:
-    newFile: null
-    oldFile: !uuid 'b1254c9dea9bd50eb3cb30fa5860074862276845'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/specialchar/dialogs/lang/et.js:
-    newFile: null
-    oldFile: !uuid 'd6e875e616399d218147b9295f1a57716e022406'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/specialchar/dialogs/lang/fa.js:
-    newFile: null
-    oldFile: !uuid 'b32ff7715547b575120503826a8d8b752c02b9ac'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/specialchar/dialogs/lang/fi.js:
-    newFile: null
-    oldFile: !uuid '33f76c2d28faee1a9aba1eec4abfa06ae7f58d57'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js:
-    newFile: null
-    oldFile: !uuid '92c5afc7e156eb50a2ab4a3fe6fb56f650792cbc'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/specialchar/dialogs/lang/fr.js:
-    newFile: null
-    oldFile: !uuid '7a275e47138294de13449dbad54e5170d9407433'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/specialchar/dialogs/lang/gl.js:
-    newFile: null
-    oldFile: !uuid 'c659249210ea57aa92809bf052d47af09f3f3e97'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/specialchar/dialogs/lang/he.js:
-    newFile: null
-    oldFile: !uuid '29c73983f31bb9f2938937d844037d65696cc85a'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/specialchar/dialogs/lang/hr.js:
-    newFile: null
-    oldFile: !uuid 'f55749e4922e1e7f3c5c7ec1112cc8e6ebb276aa'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/specialchar/dialogs/lang/hu.js:
-    newFile: null
-    oldFile: !uuid '52327ec2bc09b134de0f9792374f28f1f34537db'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/specialchar/dialogs/lang/id.js:
-    newFile: null
-    oldFile: !uuid '7c7885ad58a23d0f46c92a9f074c01559db32a32'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/specialchar/dialogs/lang/it.js:
-    newFile: null
-    oldFile: !uuid '5bc136f41f593ae11367f008f43209c767c81ba2'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/specialchar/dialogs/lang/ja.js:
-    newFile: null
-    oldFile: !uuid '0bbee621923ae6e2173872aab19199a670468cb0'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/specialchar/dialogs/lang/km.js:
-    newFile: null
-    oldFile: !uuid '956854087ac4b4e5e3734adb090a233d0d0008f6'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/specialchar/dialogs/lang/ku.js:
-    newFile: null
-    oldFile: !uuid 'af275c96879a8944c018d1835c807657385c39bb'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/specialchar/dialogs/lang/lv.js:
-    newFile: null
-    oldFile: !uuid '3f76e269bfaf97f8528d7a972c0ca4e10b9e0dfb'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/specialchar/dialogs/lang/nb.js:
-    newFile: null
-    oldFile: !uuid '1e8a8599a2880dd5da1cc7e9814d65f09e52f45b'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/specialchar/dialogs/lang/nl.js:
-    newFile: null
-    oldFile: !uuid '9a8fb14c16ca23fe490125ffedb81f29e08b3cc1'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/specialchar/dialogs/lang/no.js:
-    newFile: null
-    oldFile: !uuid '07870776a01463c97d5ade836555a37986d32802'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/specialchar/dialogs/lang/pl.js:
-    newFile: null
-    oldFile: !uuid '6b0f8026d033c6340a4b38a72c755dae5d12dfd4'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js:
-    newFile: null
-    oldFile: !uuid 'cb4ea1a118f43d0655e91d48cc2605d60ecf9988'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/specialchar/dialogs/lang/pt.js:
-    newFile: null
-    oldFile: !uuid '3517162a520ff61f6261b5f551d387fa6191ac9a'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/specialchar/dialogs/lang/ru.js:
-    newFile: null
-    oldFile: !uuid '622078d78bcb86c7fc8d854b6a687f9eb193208b'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/specialchar/dialogs/lang/si.js:
-    newFile: null
-    oldFile: !uuid 'eac6894be88d35cc9ebb7ccb80138e37b1b20625'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/specialchar/dialogs/lang/sk.js:
-    newFile: null
-    oldFile: !uuid '7a79fb25bf9dc86ab5913c5512a21d571b0e2ebd'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/specialchar/dialogs/lang/sl.js:
-    newFile: null
-    oldFile: !uuid '514e98ade425643e9195d1d81fa61d98eaaa711e'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/specialchar/dialogs/lang/sq.js:
-    newFile: null
-    oldFile: !uuid 'bab1b7e51a45eb05793ec2f60a297d7577cdbc3e'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/specialchar/dialogs/lang/sv.js:
-    newFile: null
-    oldFile: !uuid '562aba474ca3cc4a813c5d6b70ac307d83d29d18'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/specialchar/dialogs/lang/th.js:
-    newFile: null
-    oldFile: !uuid '77afffc3b7d42668b386e5d6a723cf4b02af258e'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/specialchar/dialogs/lang/tr.js:
-    newFile: null
-    oldFile: !uuid '68836ab941b20ce56c39002dbb86d4678e897169'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/specialchar/dialogs/lang/ug.js:
-    newFile: null
-    oldFile: !uuid '783aa3707b3d0cbc8621d0cbc9fad822d420c330'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/specialchar/dialogs/lang/uk.js:
-    newFile: null
-    oldFile: !uuid '7cb16800d71b0157574419cc8d767d31f780984c'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/specialchar/dialogs/lang/vi.js:
-    newFile: null
-    oldFile: !uuid '03a5b75313e231a06698400c0690a8a854c7bfbb'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js:
-    newFile: null
-    oldFile: !uuid 'aa42b83cd57c3ec18052e9c29a85ac5ecbd17060'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/specialchar/dialogs/lang/zh.js:
-    newFile: null
-    oldFile: !uuid 'b6e08befe9f89265cb9a0b227d46ad6a79233487'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/specialchar/dialogs/specialchar.js:
-    newFile: null
-    oldFile: !uuid '7f4348c1e9c80064134c2bd4e3678cd5d6d0c759'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/table:
-    newFile: null
-    oldFile: !uuid '12b08198cb61884e2e2560d408698dd75be64151'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/table/dialogs:
-    newFile: null
-    oldFile: !uuid '59256144b57589a29be391589a394eca77457eac'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/table/dialogs/table.js:
-    newFile: null
-    oldFile: !uuid 'cc0b6464623aa9ac817a693d1a6b3eeaf7f9a76e'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/tabletools:
-    newFile: null
-    oldFile: !uuid '14c2b7064c6a319a32f6a2f5571e023f4ebdd450'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/tabletools/dialogs:
-    newFile: null
-    oldFile: !uuid '8a6c4af8bcb588176bebb6f65addab719bc1e1c1'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/tabletools/dialogs/tableCell.js:
-    newFile: null
-    oldFile: !uuid 'a328cc9ea7236b566b1c5f1a07dc6218006a5030'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/wsc:
-    newFile: null
-    oldFile: !uuid 'cef523d6c66b5952771b4e7719a148af04913d52'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/wsc/LICENSE.md:
-    newFile: null
-    oldFile: !uuid 'c7d374ad19aec9ea26f51b6ebd18e6ac7f7cfe03'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/wsc/README.md:
-    newFile: null
-    oldFile: !uuid '46eeafb0921db3aea0e7f5e858978c2168813609'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/wsc/dialogs:
-    newFile: null
-    oldFile: !uuid '3b4130df9e0cafeef7c5f52f2c5ad78fed40bf6a'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/wsc/dialogs/ciframe.html:
-    newFile: null
-    oldFile: !uuid '25db3c739fdd14a2e34093ff15c579dff59fabe4'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/wsc/dialogs/tmp.html:
-    newFile: null
-    oldFile: !uuid '6e9b012e4890bad8bf927b238a77fa8239c16ef7'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/wsc/dialogs/tmpFrameset.html:
-    newFile: null
-    oldFile: !uuid '0d675f4d6927faddc1bdc8fb2309fbd24111db5c'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/wsc/dialogs/wsc.css:
-    newFile: null
-    oldFile: !uuid '9e834f1d0940ace184e28f3c73a2c859d19631ea'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/wsc/dialogs/wsc.js:
-    newFile: null
-    oldFile: !uuid '22410bdb155e7f8622e057a9a8fbf4a0ffa4296a'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/wsc/dialogs/wsc_ie.js:
-    newFile: null
-    oldFile: !uuid '6b39b0060fa8062b1fde52da259756783492e871'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/skins:
-    newFile: null
-    oldFile: !uuid '0bf90e79d0a19665c7563865511fa41dc56ed10a'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/skins/moono:
-    newFile: null
-    oldFile: !uuid 'dfe22f1f28d476285efb462bb09b166bd1252680'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/skins/moono/dialog.css:
-    newFile: null
-    oldFile: !uuid '29bbaf9f16178cec15aa025595ffe36c98ca5361'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/skins/moono/dialog_ie.css:
-    newFile: null
-    oldFile: !uuid '153b05cb5111fca24f0b8cf7957d5d052f07d724'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/skins/moono/dialog_ie7.css:
-    newFile: null
-    oldFile: !uuid '459e72b85b37ffaf751780a3eba7957cc296e26c'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/skins/moono/dialog_ie8.css:
-    newFile: null
-    oldFile: !uuid '74e9fa88e46a4f7d16a72d9be23c0702b905dc3b'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/skins/moono/dialog_iequirks.css:
-    newFile: null
-    oldFile: !uuid '1c8e05583043f49dead0beb3ae66ce1aa518667b'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/skins/moono/dialog_opera.css:
-    newFile: null
-    oldFile: !uuid '742ce7315fe9c505fca2bd588c64a1943605a1ce'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/skins/moono/editor.css:
-    newFile: null
-    oldFile: !uuid '2df84822701de0b24d2536df488ce816dac31f71'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/skins/moono/editor_gecko.css:
-    newFile: null
-    oldFile: !uuid 'ecb7990afdd50bf9b46b1cae44be6cfbdeee7aa4'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/skins/moono/editor_ie.css:
-    newFile: null
-    oldFile: !uuid '332d7795b4dc89135667c26a06108626355af89b'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/skins/moono/editor_ie7.css:
-    newFile: null
-    oldFile: !uuid '9bfeaa789674faefa3bb07bc4313dfbc2db88872'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/skins/moono/editor_ie8.css:
-    newFile: null
-    oldFile: !uuid '955ec8d278e03aa657f55e9f9bf34cfdb2a4adc9'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/skins/moono/editor_iequirks.css:
-    newFile: null
-    oldFile: !uuid '009d08c5d867d56bde53e7fb4d1291d0962c2088'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/skins/moono/icons.png:
-    newFile: null
-    oldFile: !uuid 'c71008d700ecd88b3777e9e546b1c0e1e7c50b57'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/skins/moono/icons_hidpi.png:
-    newFile: null
-    oldFile: !uuid '0466c2bcc54b301feeaca624dac80213d9061da3'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/skins/moono/images:
-    newFile: null
-    oldFile: !uuid 'd88bd45e357ac36589fe29efb334222951057b64'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/skins/moono/images/arrow.png:
-    newFile: null
-    oldFile: !uuid '0d1eb39c6763770690d4cd6faf81503975a25f08'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/skins/moono/images/close.png:
-    newFile: null
-    oldFile: !uuid '04b9c97dde8273f8518060c82104b38b51832fa0'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/skins/moono/images/hidpi:
-    newFile: null
-    oldFile: !uuid '4ee983f7abf79dc599bfd0027d0bb40f8993c893'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/skins/moono/images/hidpi/close.png:
-    newFile: null
-    oldFile: !uuid '8abca8e9726db1db199a0872d24b08842ec8ea62'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/skins/moono/images/hidpi/lock-open.png:
-    newFile: null
-    oldFile: !uuid 'aa5e740ee7754e53736d7b3482ac0e667297cc3e'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/skins/moono/images/hidpi/lock.png:
-    newFile: null
-    oldFile: !uuid '5404b063a0c0651a371a24ba72e9550ef74a19a2'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/skins/moono/images/hidpi/refresh.png:
-    newFile: null
-    oldFile: !uuid '1ebef3440d3a6b72ba548633152ae8d170e9eded'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/skins/moono/images/lock-open.png:
-    newFile: null
-    oldFile: !uuid '3b256c06360de24552404831ad2837e4f7499b88'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/skins/moono/images/lock.png:
-    newFile: null
-    oldFile: !uuid 'c127f9ebe788baaf9c69bea6d1c7653d990cbe3c'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/skins/moono/images/refresh.png:
-    newFile: null
-    oldFile: !uuid 'a1a061c50de209f0b3749537a6a20fba2b93c8e3'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/skins/moono/readme.md:
-    newFile: null
-    oldFile: !uuid 'f24ec4f590cd180e69b1c98d764594147f5cf199'
-  /OpenAuth.Mvc/Content/plugins/ckeditor/styles.js:
-    newFile: null
-    oldFile: !uuid 'b58e0bda2f5fa5c2171d4140807db40b6d374f58'
-  /OpenAuth.Mvc/Content/plugins/colorpicker:
-    newFile: null
-    oldFile: !uuid '05d633b07e05ef5478fa5bf9d91a1d9274b0f26f'
-  /OpenAuth.Mvc/Content/plugins/colorpicker/bootstrap-colorpicker.css:
-    newFile: null
-    oldFile: !uuid 'ba4365e2818b70cc3c3c71723159b9a81ba04653'
-  /OpenAuth.Mvc/Content/plugins/colorpicker/bootstrap-colorpicker.js:
-    newFile: null
-    oldFile: !uuid '2200b0cc9799d6ee93127361f140edcf8febc5dc'
-  /OpenAuth.Mvc/Content/plugins/colorpicker/bootstrap-colorpicker.min.css:
-    newFile: null
-    oldFile: !uuid '16a2d1a0ff61ca330c438a5e902f665a7470173d'
-  /OpenAuth.Mvc/Content/plugins/colorpicker/bootstrap-colorpicker.min.js:
-    newFile: null
-    oldFile: !uuid 'bc4fba9efec556a46d0c6124ce6cbba7d9af16aa'
-  /OpenAuth.Mvc/Content/plugins/colorpicker/img:
-    newFile: null
-    oldFile: !uuid 'e078653cca378ca2ee9bc0bd7f0b90e7c6f93c29'
-  /OpenAuth.Mvc/Content/plugins/colorpicker/img/alpha-horizontal.png:
-    newFile: null
-    oldFile: !uuid 'd0a65c08b0ed34d969cb0e93165a2e8b0ef9dbd7'
-  /OpenAuth.Mvc/Content/plugins/colorpicker/img/alpha.png:
-    newFile: null
-    oldFile: !uuid '38043f1c85f20fe8ce37ad380bebe2d42d14fb29'
-  /OpenAuth.Mvc/Content/plugins/colorpicker/img/hue-horizontal.png:
-    newFile: null
-    oldFile: !uuid 'a0d9add8e7b12c40e3aef1a095e3ae15ac2e4969'
-  /OpenAuth.Mvc/Content/plugins/colorpicker/img/hue.png:
-    newFile: null
-    oldFile: !uuid 'd89560e999f86c349ddc78c298b0328293f13e1e'
-  /OpenAuth.Mvc/Content/plugins/colorpicker/img/saturation.png:
-    newFile: null
-    oldFile: !uuid '594ae50ed77608cf6373d6b39e5cacb9f63b7bbe'
-  /OpenAuth.Mvc/Content/scripts:
-    newFile: !uuid 'b4fe12d8ffa139691b164afc1e1bc7e4d3c4f0bd'
+    newFile: !uuid '2602e47bb7085a59d27454e9ee5c05c9cfb82937'
+    oldFile: !uuid '6ff990a723e1a5f2c36e4e4ea771b38493cc0edd'
+  /OpenAuth.Mvc/Content/styles:
+    newFile: !uuid 'df1d84db6f11862a68bf8d07a308c64f38218d10'
     oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins:
-    newFile: !uuid 'fce72b3a6725a75d1272f3f8095b6f90e4ff22f2'
+  /OpenAuth.Mvc/Content/styles/font-awesome.min.css:
+    newFile: !uuid 'f12c934caae231506a3f0a2e83f2a572cfab6fc2'
     oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor:
-    newFile: !uuid '30042724ee1b889199fdd39804b14dbd60b10187'
+  /OpenAuth.Mvc/Content/styles/fonts:
+    newFile: !uuid '761eec076001722f955199b42455ab251344c502'
     oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/adapters:
-    newFile: !uuid '3bde49f05d9c3eff12fbcb00c3d6588c7d05e6b7'
+  /OpenAuth.Mvc/Content/styles/fonts/FontAwesome.otf:
+    newFile: !uuid '3ed7f8b48ad9bfab52eb03822fefcd6b77d2e680'
     oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/adapters/jquery.js:
-    newFile: !uuid '3ec908b0e0e56773ca0b408da0768b6aa66d357c'
+  /OpenAuth.Mvc/Content/styles/fonts/fontawesome-webfont.eot:
+    newFile: !uuid '9b6afaedc0fd7aaf927a07f82da9c11022251b8b'
     oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/build-config.js:
-    newFile: !uuid '8a0a8cc1587c838c225eb0b343ed6d55a50af791'
+  /OpenAuth.Mvc/Content/styles/fonts/fontawesome-webfont.svg:
+    newFile: !uuid 'd05688e9e28e1bee95662f3b668f410d37dfa214'
     oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/config.js:
-    newFile: !uuid '3bcb52d5b055f8426b349b393ca71507f548406a'
+  /OpenAuth.Mvc/Content/styles/fonts/fontawesome-webfont.ttf:
+    newFile: !uuid '26dea7951a73079223b50653c455c5adf46a4648'
     oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/contents.css:
-    newFile: !uuid 'f01d2918ca468febdfccfcf64cfd12cc27b6c856'
+  /OpenAuth.Mvc/Content/styles/fonts/fontawesome-webfont.woff:
+    newFile: !uuid 'dc35ce3c2cf688c89b0bd0d4a82bc4be82b14c40'
     oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins:
-    newFile: !uuid 'e1716b80b0873d8c66c8e387c434f5fc3e377057'
+  /OpenAuth.Mvc/Content/styles/fonts/fontawesome-webfont.woff2:
+    newFile: !uuid '500e5172534171f678e01f7569d66f9257036a09'
     oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp:
-    newFile: !uuid 'd0307dec2332fdfbb897d64a9e2f77394b1c2c2e'
+  /OpenAuth.Mvc/Content/styles/learun-applayout.css:
+    newFile: !uuid '6a8727d2dee709f3e26891163483194e3288ac5a'
     oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs:
-    newFile: !uuid '9647d010a5deff3d47794097022b2219a0133971'
+  /OpenAuth.Mvc/Content/styles/learun-bill.css:
+    newFile: !uuid 'a0ecc851b42fb6f56126a6dd31ac00df082ba5ae'
     oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang:
-    newFile: !uuid 'da84a0d5566e8e6e4fa8b5860bfbf24a1573c895'
+  /OpenAuth.Mvc/Content/styles/learun-ckbox-radio.css:
+    newFile: !uuid '03f43f13f844547d5442759632e09569b08035ab'
     oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt:
-    newFile: !uuid '82d4b6b76af1e749ce07d7192830efc4e97a3c0c'
+  /OpenAuth.Mvc/Content/styles/learun-flow.css:
+    newFile: !uuid '33bada9c29a9ba1d2f217deff126398c197f4e36'
     oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js:
-    newFile: !uuid '49f816f14e5cf9820ccda87074bf3353aa6607cd'
+  /OpenAuth.Mvc/Content/styles/learun-im.css:
+    newFile: !uuid 'a318aecb7c9ac5f6d90674fed44a62fa9b3cac9c'
     oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js:
-    newFile: !uuid 'bddf534fc7f19e718528af63c51fcc48d5fd6298'
+  /OpenAuth.Mvc/Content/styles/learun-login.css:
+    newFile: !uuid 'bca5a74308071e4e98ea15bc99a12309dd861fcb'
     oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js:
-    newFile: !uuid '04f705ba190d37e19202639e7161a04f1331decb'
+  /OpenAuth.Mvc/Content/styles/learun-report.css:
+    newFile: !uuid '2115c98c5c6b2ddc35a7278d2a892d101a921f09'
     oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js:
-    newFile: !uuid 'ed61622e914ec0a74b0df3a3c4822099f86402d7'
+  /OpenAuth.Mvc/Content/styles/learun-ui.css:
+    newFile: !uuid '9c9fb019b30e203d0a11a5ae80588a1fe4bf2c1c'
     oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js:
-    newFile: !uuid '86bd79d762148419e0e04476d4caee04447f45bf'
+  /OpenAuth.Mvc/Content/styles/learun-webApp.css:
+    newFile: !uuid 'c71afd39fedce941a392618cefab843c0c277103'
     oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/da.js:
-    newFile: !uuid '2be9ece13aa7cd1694f1e187b21c96359babcd2a'
+  /OpenAuth.Mvc/WebCtrls:
+    newFile: !uuid 'fabe30120122f3aeb1ceafcb2ddb800cce342c60'
     oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/de.js:
-    newFile: !uuid '2a1e6f49c0bda2be56d2894d8ed3da215e19ca63'
+  /OpenAuth.Mvc/WebCtrls/AjaxResult.cs:
+    newFile: !uuid '112ae64026e506d4bfe6073ba2138e30595a5b12'
     oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/el.js:
-    newFile: !uuid 'f2065da417c3f29127c359abdb4da4ae6af5e232'
+  /OpenAuth.Mvc/WebCtrls/Grid:
+    newFile: !uuid 'aad686b1bce51fa0186e1e4145bf39e3ab9a5e1b'
     oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/en-gb.js:
-    newFile: !uuid '4182e6c23347fd108c8cc9c1a1f19f8975166532'
+  /OpenAuth.Mvc/WebCtrls/Grid/GridColumnModel.cs:
+    newFile: !uuid '7f1db04309057262aface79af2444d8d544e48ae'
     oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/en.js:
-    newFile: !uuid 'ae9b33852db44e8fdf8662befc7507cae237d78d'
+  /OpenAuth.Mvc/WebCtrls/GridTree:
+    newFile: !uuid '3983d61b24db3cf1ea8ed27cf4a1facb894dd2f1'
     oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js:
-    newFile: !uuid '081cc7e7513dfed5828929ca87c7965ded4a6274'
+  /OpenAuth.Mvc/WebCtrls/GridTree/TreeGridEntity.cs:
+    newFile: !uuid 'f74ad4e220d1ef195701294933c874c53fa4b482'
     oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/es.js:
-    newFile: !uuid 'eb30d5ee89ebf30a7594feb6f8b8b330a044955e'
+  /OpenAuth.Mvc/WebCtrls/GridTree/TreeGridJson.cs:
+    newFile: !uuid '07485fac0816c602258d1d77e7e03c684f401943'
     oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/et.js:
-    newFile: !uuid '4a893b0e533385facdd6d4b9b0fb903f2984f9a3'
+  /OpenAuth.Mvc/WebCtrls/Pagination.cs:
+    newFile: !uuid 'f06d96673d6c01dc06d02f040ae251fbde73659d'
     oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js:
-    newFile: !uuid 'a0a8ae55f7662a3151eb2baa0ccef80753dfef1a'
+  /OpenAuth.Mvc/WebCtrls/Tree:
+    newFile: !uuid '87ad6ad88550b887c77e0ea061b184e40bbab813'
     oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js:
-    newFile: !uuid '644d45bd1d35fa85da9b61f0233fcd47cf059790'
+  /OpenAuth.Mvc/WebCtrls/Tree/TreeEntity.cs:
+    newFile: !uuid 'f93a2f3f2fe29f48dfe053094911aa4656779a88'
     oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js:
-    newFile: !uuid '15c3c4eb59660f4a4db62a228f9eaf65065e1a84'
+  /OpenAuth.Mvc/WebCtrls/Tree/TreeJson.cs:
+    newFile: !uuid '2af81a0184fdd84c017124f2c26dcfdac161199c'
     oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js:
-    newFile: !uuid 'a7de279aeed0592d91eb133a0fa7ef0ed898b143'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js:
-    newFile: !uuid '37fea83bcf8deb02e554011db3fe698fe51c30a2'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js:
-    newFile: !uuid '2982b4f7d036336e983a7c775ceb870409797ce5'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/he.js:
-    newFile: !uuid '6be2191cb8609ad13a0f7ff8a5c5da1cd7369189'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js:
-    newFile: !uuid '2e50a82a3e326fec3d404dd9a47dfef7e8d3636f'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js:
-    newFile: !uuid '3cf43663b06af904d4eb391ced0f34260d55e74a'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js:
-    newFile: !uuid '41d64897cb6626800d5c8dfa048946a589737998'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/id.js:
-    newFile: !uuid 'bf14b8a35aa26c93273615f997a5c71e00333cb6'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/it.js:
-    newFile: !uuid '4166252b5f1e9a9e9ea29307910dc92aca330273'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js:
-    newFile: !uuid '4a6b4c7a6e198e5286e343cfc8cc21d582ce3edc'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js:
-    newFile: !uuid '964122483b6e78d44b1328761b50bafa38dfa355'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js:
-    newFile: !uuid '04d50a943a217cfee5177ff2b4c0a276f6fb9a8d'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js:
-    newFile: !uuid '36ad0cdb0ae2949fe028722aa62874ec2192c230'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js:
-    newFile: !uuid 'fa1b2ef396ff5f5a8345f6fb72a590013e689683'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js:
-    newFile: !uuid 'd40e4d3dff2fbaf943ce2367755e509d69c63d06'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js:
-    newFile: !uuid 'c86ef4ab753a53474fc508e8841b38c0ce900a1c'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js:
-    newFile: !uuid '2194480341a7ca06ac47837a4820c8eb7e17dfd8'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/no.js:
-    newFile: !uuid '6c69664787d7e22183a06e788c2e0d3f7277bcae'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js:
-    newFile: !uuid '664b12761bcc446af319e431f0f6476d94bc3ae0'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js:
-    newFile: !uuid '1557459ca8733d6b7b348b810bdbdedb5474503d'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js:
-    newFile: !uuid 'c7cd070139eaf7eadf2813b48a72fcd3ef5df42f'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js:
-    newFile: !uuid '0c0e31a34abe56af4b1a0e2ae95a30e9bbb6e185'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/si.js:
-    newFile: !uuid 'b5616dd0d8d4ac62ec9af0c5e03bf59a56f83fb5'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js:
-    newFile: !uuid '083236c4e6f6f85054a9f5c1fd4736e67888c2c3'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js:
-    newFile: !uuid 'f99db09b22c604d08c576795b57980933347e677'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js:
-    newFile: !uuid '7bcd769025626227e7d27c4b40ef4f92e18e744b'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js:
-    newFile: !uuid 'e1a720b13708aaa7df041a87b0ded3dc4829297e'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js:
-    newFile: !uuid 'a75fdd4dd707e0d7a5e86c9236f37c27f30a84be'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js:
-    newFile: !uuid '49f9293d79adeffc29a476589da5af890466a02a'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/th.js:
-    newFile: !uuid '4e7c3e0af74d131c81aa51243120ba14b8956fd5'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js:
-    newFile: !uuid '57fd77a28ce6a8c428fa5818f7f93289d5c86a9a'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js:
-    newFile: !uuid 'c7ab77c660ee30615dde72c3010c11e568553b0f'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js:
-    newFile: !uuid '7c8f90988fb41a1708d78c4fba33c75c4a46f3cb'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js:
-    newFile: !uuid 'e82e39a16a57f83df7f3d05d46b30feb7c327f27'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js:
-    newFile: !uuid 'fe2cab0d2cd80c7af2b54b3db2c35a012cdca52c'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js:
-    newFile: !uuid '1521763d18ad83416c799d7a6dff4984f0a4273f'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/about:
-    newFile: !uuid '41e65da90ff4c36857c792b0007caa4d8d531206'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/about/dialogs:
-    newFile: !uuid '0285ef2d0208a83aa8004f14f06c315340844e74'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/about/dialogs/hidpi:
-    newFile: !uuid '891cdf11f5003a64606ac83161fb802491b58f3d'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png:
-    newFile: !uuid '10cc7368ad1bb65b16d037fa31e494906d60695e'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/about/dialogs/logo_ckeditor.png:
-    newFile: !uuid 'f186eb87a09f826311e422cbf08cf6c98f1b2d8d'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/clipboard:
-    newFile: !uuid 'f6194ee6b24526b68514675b5df1db791db5bc96'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/clipboard/dialogs:
-    newFile: !uuid '15c97d2ee0812e214bcf8c01b46e118813e0d670'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/clipboard/dialogs/paste.js:
-    newFile: !uuid 'fd793e9449250a9ba7c18606c105c1b70d4858b7'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/dialog:
-    newFile: !uuid 'f37744fcddd92aa04b85739b273383bb30d6c388'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/dialog/dialogDefinition.js:
-    newFile: !uuid '67d361ce9bad4f706a02099b094c41a2d6c49091'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/icons_hidpi.png:
-    newFile: !uuid '0466c2bcc54b301feeaca624dac80213d9061da3'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/image:
-    newFile: !uuid 'f444ee5568e28d44458c1073a00cd24b8ce11839'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/image/images:
-    newFile: !uuid '564c74743eb5d19a88ff3b7dff40bce8e012c68d'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/image/images/noimage.png:
-    newFile: !uuid '159811305af7fc78662a53949f9c62bd702785af'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/link:
-    newFile: !uuid 'cc9e6a7af66d2fd9fa6705dcbfabb038e2b76343'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/link/images:
-    newFile: !uuid 'f1090ad9ebabc164058ee0fcf8fc5f6b052ed009'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/link/images/anchor.png:
-    newFile: !uuid '6d861a0e7a5cbd98d5cd3264c5fdb6009d43362b'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/magicline:
-    newFile: !uuid 'ced41ea08ca51df2038e8c4a5fc2c95763bfb801'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/magicline/images:
-    newFile: !uuid '1fff973238555ac311f2535ec3b94612e4189287'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/magicline/images/icon.png:
-    newFile: !uuid 'e063433632af33f66b95443d81e2548322a280c2'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/pastefromword:
-    newFile: !uuid '533e9cb70210264731564b19b9dd737ffeabd78c'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/pastefromword/filter:
-    newFile: !uuid 'f428a31dceb8922b2d4c1c0e7e95a2ceca904872'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/pastefromword/filter/default.js:
-    newFile: !uuid '899ed21b74d11601d590ee80cf0ab0741336fd1f'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/scayt:
-    newFile: !uuid '1ee33f48397beaf2df73e0ef7da42c32a0bba3c9'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/scayt/LICENSE.md:
-    newFile: !uuid '610c807808b853d556e10bc6328200534e60780f'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/scayt/README.md:
-    newFile: !uuid '1b3de25d38a9acfc676a7e55290914d362bb60b1'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/scayt/dialogs:
-    newFile: !uuid '81ba97f906ec59c5dd3b062242b20f294e059aa5'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/scayt/dialogs/toolbar.css:
-    newFile: !uuid '861f43e3b47365e4dc48d906f9538389e8e5c5c1'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/specialchar:
-    newFile: !uuid '3ca819385e3116b47c2e4956d5e56f265e382eed'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/specialchar/dialogs:
-    newFile: !uuid '43eb930f8832e90b2f2aaad70693aa3ef03d1641'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/specialchar/dialogs/lang:
-    newFile: !uuid '5c371ac02473925e9eb3edaeb6fb398bbffdf6a7'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt:
-    newFile: !uuid '8a4ef1f6ea2c493b434bd6cc6894f2ac029b62ae'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/specialchar/dialogs/lang/ar.js:
-    newFile: !uuid 'acb6c923ebb5797ddc009e17eda16981d847f083'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/specialchar/dialogs/lang/bg.js:
-    newFile: !uuid '0bf8749eabfdb69e58f5457db52737decc9157d7'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/specialchar/dialogs/lang/ca.js:
-    newFile: !uuid 'e6504372bf83362b63c4ae943ff65d98de36b696'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/specialchar/dialogs/lang/cs.js:
-    newFile: !uuid 'c2b38f0fc72613d678e046dc841191263ae83a35'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/specialchar/dialogs/lang/cy.js:
-    newFile: !uuid '77f59f61f9ace56198ddee58357f24282e07a126'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/specialchar/dialogs/lang/de.js:
-    newFile: !uuid '6b3ce87ec5c09903b030a9f103602c0f4bb138d0'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/specialchar/dialogs/lang/el.js:
-    newFile: !uuid 'e7c2a2195134c8e1d4bd677b4b718d4513a3d25b'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/specialchar/dialogs/lang/en.js:
-    newFile: !uuid '26f61c2e2c18f03a507da2bccf42ca088e6d72e5'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/specialchar/dialogs/lang/eo.js:
-    newFile: !uuid 'd44b0d2eb19b89823eca900ec004d5d66cd90453'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/specialchar/dialogs/lang/es.js:
-    newFile: !uuid '79d437f974fd7ff638e8fb971071ece375e2a87d'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/specialchar/dialogs/lang/et.js:
-    newFile: !uuid '22c90561d959c8f1d669f5db5763235f4cd92d20'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/specialchar/dialogs/lang/fa.js:
-    newFile: !uuid 'e0b27c59d71b5a4dd3cb6bda27efdb53fea04b55'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/specialchar/dialogs/lang/fi.js:
-    newFile: !uuid '6d701e3c9b7e1798165cfee9dc070034a1ab08e3'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js:
-    newFile: !uuid 'd19e2e42d6c46e5b868f6d7256fa98fa8d3b21c9'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/specialchar/dialogs/lang/fr.js:
-    newFile: !uuid '2d1ad09660fb9fce4fbeb04903e531fed27f95f6'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/specialchar/dialogs/lang/gl.js:
-    newFile: !uuid 'f16d36672d1d4284f819b7b586b0c9eafea0fa0c'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/specialchar/dialogs/lang/he.js:
-    newFile: !uuid 'dcfc50f093f77d013104802d95d1a3585a2ebddc'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/specialchar/dialogs/lang/hr.js:
-    newFile: !uuid 'af10255dacf1ef758f59bcd8d1ecf4942239e562'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/specialchar/dialogs/lang/hu.js:
-    newFile: !uuid '79483051f0b1cfe918650b88ce1af308134113d2'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/specialchar/dialogs/lang/id.js:
-    newFile: !uuid '4928f4004c467814d766d5162ca727b918849c0b'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/specialchar/dialogs/lang/it.js:
-    newFile: !uuid '894b56ce8bbe802e96a1dd4c636f84343cc4a7ab'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/specialchar/dialogs/lang/ja.js:
-    newFile: !uuid '84fb8fa2e28fe250187dd7bbd89ac205731b058d'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/specialchar/dialogs/lang/km.js:
-    newFile: !uuid '65a7518dfae47a09b1cc21b1f48367d48c8857f3'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/specialchar/dialogs/lang/ku.js:
-    newFile: !uuid '4917d4ade03951f340290855d17821cb96adfe78'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/specialchar/dialogs/lang/lv.js:
-    newFile: !uuid '50a77d36e9387341a860428d92a0fb9bda2b8c86'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/specialchar/dialogs/lang/nb.js:
-    newFile: !uuid '0cdcde20076e5b1a2661edcd50b4f4fbe6ecf265'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/specialchar/dialogs/lang/nl.js:
-    newFile: !uuid '68edf37f42df574491bac70503dda0f17f01fc9f'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/specialchar/dialogs/lang/no.js:
-    newFile: !uuid 'eecc56c92d5577e6632adf02bc8f817684306154'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/specialchar/dialogs/lang/pl.js:
-    newFile: !uuid 'f21a09dbb4a0a8cd9fc63421eeae162714d7dfa3'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js:
-    newFile: !uuid 'e3f78319a36e1da4247253828735bf310b2345f1'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/specialchar/dialogs/lang/pt.js:
-    newFile: !uuid '11ef746a66b48171eb7c5ded776d00613492a527'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/specialchar/dialogs/lang/ru.js:
-    newFile: !uuid '866e86598e1f8933e90b94b84ac67e9e1b08d2b8'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/specialchar/dialogs/lang/si.js:
-    newFile: !uuid '1255a35082f4d7362a1947a487ab910e22048c31'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/specialchar/dialogs/lang/sk.js:
-    newFile: !uuid '2d226d06e8de03ce302556a87eb3060d1f33f944'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/specialchar/dialogs/lang/sl.js:
-    newFile: !uuid '84759b627f8bed2094d62e5ec2c4b179c8122c82'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/specialchar/dialogs/lang/sq.js:
-    newFile: !uuid 'c7098005ca88278eed7d56b536fe4092af6ec245'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/specialchar/dialogs/lang/sv.js:
-    newFile: !uuid '8f741b93e598b9707296ef714a59b5410dfb8682'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/specialchar/dialogs/lang/th.js:
-    newFile: !uuid 'ae0b00e5373513c77769c6d2a7297112888e5f59'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/specialchar/dialogs/lang/tr.js:
-    newFile: !uuid '3dd220a3348ef36b9d8f3cdff08e071ef9a21c52'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/specialchar/dialogs/lang/ug.js:
-    newFile: !uuid '51f4c1d93ef49d89f291f9b35990113bd61631cf'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/specialchar/dialogs/lang/uk.js:
-    newFile: !uuid '845e7524bc7818b56faed06e598c9e86b6cbd6d7'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/specialchar/dialogs/lang/vi.js:
-    newFile: !uuid 'd4e4d37aad9de24c919c282cda4837a702abb57c'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js:
-    newFile: !uuid '6896e91283d81038c2333d28873ec9f12b18860e'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/table:
-    newFile: !uuid '054971d59cc7ca9551d5799494eb5d1d4f8ee845'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/table/dialogs:
-    newFile: !uuid '18ce06164e6d5d48cf3ae160c27121e93ad367ea'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/table/dialogs/table.js:
-    newFile: !uuid '6f656817d6f9f176f3bf111a35d544f4ff100347'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/wsc:
-    newFile: !uuid 'c45cd9ab36f4498b660b305bbdcab68d5b94e55a'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/wsc/LICENSE.md:
-    newFile: !uuid 'c7d374ad19aec9ea26f51b6ebd18e6ac7f7cfe03'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/wsc/README.md:
-    newFile: !uuid '46eeafb0921db3aea0e7f5e858978c2168813609'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/wsc/dialogs:
-    newFile: !uuid '94e14415fed5d99f1819211956d4bfab341ed88f'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/wsc/dialogs/ciframe.html:
-    newFile: !uuid '82df25b5cb6afd19ae4a8cfafd5df5b7a5305218'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/wsc/dialogs/tmpFrameset.html:
-    newFile: !uuid 'c2d82aa402272fb6cb79d16d13312b2bc2eb6b30'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/wsc/dialogs/wsc.css:
-    newFile: !uuid '496d731250cd4fed702173b9c0d8cb832ee480b7'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/skins:
-    newFile: !uuid 'b86f7f4898c1549a8e1aed2d4764162ea6b07218'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/skins/moono:
-    newFile: !uuid '86971c7f2bed057741439ba5cedec29190a6f1ee'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/skins/moono/icons_hidpi.png:
-    newFile: !uuid '0466c2bcc54b301feeaca624dac80213d9061da3'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/skins/moono/images:
-    newFile: !uuid '49ddf87c5add91e60a49771198e9725c8007b578'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/skins/moono/images/hidpi:
-    newFile: !uuid 'c89b07d9d7b0d404bca3c7151682e19c67e78dfb'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/skins/moono/images/hidpi/lock-open.png:
-    newFile: !uuid 'edbd12f3bdc10a969f350a8c482f92c224d1c466'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/tree:
-    newFile: !uuid 'f921fd30018742c19417bd30c2126f3cb5fb03e4'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/tree/images:
-    newFile: !uuid 'a70186c06446a27aa834e76aa98b76d2d76e8bca'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/tree/images/icons:
-    newFile: !uuid '7be4a2377ce62d840fe92c2b4391f04495d51cf6'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/tree/images/icons/s.gif:
-    newFile: !uuid '1d11fa9ada9e93505b3d736acb204083f45d5fbf'
-    oldFile: null
-  /OpenAuth.Mvc/OpenAuth.Mvc.csproj:
-    newFile: !uuid 'c5905532bc4c571c47b875d9ccb929f1b3235dd5'
-    oldFile: !uuid '5ba369f2dfad440b49fc43c0c6e2f7fea96565b5'
   /OpenAuth.Repository:
-    newFile: !uuid '65b776410153c3b0a56b90ba811d746ffc505a01'
-    oldFile: !uuid 'c0cc4b0654887f8e4ba7d3cda9a0cc8eabf62400'
+    newFile: !uuid '3bbefe440841c6c1da7a27e3b5732bd184191097'
+    oldFile: !uuid '65b776410153c3b0a56b90ba811d746ffc505a01'
   /OpenAuth.Repository/Models:
-    newFile: !uuid 'ecfa6895db26009cd38172a64c3ae07d01e29dec'
-    oldFile: !uuid '50334c3abf817d15aebb005b7e49e80d881e5707'
-  /OpenAuth.Repository/Models/OpenAuthDBContext.cs:
-    newFile: !uuid 'bd0559d456c9bee6475a6a1c6298e5d5c73b411d'
-    oldFile: !uuid 'ae003cc3a85d779078f5ebc10478afe42f34519b'
-  /OpenAuth.Repository/OpenAuth.Repository.csproj:
-    newFile: !uuid 'c66afd25a9115fb61cecbf624abe9df2899ff663'
-    oldFile: !uuid 'e4e9438d973f43cf6f9d7315082b49e6758b9d28'
-  /OpenAuth.UnitTest:
-    newFile: !uuid '1d53e5cb9e89814237317ed5ba4caec2894a78f5'
-    oldFile: !uuid 'abc69dc10b75fab63e600b4415c98a726183a551'
-  /OpenAuth.UnitTest/OpenAuth.UnitTest.csproj:
-    newFile: !uuid '63239a67d28c574b9eee3fbffdc8c8c64252ec95'
-    oldFile: !uuid '0b91b931a5f2a44b2d9eb2b97ac3508751922c14'
-  /OpenAuth.WebApi:
-    newFile: !uuid 'd198bbccbfba4b97a04246897583b8df220a3f6f'
-    oldFile: !uuid 'd198bbccbfba4b97a04246897583b8df220a3f6f'
-  /OpenAuth.WebTest:
-    newFile: !uuid '18c48530108891d1ce461ea2a64f9bb8203bca72'
-    oldFile: !uuid '18c48530108891d1ce461ea2a64f9bb8203bca72'
-  /数据库设计关系图:
-    newFile: !uuid '0af9a2a9a5e8686f1ca2e381694dbacc41d61a8e'
-    oldFile: !uuid '0af9a2a9a5e8686f1ca2e381694dbacc41d61a8e'
-gitCommitId: !uuid '21b37f77cf6b14ccbeabc9d989d4f2c6edde6fb2'
-renames:
-  /OpenAuth.Domain/Core/ApplyTransitionHistory.cs: /OpenAuth.Domain/ApplyTransitionHistory.cs
-  /OpenAuth.Domain/Core/CommonApply.cs: /OpenAuth.Domain/CommonApply.cs
-  /OpenAuth.Domain/Core/Entity.cs: /OpenAuth.Domain/Entity.cs
-  /OpenAuth.Domain/Core/Stock.cs: /OpenAuth.Domain/Stock.cs
-  /OpenAuth.Domain/Core/WorkflowScheme.cs: /OpenAuth.Domain/WorkflowScheme.cs
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png: /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/about/dialogs/logo_ckeditor.png: /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/about/dialogs/logo_ckeditor.png
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/icons_hidpi.png: /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/icons_hidpi.png
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/image/images/noimage.png: /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/image/images/noimage.png
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/scayt/LICENSE.md: /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/scayt/LICENSE.md
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/scayt/dialogs/toolbar.css: /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/scayt/dialogs/toolbar.css
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/wsc/LICENSE.md: /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/wsc/LICENSE.md
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/plugins/wsc/README.md: /OpenAuth.Mvc/Content/plugins/ckeditor/plugins/wsc/README.md
-  /OpenAuth.Mvc/Content/scripts/plugins/ckeditor/skins/moono/icons_hidpi.png: /OpenAuth.Mvc/Content/plugins/ckeditor/skins/moono/icons_hidpi.png
-revisionId: 244
+    newFile: !uuid '5005c082aade142fee3e123bce84ad05fdab7b25'
+    oldFile: !uuid 'ecfa6895db26009cd38172a64c3ae07d01e29dec'
+  /OpenAuth.Repository/Models/Mapping:
+    newFile: !uuid 'bd2af7b029c39417bc4f453c0ec62220d29f39f6'
+    oldFile: !uuid '18dc41830e3f80f52f273f638c35751d28ed3e3d'
+  /OpenAuth.Repository/Models/Mapping/WFFrmMainMap.cs:
+    newFile: !uuid 'dc755a4f9e09444cab6391b769c8aff48af13b4c'
+    oldFile: null
+  /OpenAuth.Repository/Models/Mapping/WFProcessInstanceMap.cs:
+    newFile: !uuid '01dfefef3f99229e6c09ad6c438cee5b761a83b5'
+    oldFile: null
+  /OpenAuth.Repository/Models/Mapping/WFProcessOperationHistoryMap.cs:
+    newFile: !uuid '14af0322b2725c91284f8f211abe62094cc492b1'
+    oldFile: null
+  /OpenAuth.Repository/Models/Mapping/WFProcessSchemeMap.cs:
+    newFile: !uuid 'b754f5d3ec6107133849b53b4b1052889b4a9eea'
+    oldFile: null
+  /OpenAuth.Repository/Models/Mapping/WFProcessTransitionHistoryMap.cs:
+    newFile: !uuid '07af9b5781ab7b9191c33c165cec47d53928a277'
+    oldFile: null
+  /OpenAuth.Repository/Models/Mapping/WFSchemeContentMap.cs:
+    newFile: !uuid '313d2f877aeb8a4fc69e1d2fa6dd89ff02fc8064'
+    oldFile: null
+  /OpenAuth.Repository/Models/Mapping/WFSchemeInfoMap.cs:
+    newFile: !uuid '43742a1908be9ee16f923fcfb4219a02783b8db4'
+    oldFile: null
+gitCommitId: !uuid '85b10e8877f676bd376b977847aabced6fcae3c3'
+renames: {
+  }
+revisionId: 245
