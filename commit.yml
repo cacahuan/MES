@@ -2,31 +2,19 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.Mvc:
-    newFile: !uuid 'a0eb28a3b0647c58c240ee663f0272872b3fa9cb'
-    oldFile: !uuid '543e84eadc584b47f4947b6a6b1441c7127afc57'
-  /OpenAuth.Mvc/Areas:
-    newFile: !uuid 'a66fdd9c119760b18e07c9e93880a42593d26b34'
-    oldFile: !uuid '33c39aaa2e3a34719c30b30daabb4479116efeee'
-  /OpenAuth.Mvc/Areas/FlowManage:
-    newFile: !uuid '7742c0c61f558d75e5eaa6ac89b7d35c49389fad'
-    oldFile: !uuid '8709b9888dc7c9929c98cf00f0c2fa93846e7d6c'
-  /OpenAuth.Mvc/Areas/FlowManage/Views:
-    newFile: !uuid 'a5235c088390ab7c79f57944e275cbc9e724c9aa'
-    oldFile: !uuid '43aa9ff3c7059e76b130d43cd5e22f1b49527dc2'
-  /OpenAuth.Mvc/Areas/FlowManage/Views/FlowDesign:
-    newFile: !uuid '1287478b0d977005e6e48155f70e364ec28172f2'
-    oldFile: !uuid '66a3d3a361e3af5ec77ccbbe7c9d022fcd1db42a'
-  /OpenAuth.Mvc/Areas/FlowManage/Views/FlowDesign/Index.cshtml:
-    newFile: !uuid '126da3e03e510830a61422f9f16146b7a5adcefe'
-    oldFile: !uuid '046b342a8fe5f3ed15e9d528fed242a561d85329'
-  /OpenAuth.Mvc/BllScripts:
-    newFile: !uuid '1a515aa9a0f5e2c197b80c20594fd041ce62bbbe'
-    oldFile: !uuid '32751743452b72bf6afc6674b27a871a6dd4408d'
-  /OpenAuth.Mvc/BllScripts/flowDesign.js:
-    newFile: !uuid 'be6e74061cbc1db9f639321733aa168d0f417f03'
-    oldFile: !uuid 'fb135c0d8d444724e8c7bdc31976792a7bbe18fe'
-gitCommitId: !uuid '0ae929c87a31bb8c11e1ab201cbb08eaacea9ff5'
+  /Workflow初始化脚本.sql:
+    newFile: null
+    oldFile: !uuid '6f70f7c25c4dcf4904bcf43957c2233a320c072f'
+  /建表&初始化数据.sql:
+    newFile: !uuid '5b87b46465f4b37059b28cb753ea815fd4210d4f'
+    oldFile: !uuid '12fd7e982df305d268a8f50b223bfc38638371be'
+  /数据库设计关系图:
+    newFile: !uuid 'd040f138951342ef3e3154e66cf8d3f8291d7a28'
+    oldFile: !uuid '6dce024fbb903081ff11ccbbe3bd774a354982a3'
+  /数据库设计关系图/OpenAuthDB.pdm:
+    newFile: !uuid 'd68838dff2941e99ad306fb1e72e35b90f815e8f'
+    oldFile: !uuid '4206a93f8bceb2971ff8d8c1063f4c7b9a2a5c8f'
+gitCommitId: !uuid '0b20da7a5a5448ce57070a294999d8cff0c3bc57'
 renames: {
   }
-revisionId: 254
+revisionId: 255
