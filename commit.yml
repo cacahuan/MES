@@ -3,217 +3,177 @@ branches: {
   }
 fileChange:
   /OpenAuth.App:
-    newFile: !uuid 'b4d51c7b3070807420d125ea5018fab654c2a304'
-    oldFile: !uuid '866fc62d54ddead05479c16f11f4b7efa644b58e'
-  /OpenAuth.App/CommonApplyApp.cs:
+    newFile: !uuid '7adc79d0053f5285cd6d5aac4158e1b387df4e97'
+    oldFile: !uuid 'b4d51c7b3070807420d125ea5018fab654c2a304'
+  /OpenAuth.App/ApplyTransitionHistoryApp.cs:
     newFile: null
-    oldFile: !uuid '61ca90cc443f751c9261a899ed3a187d937e762b'
-  /OpenAuth.App/Extention:
-    newFile: !uuid '2718d22535f48889c0bffc2031eedd3ce67af716'
-    oldFile: null
-  /OpenAuth.App/Extention/IWF_Runtime.cs:
-    newFile: !uuid '00bbd40ca256cb839709987e5c20700e98f0b564'
-    oldFile: null
-  /OpenAuth.App/Extention/WF_Runtime.cs:
-    newFile: !uuid 'f8e5e6a53e27d71bfd762ce19211d2e24a88dc29'
-    oldFile: null
-  /OpenAuth.App/Extention/WF_RuntimeInitModel.cs:
-    newFile: !uuid '3587df0a8dbb3c5dfd2a3d56b10cf4ca5a081ffc'
-    oldFile: null
-  /OpenAuth.App/Extention/WF_RuntimeModel.cs:
-    newFile: !uuid '771de1c1ccb787c89883594aecce02f3b796e232'
-    oldFile: null
+    oldFile: !uuid '0136bd761d1a4e564bde30cbeb84dae81993d9d2'
   /OpenAuth.App/OpenAuth.App.csproj:
-    newFile: !uuid '67f697bc3f03d72be39349daa458617f7a906b07'
-    oldFile: !uuid '834eda2a2c7899c14ed817e25ccf11f6ec98c706'
-  /OpenAuth.App/ViewModel:
-    newFile: !uuid '6f2653f92f218b03d6b62c850623d7e68bff76bf'
-    oldFile: !uuid '06e0a50d5a55db0082841310fdbae9daefb50e49'
-  /OpenAuth.App/ViewModel/CommonApplyVM.cs:
+    newFile: !uuid '1c13b741a020dfdb87569757a14d689e7877fe10'
+    oldFile: !uuid '67f697bc3f03d72be39349daa458617f7a906b07'
+  /OpenAuth.App/WFSchemeService.cs:
+    newFile: !uuid '95bb1c384bfbe21981b9abc3c71d036d78e1922b'
+    oldFile: null
+  /OpenAuth.App/WorkflowInboxApp.cs:
     newFile: null
-    oldFile: !uuid '705fef370e89b34fab8b81f29b8fa91572f582f6'
-  /OpenAuth.App/WFProcessInstanceService.cs:
-    newFile: !uuid '66d40a825eba591a5730da21d98408078e12a2d3'
-    oldFile: null
-  /OpenAuth.App/WFRuntimeService.cs:
-    newFile: !uuid '9b176c2f6609ca1b67bc98f34e5ecb402b5e07d5'
-    oldFile: null
+    oldFile: !uuid '37025a3afd936570f5e6ca53ef0b8f59ebb484af'
+  /OpenAuth.App/WorkflowSchemasManagerApp.cs:
+    newFile: null
+    oldFile: !uuid '13c42136e4b73729eacc3faabeaef9829352e615'
   /OpenAuth.Domain:
-    newFile: !uuid 'ca04c5d0a5fb7b92e3f05e1a69b5100f4b0c8620'
-    oldFile: !uuid 'f9c56131ce8746fd64bf1563142ddfffe90f250a'
+    newFile: !uuid '28a2f955ecd459ff009f8a582a9e65c4c1ef882e'
+    oldFile: !uuid 'ca04c5d0a5fb7b92e3f05e1a69b5100f4b0c8620'
   /OpenAuth.Domain/Core:
-    newFile: !uuid 'da080d883a5bc7718488c7e4ea71bc93ee6871d2'
-    oldFile: !uuid '41506775421756ef8754d730021f8d79ecba0af8'
-  /OpenAuth.Domain/Core/CommonApply.cs:
+    newFile: !uuid '7ac20899daf360eb27a5f91ac7f7176edbcf98a4'
+    oldFile: !uuid 'da080d883a5bc7718488c7e4ea71bc93ee6871d2'
+  /OpenAuth.Domain/Core/ApplyTransitionHistory.cs:
     newFile: null
-    oldFile: !uuid '7b7e52c2fe540b1ec2dca923f546b5ded9da50fc'
-  /OpenAuth.Domain/Core/WFProcessInstance.cs:
-    newFile: !uuid 'f3d9632d545773a220cfb1cd26d5becf997ffc3b'
-    oldFile: !uuid '44377679430533742e8b14c5e77254e0402eb762'
-  /OpenAuth.Domain/Core/WFProcessOperationHistory.cs:
-    newFile: !uuid '0ec4de1d5dd9cdb27bb8ded9808c72df6373a408'
-    oldFile: !uuid '0b5d8b93b3cd165c2e841347f7be71e4f5b07da8'
-  /OpenAuth.Domain/Core/WFProcessScheme.cs:
-    newFile: !uuid 'd99f79dd3fa7db442d65110faaac117f11e923e8'
-    oldFile: !uuid '8d4640f54b8d7a13b74af3e51dad7e9d273438ca'
-  /OpenAuth.Domain/Core/WFProcessTransitionHistory.cs:
-    newFile: !uuid '73223f1c047d767012d4686197bf0941b92fcf20'
-    oldFile: !uuid '00e596c6575ccd2eafc4c87b89f283bc8c4254b5'
-  /OpenAuth.Domain/Core/WFSchemeContent.cs:
-    newFile: !uuid 'c61eb52a72ac92e868854c44de00d5a15f4c07dc'
-    oldFile: !uuid 'aaf49445d8c3c051f775df36552866ca5015ecb2'
+    oldFile: !uuid 'b258c9b042eb2d627ba493096cdab5b36ce58852'
+  /OpenAuth.Domain/Core/WorkflowScheme.cs:
+    newFile: null
+    oldFile: !uuid '965e2cc16b724bcbd8739e62467e505f347d9d19'
+  /OpenAuth.Domain/Interface:
+    newFile: !uuid '07113c3b5cad74fcedc78fab60f07d81abf33e19'
+    oldFile: !uuid '258d2489be869ce60b76bfdddad9845d755f39eb'
+  /OpenAuth.Domain/Interface/IWorkflowSchemeRepository.cs:
+    newFile: null
+    oldFile: !uuid 'cc64af3dcf4defcb732324f87c52075533641228'
   /OpenAuth.Domain/OpenAuth.Domain.csproj:
-    newFile: !uuid 'f488c1ab32b74f15697e899f18cf63dc556f37bc'
-    oldFile: !uuid '5834ede08fd60e2318f334f927673757eacddc09'
+    newFile: !uuid '8365b81896ec716d904f71f8d7b3fb0ae4d73b70'
+    oldFile: !uuid 'f488c1ab32b74f15697e899f18cf63dc556f37bc'
   /OpenAuth.Domain/Service:
-    newFile: !uuid 'bf681e5252dcb662313597de0dac9f33fde0c238'
-    oldFile: !uuid 'c74b6784099d7b9fbc7ce35a80669fcf401c7e05'
+    newFile: !uuid 'af2482ba4a965d5810f21e0569814ff7a4a7cf85'
+    oldFile: !uuid 'bf681e5252dcb662313597de0dac9f33fde0c238'
   /OpenAuth.Domain/Service/WFSchemeService.cs:
-    newFile: !uuid '4386ed82e5de59d923bcb7fa6fd97b6e97e8c733'
-    oldFile: null
-  /OpenAuth.Domain/Service/WorkflowService.cs:
     newFile: null
-    oldFile: !uuid '5e1068ecb909d3154420075fa1cbbd35fb8412b8'
+    oldFile: !uuid '4386ed82e5de59d923bcb7fa6fd97b6e97e8c733'
   /OpenAuth.Mvc:
-    newFile: !uuid '84e368fd5c0ac9ed3bd77654f310a636c26cd987'
-    oldFile: !uuid 'ec8455cb7463cf06c2209cb52844466f47e0b9b8'
+    newFile: !uuid '543e84eadc584b47f4947b6a6b1441c7127afc57'
+    oldFile: !uuid '84e368fd5c0ac9ed3bd77654f310a636c26cd987'
   /OpenAuth.Mvc/Areas:
-    newFile: !uuid '67303a425bbca0de3330d7dd27c416fcbad311a2'
-    oldFile: !uuid '66941fcc1a21eb0cd57c7eedff82f17e4fc12bf0'
+    newFile: !uuid '33c39aaa2e3a34719c30b30daabb4479116efeee'
+    oldFile: !uuid '67303a425bbca0de3330d7dd27c416fcbad311a2'
   /OpenAuth.Mvc/Areas/FlowManage:
-    newFile: !uuid '4001e4799868c15e67b154dfb2b8c84748efd64f'
-    oldFile: !uuid 'cf37df9f1d1add2616b1b9a09028c904277c78f9'
+    newFile: !uuid '8709b9888dc7c9929c98cf00f0c2fa93846e7d6c'
+    oldFile: !uuid '4001e4799868c15e67b154dfb2b8c84748efd64f'
   /OpenAuth.Mvc/Areas/FlowManage/Controllers:
-    newFile: !uuid '3b9e28d89fd418c75691a5c1f480e134a8401cd5'
-    oldFile: !uuid '5104ca798b5d09b5b0d79f4b14473da4d1fdc156'
-  /OpenAuth.Mvc/Areas/FlowManage/Controllers/CommonAppliesController.cs:
-    newFile: !uuid 'fc03fb57ea48dc24656961ac73f8ee9ec87ef1c2'
-    oldFile: null
+    newFile: !uuid '1168e5a019fee2bd07bd1dce9d16b56f044f3ef2'
+    oldFile: !uuid '3b9e28d89fd418c75691a5c1f480e134a8401cd5'
   /OpenAuth.Mvc/Areas/FlowManage/Controllers/FlowDesignController.cs:
-    newFile: !uuid '58f0d0d4e9f3f8064129d2e9ca66c175a82e90a9'
-    oldFile: !uuid '5cfae62a0928848bcbe31df715a7bbcbc1410a73'
-  /OpenAuth.Mvc/Areas/FlowManage/Controllers/FlowLaunchController.cs:
-    newFile: !uuid '461c8cd2d123d9a1086a2a614863744f9abf46fa'
-    oldFile: null
-  /OpenAuth.Mvc/Areas/FlowManage/Controllers/FlowProcessController.cs:
-    newFile: !uuid '3d8dae5aa3c17cecc1797c62943f8a0423e26cfc'
-    oldFile: null
+    newFile: !uuid '407b5d90f6524f816e5375d50ea1f019ed21fc89'
+    oldFile: !uuid '58f0d0d4e9f3f8064129d2e9ca66c175a82e90a9'
   /OpenAuth.Mvc/Areas/FlowManage/Views:
-    newFile: !uuid 'b30ce8a36a668564411725da7ff73b1a02c96dd1'
-    oldFile: !uuid 'aed2d94578dc2656874647b7c44a54cb1a4b533d'
-  /OpenAuth.Mvc/Areas/FlowManage/Views/CommonApplies:
-    newFile: !uuid '3ecd093a14ae29517e1c68962debd12b296680c2'
-    oldFile: null
-  /OpenAuth.Mvc/Areas/FlowManage/Views/CommonApplies/Index.cshtml:
-    newFile: !uuid '867c1cc1a4cedaa23f0dfe628c56a80c71ac1ae4'
-    oldFile: null
-  /OpenAuth.Mvc/Areas/FlowManage/Views/CommonApplies/ProcessLookForm.cshtml:
-    newFile: !uuid '25ba293410fbd8f63e088b6b7ce9ce8d77832e58'
-    oldFile: null
-  /OpenAuth.Mvc/Areas/FlowManage/Views/FlowMyProcess:
-    newFile: !uuid '32eed0ba5c07fa9d3389224e8cd86e457a86740d'
-    oldFile: null
-  /OpenAuth.Mvc/Areas/FlowManage/Views/FlowMyProcess/Index.cshtml:
-    newFile: !uuid '04b3292ee27fe6cc3e248f273245bdab43dedc89'
-    oldFile: null
-  /OpenAuth.Mvc/Areas/FlowManage/Views/FlowMyProcess/ProcessAgainNewForm.cshtml:
-    newFile: !uuid '26ef70e09341cc31c6abf21e1ad834c2249a1c27'
-    oldFile: null
-  /OpenAuth.Mvc/Areas/FlowManage/Views/FlowMyProcess/ProcessLookForm.cshtml:
-    newFile: !uuid 'b93f647f497131c81037e3f4b4c295400ef639f2'
-    oldFile: null
+    newFile: !uuid '43aa9ff3c7059e76b130d43cd5e22f1b49527dc2'
+    oldFile: !uuid 'b30ce8a36a668564411725da7ff73b1a02c96dd1'
+  /OpenAuth.Mvc/Areas/FlowManage/Views/FlowDesign:
+    newFile: !uuid '66a3d3a361e3af5ec77ccbbe7c9d022fcd1db42a'
+    oldFile: !uuid 'f1b6fdb60d4dd249196f679af9a39a0fe4987af5'
+  /OpenAuth.Mvc/Areas/FlowManage/Views/FlowDesign/Index.cshtml:
+    newFile: !uuid '046b342a8fe5f3ed15e9d528fed242a561d85329'
+    oldFile: !uuid '67f95a2ecf2d2302247356152d38d43fafbaa4ed'
   /OpenAuth.Mvc/BllScripts:
-    newFile: !uuid 'beab9810eb56017cfe0d8d830b492738d502b8c0'
-    oldFile: !uuid 'ed1dc33db46253335d429aa61c012e9f54763f1f'
-  /OpenAuth.Mvc/BllScripts/commonApply.js:
-    newFile: !uuid '11858abb6e463fe91fc82b2f8071737633013642'
-    oldFile: !uuid 'ad95766d4ee1d069cad26f470b32ad74d289e8fe'
+    newFile: !uuid '32751743452b72bf6afc6674b27a871a6dd4408d'
+    oldFile: !uuid 'beab9810eb56017cfe0d8d830b492738d502b8c0'
+  /OpenAuth.Mvc/BllScripts/flowDesign.js:
+    newFile: !uuid 'fb135c0d8d444724e8c7bdc31976792a7bbe18fe'
+    oldFile: null
+  /OpenAuth.Mvc/BllScripts/workflowSchemaManager.js:
+    newFile: null
+    oldFile: !uuid '761c418e1abe901b38cc7b22b68518bb54fa2da3'
   /OpenAuth.Mvc/Controllers:
-    newFile: !uuid '6028680835e737787411be316d89b1d5b06c0e9c'
-    oldFile: !uuid '175317d5269b13863f4f49b46769d684ca3532b0'
-  /OpenAuth.Mvc/Controllers/CommonAppliesController.cs:
+    newFile: !uuid '3ebe3c2d73e909348182ee0b671729a35a7e9d2a'
+    oldFile: !uuid '6028680835e737787411be316d89b1d5b06c0e9c'
+  /OpenAuth.Mvc/Controllers/DesignerController.cs:
     newFile: null
-    oldFile: !uuid '371abb3716bf9e9ecd18070976a4d88f6fe83c7c'
-  /OpenAuth.Mvc/Global.asax.cs:
-    newFile: !uuid '3bd69ecb9b8d0c3f65ba02b092e6b2fdbbd05fab'
-    oldFile: !uuid '8bcbe4a73258b2b69fc1091e4d49f86fb1bebce9'
+    oldFile: !uuid 'b0970de80c966c5c01d1e29410172b02ec2826e0'
+  /OpenAuth.Mvc/Controllers/WorkflowSchemasController.cs:
+    newFile: null
+    oldFile: !uuid '2a6d19c099bfef6e05c8ae98b36f3f61510f43d2'
   /OpenAuth.Mvc/Models:
-    newFile: !uuid 'c487825cd44883b2971ef2cc4ad19dc50420ffde'
-    oldFile: !uuid '5642965d38c70bd01811946694596b61f396c95f'
+    newFile: !uuid '74b7d9cb5c8f5d517f603e4f2e6fa2f36aaec042'
+    oldFile: !uuid 'c487825cd44883b2971ef2cc4ad19dc50420ffde'
+  /OpenAuth.Mvc/Models/DefaultParcedProcessCache.cs:
+    newFile: null
+    oldFile: !uuid '4535ec1df642c103002496dc946b8bf7d317b896'
+  /OpenAuth.Mvc/Models/WorkflowActionProvider.cs:
+    newFile: null
+    oldFile: !uuid '4cdb965f7d488452e95015dde36ba568e71b6b4a'
   /OpenAuth.Mvc/Models/WorkflowInit.cs:
-    newFile: !uuid '7ad31b498f7666c0698241f40f4c141aa52711b1'
-    oldFile: !uuid '0bdb73d78b467acdcf10de4aa686f745e2c35b22'
+    newFile: null
+    oldFile: !uuid '7ad31b498f7666c0698241f40f4c141aa52711b1'
+  /OpenAuth.Mvc/Models/WorkflowRuleProvider.cs:
+    newFile: null
+    oldFile: !uuid '32062950f5176dc76a59f8e84a80b3eb4f1dd5d9'
   /OpenAuth.Mvc/OpenAuth.Mvc.csproj:
-    newFile: !uuid '7d87fa5b1b80de031b43b4d04f5edd881c874ea7'
-    oldFile: !uuid 'fdf734f12b58d9bb6825ed04c9124544815c6cb7'
+    newFile: !uuid 'd27696e324964a714a1a2836d7c5f751658624e1'
+    oldFile: !uuid '7d87fa5b1b80de031b43b4d04f5edd881c874ea7'
+  /OpenAuth.Mvc/Scripts:
+    newFile: !uuid '3f646e1c56055bbc47de8fce078e5add29d3c1bd'
+    oldFile: !uuid '31b739518558bde0f5e021d7f957359df11fd911'
+  /OpenAuth.Mvc/Scripts/designerconstants.js:
+    newFile: null
+    oldFile: !uuid '172c711bc9413a76eea5dc372a681cf13ffa99f6'
+  /OpenAuth.Mvc/Scripts/workflowdesigner.min.js:
+    newFile: null
+    oldFile: !uuid '4043a12a3961de6aeb7c34e5c3095f69af99715e'
   /OpenAuth.Mvc/Views:
-    newFile: !uuid 'f236922b2bffff952958687943aca31a97287b2d'
-    oldFile: !uuid 'ef093992e67832bcab46495b5edef02aaa33d0a6'
-  /OpenAuth.Mvc/Views/CommonApplies:
+    newFile: !uuid 'acb039668ee7d5a5753e02424a532edaa9b274bf'
+    oldFile: !uuid 'f236922b2bffff952958687943aca31a97287b2d'
+  /OpenAuth.Mvc/Views/Designer:
     newFile: null
-    oldFile: !uuid 'f802730b702923be090817ebd1086f30943ebbb4'
-  /OpenAuth.Mvc/Views/CommonApplies/Detail.cshtml:
+    oldFile: !uuid '89a7c3b7c6c4d2c5a5a8a8b6517b2b47ef4233ec'
+  /OpenAuth.Mvc/Views/Designer/Index.cshtml:
     newFile: null
-    oldFile: !uuid 'bae710275a989204d0094c6b5daead5332a12f5e'
-  /OpenAuth.Mvc/Views/CommonApplies/Index.cshtml:
+    oldFile: !uuid '4e9653ab02b833fa4a2dc88fa15e4b94cee34c6c'
+  /OpenAuth.Mvc/Views/WorkflowSchemas:
     newFile: null
-    oldFile: !uuid '125ffc295406df0bf204f9fcc333c9326390e27a'
-  /OpenAuth.Mvc/Views/Shared:
-    newFile: !uuid '1774e64ee4252e135c486694f1831e27ef42f71f'
-    oldFile: !uuid 'ac269f29e4a92e14723cc68628e6128bcfc6bcae'
-  /OpenAuth.Mvc/Views/Shared/_Layout.cshtml:
-    newFile: !uuid 'fbe1907d01faba417c3d4569899a04540a63c2aa'
-    oldFile: !uuid '2a9f499e78fb4d25aca62260832a18e19bf2bf5e'
+    oldFile: !uuid '07d6a6d4e5092bf7f1aa5cfaf395dccb23482bd4'
+  /OpenAuth.Mvc/Views/WorkflowSchemas/Index.cshtml:
+    newFile: null
+    oldFile: !uuid 'e8a4a647c09bf055670fec6cff475b050e664cc6'
+  /OpenAuth.Mvc/Web.config:
+    newFile: !uuid '446c1ed55fee2c34c2aa42d6b36a35a75c69b51f'
+    oldFile: !uuid '7620ec721e5d4adff4e158cf2076f94a87164eb1'
+  /OpenAuth.Mvc/packages.config:
+    newFile: !uuid 'cdaad8543a228c36146f3cfeb65a00b0064152a2'
+    oldFile: !uuid '263d33563bdf581d262bfac7910cc6ce43250b07'
   /OpenAuth.Repository:
-    newFile: !uuid 'cd8607446cac56ead5cdff76ec0de96d183eb5dc'
-    oldFile: !uuid '3bbefe440841c6c1da7a27e3b5732bd184191097'
+    newFile: !uuid 'a837ce7f4a3a36086344e7005f1793b0c4357b6a'
+    oldFile: !uuid 'cd8607446cac56ead5cdff76ec0de96d183eb5dc'
   /OpenAuth.Repository/Models:
-    newFile: !uuid '8e3f18f4215b7b24891f6de30e9e10a7499008b7'
-    oldFile: !uuid '5005c082aade142fee3e123bce84ad05fdab7b25'
+    newFile: !uuid 'e807d34ce329db7fbebc8a1e10ef591659661e70'
+    oldFile: !uuid '8e3f18f4215b7b24891f6de30e9e10a7499008b7'
   /OpenAuth.Repository/Models/Mapping:
-    newFile: !uuid 'a91105e2fdb5ebee2acb41ca0835d8671d2c5d72'
-    oldFile: !uuid 'bd2af7b029c39417bc4f453c0ec62220d29f39f6'
-  /OpenAuth.Repository/Models/Mapping/CommonApplyMap.cs:
+    newFile: !uuid '257225e7682b11662b8c9910d85a0d1828a07ffd'
+    oldFile: !uuid 'a91105e2fdb5ebee2acb41ca0835d8671d2c5d72'
+  /OpenAuth.Repository/Models/Mapping/ApplyTransitionHistoryMap.cs:
     newFile: null
-    oldFile: !uuid 'b64f34ac548138e4a953e7c6238ff094055e3487'
-  /OpenAuth.Repository/Models/Mapping/WFProcessInstanceMap.cs:
-    newFile: !uuid '835fb6ca164d9da5a246852b61969ab6bba22ecc'
-    oldFile: !uuid '01dfefef3f99229e6c09ad6c438cee5b761a83b5'
-  /OpenAuth.Repository/Models/Mapping/WFProcessOperationHistoryMap.cs:
-    newFile: !uuid '4cf6e39991f0a3661c2720a3dbfb33d4a691fd6a'
-    oldFile: !uuid '14af0322b2725c91284f8f211abe62094cc492b1'
-  /OpenAuth.Repository/Models/Mapping/WFProcessSchemeMap.cs:
-    newFile: !uuid '7495f0fec25a897e4f25444ef6b93d9d43ec37db'
-    oldFile: !uuid 'b754f5d3ec6107133849b53b4b1052889b4a9eea'
-  /OpenAuth.Repository/Models/Mapping/WFProcessTransitionHistoryMap.cs:
-    newFile: !uuid '83b35764893956a846715fbc94e2c16bbe501c85'
-    oldFile: !uuid '07af9b5781ab7b9191c33c165cec47d53928a277'
-  /OpenAuth.Repository/Models/Mapping/WFSchemeContentMap.cs:
-    newFile: !uuid '09050635111ee1bc0fd5358a5249fe221daf010d'
-    oldFile: !uuid '313d2f877aeb8a4fc69e1d2fa6dd89ff02fc8064'
+    oldFile: !uuid 'e318018f906a31b59f273e2877d582527a5504b6'
   /OpenAuth.Repository/Models/OpenAuthDBContext.cs:
-    newFile: !uuid 'cef138c0ad3191d36bb4d4fc38fc3bab7b3bd81e'
-    oldFile: !uuid 'bd0559d456c9bee6475a6a1c6298e5d5c73b411d'
-  /OpenAuth.UnitTest:
-    newFile: !uuid 'a508a6068e4cf9d7053bfae7bf42ff5c61d25d17'
-    oldFile: !uuid '94c4dcf2ec6ab7a7a5ba84e80ca6071aecab2725'
-  /OpenAuth.UnitTest/OpenAuth.UnitTest.csproj:
-    newFile: !uuid 'f27450a76a7d8823e1a09a215565c6b6dc3a3d51'
-    oldFile: !uuid '63239a67d28c574b9eee3fbffdc8c8c64252ec95'
-  /OpenAuth.UnitTest/TestCommonApply.cs:
+    newFile: !uuid '1b596acd02fbbe025e9c9eaeb2f7e65d5196a113'
+    oldFile: !uuid 'cef138c0ad3191d36bb4d4fc38fc3bab7b3bd81e'
+  /OpenAuth.Repository/OpenAuth.Repository.csproj:
+    newFile: !uuid '168e3ca6f47b67ba851a4bff3c37a76cfa1bff61'
+    oldFile: !uuid 'c66afd25a9115fb61cecbf624abe9df2899ff663'
+  /OpenAuth.Repository/Workflow:
     newFile: null
-    oldFile: !uuid '93c07fdfdb212c4c25c144b7b6fba5a80301df23'
-  /OpenAuth.UnitTest/TestWorkflow.cs:
-    newFile: !uuid 'ccadd97774c2a2ff789daa73e728784705112df7'
-    oldFile: !uuid 'aba0e283762ddf126d200ab4b8e11e6ffe47ee01'
-  /数据库设计关系图:
-    newFile: !uuid '6dce024fbb903081ff11ccbbe3bd774a354982a3'
-    oldFile: !uuid '0af9a2a9a5e8686f1ca2e381694dbacc41d61a8e'
-  /数据库设计关系图/OpenAuthDB.pdm:
-    newFile: !uuid '4206a93f8bceb2971ff8d8c1063f4c7b9a2a5c8f'
-    oldFile: !uuid 'f780628dd9226d8e19f994fed858562f24eb2ec2'
-gitCommitId: !uuid 'b46729b31dca8899744959020ae6a47f4970f9f0'
+    oldFile: !uuid 'ed569889ed725cc8d9663ed3a0d0c6f869893ea0'
+  /OpenAuth.Repository/Workflow/Mapping:
+    newFile: null
+    oldFile: !uuid '424ed7aa04df21363dae7e711ac8ce972669cd3c'
+  /OpenAuth.Repository/Workflow/Mapping/WorkflowSchemeMap.cs:
+    newFile: null
+    oldFile: !uuid '49587103c36fbfc8b840fa0220108ba87c4f7ea2'
+  /OpenAuth.Repository/Workflow/WorkflowBaseRepository.cs:
+    newFile: null
+    oldFile: !uuid 'a4f15f81073d98b48a9fa3931ec9472901de3a81'
+  /OpenAuth.Repository/Workflow/WorkflowContext.cs:
+    newFile: null
+    oldFile: !uuid '3dcfc01ac6e0026fbd52ea9b93f36dbfd73acdee'
+  /OpenAuth.Repository/Workflow/WorkflowSchemeRepository.cs:
+    newFile: null
+    oldFile: !uuid '9dd8ad99b4af359bbe26399cd780058f66d0b544'
+gitCommitId: !uuid 'b9a849e3ead02f73acb0de1734bd0336f2f5313d'
 renames:
-  /OpenAuth.Domain/Service/WFSchemeService.cs: /OpenAuth.Domain/Service/WorkflowService.cs
-  /OpenAuth.Mvc/Areas/FlowManage/Views/CommonApplies/Index.cshtml: /OpenAuth.Mvc/Views/CommonApplies/Index.cshtml
-revisionId: 252
+  /OpenAuth.App/WFSchemeService.cs: /OpenAuth.Domain/Service/WFSchemeService.cs
+revisionId: 253
