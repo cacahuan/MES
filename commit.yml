@@ -3,75 +3,175 @@ branches: {
   }
 fileChange:
   /OpenAuth.Mvc:
-    newFile: !uuid 'eac5ee8258ac1f9c016972b672b9178fe3c2f10d'
-    oldFile: !uuid '83dae76414cfce0af85cd3137fbc798231b590a3'
+    newFile: !uuid 'dc1afe14eeaa2ecb7f8fdbb710308af82abc4bac'
+    oldFile: !uuid 'eac5ee8258ac1f9c016972b672b9178fe3c2f10d'
+  /OpenAuth.Mvc/App_Start:
+    newFile: !uuid 'bf2ef459e8fb3ce1894f165ab48d4d787d55a36f'
+    oldFile: !uuid '6dd01e650cd0807a7af23db1111364a4f5c3f05f'
+  /OpenAuth.Mvc/App_Start/BundleConfig.cs:
+    newFile: !uuid 'f7afaad9913414b28eb7c750225c5d17f9a4e953'
+    oldFile: !uuid '0c29829a7c02e066120c642528531c58dfa74f29'
   /OpenAuth.Mvc/Areas:
-    newFile: !uuid '5170755085c6a53b59fc826c18db2932f24230ac'
-    oldFile: !uuid '902b2d6bd009dcdcb0d3d3a809668ba619e420eb'
+    newFile: !uuid '44e9a33ce740696bbc4c15dbe6796b113a5b7511'
+    oldFile: !uuid '5170755085c6a53b59fc826c18db2932f24230ac'
   /OpenAuth.Mvc/Areas/FlowManage:
-    newFile: !uuid '85e82e5128d3f4c764ebc63a17ba4db5f377c7a3'
-    oldFile: !uuid '97585cdab0f16f3edc7800914d02c5dcba6b8912'
+    newFile: !uuid '440a8cc21afcbd560fd8ad2fed5f511153c5d8d5'
+    oldFile: !uuid '85e82e5128d3f4c764ebc63a17ba4db5f377c7a3'
   /OpenAuth.Mvc/Areas/FlowManage/Controllers:
-    newFile: !uuid '2e4d2c83ed32c5f27118f876e8b15ed414094f25'
-    oldFile: !uuid '4dd7ec753f0f4f9c90a949a9b13f5cb4a8529eb4'
+    newFile: !uuid '4251c528a7c9a51194063067fae09f1fb93512e0'
+    oldFile: !uuid '2e4d2c83ed32c5f27118f876e8b15ed414094f25'
   /OpenAuth.Mvc/Areas/FlowManage/Controllers/FlowInstancesController.cs:
-    newFile: !uuid 'aa48cf9d628f6945aa297e1ea53de795fca16d13'
-    oldFile: !uuid '37c0c1c455a9a6c2106e7423e6f09280b38dad64'
-  /OpenAuth.Mvc/Areas/FlowManage/Controllers/FlowLaunchController.cs:
-    newFile: null
-    oldFile: !uuid 'a2ee00803310c1f0ddb602d734e53754ce7c7959'
-  /OpenAuth.Mvc/Areas/FlowManage/Controllers/FlowProcessController.cs:
-    newFile: null
-    oldFile: !uuid '012004d5c1cf3a32af8ba6c4ffb139644f6bd233'
+    newFile: !uuid '668f65b027537ceb58a4be342a1c9d193cdedd9a'
+    oldFile: !uuid 'aa48cf9d628f6945aa297e1ea53de795fca16d13'
   /OpenAuth.Mvc/Areas/FlowManage/Views:
-    newFile: !uuid '13aee77146176d294c1733c9e28dd786de6ad117'
-    oldFile: !uuid '2dffae727df7c1ad66dcd1294211d4e0f57d09bf'
+    newFile: !uuid '0b42a9679fd3671507340809b2e9360cb8cb7f63'
+    oldFile: !uuid '13aee77146176d294c1733c9e28dd786de6ad117'
   /OpenAuth.Mvc/Areas/FlowManage/Views/FlowDesign:
-    newFile: !uuid '67a41bf12b8187d2b800d887702b502b26e062da'
-    oldFile: !uuid 'add966eef15b83db5111202fc3bda0f22eb245d6'
+    newFile: !uuid 'd83d27e4d5478c7e98f76ccd0828ca1ebf11a558'
+    oldFile: !uuid '67a41bf12b8187d2b800d887702b502b26e062da'
+  /OpenAuth.Mvc/Areas/FlowManage/Views/FlowDesign/FlowNodeForm.cshtml:
+    newFile: !uuid '9b20686e8b4771a02b4d47375cab8b5ee4942081'
+    oldFile: !uuid '598093661727f326e3bd497d861c28b414fce2f9'
   /OpenAuth.Mvc/Areas/FlowManage/Views/FlowDesign/PreviewIndex.cshtml:
-    newFile: !uuid '11766d12556c3f5f222c9dde86834bbf934d2ac6'
-    oldFile: !uuid '0c3bba77c80f85d99a355a0ee1c7d4fe1bf76ed1'
-  /OpenAuth.Mvc/Areas/FlowManage/Views/FlowInstances:
-    newFile: !uuid 'e05057bbdb638bccd062e9360fb039900e33f75a'
-    oldFile: !uuid '51ec123a69a65985132134075c6b5162673b1c06'
-  /OpenAuth.Mvc/Areas/FlowManage/Views/FlowInstances/FlowProcessNewForm.cshtml:
-    newFile: !uuid '7498404f440383e6fd1491c39b35f46890bcd665'
+    newFile: !uuid '659d1c9be4e23bb10b7f778c69bb7eeeed0f03bd'
+    oldFile: !uuid '11766d12556c3f5f222c9dde86834bbf934d2ac6'
+  /OpenAuth.Mvc/Content:
+    newFile: !uuid '441a7b26e81353d6097817f952e7867448d15eab'
+    oldFile: !uuid '232d426ef960e23c25adc6d18cbaea8ba574713a'
+  /OpenAuth.Mvc/Content/scripts:
+    newFile: !uuid '9d9657e788d5fa548fc4b58d4cda8c3529c79957'
+    oldFile: !uuid 'ef36f349af1e151cd1224c6d8b8a0482a713dde0'
+  /OpenAuth.Mvc/Content/scripts/utils:
+    newFile: !uuid '217f002ba7415096db4f1c33796ddaef13c6efb3'
+    oldFile: !uuid '8cf69c448ee2b43cce98d21d0f50b60db0fbfa86'
+  /OpenAuth.Mvc/Content/scripts/utils/applayout.js:
+    newFile: !uuid '3bd7babd163c03cd87673a30d840b927c9440ab1'
     oldFile: null
-  /OpenAuth.Mvc/Areas/FlowManage/Views/FlowInstances/ProcessLookForm.cshtml:
-    newFile: !uuid '23b6b8342734c47c6f7c19cfd1015480e70e3ff1'
-    oldFile: !uuid '25ba293410fbd8f63e088b6b7ce9ce8d77832e58'
-  /OpenAuth.Mvc/Areas/FlowManage/Views/FlowInstances/VerificationForm.cshtml:
-    newFile: !uuid '46ae4bd7c5e8582862e8db86fb517dce7494f606'
-    oldFile: !uuid '9736419d9d1f44aca6c8a18fb29fe1e75587ed7e'
-  /OpenAuth.Mvc/Areas/FlowManage/Views/FlowLaunch:
+  /OpenAuth.Mvc/Content/scripts/utils/clientdata.js:
+    newFile: !uuid 'bdd4c8bd78c854bb0d0964800fd3a2ea35396208'
+    oldFile: null
+  /OpenAuth.Mvc/Content/scripts/utils/flowlayout.js:
+    newFile: !uuid 'a298529b281f437c281504eff11a28ddb003e87e'
+    oldFile: null
+  /OpenAuth.Mvc/Content/scripts/utils/form.js:
+    newFile: !uuid 'b9ad34452a67d8ff1fbe2bdb00722a2e1afbd658'
+    oldFile: null
+  /OpenAuth.Mvc/Content/scripts/utils/learun-applayout.js:
     newFile: null
-    oldFile: !uuid 'ddc0f3cda6cb037db49103439c97e0f5c7d91b7b'
-  /OpenAuth.Mvc/Areas/FlowManage/Views/FlowLaunch/FlowProcessNewForm.cshtml:
+    oldFile: !uuid '3bd7babd163c03cd87673a30d840b927c9440ab1'
+  /OpenAuth.Mvc/Content/scripts/utils/learun-clientdata.js:
     newFile: null
-    oldFile: !uuid '0b4d68c152260abc71fcbf48926796565c0a57b3'
-  /OpenAuth.Mvc/Areas/FlowManage/Views/FlowLaunch/Index.cshtml:
+    oldFile: !uuid 'bdd4c8bd78c854bb0d0964800fd3a2ea35396208'
+  /OpenAuth.Mvc/Content/scripts/utils/learun-flowlayout.js:
     newFile: null
-    oldFile: !uuid '8a885f53e66d750eca1d22d8d457af507322575d'
-  /OpenAuth.Mvc/Areas/FlowManage/Views/FlowMyProcess:
+    oldFile: !uuid '034247e02555df82f7855d795e6336a5bcdd6cfb'
+  /OpenAuth.Mvc/Content/scripts/utils/learun-form.js:
     newFile: null
-    oldFile: !uuid '8e81e833d55fad8a9c7bb73915df3a89bc139a9d'
-  /OpenAuth.Mvc/Areas/FlowManage/Views/FlowMyProcess/Index.cshtml:
+    oldFile: !uuid 'b9ad34452a67d8ff1fbe2bdb00722a2e1afbd658'
+  /OpenAuth.Mvc/Content/scripts/utils/learun-im.js:
     newFile: null
-    oldFile: !uuid '04b3292ee27fe6cc3e248f273245bdab43dedc89'
-  /OpenAuth.Mvc/Areas/FlowManage/Views/FlowMyProcess/ProcessAgainNewForm.cshtml:
+    oldFile: !uuid 'ffced5d2a5c4421db8c1db3e658aa812aa3f54bb'
+  /OpenAuth.Mvc/Content/scripts/utils/learun-ui.js:
     newFile: null
-    oldFile: !uuid '26ef70e09341cc31c6abf21e1ad834c2249a1c27'
-  /OpenAuth.Mvc/BllScripts:
-    newFile: !uuid 'a9dc78ae7f5460064071a8b906f54233929939da'
-    oldFile: !uuid '9450b0aa2ee5092e9481928855fdf91b6a9e9925'
-  /OpenAuth.Mvc/BllScripts/flowDesign.js:
-    newFile: !uuid '625b59dde443d188b1b86210a530327877c010f6'
-    oldFile: !uuid '9ecbfa7dd265c5564fa8f70e2f0ac5e85cd68f03'
+    oldFile: !uuid 'e3b2b4953a66f8be4c203572f26e3cc1417c7bc5'
+  /OpenAuth.Mvc/Content/scripts/utils/learun-webApp.js:
+    newFile: null
+    oldFile: !uuid '045e428ec0f272d05a071cb6522434a44e8eab81'
+  /OpenAuth.Mvc/Content/scripts/utils/learun-webAppData.js:
+    newFile: null
+    oldFile: !uuid '34cda8054bdc394322e3d86eb6a4fd7b7169f561'
+  /OpenAuth.Mvc/Content/scripts/utils/ui.js:
+    newFile: !uuid 'e3b2b4953a66f8be4c203572f26e3cc1417c7bc5'
+    oldFile: null
+  /OpenAuth.Mvc/Content/scripts/utils/webApp.js:
+    newFile: !uuid '045e428ec0f272d05a071cb6522434a44e8eab81'
+    oldFile: null
+  /OpenAuth.Mvc/Content/scripts/utils/webAppData.js:
+    newFile: !uuid '34cda8054bdc394322e3d86eb6a4fd7b7169f561'
+    oldFile: null
+  /OpenAuth.Mvc/Content/styles:
+    newFile: !uuid '687918d505fd1f7ea7b24399657e15c38da6b722'
+    oldFile: !uuid 'df1d84db6f11862a68bf8d07a308c64f38218d10'
+  /OpenAuth.Mvc/Content/styles/applayout.css:
+    newFile: !uuid '6a8727d2dee709f3e26891163483194e3288ac5a'
+    oldFile: null
+  /OpenAuth.Mvc/Content/styles/bill.css:
+    newFile: !uuid 'a0ecc851b42fb6f56126a6dd31ac00df082ba5ae'
+    oldFile: null
+  /OpenAuth.Mvc/Content/styles/ckbox-radio.css:
+    newFile: !uuid '03f43f13f844547d5442759632e09569b08035ab'
+    oldFile: null
+  /OpenAuth.Mvc/Content/styles/flow.css:
+    newFile: !uuid '33bada9c29a9ba1d2f217deff126398c197f4e36'
+    oldFile: null
+  /OpenAuth.Mvc/Content/styles/learun-applayout.css:
+    newFile: null
+    oldFile: !uuid '6a8727d2dee709f3e26891163483194e3288ac5a'
+  /OpenAuth.Mvc/Content/styles/learun-bill.css:
+    newFile: null
+    oldFile: !uuid 'a0ecc851b42fb6f56126a6dd31ac00df082ba5ae'
+  /OpenAuth.Mvc/Content/styles/learun-ckbox-radio.css:
+    newFile: null
+    oldFile: !uuid '03f43f13f844547d5442759632e09569b08035ab'
+  /OpenAuth.Mvc/Content/styles/learun-flow.css:
+    newFile: null
+    oldFile: !uuid '33bada9c29a9ba1d2f217deff126398c197f4e36'
+  /OpenAuth.Mvc/Content/styles/learun-im.css:
+    newFile: null
+    oldFile: !uuid 'a318aecb7c9ac5f6d90674fed44a62fa9b3cac9c'
+  /OpenAuth.Mvc/Content/styles/learun-login.css:
+    newFile: null
+    oldFile: !uuid 'bca5a74308071e4e98ea15bc99a12309dd861fcb'
+  /OpenAuth.Mvc/Content/styles/learun-report.css:
+    newFile: null
+    oldFile: !uuid '2115c98c5c6b2ddc35a7278d2a892d101a921f09'
+  /OpenAuth.Mvc/Content/styles/learun-ui.css:
+    newFile: null
+    oldFile: !uuid '9c9fb019b30e203d0a11a5ae80588a1fe4bf2c1c'
+  /OpenAuth.Mvc/Content/styles/learun-webApp.css:
+    newFile: null
+    oldFile: !uuid 'c71afd39fedce941a392618cefab843c0c277103'
+  /OpenAuth.Mvc/Content/styles/login.css:
+    newFile: !uuid 'bca5a74308071e4e98ea15bc99a12309dd861fcb'
+    oldFile: null
+  /OpenAuth.Mvc/Content/styles/ui.css:
+    newFile: !uuid '9c9fb019b30e203d0a11a5ae80588a1fe4bf2c1c'
+    oldFile: null
+  /OpenAuth.Mvc/Content/styles/webApp.css:
+    newFile: !uuid 'c71afd39fedce941a392618cefab843c0c277103'
+    oldFile: null
+  /OpenAuth.Mvc/Content/workflowdesigner.css:
+    newFile: null
+    oldFile: !uuid 'aee1a64fa376025b4927cbf201dd9d50bd4cd06b'
   /OpenAuth.Mvc/OpenAuth.Mvc.csproj:
-    newFile: !uuid 'c5c1daa781c49343549cef00ba91f404b0298cc5'
-    oldFile: !uuid '6aa1feed7bb5371fcd9dfdee3d47cc7e5376525e'
-gitCommitId: !uuid '03622e25e7309926fedd5cc751b9b32570e182a5'
+    newFile: !uuid 'feeff47e523dca2f8111c09e6f584fd16d433b56'
+    oldFile: !uuid 'c5c1daa781c49343549cef00ba91f404b0298cc5'
+  /OpenAuth.Mvc/Views:
+    newFile: !uuid 'd2d72e236ef1e04c2143973d2e7eb8e341f63106'
+    oldFile: !uuid '32e947ba41615b89296eaf5c0eb734fc363141a1'
+  /OpenAuth.Mvc/Views/Shared:
+    newFile: !uuid '77e123713b53f023a7baeb5435712497683f7416'
+    oldFile: !uuid '25cf56c80a3d7b90b715bf301b5c95e6c2ebf5a6'
+  /OpenAuth.Mvc/Views/Shared/_FlowForm.cshtml:
+    newFile: !uuid '220e6f39597c940ebc1c2663da8d7a85539893ae'
+    oldFile: !uuid '074d3f11cee681162191bc8dc75195f1074e2501'
+  /OpenAuth.Mvc/Views/Shared/_Form.cshtml:
+    newFile: !uuid 'c0a27aacb45ec68ac05dd0b4885278980178122d'
+    oldFile: !uuid '6ee82a55707da77388636faf55723c4fb37393b0'
+gitCommitId: !uuid '9feeb453d1bfc94402d8d772af55aa2f6ae86836'
 renames:
-  /OpenAuth.Mvc/Areas/FlowManage/Views/FlowInstances/FlowProcessNewForm.cshtml: /OpenAuth.Mvc/Areas/FlowManage/Views/FlowLaunch/FlowProcessNewForm.cshtml
-revisionId: 268
+  /OpenAuth.Mvc/Content/scripts/utils/applayout.js: /OpenAuth.Mvc/Content/scripts/utils/learun-applayout.js
+  /OpenAuth.Mvc/Content/scripts/utils/clientdata.js: /OpenAuth.Mvc/Content/scripts/utils/learun-clientdata.js
+  /OpenAuth.Mvc/Content/scripts/utils/flowlayout.js: /OpenAuth.Mvc/Content/scripts/utils/learun-flowlayout.js
+  /OpenAuth.Mvc/Content/scripts/utils/form.js: /OpenAuth.Mvc/Content/scripts/utils/learun-form.js
+  /OpenAuth.Mvc/Content/scripts/utils/ui.js: /OpenAuth.Mvc/Content/scripts/utils/learun-ui.js
+  /OpenAuth.Mvc/Content/scripts/utils/webApp.js: /OpenAuth.Mvc/Content/scripts/utils/learun-webApp.js
+  /OpenAuth.Mvc/Content/scripts/utils/webAppData.js: /OpenAuth.Mvc/Content/scripts/utils/learun-webAppData.js
+  /OpenAuth.Mvc/Content/styles/applayout.css: /OpenAuth.Mvc/Content/styles/learun-applayout.css
+  /OpenAuth.Mvc/Content/styles/bill.css: /OpenAuth.Mvc/Content/styles/learun-bill.css
+  /OpenAuth.Mvc/Content/styles/ckbox-radio.css: /OpenAuth.Mvc/Content/styles/learun-ckbox-radio.css
+  /OpenAuth.Mvc/Content/styles/flow.css: /OpenAuth.Mvc/Content/styles/learun-flow.css
+  /OpenAuth.Mvc/Content/styles/login.css: /OpenAuth.Mvc/Content/styles/learun-login.css
+  /OpenAuth.Mvc/Content/styles/ui.css: /OpenAuth.Mvc/Content/styles/learun-ui.css
+  /OpenAuth.Mvc/Content/styles/webApp.css: /OpenAuth.Mvc/Content/styles/learun-webApp.css
+revisionId: 269
