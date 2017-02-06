@@ -2,176 +2,1141 @@
 branches: {
   }
 fileChange:
+  /Infrastructure:
+    newFile: !uuid 'b900864ec5168e8b515797e02332034c66a3d561'
+    oldFile: !uuid '582e2244326a43c75ed340d06ab153841682767d'
+  /Infrastructure/obj:
+    newFile: !uuid '5a53d7d84def8b20df0f405a077ba3aa3280d27d'
+    oldFile: null
+  /Infrastructure/obj/Release:
+    newFile: !uuid '9215ece8f8e6ca67fdf885767f35fcb8951928e2'
+    oldFile: null
+  /Infrastructure/obj/Release/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs:
+    newFile: !uuid 'e69de29bb2d1d6434b8b29ae775ad8c2e48c5391'
+    oldFile: null
   /OpenAuth.Mvc:
-    newFile: !uuid 'dc1afe14eeaa2ecb7f8fdbb710308af82abc4bac'
-    oldFile: !uuid 'eac5ee8258ac1f9c016972b672b9178fe3c2f10d'
+    newFile: !uuid '21f33946ed18510225bdaece0765a2313e50b0a2'
+    oldFile: !uuid 'dc1afe14eeaa2ecb7f8fdbb710308af82abc4bac'
   /OpenAuth.Mvc/App_Start:
-    newFile: !uuid 'bf2ef459e8fb3ce1894f165ab48d4d787d55a36f'
-    oldFile: !uuid '6dd01e650cd0807a7af23db1111364a4f5c3f05f'
+    newFile: !uuid '7776edd23ad6bd626775873ef770095283ca0d80'
+    oldFile: !uuid 'bf2ef459e8fb3ce1894f165ab48d4d787d55a36f'
   /OpenAuth.Mvc/App_Start/BundleConfig.cs:
-    newFile: !uuid 'f7afaad9913414b28eb7c750225c5d17f9a4e953'
-    oldFile: !uuid '0c29829a7c02e066120c642528531c58dfa74f29'
-  /OpenAuth.Mvc/Areas:
-    newFile: !uuid '44e9a33ce740696bbc4c15dbe6796b113a5b7511'
-    oldFile: !uuid '5170755085c6a53b59fc826c18db2932f24230ac'
-  /OpenAuth.Mvc/Areas/FlowManage:
-    newFile: !uuid '440a8cc21afcbd560fd8ad2fed5f511153c5d8d5'
-    oldFile: !uuid '85e82e5128d3f4c764ebc63a17ba4db5f377c7a3'
-  /OpenAuth.Mvc/Areas/FlowManage/Controllers:
-    newFile: !uuid '4251c528a7c9a51194063067fae09f1fb93512e0'
-    oldFile: !uuid '2e4d2c83ed32c5f27118f876e8b15ed414094f25'
-  /OpenAuth.Mvc/Areas/FlowManage/Controllers/FlowInstancesController.cs:
-    newFile: !uuid '668f65b027537ceb58a4be342a1c9d193cdedd9a'
-    oldFile: !uuid 'aa48cf9d628f6945aa297e1ea53de795fca16d13'
-  /OpenAuth.Mvc/Areas/FlowManage/Views:
-    newFile: !uuid '0b42a9679fd3671507340809b2e9360cb8cb7f63'
-    oldFile: !uuid '13aee77146176d294c1733c9e28dd786de6ad117'
-  /OpenAuth.Mvc/Areas/FlowManage/Views/FlowDesign:
-    newFile: !uuid 'd83d27e4d5478c7e98f76ccd0828ca1ebf11a558'
-    oldFile: !uuid '67a41bf12b8187d2b800d887702b502b26e062da'
-  /OpenAuth.Mvc/Areas/FlowManage/Views/FlowDesign/FlowNodeForm.cshtml:
-    newFile: !uuid '9b20686e8b4771a02b4d47375cab8b5ee4942081'
-    oldFile: !uuid '598093661727f326e3bd497d861c28b414fce2f9'
-  /OpenAuth.Mvc/Areas/FlowManage/Views/FlowDesign/PreviewIndex.cshtml:
-    newFile: !uuid '659d1c9be4e23bb10b7f778c69bb7eeeed0f03bd'
-    oldFile: !uuid '11766d12556c3f5f222c9dde86834bbf934d2ac6'
+    newFile: !uuid 'b671d3890941aa98da36e29ebdcd40444bd9adef'
+    oldFile: !uuid 'f7afaad9913414b28eb7c750225c5d17f9a4e953'
   /OpenAuth.Mvc/Content:
-    newFile: !uuid '441a7b26e81353d6097817f952e7867448d15eab'
-    oldFile: !uuid '232d426ef960e23c25adc6d18cbaea8ba574713a'
+    newFile: !uuid '010847b34fc9d6ffe1b8bca7b89ca50fac63eab4'
+    oldFile: !uuid '441a7b26e81353d6097817f952e7867448d15eab'
+  /OpenAuth.Mvc/Content/plugins:
+    newFile: !uuid '701373eef837b0136fe6d2c410f23e6cef1692cd'
+    oldFile: !uuid '4641c93c39e3cf9a188deb7f8342c84e03c64c9b'
+  /OpenAuth.Mvc/Content/plugins/datatables:
+    newFile: null
+    oldFile: !uuid 'ebdb7475849b8484c723ee38f2bcade025bf1707'
+  /OpenAuth.Mvc/Content/plugins/datatables/dataTables.bootstrap.css:
+    newFile: null
+    oldFile: !uuid '2ccacaff8903c0ffd9b91296dde4079de3997f60'
+  /OpenAuth.Mvc/Content/plugins/datatables/dataTables.bootstrap.js:
+    newFile: null
+    oldFile: !uuid 'dcc561fcfd90e061026319d99d8d0d03faf8cb89'
+  /OpenAuth.Mvc/Content/plugins/datatables/dataTables.bootstrap.min.js:
+    newFile: null
+    oldFile: !uuid '85f7d0629683402bf5fe747c92a1948e78edaf0f'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions:
+    newFile: null
+    oldFile: !uuid '7c0c106b28ac4994582a483bd4a6164e76cda7f4'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/AutoFill:
+    newFile: null
+    oldFile: !uuid 'f51339de146a18fd2dba44c6818770423ebd7d0e'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/AutoFill/Readme.txt:
+    newFile: null
+    oldFile: !uuid '017d1d0d5f15c704103d0ae0d90a2399391d2ec3'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/AutoFill/css:
+    newFile: null
+    oldFile: !uuid 'd7885d72d3ebeba52114e60ce086b234b323fa34'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/AutoFill/css/dataTables.autoFill.css:
+    newFile: null
+    oldFile: !uuid 'cab59b3a05966a2537fd9f5a05c8377b77b03b9e'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/AutoFill/css/dataTables.autoFill.min.css:
+    newFile: null
+    oldFile: !uuid 'b485f2163fc7aef931b3d173124a55cbc3136a8a'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/AutoFill/examples:
+    newFile: null
+    oldFile: !uuid '179c58bdbfc8fd31e2b40f241442486b9f2388bd'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/AutoFill/examples/columns.html:
+    newFile: null
+    oldFile: !uuid 'd891b139e0b0301344abb75347cd4c34fc820d2d'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/AutoFill/examples/complete-callback.html:
+    newFile: null
+    oldFile: !uuid '2076d4f20b8f75c6703bdee11de26705be59af8c'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/AutoFill/examples/fill-both.html:
+    newFile: null
+    oldFile: !uuid 'f65076e198518d25d212231ee8ca9e8108dcd156'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/AutoFill/examples/fill-horizontal.html:
+    newFile: null
+    oldFile: !uuid '13cadac9c664ca4f59248ab7f7a45431f8139eff'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/AutoFill/examples/index.html:
+    newFile: null
+    oldFile: !uuid '9cade86c27ad7510329b7c7818a243a871073bc3'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/AutoFill/examples/scrolling.html:
+    newFile: null
+    oldFile: !uuid '66871ec7f05334ba0308802a709297f617968d29'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/AutoFill/examples/simple.html:
+    newFile: null
+    oldFile: !uuid 'ea3db498b455040228fdb63aaa887471c536205f'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/AutoFill/examples/step-callback.html:
+    newFile: null
+    oldFile: !uuid 'c1255aaa25af107055ea3cde7d024f6de57681f6'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/AutoFill/images:
+    newFile: null
+    oldFile: !uuid '54fca7cfc3b2f90a20388018b29be49cc2fecb4a'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/AutoFill/images/filler.png:
+    newFile: null
+    oldFile: !uuid 'f2af65d8c38a5b752894dffc224021da92b182c2'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/AutoFill/js:
+    newFile: null
+    oldFile: !uuid '9d3358dc6c0bbe6ab0402e08cccae65560a56044'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/AutoFill/js/dataTables.autoFill.js:
+    newFile: null
+    oldFile: !uuid '6bbfa35b937271faffcbac10f3f57425ab84e780'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/AutoFill/js/dataTables.autoFill.min.js:
+    newFile: null
+    oldFile: !uuid '17f316a1a6cf4d987148abe020a40b133de6c745'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/ColReorder:
+    newFile: null
+    oldFile: !uuid '1c2f632f633daa839d92ca27d9cc83106cb0db13'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/ColReorder/License.txt:
+    newFile: null
+    oldFile: !uuid '9ade2f1b640303b53953ba7e9aff722a2a15529d'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/ColReorder/Readme.md:
+    newFile: null
+    oldFile: !uuid '217dd60e2c8d53b75bc656164ad0103b0aa93dfe'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/ColReorder/css:
+    newFile: null
+    oldFile: !uuid '7553dd8bfa3c5719b0fcfef8beb1bf48f73536d1'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/ColReorder/css/dataTables.colReorder.css:
+    newFile: null
+    oldFile: !uuid 'bdd6aa0b9ada8a55fe3ae1e34c525acdb7943ab1'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/ColReorder/css/dataTables.colReorder.min.css:
+    newFile: null
+    oldFile: !uuid '77b230e0136b3ca0d5683535f0612a2054416cc2'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/ColReorder/examples:
+    newFile: null
+    oldFile: !uuid '9fa7ce722d7909e1472d8e928f109e80e324e43d'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/ColReorder/examples/alt_insert.html:
+    newFile: null
+    oldFile: !uuid '16bedcfee24fa716c719520860ac1acd68968e48'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/ColReorder/examples/col_filter.html:
+    newFile: null
+    oldFile: !uuid '355ff2b58fae2a8f927104d2c711df1b1432b579'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/ColReorder/examples/colvis.html:
+    newFile: null
+    oldFile: !uuid '54c79c2a1704bbe3ee4311e3be408578e4e58ecf'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/ColReorder/examples/fixedcolumns.html:
+    newFile: null
+    oldFile: !uuid '0599ba48d3fc712e21258cda655b7f3325224030'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/ColReorder/examples/fixedheader.html:
+    newFile: null
+    oldFile: !uuid '40f05468ff7b6e3b0f0b90ebef78894fb87554f2'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/ColReorder/examples/index.html:
+    newFile: null
+    oldFile: !uuid '65018ab6ffa0bc4511479c2aa5938af911506293'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/ColReorder/examples/jqueryui.html:
+    newFile: null
+    oldFile: !uuid '8eedf9126e91eda8c050f404573dd8bb9aa0b8c9'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/ColReorder/examples/new_init.html:
+    newFile: null
+    oldFile: !uuid '01ab2aacde0c4984de2dbae06da8c7af35f5daad'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/ColReorder/examples/predefined.html:
+    newFile: null
+    oldFile: !uuid '3cbb166397b3fc22431f70104b14afcb7f2d8fce'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/ColReorder/examples/realtime.html:
+    newFile: null
+    oldFile: !uuid 'c759409aa859148b6738ed82fcc174fef24d2ae2'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/ColReorder/examples/reset.html:
+    newFile: null
+    oldFile: !uuid 'b2e1fc08ff7e6c4b16e7144e8ad4ee419bda358a'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/ColReorder/examples/scrolling.html:
+    newFile: null
+    oldFile: !uuid '860e6655840302f773af7d88c2c8b7f38aa260e9'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/ColReorder/examples/server_side.html:
+    newFile: null
+    oldFile: !uuid 'f682b7ab527570c2108dad1aaaab68cf1d8da512'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/ColReorder/examples/simple.html:
+    newFile: null
+    oldFile: !uuid '92cffee7926b0fcb8ffc423d15f15625b8263fd5'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/ColReorder/examples/state_save.html:
+    newFile: null
+    oldFile: !uuid '6e4e2e9eecb2ad3e8df4f101a311588562c6b1f6'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/ColReorder/images:
+    newFile: null
+    oldFile: !uuid 'c17bb93d6ea8f386645661260555e44a54369d51'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/ColReorder/images/insert.png:
+    newFile: null
+    oldFile: !uuid '15d5522da64f4f036c5a717dbb320799884fa12b'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/ColReorder/js:
+    newFile: null
+    oldFile: !uuid '840c2c0127741b455cd419eb935881b3b50fc626'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/ColReorder/js/dataTables.colReorder.js:
+    newFile: null
+    oldFile: !uuid 'c3b2f1e2adc695faa072b8b6244333b970a8b401'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/ColReorder/js/dataTables.colReorder.min.js:
+    newFile: null
+    oldFile: !uuid 'b8758c96d8822c68c7193ab97082164c39656548'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/ColVis:
+    newFile: null
+    oldFile: !uuid 'ef3b02add43d78dbfd1f733c4286431045f7c82d'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/ColVis/License.txt:
+    newFile: null
+    oldFile: !uuid '9ade2f1b640303b53953ba7e9aff722a2a15529d'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/ColVis/Readme.md:
+    newFile: null
+    oldFile: !uuid '62f432d779227280cd5507cd87095d87dc46c7d6'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/ColVis/css:
+    newFile: null
+    oldFile: !uuid '9819a021536ef4e3fd4475b3b93f0fc8681e6976'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/ColVis/css/dataTables.colVis.css:
+    newFile: null
+    oldFile: !uuid '51f546de8ed7b72070ccfe08a87aad8f422164f6'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/ColVis/css/dataTables.colVis.min.css:
+    newFile: null
+    oldFile: !uuid '00ab37d788869d432f00da78a99d35596e3738a7'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/ColVis/css/dataTables.colvis.jqueryui.css:
+    newFile: null
+    oldFile: !uuid '0cdf0baf407a29b54fe33783a7b991533b523427'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/ColVis/examples:
+    newFile: null
+    oldFile: !uuid 'e8d59fe1892b72958588c8cc07376cf83c50b747'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/ColVis/examples/button_order.html:
+    newFile: null
+    oldFile: !uuid '1dffef96ea78f61db939236bdf3ae4768baff530'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/ColVis/examples/exclude_columns.html:
+    newFile: null
+    oldFile: !uuid '2359d122ae4f6cefc652eca881b39ebe81e67eb5'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/ColVis/examples/group_columns.html:
+    newFile: null
+    oldFile: !uuid '9bf73a7b793602073109e63fb63de81ed1e33af5'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/ColVis/examples/index.html:
+    newFile: null
+    oldFile: !uuid '0046c25795103d4551d07475373f5666c256c83b'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/ColVis/examples/jqueryui.html:
+    newFile: null
+    oldFile: !uuid '32d176d2d872430c47954a17abd90ec4371a4df0'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/ColVis/examples/mouseover.html:
+    newFile: null
+    oldFile: !uuid 'c3aee004c8ed7c1e51d19060b825dbcb26a1c593'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/ColVis/examples/new_init.html:
+    newFile: null
+    oldFile: !uuid '1cfa25c97e1b8cdf2c3616d90b50749c545fa72c'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/ColVis/examples/restore.html:
+    newFile: null
+    oldFile: !uuid 'e9a6464026bff1d4158ec7ac0ad92e8754db8ad2'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/ColVis/examples/simple.html:
+    newFile: null
+    oldFile: !uuid '0772721e747592237e2edd854b4751a9d31552fd'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/ColVis/examples/text.html:
+    newFile: null
+    oldFile: !uuid '7840f74002dd5994d43df78bda74609336313081'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/ColVis/examples/title_callback.html:
+    newFile: null
+    oldFile: !uuid 'd20605eafedeb657d54cc578c49e36194856677f'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/ColVis/examples/two_tables.html:
+    newFile: null
+    oldFile: !uuid '3dc0f0acba48f5740e156486bca1c1dce5800197'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/ColVis/examples/two_tables_identical.html:
+    newFile: null
+    oldFile: !uuid '90ffe07883078c41da60e01952f114af868db2ec'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/ColVis/js:
+    newFile: null
+    oldFile: !uuid 'e37d8ad33c56445ced978b863c332f80ad2c1792'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/ColVis/js/dataTables.colVis.js:
+    newFile: null
+    oldFile: !uuid '57a4326a552975087f94f395f31fc6b2aa5b8e00'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/ColVis/js/dataTables.colVis.min.js:
+    newFile: null
+    oldFile: !uuid '764b102426414296978a04641048acb75e1b91da'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/FixedColumns:
+    newFile: null
+    oldFile: !uuid '5b160a6a806df9df7c2f3f4c1635df64a0a006e3'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/FixedColumns/License.txt:
+    newFile: null
+    oldFile: !uuid '9ade2f1b640303b53953ba7e9aff722a2a15529d'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/FixedColumns/Readme.md:
+    newFile: null
+    oldFile: !uuid '15d64c383040d1614d0e773fbe42aad2e082d2f9'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/FixedColumns/css:
+    newFile: null
+    oldFile: !uuid 'e7423ac842366c8b5a7e449be6b4e1c5b4425da0'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/FixedColumns/css/dataTables.fixedColumns.css:
+    newFile: null
+    oldFile: !uuid '0d6e18abffff0cfbe72121d56c7d23ca8a8a8ee6'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/FixedColumns/css/dataTables.fixedColumns.min.css:
+    newFile: null
+    oldFile: !uuid '71e801b53e7d693d1e00f3e58779e499b11c2ed9'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/FixedColumns/examples:
+    newFile: null
+    oldFile: !uuid '1f08c2eabfc5bcdf95b4ee52a9e5db7f8ea402a2'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/FixedColumns/examples/bootstrap.html:
+    newFile: null
+    oldFile: !uuid '24ccd3ec75455bdfa018b5c86f1dc7c4b3aaad0a'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/FixedColumns/examples/col_filter.html:
+    newFile: null
+    oldFile: !uuid '6220d8f78052b783d32092a96472c151c1d6cfde'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/FixedColumns/examples/colvis.html:
+    newFile: null
+    oldFile: !uuid 'e5d0aa70b68af29f370bcafaa9b8d635261026a2'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/FixedColumns/examples/css_size.html:
+    newFile: null
+    oldFile: !uuid 'dfa525ed6991365b256b4342f843d905627f214e'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/FixedColumns/examples/index.html:
+    newFile: null
+    oldFile: !uuid '7cb9a0581d973e8d5deb89b7ca6d643147a22a0e'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/FixedColumns/examples/index_column.html:
+    newFile: null
+    oldFile: !uuid 'e61073ec5a211d7bd649660b10cb41d2f14cb5ac'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/FixedColumns/examples/left_right_columns.html:
+    newFile: null
+    oldFile: !uuid 'f92789c4804735ae034feae71a94c1fa3270ee90'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/FixedColumns/examples/right_column.html:
+    newFile: null
+    oldFile: !uuid 'd6bf0f809583b8d9fc3765d85afe1ddc83a57673'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/FixedColumns/examples/rowspan.html:
+    newFile: null
+    oldFile: !uuid '08085e608f869818f5256218f9119b2765941c1d'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/FixedColumns/examples/server-side-processing.html:
+    newFile: null
+    oldFile: !uuid '0d976b9f5f6a8c6ef038a4aae301d5497c9adb8b'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/FixedColumns/examples/simple.html:
+    newFile: null
+    oldFile: !uuid 'c5b0dcb9717dcdb6e5dfd170acb833bc8981846a'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/FixedColumns/examples/size_fixed.html:
+    newFile: null
+    oldFile: !uuid 'cc17c66afd230cddef09e5c33be3083f58d45e6c'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/FixedColumns/examples/size_fluid.html:
+    newFile: null
+    oldFile: !uuid 'ee533886c8ea96666b00c8b1380df7c2621ee50d'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/FixedColumns/examples/two_columns.html:
+    newFile: null
+    oldFile: !uuid '6c3f233eee766dc7c9f5c4904415fb2c49045a66'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/FixedColumns/js:
+    newFile: null
+    oldFile: !uuid 'abbe947d4dd788e3a15adaf8c183dabb1d5474df'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/FixedColumns/js/dataTables.fixedColumns.js:
+    newFile: null
+    oldFile: !uuid '33c98fad33c47ea0b38043780f5739dfa47f1bf9'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/FixedColumns/js/dataTables.fixedColumns.min.js:
+    newFile: null
+    oldFile: !uuid '69878307bc40953788a1315a43703f329db27e32'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/FixedHeader:
+    newFile: null
+    oldFile: !uuid '38d50141b1d15137ffd6eaa19517b91d5bdbde5a'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/FixedHeader/Readme.txt:
+    newFile: null
+    oldFile: !uuid '875e05176abdf04dfc9c069e86f99f2f16eba564'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/FixedHeader/css:
+    newFile: null
+    oldFile: !uuid 'e45798f38650fd585d48864d04fa091a025c2916'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/FixedHeader/css/dataTables.fixedHeader.css:
+    newFile: null
+    oldFile: !uuid '724317a6edbc65145267ac79fc202c21e6777c2f'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/FixedHeader/css/dataTables.fixedHeader.min.css:
+    newFile: null
+    oldFile: !uuid 'e276a91a8546ad72d1933022d1124fefe46d901a'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/FixedHeader/examples:
+    newFile: null
+    oldFile: !uuid '4bb3f2f3cc96ce33adc9189ae5341e6d7a27c1f9'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/FixedHeader/examples/header_footer.html:
+    newFile: null
+    oldFile: !uuid '97aae29842b205dfb000df5d6d52de1af125b464'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/FixedHeader/examples/index.html:
+    newFile: null
+    oldFile: !uuid '2198d78c6feef5add6745b9bb0e4f8341f39b543'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/FixedHeader/examples/simple.html:
+    newFile: null
+    oldFile: !uuid '1ad6efa77892139456cfbdd3a88937223e9898a5'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/FixedHeader/examples/top_left_right.html:
+    newFile: null
+    oldFile: !uuid 'f15faeb5778a15703c30cb3e527c8225b046376a'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/FixedHeader/examples/two_tables.html:
+    newFile: null
+    oldFile: !uuid '1fbb3dfcb4d1f13ec8ab88aa98e98c87c667bda2'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/FixedHeader/examples/zIndexes.html:
+    newFile: null
+    oldFile: !uuid 'a3292c4cea6337c2c82ab471fa1e668fc5dc869b'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/FixedHeader/js:
+    newFile: null
+    oldFile: !uuid 'e9f534433622cc4f2e7a3d26203799e456db99cd'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/FixedHeader/js/dataTables.fixedHeader.js:
+    newFile: null
+    oldFile: !uuid '90df878678bfa36e647e91d5cc67f6420de0c995'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/FixedHeader/js/dataTables.fixedHeader.min.js:
+    newFile: null
+    oldFile: !uuid '17160910247351e3312e4c92440287bb400302aa'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/KeyTable:
+    newFile: null
+    oldFile: !uuid '85a400ca1c503912ab47e51c04551e484d98a42d'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/KeyTable/Readme.txt:
+    newFile: null
+    oldFile: !uuid '345e9113ba17b8c9d34e04826af6694761b07639'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/KeyTable/css:
+    newFile: null
+    oldFile: !uuid '5b81f8f53b638d98d50a3ed9112ab90bd06b9a6a'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/KeyTable/css/dataTables.keyTable.css:
+    newFile: null
+    oldFile: !uuid '2759df1b2d70f3696d43342a49fda1d8c1296086'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/KeyTable/css/dataTables.keyTable.min.css:
+    newFile: null
+    oldFile: !uuid 'db04020176d7a14fca626938d78b5b4991b75361'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/KeyTable/examples:
+    newFile: null
+    oldFile: !uuid '66004438b7c8e8a07392d40ea1f8ffcd9bd9b5f9'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/KeyTable/examples/events.html:
+    newFile: null
+    oldFile: !uuid '2ef0a9f875621414628da82880fb629e11ddcee5'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/KeyTable/examples/html.html:
+    newFile: null
+    oldFile: !uuid 'a0a0e108b7936e1d62a64d14f7f29cb4bf4f1bf7'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/KeyTable/examples/index.html:
+    newFile: null
+    oldFile: !uuid '71ab0a8f854ec17215f87b767ed4d2a57133df03'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/KeyTable/examples/scrolling.html:
+    newFile: null
+    oldFile: !uuid '6df1580538dfd5de6bcf1df4de0f34219b44fddf'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/KeyTable/examples/simple.html:
+    newFile: null
+    oldFile: !uuid 'e18ed1c6d2c774781f55ecadab1a94cd63d51b23'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/KeyTable/js:
+    newFile: null
+    oldFile: !uuid 'e0ee9e5c1d54388145dc4a5862a224fa8009247d'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/KeyTable/js/dataTables.keyTable.js:
+    newFile: null
+    oldFile: !uuid 'f303f766000a7fdce2b2639b9c1e06f36b24a1f4'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/KeyTable/js/dataTables.keyTable.min.js:
+    newFile: null
+    oldFile: !uuid 'f4c13d211556ba4cf0b06cad72174a16cdc5c262'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Responsive:
+    newFile: null
+    oldFile: !uuid 'c5fd622501f89ed5af853c4a1e2eb9eefaa33688'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Responsive/License.txt:
+    newFile: null
+    oldFile: !uuid 'c0ee1c02455afc3936860f55413b2364cc01235d'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Responsive/Readme.md:
+    newFile: null
+    oldFile: !uuid 'e69de29bb2d1d6434b8b29ae775ad8c2e48c5391'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Responsive/css:
+    newFile: null
+    oldFile: !uuid 'd6e14881a9cdfe86a0a478126d94b7b5058a1b55'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Responsive/css/dataTables.responsive.css:
+    newFile: null
+    oldFile: !uuid '1060f9c737fecbf1ac34078cdecb2d8258aff0a9'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Responsive/css/dataTables.responsive.scss:
+    newFile: null
+    oldFile: !uuid 'ed657ff7f0cdaa62b3f58876cc003b55bf291323'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Responsive/examples:
+    newFile: null
+    oldFile: !uuid '9c57b92b8c4c3f022d9b6cdd0e6c36564d3242db'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Responsive/examples/child-rows:
+    newFile: null
+    oldFile: !uuid '16ee2f003ed0e52932529ac32e51a4937732ce05'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Responsive/examples/child-rows/column-control.html:
+    newFile: null
+    oldFile: !uuid '66f213b2e7219a818faa017f3e119546d0131228'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Responsive/examples/child-rows/custom-renderer.html:
+    newFile: null
+    oldFile: !uuid 'cbf8b8bf30a94781f8a1c0a5b4aca2929442503c'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Responsive/examples/child-rows/disable-child-rows.html:
+    newFile: null
+    oldFile: !uuid '482e77a3ff0ef1fc8e7251820b28a5e247f1a275'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Responsive/examples/child-rows/index.html:
+    newFile: null
+    oldFile: !uuid '98b3680ba5f39a6715cdeb24ce5cd8ab93b161b6'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Responsive/examples/child-rows/right-column.html:
+    newFile: null
+    oldFile: !uuid '94c4f237eb8977d580cbdb454f7f7a219609592e'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Responsive/examples/child-rows/whole-row-control.html:
+    newFile: null
+    oldFile: !uuid '74e11322188ca3854fd4dcba2fb2651613402dd4'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Responsive/examples/display-control:
+    newFile: null
+    oldFile: !uuid '63c4de2dcd95ce56cceae084da83c96f789ebbe5'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Responsive/examples/display-control/auto.html:
+    newFile: null
+    oldFile: !uuid 'ef8e27230fb8edfaf83f2f35d5ed2ced347d7b42'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Responsive/examples/display-control/classes.html:
+    newFile: null
+    oldFile: !uuid 'fda2162779e252e05d7a263516069f03ca71edfa'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Responsive/examples/display-control/complexHeader.html:
+    newFile: null
+    oldFile: !uuid '04d051cd7710e59cffa961c675aa5f79bb7b2658'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Responsive/examples/display-control/fixedHeader.html:
+    newFile: null
+    oldFile: !uuid 'fbf57a529ef2f08a9e3c9ac8e3c41fcb62247dff'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Responsive/examples/display-control/index.html:
+    newFile: null
+    oldFile: !uuid '3dc1c472c29f8bf9d6e27a9431462a5cdfd781a2'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Responsive/examples/display-control/init-classes.html:
+    newFile: null
+    oldFile: !uuid '2524e42183abbf6de63d07da3496954d971d44f4'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Responsive/examples/index.html:
+    newFile: null
+    oldFile: !uuid 'bb2cfbc0133cb7b8c5ee2e24c9785cb311a46bd5'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Responsive/examples/initialisation:
+    newFile: null
+    oldFile: !uuid '3d1f3a0c11d0f2699bf9129af225dd2bf8270372'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Responsive/examples/initialisation/ajax.html:
+    newFile: null
+    oldFile: !uuid 'b60ebfc1025ffa40b4522b26ae46be1de4fa1855'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Responsive/examples/initialisation/className.html:
+    newFile: null
+    oldFile: !uuid '813b7aff7d1fe7c06c5cd7fad1db288147ca14ad'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Responsive/examples/initialisation/default.html:
+    newFile: null
+    oldFile: !uuid 'f196839d5ee721d6dca2af8c0ca1fdd0a7af7cb0'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Responsive/examples/initialisation/index.html:
+    newFile: null
+    oldFile: !uuid '8ca0f946215e84a76fa40abe33e5bd5b60a320ed'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Responsive/examples/initialisation/new.html:
+    newFile: null
+    oldFile: !uuid '07ecd6f91d14a3084c09b666c29a5d3699e9e295'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Responsive/examples/initialisation/option.html:
+    newFile: null
+    oldFile: !uuid '70785d85ed7525023b55286911ca5fffee163b1d'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Responsive/examples/styling:
+    newFile: null
+    oldFile: !uuid '43eeaf1b81e1070686b4922018c1b73c53dd8f2c'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Responsive/examples/styling/bootstrap.html:
+    newFile: null
+    oldFile: !uuid '6a7175f1c87f11f5a322e326926cf0c0f40dadda'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Responsive/examples/styling/compact.html:
+    newFile: null
+    oldFile: !uuid '91d71184a90983fadfac50a7998b010315f5b248'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Responsive/examples/styling/foundation.html:
+    newFile: null
+    oldFile: !uuid 'd41ba40745abe318077fa0e7595187330ab10639'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Responsive/examples/styling/index.html:
+    newFile: null
+    oldFile: !uuid '0de49171fd76dabcc2402dd175feaffef848a88f'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Responsive/examples/styling/scrolling.html:
+    newFile: null
+    oldFile: !uuid '94d77ca2e74a574b2aa19ef8f757d9558fdc055a'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Responsive/js:
+    newFile: null
+    oldFile: !uuid '05e7cbc353480b1614e55f9d83a290beca386131'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Responsive/js/dataTables.responsive.js:
+    newFile: null
+    oldFile: !uuid '5b4743f1416808d3974d5cfcb0628370b83d76a4'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Responsive/js/dataTables.responsive.min.js:
+    newFile: null
+    oldFile: !uuid '1142b80178920d09186ca93a1ddb30ff58a05764'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Scroller:
+    newFile: null
+    oldFile: !uuid 'bc5c9a533f9d1dad4d9fdaede8f8110e8b430a35'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Scroller/Readme.txt:
+    newFile: null
+    oldFile: !uuid 'd262eaf8d2c457b08d4123f055926cf5733137c1'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Scroller/css:
+    newFile: null
+    oldFile: !uuid '67fbb7aa4397c9bbaa6dce3bc505913271e77588'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Scroller/css/dataTables.scroller.css:
+    newFile: null
+    oldFile: !uuid '4bbaa5754c35a47f3b7de15d7d8efb0f86a25849'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Scroller/css/dataTables.scroller.min.css:
+    newFile: null
+    oldFile: !uuid '499b85d60ed9c21eb13a100883afa419e1c84e60'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Scroller/examples:
+    newFile: null
+    oldFile: !uuid '2757751ae241079879d0745382ce33fa0d79b3ea'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Scroller/examples/api_scrolling.html:
+    newFile: null
+    oldFile: !uuid '1653d2151fcd294be7e874aa29c335f3122084c9'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Scroller/examples/data:
+    newFile: null
+    oldFile: !uuid 'bd9d42882ef147a4680f7f00ea753fc8182ef64f'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Scroller/examples/data/2500.txt:
+    newFile: null
+    oldFile: !uuid '4e9f706e7403e9294d00dc9ba3881d1e190c21ee'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Scroller/examples/data/ssp.php:
+    newFile: null
+    oldFile: !uuid '71057e9e9a267509f8b1532b282c57a72db485ab'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Scroller/examples/index.html:
+    newFile: null
+    oldFile: !uuid 'f0b5bcb6f743611e846bb15da34a2acec58238a4'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Scroller/examples/large_js_source.html:
+    newFile: null
+    oldFile: !uuid '9d39ffafe8bbfdd70b4f27338f311538c92c4560'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Scroller/examples/server-side_processing.html:
+    newFile: null
+    oldFile: !uuid 'b1650a990c531091e9a5ee38535b3f92a0de9217'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Scroller/examples/simple.html:
+    newFile: null
+    oldFile: !uuid '6d54a6c7e62ef45b4fccd2cc79cea008db49b7e1'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Scroller/examples/state_saving.html:
+    newFile: null
+    oldFile: !uuid '3dc8c3decd5b80f01e0cd75621c8b22a21b7ec7c'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Scroller/images:
+    newFile: null
+    oldFile: !uuid '65fc4a5d7db7189bb0d4a1dee31569f1fbec970a'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Scroller/images/loading-background.png:
+    newFile: null
+    oldFile: !uuid '2d815070cb6ba554d18bcc36f1eebb5a2010a095'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Scroller/js:
+    newFile: null
+    oldFile: !uuid '4252f6f4d626483439c3a8d45a0fff87a30c1ccc'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Scroller/js/dataTables.scroller.js:
+    newFile: null
+    oldFile: !uuid '2beecdbdb8b3aa5fa1b6b09bca1eedeae5aaae55'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/Scroller/js/dataTables.scroller.min.js:
+    newFile: null
+    oldFile: !uuid 'd7aad08b48150486d087793948ff3755eccc5415'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/TableTools:
+    newFile: null
+    oldFile: !uuid '247097098fa8357cee0644d2a5398223a8d88ba0'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/TableTools/Readme.md:
+    newFile: null
+    oldFile: !uuid 'd83ea9f5966a118920c0ded59c5f8a6bf4390396'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/TableTools/css:
+    newFile: null
+    oldFile: !uuid '09d55d9c974010495e8cba154bb4dfd3f265d7b7'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/TableTools/css/dataTables.tableTools.css:
+    newFile: null
+    oldFile: !uuid 'c959b111f4231fa6b633e263daa49ee2814fcad4'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/TableTools/css/dataTables.tableTools.min.css:
+    newFile: null
+    oldFile: !uuid '61a89d5239a591f71d116f0c7e27a2aa147bc556'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/TableTools/examples:
+    newFile: null
+    oldFile: !uuid '69842e67a0a0e6c3ee928e2388ee7bb57c5e88ff'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/TableTools/examples/ajax.html:
+    newFile: null
+    oldFile: !uuid 'a37670a32869eaf747a9569c867aa1d063142277'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/TableTools/examples/alter_buttons.html:
+    newFile: null
+    oldFile: !uuid '87c41481f0a391880ce6a65dd95236fe9306ed53'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/TableTools/examples/bootstrap.html:
+    newFile: null
+    oldFile: !uuid '24b2c0bb2b0d5658b7e0a43f7a8bb8616487f45b'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/TableTools/examples/button_text.html:
+    newFile: null
+    oldFile: !uuid '20565db1a24132a5d04e3274645e85709584fe43'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/TableTools/examples/collection.html:
+    newFile: null
+    oldFile: !uuid '26b4a20959fa339a5fc55d3875ccba28b3296865'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/TableTools/examples/defaults.html:
+    newFile: null
+    oldFile: !uuid 'e821b4aca8b9f274d65e6e093714ff0313b42e5b'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/TableTools/examples/index.html:
+    newFile: null
+    oldFile: !uuid 'f9758823505f31123f1e28394521e5c9650a7da3'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/TableTools/examples/jqueryui.html:
+    newFile: null
+    oldFile: !uuid 'd075c9094da19f5b20e1ab9d974ac38b51162339'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/TableTools/examples/multi_instance.html:
+    newFile: null
+    oldFile: !uuid 'caf3317a95c0fe47957f687b582fa1c4f8833a69'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/TableTools/examples/multiple_tables.html:
+    newFile: null
+    oldFile: !uuid 'e39d4d094e9ca82132136a2171d2cd3283b88031'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/TableTools/examples/new_init.html:
+    newFile: null
+    oldFile: !uuid '129f9e8a705e0b824c93c2495844630dadfc940b'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/TableTools/examples/pdf_message.html:
+    newFile: null
+    oldFile: !uuid '18afd9e766df2b51f2f2e971c2ee949730240341'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/TableTools/examples/plug-in.html:
+    newFile: null
+    oldFile: !uuid '0c6bfb0178f25334a04b5a715652dac2baa09e38'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/TableTools/examples/select_column.html:
+    newFile: null
+    oldFile: !uuid 'e8e370633d4a386f7cd9d3cab4e43e667f32706d'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/TableTools/examples/select_multi.html:
+    newFile: null
+    oldFile: !uuid 'cbcca65fd8c4a0d796b69879d314df45d7ed96ed'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/TableTools/examples/select_os.html:
+    newFile: null
+    oldFile: !uuid '54e0afe8d6f686db2c3bc8e01658a26c4b2988e7'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/TableTools/examples/select_single.html:
+    newFile: null
+    oldFile: !uuid '33cff2ff9529298435b2db7117d3a3bfba14cb62'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/TableTools/examples/simple.html:
+    newFile: null
+    oldFile: !uuid 'dbc77e47443ce7d9ad0a210bb480108a647cae18'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/TableTools/examples/swf_path.html:
+    newFile: null
+    oldFile: !uuid '0ab0c136e8823b3a2a9166a1b1a6e1c7a1175efb'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/TableTools/images:
+    newFile: null
+    oldFile: !uuid '2de678a6f1ba44c6e4c7599536ea7db976e4b776'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/TableTools/images/collection.png:
+    newFile: null
+    oldFile: !uuid '5dd4dfdf697d1f0025bb8f101cf4acc777d0000e'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/TableTools/images/collection_hover.png:
+    newFile: null
+    oldFile: !uuid '7b37b1e963e66e44905431be927cd78d82726899'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/TableTools/images/copy.png:
+    newFile: null
+    oldFile: !uuid '5b01ab165a9d1adeee1142b4ea5a0c47278c0689'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/TableTools/images/copy_hover.png:
+    newFile: null
+    oldFile: !uuid '039a7fc32b9bc90580f3c1c56471710e915cdf58'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/TableTools/images/csv.png:
+    newFile: null
+    oldFile: !uuid '43df1559f7cf9546065ef4864e605a834df47b51'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/TableTools/images/csv_hover.png:
+    newFile: null
+    oldFile: !uuid '10b34d3b90b3f7712f6de998fbc98a051b38a661'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/TableTools/images/pdf.png:
+    newFile: null
+    oldFile: !uuid '1b038d0884524f887d32a4d293b868802903992a'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/TableTools/images/pdf_hover.png:
+    newFile: null
+    oldFile: !uuid 'eb06855f4fc6bb57036cf61324149e3f8e27c902'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/TableTools/images/print.png:
+    newFile: null
+    oldFile: !uuid '2db08242a0c9a9085b274d8a02462e2c743f53da'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/TableTools/images/print_hover.png:
+    newFile: null
+    oldFile: !uuid '9808a9cc9c59c3968494faea0399864448fdb3f4'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/TableTools/images/psd:
+    newFile: null
+    oldFile: !uuid '67f0247e1b370563bc16155db296dbdabdbf8db8'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/TableTools/images/psd/collection.psd:
+    newFile: null
+    oldFile: !uuid '7eb7caf2cc5c98e1d9ac04de50b2009b344bbe85'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/TableTools/images/psd/copy document.psd:
+    newFile: null
+    oldFile: !uuid 'ca207adc608751b51eb5265bda2b7392889305a3'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/TableTools/images/psd/file_types.psd:
+    newFile: null
+    oldFile: !uuid '0f280ad520ae61fc8bf3f6d0781d878c28e62a73'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/TableTools/images/psd/printer.psd:
+    newFile: null
+    oldFile: !uuid '8c33f7aaadcb2e4932ec714f29a6717f05de2bd6'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/TableTools/images/xls.png:
+    newFile: null
+    oldFile: !uuid '5aaf40d0e3ebe984398903d89d11cf9bc21385c0'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/TableTools/images/xls_hover.png:
+    newFile: null
+    oldFile: !uuid '5b1930afd86e7ef439026ee89e75520c086471f5'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/TableTools/js:
+    newFile: null
+    oldFile: !uuid 'baef647911474d4483522a071deadbcc59539360'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/TableTools/js/dataTables.tableTools.js:
+    newFile: null
+    oldFile: !uuid '749fcd8c6a3082d44ee26e52ff7f015b62819e77'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/TableTools/js/dataTables.tableTools.min.js:
+    newFile: null
+    oldFile: !uuid 'e8c87056b49a816787fa927fddebdacff6d3573d'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/TableTools/swf:
+    newFile: null
+    oldFile: !uuid 'c2ded0aaa6b7a965c717ad7a0fb460ef714c4cb4'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/TableTools/swf/copy_csv_xls.swf:
+    newFile: null
+    oldFile: !uuid '8976009d558cbcd63f99e2e212adc7c2478436f5'
+  /OpenAuth.Mvc/Content/plugins/datatables/extensions/TableTools/swf/copy_csv_xls_pdf.swf:
+    newFile: null
+    oldFile: !uuid '10f6d950f851157160e6385f5adeaf5be3aafeb0'
+  /OpenAuth.Mvc/Content/plugins/datatables/images:
+    newFile: null
+    oldFile: !uuid '18aa314f043fe9b230907d4f071707c0b7925b1f'
+  /OpenAuth.Mvc/Content/plugins/datatables/images/sort_asc.png:
+    newFile: null
+    oldFile: !uuid 'e1ba61a8055fcb18273f2468d335572204667b1f'
+  /OpenAuth.Mvc/Content/plugins/datatables/images/sort_asc_disabled.png:
+    newFile: null
+    oldFile: !uuid 'fb11dfe24a6c564cb7ddf8bc96703ebb121df1e7'
+  /OpenAuth.Mvc/Content/plugins/datatables/images/sort_both.png:
+    newFile: null
+    oldFile: !uuid 'af5bc7c5a10b9d6d57cb641aeec752428a07f0ca'
+  /OpenAuth.Mvc/Content/plugins/datatables/images/sort_desc.png:
+    newFile: null
+    oldFile: !uuid '0e156deb5f61d18f9e2ec5da4f6a8c94a5b4fb41'
+  /OpenAuth.Mvc/Content/plugins/datatables/images/sort_desc_disabled.png:
+    newFile: null
+    oldFile: !uuid 'c9fdd8a1502fda301682e907afde86bc450da10f'
+  /OpenAuth.Mvc/Content/plugins/datatables/jquery.dataTables.css:
+    newFile: null
+    oldFile: !uuid 'eec02ef59b545fa79864e5cf17112f0c43f7908f'
+  /OpenAuth.Mvc/Content/plugins/datatables/jquery.dataTables.js:
+    newFile: null
+    oldFile: !uuid '2a9bdb36e7b872b0a4ae6e0d897ff96337fdd0c8'
+  /OpenAuth.Mvc/Content/plugins/datatables/jquery.dataTables.min.css:
+    newFile: null
+    oldFile: !uuid '2edb32f7c7a8ffc45ab991cea38e9ba9cd1793ef'
+  /OpenAuth.Mvc/Content/plugins/datatables/jquery.dataTables.min.js:
+    newFile: null
+    oldFile: !uuid '85dd817e132579887fb2785f6cdaeba5b1998dd1'
+  /OpenAuth.Mvc/Content/plugins/datatables/jquery.dataTables_themeroller.css:
+    newFile: null
+    oldFile: !uuid '1426a44a18bf40baaf52c108b041b31bc44a1811'
+  /OpenAuth.Mvc/Content/plugins/input-mask:
+    newFile: null
+    oldFile: !uuid 'c98f6e6836d0589fdcbb1737937a9e25bae4ebff'
+  /OpenAuth.Mvc/Content/plugins/input-mask/jquery.inputmask.date.extensions.js:
+    newFile: null
+    oldFile: !uuid '18f76c81ad924bd04d39b31e686d73483696e82e'
+  /OpenAuth.Mvc/Content/plugins/input-mask/jquery.inputmask.extensions.js:
+    newFile: null
+    oldFile: !uuid 'c89f91ee5061ec6558d014ce0dc84d243c8edf6d'
+  /OpenAuth.Mvc/Content/plugins/input-mask/jquery.inputmask.js:
+    newFile: null
+    oldFile: !uuid '86cb3205b5864467b7b9de81a8c6fc5fea1a91e7'
+  /OpenAuth.Mvc/Content/plugins/input-mask/jquery.inputmask.numeric.extensions.js:
+    newFile: null
+    oldFile: !uuid '2efb33f40e7357ce7a282260553f1562db6d59e4'
+  /OpenAuth.Mvc/Content/plugins/input-mask/jquery.inputmask.phone.extensions.js:
+    newFile: null
+    oldFile: !uuid '554d4ef14f86abfbc0b2a09d961ba5c6c7f6dc2b'
+  /OpenAuth.Mvc/Content/plugins/input-mask/jquery.inputmask.regex.extensions.js:
+    newFile: null
+    oldFile: !uuid 'e956569bfda7ff8a1399ed8e642cf25c0b6482fb'
+  /OpenAuth.Mvc/Content/plugins/input-mask/phone-codes:
+    newFile: null
+    oldFile: !uuid '2599d3425ac2321c50be9f7778915549262855bd'
+  /OpenAuth.Mvc/Content/plugins/input-mask/phone-codes/phone-be.json:
+    newFile: null
+    oldFile: !uuid 'b510b784714446e27b324f1c2e6ebbe5041b61ee'
+  /OpenAuth.Mvc/Content/plugins/input-mask/phone-codes/phone-codes.json:
+    newFile: null
+    oldFile: !uuid '15bbd3a9776a3a52db5518e445eb6d5d050517ba'
+  /OpenAuth.Mvc/Content/plugins/input-mask/phone-codes/readme.txt:
+    newFile: null
+    oldFile: !uuid '0a170a76738404c9bbc20c49783db91f24604e55'
+  /OpenAuth.Mvc/Content/plugins/layer:
+    newFile: null
+    oldFile: !uuid '4c3edc276d2b3ad1f2f1d7491044f4b4af5dc3b2'
+  /OpenAuth.Mvc/Content/plugins/layer/extend:
+    newFile: null
+    oldFile: !uuid 'b7beb04ae78fd9b787c2d86f7d87901f8dafdff0'
+  /OpenAuth.Mvc/Content/plugins/layer/extend/layer.ext.js:
+    newFile: null
+    oldFile: !uuid 'd592dfdc9043d07ac4244bd911b37dfcfe298b94'
+  /OpenAuth.Mvc/Content/plugins/layer/layer.js:
+    newFile: null
+    oldFile: !uuid 'bc7141fdf4b53f47bfd06083b6923a534c5052f5'
+  /OpenAuth.Mvc/Content/plugins/layer/skin:
+    newFile: null
+    oldFile: !uuid '1fa70bf66cdf3e3ee1b7c5f2ec45cd7c1afb2de9'
+  /OpenAuth.Mvc/Content/plugins/layer/skin/default:
+    newFile: null
+    oldFile: !uuid 'd63eb58735512bdcf473ecf641471a87ecb790c6'
+  /OpenAuth.Mvc/Content/plugins/layer/skin/default/icon-ext.png:
+    newFile: null
+    oldFile: !uuid 'bbbb669bb311514baa5db3a6a00b4644d0e280f1'
+  /OpenAuth.Mvc/Content/plugins/layer/skin/default/icon.png:
+    newFile: null
+    oldFile: !uuid '3e17da8b1aaae2935e19ac97d9015f0fe24e8770'
+  /OpenAuth.Mvc/Content/plugins/layer/skin/default/loading-0.gif:
+    newFile: null
+    oldFile: !uuid '6f3c9539a22171cc2f12639492e346d97a9078e8'
+  /OpenAuth.Mvc/Content/plugins/layer/skin/default/loading-1.gif:
+    newFile: null
+    oldFile: !uuid 'db3a483e4b74971fbfb1cc0fb6499852cedfe650'
+  /OpenAuth.Mvc/Content/plugins/layer/skin/default/loading-2.gif:
+    newFile: null
+    oldFile: !uuid '5bb90fd6a49107a321c35b9cee4a7b810314b51f'
+  /OpenAuth.Mvc/Content/plugins/layer/skin/layer.css:
+    newFile: null
+    oldFile: !uuid '42a613d3c3be516e20ccb77cb26d776abd0ec3fb'
+  /OpenAuth.Mvc/Content/plugins/layer/skin/layer.ext.css:
+    newFile: null
+    oldFile: !uuid 'a2bd781ea6f1d6f08d940ceef8bec163982e3cd7'
   /OpenAuth.Mvc/Content/scripts:
-    newFile: !uuid '9d9657e788d5fa548fc4b58d4cda8c3529c79957'
-    oldFile: !uuid 'ef36f349af1e151cd1224c6d8b8a0482a713dde0'
-  /OpenAuth.Mvc/Content/scripts/utils:
-    newFile: !uuid '217f002ba7415096db4f1c33796ddaef13c6efb3'
-    oldFile: !uuid '8cf69c448ee2b43cce98d21d0f50b60db0fbfa86'
-  /OpenAuth.Mvc/Content/scripts/utils/applayout.js:
-    newFile: !uuid '3bd7babd163c03cd87673a30d840b927c9440ab1'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/utils/clientdata.js:
-    newFile: !uuid 'bdd4c8bd78c854bb0d0964800fd3a2ea35396208'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/utils/flowlayout.js:
-    newFile: !uuid 'a298529b281f437c281504eff11a28ddb003e87e'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/utils/form.js:
-    newFile: !uuid 'b9ad34452a67d8ff1fbe2bdb00722a2e1afbd658'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/utils/learun-applayout.js:
+    newFile: !uuid '030a03700c403f1631642cbf1b2409a4fd8884e0'
+    oldFile: !uuid '9d9657e788d5fa548fc4b58d4cda8c3529c79957'
+  /OpenAuth.Mvc/Content/scripts/plugins:
+    newFile: !uuid '229c366339f6d0a20460f04f9df2bb7f92050b1b'
+    oldFile: !uuid '94b349e85871a66e7283b036f062551343f3d9cf'
+  /OpenAuth.Mvc/Content/scripts/plugins/charts:
     newFile: null
-    oldFile: !uuid '3bd7babd163c03cd87673a30d840b927c9440ab1'
-  /OpenAuth.Mvc/Content/scripts/utils/learun-clientdata.js:
+    oldFile: !uuid '53bb573c5add29c282a6f6126f25ee46a7c321c5'
+  /OpenAuth.Mvc/Content/scripts/plugins/charts/Chart.js:
     newFile: null
-    oldFile: !uuid 'bdd4c8bd78c854bb0d0964800fd3a2ea35396208'
-  /OpenAuth.Mvc/Content/scripts/utils/learun-flowlayout.js:
+    oldFile: !uuid 'c264262ba7352f75c1c2112866e98b2c1fcf9173'
+  /OpenAuth.Mvc/Content/scripts/plugins/charts/Chart.min.js:
     newFile: null
-    oldFile: !uuid '034247e02555df82f7855d795e6336a5bcdd6cfb'
-  /OpenAuth.Mvc/Content/scripts/utils/learun-form.js:
+    oldFile: !uuid '3a0a2c87345f54eac4a8da8a9e1a81868c645ec7'
+  /OpenAuth.Mvc/Content/scripts/plugins/fullcalendar:
     newFile: null
-    oldFile: !uuid 'b9ad34452a67d8ff1fbe2bdb00722a2e1afbd658'
-  /OpenAuth.Mvc/Content/scripts/utils/learun-im.js:
+    oldFile: !uuid 'b309bb263a4bc2a22ac3e749c5b017431281695c'
+  /OpenAuth.Mvc/Content/scripts/plugins/fullcalendar/css:
     newFile: null
-    oldFile: !uuid 'ffced5d2a5c4421db8c1db3e658aa812aa3f54bb'
-  /OpenAuth.Mvc/Content/scripts/utils/learun-ui.js:
+    oldFile: !uuid '4723f17490b33d2e5553835a1c668e80932d1ca3'
+  /OpenAuth.Mvc/Content/scripts/plugins/fullcalendar/css/fullcalendar.css:
     newFile: null
-    oldFile: !uuid 'e3b2b4953a66f8be4c203572f26e3cc1417c7bc5'
-  /OpenAuth.Mvc/Content/scripts/utils/learun-webApp.js:
+    oldFile: !uuid '18b13af794c0f055e46eac871e4b9f9d22e2e34b'
+  /OpenAuth.Mvc/Content/scripts/plugins/fullcalendar/css/fullcalendar.print.css:
     newFile: null
-    oldFile: !uuid '045e428ec0f272d05a071cb6522434a44e8eab81'
-  /OpenAuth.Mvc/Content/scripts/utils/learun-webAppData.js:
+    oldFile: !uuid 'e11c1816373a8d1df99c7849c669fe8d28db3307'
+  /OpenAuth.Mvc/Content/scripts/plugins/fullcalendar/css/style.css:
     newFile: null
-    oldFile: !uuid '34cda8054bdc394322e3d86eb6a4fd7b7169f561'
-  /OpenAuth.Mvc/Content/scripts/utils/ui.js:
-    newFile: !uuid 'e3b2b4953a66f8be4c203572f26e3cc1417c7bc5'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/utils/webApp.js:
-    newFile: !uuid '045e428ec0f272d05a071cb6522434a44e8eab81'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/utils/webAppData.js:
-    newFile: !uuid '34cda8054bdc394322e3d86eb6a4fd7b7169f561'
-    oldFile: null
-  /OpenAuth.Mvc/Content/styles:
-    newFile: !uuid '687918d505fd1f7ea7b24399657e15c38da6b722'
-    oldFile: !uuid 'df1d84db6f11862a68bf8d07a308c64f38218d10'
-  /OpenAuth.Mvc/Content/styles/applayout.css:
-    newFile: !uuid '6a8727d2dee709f3e26891163483194e3288ac5a'
-    oldFile: null
-  /OpenAuth.Mvc/Content/styles/bill.css:
-    newFile: !uuid 'a0ecc851b42fb6f56126a6dd31ac00df082ba5ae'
-    oldFile: null
-  /OpenAuth.Mvc/Content/styles/ckbox-radio.css:
-    newFile: !uuid '03f43f13f844547d5442759632e09569b08035ab'
-    oldFile: null
-  /OpenAuth.Mvc/Content/styles/flow.css:
-    newFile: !uuid '33bada9c29a9ba1d2f217deff126398c197f4e36'
-    oldFile: null
-  /OpenAuth.Mvc/Content/styles/learun-applayout.css:
+    oldFile: !uuid '73270eab6bac098c36d2bccc3c2b561883513556'
+  /OpenAuth.Mvc/Content/scripts/plugins/fullcalendar/img:
     newFile: null
-    oldFile: !uuid '6a8727d2dee709f3e26891163483194e3288ac5a'
-  /OpenAuth.Mvc/Content/styles/learun-bill.css:
+    oldFile: !uuid '9a41aa3d20498c7e6693e576adb240699e5db78a'
+  /OpenAuth.Mvc/Content/scripts/plugins/fullcalendar/img/Thumbs.db:
     newFile: null
-    oldFile: !uuid 'a0ecc851b42fb6f56126a6dd31ac00df082ba5ae'
-  /OpenAuth.Mvc/Content/styles/learun-ckbox-radio.css:
+    oldFile: !uuid 'bc215cd4f26591d4152f44bd6f651e3cefa436e8'
+  /OpenAuth.Mvc/Content/scripts/plugins/fullcalendar/img/arrow-left.png:
     newFile: null
-    oldFile: !uuid '03f43f13f844547d5442759632e09569b08035ab'
-  /OpenAuth.Mvc/Content/styles/learun-flow.css:
+    oldFile: !uuid '543aa70458365c2d62635be9df2d4febe552145b'
+  /OpenAuth.Mvc/Content/scripts/plugins/fullcalendar/img/arrow-right.png:
     newFile: null
-    oldFile: !uuid '33bada9c29a9ba1d2f217deff126398c197f4e36'
-  /OpenAuth.Mvc/Content/styles/learun-im.css:
+    oldFile: !uuid '3d13773b125500754ad8b2f451435185102059ec'
+  /OpenAuth.Mvc/Content/scripts/plugins/fullcalendar/img/bg2.png:
     newFile: null
-    oldFile: !uuid 'a318aecb7c9ac5f6d90674fed44a62fa9b3cac9c'
-  /OpenAuth.Mvc/Content/styles/learun-login.css:
+    oldFile: !uuid '7b053213d6d09841a2552da30ae9ca1197d6bb0b'
+  /OpenAuth.Mvc/Content/scripts/plugins/fullcalendar/img/buttons-disabled.png:
     newFile: null
-    oldFile: !uuid 'bca5a74308071e4e98ea15bc99a12309dd861fcb'
-  /OpenAuth.Mvc/Content/styles/learun-report.css:
+    oldFile: !uuid 'afa11af9b93bcbd261faa6a5b0835e82493712b2'
+  /OpenAuth.Mvc/Content/scripts/plugins/fullcalendar/img/buttons.gif:
     newFile: null
-    oldFile: !uuid '2115c98c5c6b2ddc35a7278d2a892d101a921f09'
-  /OpenAuth.Mvc/Content/styles/learun-ui.css:
+    oldFile: !uuid '2e464d0c8c7ac7c8dd29d165e4eff36ea27fdd2d'
+  /OpenAuth.Mvc/Content/scripts/plugins/fullcalendar/img/buttons.png:
     newFile: null
-    oldFile: !uuid '9c9fb019b30e203d0a11a5ae80588a1fe4bf2c1c'
-  /OpenAuth.Mvc/Content/styles/learun-webApp.css:
+    oldFile: !uuid '153e73885ac4a1fd1a98dccd5df73b8d72a2df10'
+  /OpenAuth.Mvc/Content/scripts/plugins/fullcalendar/img/chosen-sprite.png:
     newFile: null
-    oldFile: !uuid 'c71afd39fedce941a392618cefab843c0c277103'
-  /OpenAuth.Mvc/Content/styles/login.css:
-    newFile: !uuid 'bca5a74308071e4e98ea15bc99a12309dd861fcb'
-    oldFile: null
-  /OpenAuth.Mvc/Content/styles/ui.css:
-    newFile: !uuid '9c9fb019b30e203d0a11a5ae80588a1fe4bf2c1c'
-    oldFile: null
-  /OpenAuth.Mvc/Content/styles/webApp.css:
-    newFile: !uuid 'c71afd39fedce941a392618cefab843c0c277103'
-    oldFile: null
-  /OpenAuth.Mvc/Content/workflowdesigner.css:
+    oldFile: !uuid '113dc9885a6b864ac154b266f024b4597f5c6ae7'
+  /OpenAuth.Mvc/Content/scripts/plugins/fullcalendar/img/dribble.png:
     newFile: null
-    oldFile: !uuid 'aee1a64fa376025b4927cbf201dd9d50bd4cd06b'
+    oldFile: !uuid '7bd6a035e331b5b34f5ff0ba4a38ea26d58f5884'
+  /OpenAuth.Mvc/Content/scripts/plugins/fullcalendar/img/facebook.png:
+    newFile: null
+    oldFile: !uuid '9e5db289f8ee0b9c1435caca75db157494790af8'
+  /OpenAuth.Mvc/Content/scripts/plugins/fullcalendar/img/forrst.png:
+    newFile: null
+    oldFile: !uuid 'ddd83c89e8d9623420a4ac01df0f8ab1921b0952'
+  /OpenAuth.Mvc/Content/scripts/plugins/fullcalendar/img/glyphicons-halflings-white.png:
+    newFile: null
+    oldFile: !uuid '3bf6484a29d8da269f9bc874b25493a45fae3bae'
+  /OpenAuth.Mvc/Content/scripts/plugins/fullcalendar/img/glyphicons-halflings.png:
+    newFile: null
+    oldFile: !uuid '79bc568c21395d5a5ceab62fadb04457094b2ac7'
+  /OpenAuth.Mvc/Content/scripts/plugins/fullcalendar/img/light.jpg:
+    newFile: null
+    oldFile: !uuid 'a61f6d60b2e8604efad290c4916b8d94f93e2779'
+  /OpenAuth.Mvc/Content/scripts/plugins/fullcalendar/img/magnifier_grey.png:
+    newFile: null
+    oldFile: !uuid 'e28e0f6c69ec0014da58d7eba61b291881057a13'
+  /OpenAuth.Mvc/Content/scripts/plugins/fullcalendar/img/natural_paper.png:
+    newFile: null
+    oldFile: !uuid 'c3ea3e43615e62b4a90dcd9e5718d8f9d056b805'
+  /OpenAuth.Mvc/Content/scripts/plugins/fullcalendar/img/preload.gif:
+    newFile: null
+    oldFile: !uuid '8fe50df06e9b444d1a2f9ebb813e97f2ac2ca6c3'
+  /OpenAuth.Mvc/Content/scripts/plugins/fullcalendar/img/slider.png:
+    newFile: null
+    oldFile: !uuid '5610d403df9bcebd82c0f591deef96a8873a41c2'
+  /OpenAuth.Mvc/Content/scripts/plugins/fullcalendar/img/slider_hover.png:
+    newFile: null
+    oldFile: !uuid '3c4f0a4cdc31f07517f08156cf65408616c5eff5'
+  /OpenAuth.Mvc/Content/scripts/plugins/fullcalendar/img/sort_asc.png:
+    newFile: null
+    oldFile: !uuid 'd01d1910e48ee75d9fbaa6fac0dac109f3320c9f'
+  /OpenAuth.Mvc/Content/scripts/plugins/fullcalendar/img/sort_asc_disabled.png:
+    newFile: null
+    oldFile: !uuid '5902bec55e382217b9af362b7b62ab898c4ace9d'
+  /OpenAuth.Mvc/Content/scripts/plugins/fullcalendar/img/sort_both.png:
+    newFile: null
+    oldFile: !uuid 'a65f7d53d51325f099ed139fa614e7960ce1d16c'
+  /OpenAuth.Mvc/Content/scripts/plugins/fullcalendar/img/sort_desc.png:
+    newFile: null
+    oldFile: !uuid '42cca9a2a99f340d439c790a6a9285ff93dafef1'
+  /OpenAuth.Mvc/Content/scripts/plugins/fullcalendar/img/sort_desc_disabled.png:
+    newFile: null
+    oldFile: !uuid 'b87c01a3649da9d36ad86aeee25f27d9cdce481f'
+  /OpenAuth.Mvc/Content/scripts/plugins/fullcalendar/img/spinner_arrows.gif:
+    newFile: null
+    oldFile: !uuid 'cde64ed9687f0e5a201cfe1ff45a06bbf0310bc3'
+  /OpenAuth.Mvc/Content/scripts/plugins/fullcalendar/img/toggle-subnav-down.png:
+    newFile: null
+    oldFile: !uuid '0c29384a9d309cb8b21fd03934a26b7389a5b922'
+  /OpenAuth.Mvc/Content/scripts/plugins/fullcalendar/img/toggle-subnav-up-white.png:
+    newFile: null
+    oldFile: !uuid 'ad2031707cb9151bb352f7448cb88b8394066d7f'
+  /OpenAuth.Mvc/Content/scripts/plugins/fullcalendar/img/toolbar.gif:
+    newFile: null
+    oldFile: !uuid 'e6eb2da554925c9587169b7fc1dade3d37da9c46'
+  /OpenAuth.Mvc/Content/scripts/plugins/fullcalendar/img/transp50.png:
+    newFile: null
+    oldFile: !uuid 'eb0efe104bdcc277ddcc3f6efdb54e1d533a5179'
+  /OpenAuth.Mvc/Content/scripts/plugins/fullcalendar/img/twitter.png:
+    newFile: null
+    oldFile: !uuid '866cbecba18cdde52f42818fafb6be7438909b6c'
+  /OpenAuth.Mvc/Content/scripts/plugins/fullcalendar/js:
+    newFile: null
+    oldFile: !uuid '8259084f097e5de17dd59c8e38c9039c1ffdb0ad'
+  /OpenAuth.Mvc/Content/scripts/plugins/fullcalendar/js/fullcalendar.min.js:
+    newFile: null
+    oldFile: !uuid '60bf483b1b0985e6b709e7f7f85438c0fbc855ad'
+  /OpenAuth.Mvc/Content/scripts/plugins/fullcalendar/js/jquery-1.7.2.min.js:
+    newFile: null
+    oldFile: !uuid '16ad06c5acaad09ee4d6e9d7c428506db028aeeb'
+  /OpenAuth.Mvc/Content/scripts/plugins/highcharts:
+    newFile: null
+    oldFile: !uuid '215da131b9cb8f6c517c5c0389804b9bfffb5172'
+  /OpenAuth.Mvc/Content/scripts/plugins/highcharts/adapters:
+    newFile: null
+    oldFile: !uuid '800247095648b43f3380226b4237471c338b21b2'
+  /OpenAuth.Mvc/Content/scripts/plugins/highcharts/adapters/standalone-framework.js:
+    newFile: null
+    oldFile: !uuid 'cc360702546d195428b2ec0202991325b9ecf8b0'
+  /OpenAuth.Mvc/Content/scripts/plugins/highcharts/adapters/standalone-framework.src.js:
+    newFile: null
+    oldFile: !uuid '4be96f2a9854a97593dfae4eaff523e70b0ac076'
+  /OpenAuth.Mvc/Content/scripts/plugins/highcharts/highcharts-3d.js:
+    newFile: null
+    oldFile: !uuid '51c2fa554fd3c603e5eebb29c8682606a81c4868'
+  /OpenAuth.Mvc/Content/scripts/plugins/highcharts/highcharts-3d.src.js:
+    newFile: null
+    oldFile: !uuid 'ae3141aae694dd5c25b077c89feebf63344ba272'
+  /OpenAuth.Mvc/Content/scripts/plugins/highcharts/highcharts-more.js:
+    newFile: null
+    oldFile: !uuid 'fa6796aa052655802eee03dd26bb09b5357d10b0'
+  /OpenAuth.Mvc/Content/scripts/plugins/highcharts/highcharts-more.src.js:
+    newFile: null
+    oldFile: !uuid '191971de0befff60d18e4df002c07d32c607f51d'
+  /OpenAuth.Mvc/Content/scripts/plugins/highcharts/highcharts.js:
+    newFile: null
+    oldFile: !uuid '196e821d2a98f5a1a6bd5c3cdfd10ae1d846bcd9'
+  /OpenAuth.Mvc/Content/scripts/plugins/highcharts/highcharts.src.js:
+    newFile: null
+    oldFile: !uuid '3719294753b4d57e96b5513f198e3d1a3ddd6a9a'
+  /OpenAuth.Mvc/Content/scripts/plugins/highcharts/modules:
+    newFile: null
+    oldFile: !uuid '9c0767cde12ce6103d3981ffea5f23744dba0013'
+  /OpenAuth.Mvc/Content/scripts/plugins/highcharts/modules/boost.js:
+    newFile: null
+    oldFile: !uuid '9f89a55f28c22a25aad0e772c5a476717f65aeb8'
+  /OpenAuth.Mvc/Content/scripts/plugins/highcharts/modules/boost.src.js:
+    newFile: null
+    oldFile: !uuid '71afc03ffe0ef5d98f27c7e0fb1326a6adee03b0'
+  /OpenAuth.Mvc/Content/scripts/plugins/highcharts/modules/broken-axis.js:
+    newFile: null
+    oldFile: !uuid '40097b444f7da3a31091d2ae1377981c86bea4a1'
+  /OpenAuth.Mvc/Content/scripts/plugins/highcharts/modules/broken-axis.src.js:
+    newFile: null
+    oldFile: !uuid 'b69311321a5be6f69ad9dd91ed036b7a0d19d84a'
+  /OpenAuth.Mvc/Content/scripts/plugins/highcharts/modules/canvas-tools.js:
+    newFile: null
+    oldFile: !uuid '3c7d7f5a3fc06315beb90ede0db243519ab8befe'
+  /OpenAuth.Mvc/Content/scripts/plugins/highcharts/modules/canvas-tools.src.js:
+    newFile: null
+    oldFile: !uuid 'ed19feecbaf35a9a5f71758507d338d78c934ec0'
+  /OpenAuth.Mvc/Content/scripts/plugins/highcharts/modules/data.js:
+    newFile: null
+    oldFile: !uuid '23a45fac8495816262d62f436d335205503ff2c0'
+  /OpenAuth.Mvc/Content/scripts/plugins/highcharts/modules/data.src.js:
+    newFile: null
+    oldFile: !uuid 'a91a9fbd814ae348b31713d5bf4147f03c5000d4'
+  /OpenAuth.Mvc/Content/scripts/plugins/highcharts/modules/drilldown.js:
+    newFile: null
+    oldFile: !uuid '6fa2b8e05b62068478a90c72c7c0b86443811346'
+  /OpenAuth.Mvc/Content/scripts/plugins/highcharts/modules/drilldown.src.js:
+    newFile: null
+    oldFile: !uuid '6165b1ae7daf2561be6343b14851faf14f5c1033'
+  /OpenAuth.Mvc/Content/scripts/plugins/highcharts/modules/exporting.js:
+    newFile: null
+    oldFile: !uuid 'f5c6232cd9637453e4442f5dea4c9754338c165e'
+  /OpenAuth.Mvc/Content/scripts/plugins/highcharts/modules/exporting.src.js:
+    newFile: null
+    oldFile: !uuid '9f208b2b9524ab84bc194d550d8f885482cf2041'
+  /OpenAuth.Mvc/Content/scripts/plugins/highcharts/modules/funnel.js:
+    newFile: null
+    oldFile: !uuid '7c7eac5e2c170ffc829cd0c1813bc80a1d1997d5'
+  /OpenAuth.Mvc/Content/scripts/plugins/highcharts/modules/funnel.src.js:
+    newFile: null
+    oldFile: !uuid '872a1b6a087e0e0193c59317216f4273d23e35c4'
+  /OpenAuth.Mvc/Content/scripts/plugins/highcharts/modules/heatmap.js:
+    newFile: null
+    oldFile: !uuid 'e881b5235010cdddb0f585bfff122cf67c3b035d'
+  /OpenAuth.Mvc/Content/scripts/plugins/highcharts/modules/heatmap.src.js:
+    newFile: null
+    oldFile: !uuid '58c638bd873130c13274754fac00c11bd94fdbab'
+  /OpenAuth.Mvc/Content/scripts/plugins/highcharts/modules/no-data-to-display.js:
+    newFile: null
+    oldFile: !uuid '8bf1647de28d0c7872ab2be56e0e6fc7b895b33b'
+  /OpenAuth.Mvc/Content/scripts/plugins/highcharts/modules/no-data-to-display.src.js:
+    newFile: null
+    oldFile: !uuid 'bf2a96d261ab0577f5daa70ebff70193e89af5e0'
+  /OpenAuth.Mvc/Content/scripts/plugins/highcharts/modules/offline-exporting.js:
+    newFile: null
+    oldFile: !uuid '68877c3a0d65f3a56b8cb8a579db6f95d3d67b66'
+  /OpenAuth.Mvc/Content/scripts/plugins/highcharts/modules/offline-exporting.src.js:
+    newFile: null
+    oldFile: !uuid '0f9f28281ee39ff43f85f305045b9d000d7783c1'
+  /OpenAuth.Mvc/Content/scripts/plugins/highcharts/modules/solid-gauge.js:
+    newFile: null
+    oldFile: !uuid '85a3746855458b0a78f6f47fed1f8f0412589efc'
+  /OpenAuth.Mvc/Content/scripts/plugins/highcharts/modules/solid-gauge.src.js:
+    newFile: null
+    oldFile: !uuid '4ef2f31716355981772164f868dc0dc16078fd44'
+  /OpenAuth.Mvc/Content/scripts/plugins/highcharts/modules/treemap.js:
+    newFile: null
+    oldFile: !uuid 'bc8ecdf3aef7eaafaea4d977718d2164f15fbc47'
+  /OpenAuth.Mvc/Content/scripts/plugins/highcharts/modules/treemap.src.js:
+    newFile: null
+    oldFile: !uuid 'cbc2a4eb1308f8532eb7b611300b01f8d5636cff'
+  /OpenAuth.Mvc/Content/scripts/plugins/highcharts/themes:
+    newFile: null
+    oldFile: !uuid '121592d5756546adf4886b9bca07b5292f289840'
+  /OpenAuth.Mvc/Content/scripts/plugins/highcharts/themes/dark-blue.js:
+    newFile: null
+    oldFile: !uuid '7cf7138ab0bfe06204707b5d993b7d4884fd3be1'
+  /OpenAuth.Mvc/Content/scripts/plugins/highcharts/themes/dark-green.js:
+    newFile: null
+    oldFile: !uuid '4a7ad586a2aacb726bc565167cb1382101065abb'
+  /OpenAuth.Mvc/Content/scripts/plugins/highcharts/themes/dark-unica.js:
+    newFile: null
+    oldFile: !uuid '598c061c2deb6ddbfb8a8d06ca6bc48cbd3f4ab2'
+  /OpenAuth.Mvc/Content/scripts/plugins/highcharts/themes/gray.js:
+    newFile: null
+    oldFile: !uuid 'd9a40169fd68f586fbabbf66a9bd76767b2fafd3'
+  /OpenAuth.Mvc/Content/scripts/plugins/highcharts/themes/grid-light.js:
+    newFile: null
+    oldFile: !uuid '35c34dbe5b24820862deaaacfb017c083023c445'
+  /OpenAuth.Mvc/Content/scripts/plugins/highcharts/themes/grid.js:
+    newFile: null
+    oldFile: !uuid '70342f5ec8d8849fb8baf75aa01b897028a04ce3'
+  /OpenAuth.Mvc/Content/scripts/plugins/highcharts/themes/sand-signika.js:
+    newFile: null
+    oldFile: !uuid '67246ee13f63cb777b313f36022ed5b75042d624'
+  /OpenAuth.Mvc/Content/scripts/plugins/highcharts/themes/skies.js:
+    newFile: null
+    oldFile: !uuid 'd58b1f24682157145b618e7eb787e93befe01b5c'
+  /OpenAuth.Mvc/Content/scripts/plugins/printTable:
+    newFile: null
+    oldFile: !uuid '110ed65008cd501fa654986163e417ad3cc11fd8'
+  /OpenAuth.Mvc/Content/scripts/plugins/printTable/jquery.printTable.js:
+    newFile: null
+    oldFile: !uuid '49e05971ba0562335c9978def9be94a0e49d2175'
+  /OpenAuth.Mvc/Content/scripts/plugins/signalr:
+    newFile: null
+    oldFile: !uuid 'd988898d1e13d41de88407c4908089e3878ce030'
+  /OpenAuth.Mvc/Content/scripts/plugins/signalr/jquery.signalR-2.2.0.js:
+    newFile: null
+    oldFile: !uuid 'a92aecf7cc85aa34a96475ec9d6f977a5702d779'
+  /OpenAuth.Mvc/Content/scripts/plugins/signalr/jquery.signalR-2.2.0.min.js:
+    newFile: null
+    oldFile: !uuid '70bbc0b045e0f4d63e779a0d120db99d9d59c51e'
   /OpenAuth.Mvc/OpenAuth.Mvc.csproj:
-    newFile: !uuid 'feeff47e523dca2f8111c09e6f584fd16d433b56'
-    oldFile: !uuid 'c5c1daa781c49343549cef00ba91f404b0298cc5'
+    newFile: !uuid 'a17e70b5c00c792ccbe7e3e2eebb02693b9529e3'
+    oldFile: !uuid 'feeff47e523dca2f8111c09e6f584fd16d433b56'
   /OpenAuth.Mvc/Views:
-    newFile: !uuid 'd2d72e236ef1e04c2143973d2e7eb8e341f63106'
-    oldFile: !uuid '32e947ba41615b89296eaf5c0eb734fc363141a1'
+    newFile: !uuid '11e83d14d3d211992542d279f87424a0354780dd'
+    oldFile: !uuid 'd2d72e236ef1e04c2143973d2e7eb8e341f63106'
   /OpenAuth.Mvc/Views/Shared:
-    newFile: !uuid '77e123713b53f023a7baeb5435712497683f7416'
-    oldFile: !uuid '25cf56c80a3d7b90b715bf301b5c95e6c2ebf5a6'
+    newFile: !uuid '25e92e05bedb0e1e4171fcce1756db5462a016ca'
+    oldFile: !uuid '77e123713b53f023a7baeb5435712497683f7416'
   /OpenAuth.Mvc/Views/Shared/_FlowForm.cshtml:
-    newFile: !uuid '220e6f39597c940ebc1c2663da8d7a85539893ae'
-    oldFile: !uuid '074d3f11cee681162191bc8dc75195f1074e2501'
-  /OpenAuth.Mvc/Views/Shared/_Form.cshtml:
-    newFile: !uuid 'c0a27aacb45ec68ac05dd0b4885278980178122d'
-    oldFile: !uuid '6ee82a55707da77388636faf55723c4fb37393b0'
-gitCommitId: !uuid '9feeb453d1bfc94402d8d772af55aa2f6ae86836'
+    newFile: !uuid 'fe0c5c8903d143c0d142b698e2f385c8a3a91e6f'
+    oldFile: !uuid '220e6f39597c940ebc1c2663da8d7a85539893ae'
+  /OpenAuth.Mvc/Views/Shared/_Layout.cshtml:
+    newFile: !uuid '2a3e833be70b11c94fb7c7c9a5ba0575459d06f8'
+    oldFile: !uuid 'fbe1907d01faba417c3d4569899a04540a63c2aa'
+  /OpenAuth.Mvc/Views/Shared/_LayoutNoHeader.cshtml:
+    newFile: !uuid '565627798a450191265d1d84d8aa000a2d9e5423'
+    oldFile: !uuid '939ec653687e051690fd804b59ea17e0023f3f0a'
+gitCommitId: !uuid '1d87bc426283168b67ca4df75dafaa0457426d9d'
 renames:
-  /OpenAuth.Mvc/Content/scripts/utils/applayout.js: /OpenAuth.Mvc/Content/scripts/utils/learun-applayout.js
-  /OpenAuth.Mvc/Content/scripts/utils/clientdata.js: /OpenAuth.Mvc/Content/scripts/utils/learun-clientdata.js
-  /OpenAuth.Mvc/Content/scripts/utils/flowlayout.js: /OpenAuth.Mvc/Content/scripts/utils/learun-flowlayout.js
-  /OpenAuth.Mvc/Content/scripts/utils/form.js: /OpenAuth.Mvc/Content/scripts/utils/learun-form.js
-  /OpenAuth.Mvc/Content/scripts/utils/ui.js: /OpenAuth.Mvc/Content/scripts/utils/learun-ui.js
-  /OpenAuth.Mvc/Content/scripts/utils/webApp.js: /OpenAuth.Mvc/Content/scripts/utils/learun-webApp.js
-  /OpenAuth.Mvc/Content/scripts/utils/webAppData.js: /OpenAuth.Mvc/Content/scripts/utils/learun-webAppData.js
-  /OpenAuth.Mvc/Content/styles/applayout.css: /OpenAuth.Mvc/Content/styles/learun-applayout.css
-  /OpenAuth.Mvc/Content/styles/bill.css: /OpenAuth.Mvc/Content/styles/learun-bill.css
-  /OpenAuth.Mvc/Content/styles/ckbox-radio.css: /OpenAuth.Mvc/Content/styles/learun-ckbox-radio.css
-  /OpenAuth.Mvc/Content/styles/flow.css: /OpenAuth.Mvc/Content/styles/learun-flow.css
-  /OpenAuth.Mvc/Content/styles/login.css: /OpenAuth.Mvc/Content/styles/learun-login.css
-  /OpenAuth.Mvc/Content/styles/ui.css: /OpenAuth.Mvc/Content/styles/learun-ui.css
-  /OpenAuth.Mvc/Content/styles/webApp.css: /OpenAuth.Mvc/Content/styles/learun-webApp.css
-revisionId: 269
+  /Infrastructure/obj/Release/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs: /OpenAuth.Mvc/Content/plugins/datatables/extensions/Responsive/Readme.md
+revisionId: 270
