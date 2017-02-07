@@ -3,36 +3,21 @@ branches: {
   }
 fileChange:
   /OpenAuth.Mvc:
-    newFile: !uuid 'fed718b406a1e53a496aa31773fc47a3ea33841e'
-    oldFile: !uuid '5f12b1505e6bcf06f036549b129a4355a8a9f663'
-  /OpenAuth.Mvc/Content:
-    newFile: !uuid '28f26190383f0559115f225fd437668d253f8a65'
-    oldFile: !uuid 'c8712de12b3719220845b8eb41ca86e6e098f781'
-  /OpenAuth.Mvc/Content/Images:
-    newFile: !uuid 'd65ebf1dc337194665a3171c4cc9cdb7c9a8482d'
-    oldFile: !uuid 'e8d5e2d588d0ed1e85bc5df8927359cb2f628c97'
-  /OpenAuth.Mvc/Content/Images/datepicker_icon.png:
-    newFile: !uuid '104c43a9fb265d4902c97773635f098df139e230'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts:
-    newFile: !uuid '47bb07bc9c530c4bacb8697ed1436488be7327ef'
-    oldFile: !uuid 'fef54ef9e642f78189bfe2f8f8f5dc85341a443a'
-  /OpenAuth.Mvc/Content/scripts/utils:
-    newFile: !uuid 'aba348cf8774e7b1357f08e4f35c959d7b2684bd'
-    oldFile: !uuid '7134d17693138770abd9ddd7611c7a45d3f75aa0'
-  /OpenAuth.Mvc/Content/scripts/utils/ui.js:
-    newFile: !uuid 'cba2fe59dbc027c67c487fe0bef9fbec7b4620d5'
-    oldFile: !uuid '30622feb5dfbd7174031b0a3dfbd6cd8c5c09818'
-  /OpenAuth.Mvc/Content/style.css:
-    newFile: null
-    oldFile: !uuid '46ffad7ca2df7afff0adb437055fbc4aba29733a'
-  /OpenAuth.Mvc/OpenAuth.Mvc.csproj:
-    newFile: !uuid '93324a3df78ac62afaf32de2f5cd66789421615f'
-    oldFile: !uuid '5109a7c5c49072458f56b44d223466746ae1ed42'
-  /建表&初始化数据.sql:
-    newFile: !uuid '7b769e6fd8c15d9def9897546dae7964e066d250'
-    oldFile: !uuid 'e0a1c8da0a71946a41820f98e6f5c9f82adce66e'
-gitCommitId: !uuid '031a49f1183f5d518e727232bb061f9f76d69622'
+    newFile: !uuid 'cf02e4cd7751d3e9ae50422d14bb909e730ab91e'
+    oldFile: !uuid 'fed718b406a1e53a496aa31773fc47a3ea33841e'
+  /OpenAuth.Mvc/Views:
+    newFile: !uuid 'f2fe04d4a401fc36dfc4ae2707be1d1c7b6f9921'
+    oldFile: !uuid 'cbfd19369b9ca62dde5d646b87deb86bd0738979'
+  /OpenAuth.Mvc/Views/Shared:
+    newFile: !uuid '421e9f653580e49d15f3fd069b0a793737fdc19f'
+    oldFile: !uuid '5772a0abea223260a5c031bd85878f0f0ced1f1d'
+  /OpenAuth.Mvc/Views/Shared/_Layout.cshtml:
+    newFile: !uuid '34af89b3b45b73d36ee2838976c4a95d7a4d5ed4'
+    oldFile: !uuid 'b95c404c99b9c42f7994edee0ceb5b579780ab48'
+  /OpenAuth.Mvc/Views/Shared/_LayoutNoHeader.cshtml:
+    newFile: !uuid 'a96ae96f0bb0b4eeb6bf1498b86afd8a83bcd22c'
+    oldFile: !uuid '1a0c40554226aaccf07952b2c68bb3adb08da5fd'
+gitCommitId: !uuid 'f5b7095d17eaa99bdbadc9b053b3d9d02072c834'
 renames: {
   }
-revisionId: 277
+revisionId: 278
