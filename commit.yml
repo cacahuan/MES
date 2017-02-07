@@ -3,75 +3,39 @@ branches: {
   }
 fileChange:
   /OpenAuth.Mvc:
-    newFile: !uuid '92a9e17cc013fd79e746c60e2da0fa4c0e48e636'
-    oldFile: !uuid 'cf02e4cd7751d3e9ae50422d14bb909e730ab91e'
+    newFile: !uuid '23573baea6b65ffccb8b6cbc7d4048334105f638'
+    oldFile: !uuid '92a9e17cc013fd79e746c60e2da0fa4c0e48e636'
   /OpenAuth.Mvc/Content:
-    newFile: !uuid '0d0c0dd330026382612f3e5de8356b3c4385638b'
-    oldFile: !uuid '28f26190383f0559115f225fd437668d253f8a65'
+    newFile: !uuid 'c4060b67659223ce9691e5a07c87418fea5cc56b'
+    oldFile: !uuid '0d0c0dd330026382612f3e5de8356b3c4385638b'
   /OpenAuth.Mvc/Content/scripts:
-    newFile: !uuid '63ed8f350e27e395b8a621d19f6591bf2b2e0f23'
-    oldFile: !uuid '47bb07bc9c530c4bacb8697ed1436488be7327ef'
+    newFile: !uuid 'c1f65a53883c95cc91e04fcfb4ce075abeadabc1'
+    oldFile: !uuid '63ed8f350e27e395b8a621d19f6591bf2b2e0f23'
   /OpenAuth.Mvc/Content/scripts/plugins:
-    newFile: !uuid '64293aa3edbc39cae30b4551235e6b35efd37d4f'
-    oldFile: !uuid '60b9f438df4abd44319d72c24f3d3d716150e786'
+    newFile: !uuid '1b96cf05d6b6efd35d3799a65c4ae8aead590768'
+    oldFile: !uuid '64293aa3edbc39cae30b4551235e6b35efd37d4f'
   /OpenAuth.Mvc/Content/scripts/plugins/flow-ui:
-    newFile: !uuid '6659812dcb5d38b293b0a2edf9f6342989e619a5'
-    oldFile: !uuid '1dfcd1c020fcac7bffa1df211106cbe8b98035ae'
-  /OpenAuth.Mvc/Content/scripts/plugins/flow-ui/flow.css:
-    newFile: !uuid 'ab64a74283c98838ab908dff68a93d1e690409fd'
-    oldFile: !uuid 'ebe9ced1a97119da220badaff4e1a2b0b0af4acc'
+    newFile: !uuid '1b01ab738a69724658bade1abe9d995f26eee6da'
+    oldFile: !uuid '6659812dcb5d38b293b0a2edf9f6342989e619a5'
   /OpenAuth.Mvc/Content/scripts/plugins/flow-ui/img:
-    newFile: !uuid 'cc9babd0977c3bc86a06dddb8480a65610fee7fd'
-    oldFile: !uuid 'c93e54ec8efd840e4a860bdcb1d07c3de4ee0a9b'
-  /OpenAuth.Mvc/Content/scripts/plugins/flow-ui/img/1.png:
-    newFile: !uuid '5dfd0b95310ea049d3aeb2456d19c6ed79e96d11'
-    oldFile: !uuid '250c48e47f4e3e1c67b1923e107d0564fca23d61'
-  /OpenAuth.Mvc/Content/scripts/plugins/flow-ui/img/10.png:
-    newFile: !uuid 'b6d6de78b839fc7dd6687cdbc980f49ad2c8fed3'
-    oldFile: !uuid '427a54a442038e23cd89b97cfe15406933bdc255'
-  /OpenAuth.Mvc/Content/scripts/plugins/flow-ui/img/11.png:
-    newFile: !uuid 'dff3ef2b0d24f559cc6cfeca777f73df8d8cf402'
-    oldFile: !uuid 'a0460a7f5f8af867babaad372c22c1efa60489b1'
+    newFile: !uuid 'c57c51b9d0258b144d3285086408a0a4f445202e'
+    oldFile: !uuid 'cc9babd0977c3bc86a06dddb8480a65610fee7fd'
   /OpenAuth.Mvc/Content/scripts/plugins/flow-ui/img/2.png:
-    newFile: !uuid 'b5121befd428be95199ac670dbbedb7530a42bdd'
-    oldFile: !uuid 'bc521c3d3129c02256245c84b0ca8148248ab5ff'
-  /OpenAuth.Mvc/Content/scripts/plugins/flow-ui/img/3.png:
-    newFile: !uuid 'a6061cbf28f818ae8f7643e49523e454b4868d5d'
-    oldFile: !uuid 'db0d0418475ab269fe46af172254c1fff726cfe8'
+    newFile: !uuid '07c94382ea4b10da9d1c7557bfde86f1dc286197'
+    oldFile: !uuid 'b5121befd428be95199ac670dbbedb7530a42bdd'
   /OpenAuth.Mvc/Content/scripts/plugins/flow-ui/img/4.png:
-    newFile: !uuid 'de84d149e662c285f4291f5bd88ea88d89285b45'
-    oldFile: !uuid '129f7823fbc69338dbbec5f25886a10f353f83e3'
+    newFile: !uuid 'dbeffe45d45baf599300518cea803f96cc91179a'
+    oldFile: !uuid 'de84d149e662c285f4291f5bd88ea88d89285b45'
   /OpenAuth.Mvc/Content/scripts/plugins/flow-ui/img/5.png:
-    newFile: !uuid 'cc1d0c57a447ebe5d0b02ef0ba1e7af080be0585'
-    oldFile: !uuid 'eb0d2ea5a864b63680259ef66315b50c159e2989'
+    newFile: !uuid '1220990389b9afcc811e3047bcffd507901ef396'
+    oldFile: !uuid 'cc1d0c57a447ebe5d0b02ef0ba1e7af080be0585'
   /OpenAuth.Mvc/Content/scripts/plugins/flow-ui/img/6.png:
-    newFile: !uuid '334157caeab8cb98bb2d95cf57a15f4ae0a09178'
-    oldFile: !uuid 'ee6060ce975dd817ea7fdda0f668aafaa9069510'
+    newFile: !uuid 'e1e26c631ae56e7a12724b10af32e98177f5779c'
+    oldFile: !uuid '334157caeab8cb98bb2d95cf57a15f4ae0a09178'
   /OpenAuth.Mvc/Content/scripts/plugins/flow-ui/img/7.png:
-    newFile: !uuid 'ce8f5a4d58ae91b7e1db2f33caaf59e80bf3feb0'
-    oldFile: !uuid 'b790d9eedacb7540e5e6c51c849c7f5f1774f8c6'
-  /OpenAuth.Mvc/Content/scripts/plugins/flow-ui/img/9.png:
-    newFile: !uuid 'bea676864c7c8fb41f7e65b1cedf09fdf94eecf7'
-    oldFile: !uuid 'b919206835baf3f35908ad7ea3be015f08711282'
-  /OpenAuth.Mvc/Content/scripts/plugins/flow-ui/img/gooflow_bg.png:
-    newFile: !uuid 'fd2f44d437dd961def8cebe4545ecd937f1cd603'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/flow-ui/img/gooflow_btn_bg.png:
-    newFile: !uuid 'c976eb875e17efc018dff7c336592c81aa4b09a6'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/flow-ui/img/gooflow_icon.png:
-    newFile: !uuid '3c9742d12d8631fa600f3ef7f8ad14399553ead9'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/flow-ui/img/gooflow_icon2.png:
-    newFile: !uuid '173fe010b51f21e59237d0870784824ba3f930c6'
-    oldFile: null
-  /OpenAuth.Mvc/Content/scripts/plugins/flow-ui/img/gooflow_tip.png:
-    newFile: !uuid '4d62fc3c28028d06883f762eba1d6323e2a89746'
-    oldFile: null
-  /OpenAuth.Mvc/OpenAuth.Mvc.csproj:
-    newFile: !uuid 'b6e2c475fa2c6c5b160590af195bbd630e631986'
-    oldFile: !uuid '93324a3df78ac62afaf32de2f5cd66789421615f'
-gitCommitId: !uuid '3283d96f697e83723faa8c37f11f43e7de4ad2ec'
+    newFile: !uuid '3dfb1234dd89800d94fa8d75baa2ff13ee5e1477'
+    oldFile: !uuid 'ce8f5a4d58ae91b7e1db2f33caaf59e80bf3feb0'
+gitCommitId: !uuid '0a6e2a54a7a9d49709a670dc763f418d5b948cfe'
 renames: {
   }
-revisionId: 279
+revisionId: 280
