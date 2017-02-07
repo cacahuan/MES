@@ -3,45 +3,39 @@ branches: {
   }
 fileChange:
   /OpenAuth.Mvc:
-    newFile: !uuid '8ea7a5d007bda2dfdc70e850d222cb776e045c64'
-    oldFile: !uuid 'd5518f4b8689bb08d7067b75d39d8fb69accf7c3'
-  /OpenAuth.Mvc/Areas:
-    newFile: !uuid '6de4cdc820da04c2d78c7e6c6817f77fc09aae1a'
-    oldFile: !uuid 'daf0becf91f7a1c7d63cfa94a8a272e0a9e9dd64'
-  /OpenAuth.Mvc/Areas/FlowManage:
-    newFile: !uuid '021e30c9fa55d66b96973099fb2f7d8ed5f3ec0f'
-    oldFile: !uuid '83eb9c3539ae76575c275f0ad5bf1c8961874abe'
-  /OpenAuth.Mvc/Areas/FlowManage/Views:
-    newFile: !uuid '06f073be2160adc55af2fcafb10fc6d75a223985'
-    oldFile: !uuid 'f18355e9a9d7656af1784a34bc3f5c8a09d0f080'
-  /OpenAuth.Mvc/Areas/FlowManage/Views/FlowDesign:
-    newFile: !uuid '3943dd30113bf69e2157e28e4ced3d3e7e83c616'
-    oldFile: !uuid 'd83d27e4d5478c7e98f76ccd0828ca1ebf11a558'
-  /OpenAuth.Mvc/Areas/FlowManage/Views/FlowDesign/FlowSchemeBuider.cshtml:
-    newFile: !uuid '84ff805d074997c01ca1c5b88423fa0f42624aee'
-    oldFile: !uuid '0bb5c2e724ad5eef818a3a295d947cc379a7f815'
-  /OpenAuth.Mvc/Areas/FlowManage/Views/FlowInstances:
-    newFile: !uuid '2896ceea67cc174a761b15f3f307aaaef760d4e3'
-    oldFile: !uuid 'e05057bbdb638bccd062e9360fb039900e33f75a'
-  /OpenAuth.Mvc/Areas/FlowManage/Views/FlowInstances/FlowProcessNewForm.cshtml:
-    newFile: !uuid '31c087eaf7a9ee2b9ac679c88786394a97413507'
-    oldFile: !uuid '7498404f440383e6fd1491c39b35f46890bcd665'
-  /OpenAuth.Mvc/Areas/FlowManage/Views/FlowInstances/VerificationForm.cshtml:
-    newFile: !uuid '45c5e98c5e378e247b9dde946ee04be07bffee8e'
-    oldFile: !uuid '46ae4bd7c5e8582862e8db86fb517dce7494f606'
-  /OpenAuth.Mvc/Areas/FlowManage/Views/FormDesign:
-    newFile: !uuid '962a9402bb92372f47002804f6641fcbe637d042'
-    oldFile: !uuid 'cc97d99dd2f5fd0616d71fadb9d83d8424570cae'
-  /OpenAuth.Mvc/Areas/FlowManage/Views/FormDesign/FrmBuider.cshtml:
-    newFile: !uuid 'c0b0062ca4eda6d82a0f46634fdd124e30be12be'
-    oldFile: !uuid '30af3462226e369dc8ef8c022d70ae57b7f5c51d'
-  /OpenAuth.Mvc/BllScripts:
-    newFile: !uuid '3bec6f6037c95356c64280423bafaacff28dc014'
-    oldFile: !uuid 'f9fa76b85beee68a2aa6f8a02724817184db7de3'
-  /OpenAuth.Mvc/BllScripts/flowDesign.js:
-    newFile: !uuid '84a3204a3e9301caab271cf96d5a4e051a6b70ba'
-    oldFile: !uuid '625b59dde443d188b1b86210a530327877c010f6'
-gitCommitId: !uuid 'cb7ab591c66e521781b753f640c366eabc27fd30'
+    newFile: !uuid 'ab5e0961f871da86a7468f7d2f01f394df9d0d5d'
+    oldFile: !uuid '8ea7a5d007bda2dfdc70e850d222cb776e045c64'
+  /OpenAuth.Mvc/Content:
+    newFile: !uuid '56de11fe7f69bedfa336532d5d837d6c94b7d3f7'
+    oldFile: !uuid 'f9f0acd1074139365b0f7de0606fab9d63515dd4'
+  /OpenAuth.Mvc/Content/scripts:
+    newFile: !uuid '1edf944d2fb5aa276aade4fb45692296f1f39663'
+    oldFile: !uuid '75a5c33620c279938ac49b7e85914a3076a3a6e3'
+  /OpenAuth.Mvc/Content/scripts/utils:
+    newFile: !uuid '7134d17693138770abd9ddd7611c7a45d3f75aa0'
+    oldFile: !uuid '627f7c40f1c7f185dda54a137d770de10094f0ef'
+  /OpenAuth.Mvc/Content/scripts/utils/clientdata.js:
+    newFile: null
+    oldFile: !uuid 'bdd4c8bd78c854bb0d0964800fd3a2ea35396208'
+  /OpenAuth.Mvc/Content/scripts/utils/ui.js:
+    newFile: !uuid '30622feb5dfbd7174031b0a3dfbd6cd8c5c09818'
+    oldFile: !uuid 'd0849351fb6a03915ad913cec881a5a93f9105f0'
+  /OpenAuth.Mvc/Content/scripts/utils/webApp.js:
+    newFile: null
+    oldFile: !uuid '045e428ec0f272d05a071cb6522434a44e8eab81'
+  /OpenAuth.Mvc/Content/scripts/utils/webAppData.js:
+    newFile: null
+    oldFile: !uuid '34cda8054bdc394322e3d86eb6a4fd7b7169f561'
+  /OpenAuth.Mvc/Content/styles:
+    newFile: !uuid '8f71e9e4278ed04f13a559fea8167e6a2643f9c4'
+    oldFile: !uuid '687918d505fd1f7ea7b24399657e15c38da6b722'
+  /OpenAuth.Mvc/Content/styles/webApp.css:
+    newFile: null
+    oldFile: !uuid 'c71afd39fedce941a392618cefab843c0c277103'
+  /OpenAuth.Mvc/OpenAuth.Mvc.csproj:
+    newFile: !uuid '4d1067c82704c916f71909e222e63980558d65c0'
+    oldFile: !uuid '3d27bef6772d50c2991868d53dce3eafdd73bee7'
+gitCommitId: !uuid '6922fea076fda097e27f4e3249d0cc4f39cda1d5'
 renames: {
   }
-revisionId: 274
+revisionId: 275
