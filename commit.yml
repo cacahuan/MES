@@ -1,9 +1,32 @@
 !revision
 branches: {
   }
-fileChange: {
-  }
-gitCommitId: !uuid '353ffd5bc108b977467db15e1e09befaf8ef8085'
+fileChange:
+  /OpenAuth.App:
+    newFile: !uuid 'caf6d30b020f24712beee0555bf1dcac40bc1dcc'
+    oldFile: !uuid '3065de7db25f4ccb96aafac0ead289701b55c0b3'
+  /OpenAuth.App/SSO:
+    newFile: !uuid '9b3301b8b85bdc17093aa36dbe77a2e18c36046e'
+    oldFile: !uuid 'ad3ae529bd5f161fc991753a41570e7012bb7f1b'
+  /OpenAuth.App/SSO/PassportLoginRequest.cs:
+    newFile: !uuid 'f2526f84cc28115d8941d6eae687798d25b7d929'
+    oldFile: !uuid 'c5c20d0d829f1eb4662b582061ce0d39e9cea736'
+  /OpenAuth.App/SSO/SSOAuthUtil.cs:
+    newFile: !uuid '242a5eddeaea75c70c4d39ad8d4d4382001d1844'
+    oldFile: !uuid 'defba8c64915e486672f483e25a63f1aa799c1ed'
+  /OpenAuth.Mvc:
+    newFile: !uuid '82708c159032a584b0e57e0c85db639a11fcc44b'
+    oldFile: !uuid '23573baea6b65ffccb8b6cbc7d4048334105f638'
+  /OpenAuth.Mvc/Views:
+    newFile: !uuid '9c8862dde822ea8a8c3a47f602521c96c1439eb1'
+    oldFile: !uuid 'f2fe04d4a401fc36dfc4ae2707be1d1c7b6f9921'
+  /OpenAuth.Mvc/Views/Login:
+    newFile: !uuid '6015d8f0f03ca4ee269b8424fd8d308a56d5a151'
+    oldFile: !uuid '7f9e94068fe1c28d442af0afe7bb962a438e37e3'
+  /OpenAuth.Mvc/Views/Login/Index.cshtml:
+    newFile: !uuid '2dc2e65a822f2cdba70f0e3b237d3425f3ed6e57'
+    oldFile: !uuid '3bbf6a5276314e45f7c0b36a5311d8851c66b9d3'
+gitCommitId: !uuid '833914199e7ce97e86492b19517296c8666eff16'
 renames: {
   }
-revisionId: 283
+revisionId: 284
