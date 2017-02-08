@@ -2,40 +2,31 @@
 branches: {
   }
 fileChange:
+  /OpenAuth.App:
+    newFile: !uuid 'caf6d30b020f24712beee0555bf1dcac40bc1dcc'
+    oldFile: !uuid '3065de7db25f4ccb96aafac0ead289701b55c0b3'
+  /OpenAuth.App/SSO:
+    newFile: !uuid '9b3301b8b85bdc17093aa36dbe77a2e18c36046e'
+    oldFile: !uuid 'ad3ae529bd5f161fc991753a41570e7012bb7f1b'
+  /OpenAuth.App/SSO/PassportLoginRequest.cs:
+    newFile: !uuid 'f2526f84cc28115d8941d6eae687798d25b7d929'
+    oldFile: !uuid 'c5c20d0d829f1eb4662b582061ce0d39e9cea736'
+  /OpenAuth.App/SSO/SSOAuthUtil.cs:
+    newFile: !uuid '242a5eddeaea75c70c4d39ad8d4d4382001d1844'
+    oldFile: !uuid 'defba8c64915e486672f483e25a63f1aa799c1ed'
   /OpenAuth.Mvc:
-    newFile: !uuid '23573baea6b65ffccb8b6cbc7d4048334105f638'
-    oldFile: !uuid '92a9e17cc013fd79e746c60e2da0fa4c0e48e636'
-  /OpenAuth.Mvc/Content:
-    newFile: !uuid 'c4060b67659223ce9691e5a07c87418fea5cc56b'
-    oldFile: !uuid '0d0c0dd330026382612f3e5de8356b3c4385638b'
-  /OpenAuth.Mvc/Content/scripts:
-    newFile: !uuid 'c1f65a53883c95cc91e04fcfb4ce075abeadabc1'
-    oldFile: !uuid '63ed8f350e27e395b8a621d19f6591bf2b2e0f23'
-  /OpenAuth.Mvc/Content/scripts/plugins:
-    newFile: !uuid '1b96cf05d6b6efd35d3799a65c4ae8aead590768'
-    oldFile: !uuid '64293aa3edbc39cae30b4551235e6b35efd37d4f'
-  /OpenAuth.Mvc/Content/scripts/plugins/flow-ui:
-    newFile: !uuid '1b01ab738a69724658bade1abe9d995f26eee6da'
-    oldFile: !uuid '6659812dcb5d38b293b0a2edf9f6342989e619a5'
-  /OpenAuth.Mvc/Content/scripts/plugins/flow-ui/img:
-    newFile: !uuid 'c57c51b9d0258b144d3285086408a0a4f445202e'
-    oldFile: !uuid 'cc9babd0977c3bc86a06dddb8480a65610fee7fd'
-  /OpenAuth.Mvc/Content/scripts/plugins/flow-ui/img/2.png:
-    newFile: !uuid '07c94382ea4b10da9d1c7557bfde86f1dc286197'
-    oldFile: !uuid 'b5121befd428be95199ac670dbbedb7530a42bdd'
-  /OpenAuth.Mvc/Content/scripts/plugins/flow-ui/img/4.png:
-    newFile: !uuid 'dbeffe45d45baf599300518cea803f96cc91179a'
-    oldFile: !uuid 'de84d149e662c285f4291f5bd88ea88d89285b45'
-  /OpenAuth.Mvc/Content/scripts/plugins/flow-ui/img/5.png:
-    newFile: !uuid '1220990389b9afcc811e3047bcffd507901ef396'
-    oldFile: !uuid 'cc1d0c57a447ebe5d0b02ef0ba1e7af080be0585'
-  /OpenAuth.Mvc/Content/scripts/plugins/flow-ui/img/6.png:
-    newFile: !uuid 'e1e26c631ae56e7a12724b10af32e98177f5779c'
-    oldFile: !uuid '334157caeab8cb98bb2d95cf57a15f4ae0a09178'
-  /OpenAuth.Mvc/Content/scripts/plugins/flow-ui/img/7.png:
-    newFile: !uuid '3dfb1234dd89800d94fa8d75baa2ff13ee5e1477'
-    oldFile: !uuid 'ce8f5a4d58ae91b7e1db2f33caaf59e80bf3feb0'
-gitCommitId: !uuid '0a6e2a54a7a9d49709a670dc763f418d5b948cfe'
+    newFile: !uuid '82708c159032a584b0e57e0c85db639a11fcc44b'
+    oldFile: !uuid '23573baea6b65ffccb8b6cbc7d4048334105f638'
+  /OpenAuth.Mvc/Views:
+    newFile: !uuid '9c8862dde822ea8a8c3a47f602521c96c1439eb1'
+    oldFile: !uuid 'f2fe04d4a401fc36dfc4ae2707be1d1c7b6f9921'
+  /OpenAuth.Mvc/Views/Login:
+    newFile: !uuid '6015d8f0f03ca4ee269b8424fd8d308a56d5a151'
+    oldFile: !uuid '7f9e94068fe1c28d442af0afe7bb962a438e37e3'
+  /OpenAuth.Mvc/Views/Login/Index.cshtml:
+    newFile: !uuid '2dc2e65a822f2cdba70f0e3b237d3425f3ed6e57'
+    oldFile: !uuid '3bbf6a5276314e45f7c0b36a5311d8851c66b9d3'
+gitCommitId: !uuid '833914199e7ce97e86492b19517296c8666eff16'
 renames: {
   }
-revisionId: 280
+revisionId: 281
