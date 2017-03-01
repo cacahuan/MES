@@ -3,18 +3,33 @@ branches: {
   }
 fileChange:
   /OpenAuth.App:
-    newFile: !uuid 'cd5a438f6dbf18d4b9283ec540fc1d8fe15786aa'
-    oldFile: !uuid 'e559270c97e705b6953536aafe963567530fc377'
-  /OpenAuth.App/Extention:
-    newFile: !uuid 'd3788e135ea9aa8f3bf93b73229b46a023f631f7'
-    oldFile: !uuid 'f65e2b538f0ecc120efee2868a95746bf3409699'
-  /OpenAuth.App/Extention/WF_Runtime.cs:
-    newFile: !uuid 'f0af7efaae9fb136453b22f1b917ffbf4dac4ac2'
-    oldFile: !uuid '8725889072cf8b50f5747f01ef33276b263ea6fb'
+    newFile: !uuid 'cf600545cff18c7b92ef0fb4109843ff2266d52a'
+    oldFile: !uuid 'cd5a438f6dbf18d4b9283ec540fc1d8fe15786aa'
   /OpenAuth.App/WFProcessInstanceService.cs:
-    newFile: !uuid '887adc9f36879be11176317b2b2141fd2741ec29'
-    oldFile: !uuid '966b173029aaf0fe62d5cee44e46345b03177b74'
-gitCommitId: !uuid '01880fb784667142be1b576f950ccdc8a1d1f972'
+    newFile: !uuid '9feb1eea1530d630a6dfb2552d976c22a4605854'
+    oldFile: !uuid '887adc9f36879be11176317b2b2141fd2741ec29'
+  /OpenAuth.Mvc:
+    newFile: !uuid '08f2179914de313551031801ab79410f9b6c6b59'
+    oldFile: !uuid '0f0a1cd41c6f3a812223a07173574f87682325e3'
+  /OpenAuth.Mvc/Areas:
+    newFile: !uuid '819c2b8672499b9627f7862375e121d0d531bd2a'
+    oldFile: !uuid 'c106f3cbbf0ea0848debc71d8edb5b775b9f04c0'
+  /OpenAuth.Mvc/Areas/FlowManage:
+    newFile: !uuid '615ce18ff13d95f88feadce864c085cc5f7a5ddd'
+    oldFile: !uuid '35d9d29a8abf70211b975406a66855f0b10d7618'
+  /OpenAuth.Mvc/Areas/FlowManage/Views:
+    newFile: !uuid '57a6e7714b8616c6ea0c75340a00e25d3ae60224'
+    oldFile: !uuid 'e13afe8ce79c884aa5cea40ba9fe6fb43cc067bb'
+  /OpenAuth.Mvc/Areas/FlowManage/Views/FlowInstances:
+    newFile: !uuid '1beb7f418c5f78674a3df9fd26e0bc2ec27fc1a2'
+    oldFile: !uuid '4bbd0076ac610182dbd12250361b4fe9a9f06bf2'
+  /OpenAuth.Mvc/Areas/FlowManage/Views/FlowInstances/ProcessLookForm.cshtml:
+    newFile: !uuid '8d1c4f3630b39670191acd3d25482a132d3ec7e7'
+    oldFile: !uuid 'c2ca0c6614cec14cb269cedc349ec1b62d6934ae'
+  /OpenAuth.Mvc/Areas/FlowManage/Views/FlowInstances/VerificationForm.cshtml:
+    newFile: !uuid '2bc0573f7a69dc8a60d8964c4a0e17aae4992887'
+    oldFile: !uuid '45c5e98c5e378e247b9dde946ee04be07bffee8e'
+gitCommitId: !uuid '631b42c89ecfb7a9963cdb66138c24261fdce2e8'
 renames: {
   }
-revisionId: 286
+revisionId: 287
