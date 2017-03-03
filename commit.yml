@@ -2,25 +2,10 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.Mvc:
-    newFile: !uuid 'b8b70739b6b6197174665fd0022f3db937b37f4b'
-    oldFile: !uuid '08f2179914de313551031801ab79410f9b6c6b59'
-  /OpenAuth.Mvc/Areas:
-    newFile: !uuid '25e4fc8e52ea2363aa64488a5b6a263058dc1b00'
-    oldFile: !uuid '819c2b8672499b9627f7862375e121d0d531bd2a'
-  /OpenAuth.Mvc/Areas/FlowManage:
-    newFile: !uuid '484a98e0a5c997ed970aafb816cbca0b00307320'
-    oldFile: !uuid '615ce18ff13d95f88feadce864c085cc5f7a5ddd'
-  /OpenAuth.Mvc/Areas/FlowManage/Views:
-    newFile: !uuid '7122c890a4284f7cc9703e5c0ff953249eac06d3'
-    oldFile: !uuid '57a6e7714b8616c6ea0c75340a00e25d3ae60224'
-  /OpenAuth.Mvc/Areas/FlowManage/Views/FormDesign:
-    newFile: !uuid '94319bddd4f6580fb06ba66e74ba233a0a5d36d3'
-    oldFile: !uuid '962a9402bb92372f47002804f6641fcbe637d042'
-  /OpenAuth.Mvc/Areas/FlowManage/Views/FormDesign/FrmBuider.cshtml:
-    newFile: !uuid '13a62fb4779733a1d3c136293aff2398980ae910'
-    oldFile: !uuid 'c0b0062ca4eda6d82a0f46634fdd124e30be12be'
-gitCommitId: !uuid '1030f0e3f10e0550713bf888f434bfa45cf68f8c'
+  /README.md:
+    newFile: !uuid 'bddaf7db10394e1a505d65fa40b3a53e3e6cb5c2'
+    oldFile: !uuid '5c6d169a6996d79c919a7fd4066d98ac7c2ebfff'
+gitCommitId: !uuid 'de865483dcc2cc63f7650dd0f695200bde84d05e'
 renames: {
   }
-revisionId: 291
+revisionId: 292
