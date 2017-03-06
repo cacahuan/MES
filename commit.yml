@@ -2,10 +2,13 @@
 branches: {
   }
 fileChange:
-  /README.md:
-    newFile: !uuid 'bddaf7db10394e1a505d65fa40b3a53e3e6cb5c2'
-    oldFile: !uuid '5c6d169a6996d79c919a7fd4066d98ac7c2ebfff'
-gitCommitId: !uuid 'de865483dcc2cc63f7650dd0f695200bde84d05e'
+  /OpenAuth.App:
+    newFile: !uuid '7297c56c74a5c518983bd0ebcc7ce6e580c852db'
+    oldFile: !uuid 'cf600545cff18c7b92ef0fb4109843ff2266d52a'
+  /OpenAuth.App/WFProcessInstanceService.cs:
+    newFile: !uuid 'c9bd2b30add95a23b29eeb744c25fdec8ade0945'
+    oldFile: !uuid '9feb1eea1530d630a6dfb2552d976c22a4605854'
+gitCommitId: !uuid 'efbb69cc1f9eaa8bd0c55f978c7ca3e6b05597b2'
 renames: {
   }
-revisionId: 289
+revisionId: 290
