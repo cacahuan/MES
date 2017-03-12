@@ -2,49 +2,25 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.App:
-    newFile: !uuid '44679a63d2afa0dcfe612ddba037fbe12d39a1e6'
-    oldFile: !uuid '7297c56c74a5c518983bd0ebcc7ce6e580c852db'
-  /OpenAuth.App/WFProcessInstanceService.cs:
-    newFile: !uuid '000246e83269a88659590ad7fccec4e73f1c6e11'
-    oldFile: !uuid 'c9bd2b30add95a23b29eeb744c25fdec8ade0945'
   /OpenAuth.Mvc:
-    newFile: !uuid 'c320d125e1b9f8fe47b3bab6f5d63339b392aad8'
-    oldFile: !uuid '19cc9b5f4a2aeae1e9c79bf5178b6b2902875dcb'
-  /OpenAuth.Mvc/Areas:
-    newFile: !uuid '909447038746ab776590d07ca8a06733196940e3'
-    oldFile: !uuid '211d5b0cad83773ca970b77c375ea91ab9950229'
-  /OpenAuth.Mvc/Areas/FlowManage:
-    newFile: !uuid 'c3da294cc8b21115d93bc6346e908cff75ee1bac'
-    oldFile: !uuid '0fd921ba5ad2fdc992b8fb45d180bec98b141dd8'
-  /OpenAuth.Mvc/Areas/FlowManage/Controllers:
-    newFile: !uuid 'fb28e85f8dbe30c326561059ca6a940c26dfa5da'
-    oldFile: !uuid 'a3e45a34697afd25f7e8e8d317f4d30e58f11bfc'
-  /OpenAuth.Mvc/Areas/FlowManage/Controllers/FlowInstancesController.cs:
-    newFile: !uuid '52e438646f0d184086191a49aa936bf217a03e60'
-    oldFile: !uuid '668f65b027537ceb58a4be342a1c9d193cdedd9a'
-  /OpenAuth.Mvc/Areas/FlowManage/Views:
-    newFile: !uuid 'b2409e8c2cb3f6be3f95c4614a019f3ba7859a0b'
-    oldFile: !uuid '7122c890a4284f7cc9703e5c0ff953249eac06d3'
-  /OpenAuth.Mvc/Areas/FlowManage/Views/FlowDesign:
-    newFile: !uuid '43272b4ac305240b2df09e40e110f1c0d9e04d03'
-    oldFile: !uuid 'cc19dac408665772fb92d86b3397625490d1d971'
-  /OpenAuth.Mvc/Areas/FlowManage/Views/FlowDesign/FlowSchemeBuider.cshtml:
-    newFile: !uuid 'e9ce1cd2cae9d2a647a99462594e06c2c855eac0'
-    oldFile: !uuid 'ad63ac5289545c2746433f6a5221620292733822'
-  /OpenAuth.Mvc/Areas/FlowManage/Views/FlowInstances:
-    newFile: !uuid 'e10199d14ac4c85f20c16d2f51edaea258fedd89'
-    oldFile: !uuid '1beb7f418c5f78674a3df9fd26e0bc2ec27fc1a2'
-  /OpenAuth.Mvc/Areas/FlowManage/Views/FlowInstances/FlowProcessNewForm.cshtml:
-    newFile: !uuid '6cd770d2b1a6458d05cbcf537d408fbf3fe74b58'
-    oldFile: !uuid '31c087eaf7a9ee2b9ac679c88786394a97413507'
-  /OpenAuth.Mvc/Areas/FlowManage/Views/FormDesign:
-    newFile: !uuid 'bb7c59d013155b499c86362b136688e8cdff9f2f'
-    oldFile: !uuid '94319bddd4f6580fb06ba66e74ba233a0a5d36d3'
-  /OpenAuth.Mvc/Areas/FlowManage/Views/FormDesign/FrmBuider.cshtml:
-    newFile: !uuid '22a7189f3bf8bffe8e218e55b7d7069cbc2e426a'
-    oldFile: !uuid '13a62fb4779733a1d3c136293aff2398980ae910'
-gitCommitId: !uuid 'dc9af8b8ea8c3fa05f3e177f96f41a6f68cada8c'
+    newFile: !uuid '56c53bf122708d15c5070c4bfba4aea729f6b310'
+    oldFile: !uuid 'c320d125e1b9f8fe47b3bab6f5d63339b392aad8'
+  /OpenAuth.Mvc/Content:
+    newFile: !uuid 'd65e84e1583e7cc7e22d31cbeacc414b1e757b69'
+    oldFile: !uuid '61b89a155fab2bab59d6fc2f0154fd9671b31f0e'
+  /OpenAuth.Mvc/Content/scripts:
+    newFile: !uuid '0ece144df7528f1f21a2dc62455a5a1bbd325a7b'
+    oldFile: !uuid '4e1393ee2d3eee75867b4011996c8d9bb79f5875'
+  /OpenAuth.Mvc/Content/scripts/utils:
+    newFile: !uuid '2e568386554ff85e5ce51a5f1d84d0137420d5bb'
+    oldFile: !uuid 'a1aa59425bdd4a2fd947e840ac62160a20f04dfb'
+  /OpenAuth.Mvc/Content/scripts/utils/applayout.js:
+    newFile: !uuid '3aee0a9307e07f247e8a37a6295d993c6dba1e43'
+    oldFile: !uuid 'c8dbd3cd14983751945276f0a4df3db011ffef2e'
+  /OpenAuth.Mvc/Content/scripts/utils/form.js:
+    newFile: !uuid 'e7395e339ce7805df160ab8b628b05396fd49377'
+    oldFile: !uuid 'ce7fca1d663cf4b79829c76fcd490aa87f447d62'
+gitCommitId: !uuid '48d906225808c1bb2803471efdc10bc632dcd61a'
 renames: {
   }
-revisionId: 296
+revisionId: 297
