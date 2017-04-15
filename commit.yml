@@ -2,19 +2,28 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.Repository:
-    newFile: !uuid '94c351d95748188d96a46f8cc367121b5d24788b'
-    oldFile: !uuid '67def34cb243ed936230891160935bdd8e7dfa30'
-  /OpenAuth.Repository/OpenAuth.Repository.csproj:
-    newFile: !uuid 'c4806c59578c095241767d2ed8bf628e4f73acc8'
-    oldFile: !uuid '168e3ca6f47b67ba851a4bff3c37a76cfa1bff61'
-  /OpenAuth.Repository/ResourceRepository.cs:
-    newFile: !uuid '139af2e6acbbb1f2551f2d278d8c3b78dd4b86bd'
-    oldFile: !uuid 'cda11ca255ce1ab0c384cb21c3473edbc6a60cec'
-  /OpenAuth.Repository/RoleRepository.cs:
-    newFile: !uuid '309f4b239c8193dd92bc8cf10c4562bc2cb35e29'
-    oldFile: !uuid '139af2e6acbbb1f2551f2d278d8c3b78dd4b86bd'
-gitCommitId: !uuid 'f6cf9e5ee0eaa80a676404c1b89240b13830726d'
+  /OpenAuth.App:
+    newFile: !uuid 'ce9f8ff21631fb62d34815c5a4c52ecd605bc400'
+    oldFile: !uuid '9cb31c6d2ca1ea9b63ab79cc9e83a1a8ea655653'
+  /OpenAuth.App/CategoryManagerApp.cs:
+    newFile: !uuid '6f6e521a80b52fb7739e71a856525db847395e40'
+    oldFile: !uuid '85af3000cf8afa1a133bafb397695fc7846bfe23'
+  /OpenAuth.App/OrgManagerApp.cs:
+    newFile: !uuid '5d60cdce35951149e8721b7af231f93c003ac986'
+    oldFile: !uuid '7e629fe9b1d547f64017e484d7952f8c43301ad2'
+  /OpenAuth.Domain:
+    newFile: !uuid '24f40ed6231d2375306e44abf14c324dc148c99f'
+    oldFile: !uuid '43288bd0f343d314e4ad60ca1957d4a5e5c041c0'
+  /OpenAuth.Domain/Service:
+    newFile: !uuid '6157cbf5efc8752e1ec47e333fea6722fa7ee51b'
+    oldFile: !uuid '39288139675bb6b84a9de88da8ae9628a3e8b98c'
+  /OpenAuth.Domain/Service/ModuleManService.cs:
+    newFile: !uuid 'bbbff20f39358c4c82e1667f6e66e13574aca0b6'
+    oldFile: !uuid '03ddb227c6bc32c8772dba570f62d21823d8dbab'
+  /建表&初始化数据.sql:
+    newFile: !uuid 'a12487557ff09add2d2eb7f1374991ae0f337090'
+    oldFile: !uuid '7b769e6fd8c15d9def9897546dae7964e066d250'
+gitCommitId: !uuid 'ee728df8a44dbc78a789e88f7ebf7e4772577511'
 renames: {
   }
-revisionId: 303
+revisionId: 304
