@@ -2,10 +2,13 @@
 branches: {
   }
 fileChange:
-  /README.md:
-    newFile: !uuid '4e2d268f27cdce94424ece9b460c5ac72c4a478e'
-    oldFile: !uuid 'bddaf7db10394e1a505d65fa40b3a53e3e6cb5c2'
-gitCommitId: !uuid '24bad240dfc2ef9ddd1572277b6302b0121735db'
+  /OpenAuth.App:
+    newFile: !uuid '3774778683a069dbbfb59c49ce069ed64a2f0558'
+    oldFile: !uuid 'ce9f8ff21631fb62d34815c5a4c52ecd605bc400'
+  /OpenAuth.App/UserManagerApp.cs:
+    newFile: !uuid 'bf17d47920870bea266480f5b3278d815cb5ca7a'
+    oldFile: !uuid '20cf14b2e66f52a84f4417cc6e989726e158fd86'
+gitCommitId: !uuid 'a73c95bebc321c32aa71a83fc9106bbbb37008bd'
 renames: {
   }
-revisionId: 305
+revisionId: 306
