@@ -2,22 +2,16 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.WebApi:
-    newFile: !uuid '47bfeb7dff9f2a9a8ffe53c9b4ec00701ae56956'
-    oldFile: !uuid '5b189935de44d42155346e4dc872be18157d067b'
-  /OpenAuth.WebApi/Areas:
-    newFile: !uuid 'f1d9c20b1063db68ec7db5504c7a88fba7e1ad8b'
-    oldFile: !uuid 'a4a9620645057f6ba8486691a99675d13c6c2858'
-  /OpenAuth.WebApi/Areas/SSO:
-    newFile: !uuid '1951149ed61a6572a21f2bfa92f9b32deaae03fc'
-    oldFile: !uuid '6d9619381440c84573ae406068286ac3141cdbb5'
-  /OpenAuth.WebApi/Areas/SSO/Controllers:
-    newFile: !uuid '8a1ef4aba48827e8c78189c6e3c0a3c61a34f032'
-    oldFile: !uuid 'da3f4900ee785849888d702b1476cd458f4ffe49'
-  /OpenAuth.WebApi/Areas/SSO/Controllers/CheckController.cs:
-    newFile: !uuid 'ce070a4a34e57b8798d3633d05ef5559f4e54e8f'
-    oldFile: !uuid '7c687e5e59b62056b8ecbb7065d91834c4e07351'
-gitCommitId: !uuid '23ef2939d83f3e20e4a893d445920dbc902aeec8'
+  /OpenAuth.Domain:
+    newFile: !uuid 'd3365de97ae127ec9fd74be9e561ac18d85766b6'
+    oldFile: !uuid '43288bd0f343d314e4ad60ca1957d4a5e5c041c0'
+  /OpenAuth.Domain/Service:
+    newFile: !uuid '30769f0c4ad204b6540c73458b7458836dd4b43d'
+    oldFile: !uuid '39288139675bb6b84a9de88da8ae9628a3e8b98c'
+  /OpenAuth.Domain/Service/ModuleManService.cs:
+    newFile: !uuid '41940887d110050d137cdb55ce6de38fe6edb4fc'
+    oldFile: !uuid '03ddb227c6bc32c8772dba570f62d21823d8dbab'
+gitCommitId: !uuid '536a2b386cf79f0e092a3799de9502aa2c1a4ba8'
 renames: {
   }
-revisionId: 308
+revisionId: 309
