@@ -2,22 +2,31 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.WebApi:
-    newFile: !uuid '47bfeb7dff9f2a9a8ffe53c9b4ec00701ae56956'
-    oldFile: !uuid '5b189935de44d42155346e4dc872be18157d067b'
-  /OpenAuth.WebApi/Areas:
-    newFile: !uuid 'f1d9c20b1063db68ec7db5504c7a88fba7e1ad8b'
-    oldFile: !uuid 'a4a9620645057f6ba8486691a99675d13c6c2858'
-  /OpenAuth.WebApi/Areas/SSO:
-    newFile: !uuid '1951149ed61a6572a21f2bfa92f9b32deaae03fc'
-    oldFile: !uuid '6d9619381440c84573ae406068286ac3141cdbb5'
-  /OpenAuth.WebApi/Areas/SSO/Controllers:
-    newFile: !uuid '8a1ef4aba48827e8c78189c6e3c0a3c61a34f032'
-    oldFile: !uuid 'da3f4900ee785849888d702b1476cd458f4ffe49'
-  /OpenAuth.WebApi/Areas/SSO/Controllers/CheckController.cs:
-    newFile: !uuid 'ce070a4a34e57b8798d3633d05ef5559f4e54e8f'
-    oldFile: !uuid '7c687e5e59b62056b8ecbb7065d91834c4e07351'
-gitCommitId: !uuid 'cf416dfa7c80913b317931100b83ea8b2b44a094'
+  /OpenAuth.App:
+    newFile: !uuid '2c012100e903169ab6f99b5210f9fc420d7cc2e8'
+    oldFile: !uuid '3774778683a069dbbfb59c49ce069ed64a2f0558'
+  /OpenAuth.App/AuthorizeApp.cs:
+    newFile: !uuid 'ecfaabfca07a66ae5c7fbc75de39b3a74364aa47'
+    oldFile: !uuid '67e862c838970cc99797f9c6add32d280a64eeb2'
+  /OpenAuth.App/CategoryManagerApp.cs:
+    newFile: !uuid '3250caadb94af4eff0a0983d482441aeb9ed473b'
+    oldFile: !uuid '6f6e521a80b52fb7739e71a856525db847395e40'
+  /OpenAuth.App/OrgManagerApp.cs:
+    newFile: !uuid '1e1c7aabd4d358c42c424180a4c9717d29d49c19'
+    oldFile: !uuid '5d60cdce35951149e8721b7af231f93c003ac986'
+  /OpenAuth.Domain:
+    newFile: !uuid '4469c7225652c70335fb57e8d550532f1ce7aa40'
+    oldFile: !uuid 'bcd5c71414af7ec304cffb140a31588f17421e32'
+  /OpenAuth.Domain/Service:
+    newFile: !uuid '3694207af5b5a261a95c1bbdf64f4b12b5e41b31'
+    oldFile: !uuid '6a65fb34b217acc43b1d3edccf390834d750f308'
+  /OpenAuth.Domain/Service/ModuleManService.cs:
+    newFile: !uuid '7fc7bd0aa1c70ec6080bb9519ca9279ccfd004fa'
+    oldFile: !uuid 'cb9428d06891e128d7d6761cc310b7b724905dba'
+  /建表&初始化数据.sql:
+    newFile: !uuid '245cae9edaf4f722f4e249729413708df3e422f5'
+    oldFile: !uuid 'a12487557ff09add2d2eb7f1374991ae0f337090'
+gitCommitId: !uuid 'bb5a49abd1e9a26d765ffa2ae3c273f11c597301'
 renames: {
   }
-revisionId: 301
+revisionId: 302
