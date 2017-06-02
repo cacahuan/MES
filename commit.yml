@@ -3,45 +3,24 @@ branches: {
   }
 fileChange:
   /OpenAuth.Mvc:
-    newFile: !uuid '7e5d1954eda57906eddbfed1a17fe58064b9f49d'
-    oldFile: !uuid '86f12681c4d11a972b617c08c1ad2c1a6f83d39a'
+    newFile: !uuid 'b0ae2400c98054b9215eb4a9c70112f5f1e87df7'
+    oldFile: !uuid '7e5d1954eda57906eddbfed1a17fe58064b9f49d'
   /OpenAuth.Mvc/Areas:
-    newFile: !uuid '893d5d5a562cfb5f2ac64f2342390d741f33781d'
-    oldFile: !uuid 'd010d1056ffb23245b855be2a9131b5bfdcde138'
+    newFile: !uuid 'a7fdc31452c9c448534e37ca6d5017c1f3c3d3df'
+    oldFile: !uuid '893d5d5a562cfb5f2ac64f2342390d741f33781d'
   /OpenAuth.Mvc/Areas/FlowManage:
-    newFile: !uuid '336c437034248bfdd8ca7286c49c0388b01590ca'
-    oldFile: !uuid '77d8b659f5cdb413054e56fc8d17c86b6fbd58bc'
-  /OpenAuth.Mvc/Areas/FlowManage/Controllers:
-    newFile: !uuid '0151af9e38d91c33f18111452042b514373b923b'
-    oldFile: !uuid 'd1a14217ff00b6bb34053aac2a630761bab17ec7'
-  /OpenAuth.Mvc/Areas/FlowManage/Controllers/FormDesignController.cs:
-    newFile: !uuid '9199835601477385780bbdb413bd2be771bf581b'
-    oldFile: !uuid 'a5d3f15746f0545d41c995d4332f537eeb4bb0c3'
+    newFile: !uuid '93b97bda80e1832f5774a6c567efd6e842b95b62'
+    oldFile: !uuid '336c437034248bfdd8ca7286c49c0388b01590ca'
   /OpenAuth.Mvc/Areas/FlowManage/Views:
-    newFile: !uuid 'e913bccf0a43e23fd7a0a6745639e23b7045fd6c'
-    oldFile: !uuid 'dceea611d39318c2c442a5292dd7fdc706b69b23'
+    newFile: !uuid 'f55e6c8ed1174a4b35f61d58f2ed949a6a146f4e'
+    oldFile: !uuid 'e913bccf0a43e23fd7a0a6745639e23b7045fd6c'
   /OpenAuth.Mvc/Areas/FlowManage/Views/FlowDesign:
-    newFile: !uuid '53eaf52496453ecc1f0198f4ab0c0c3ae1757569'
-    oldFile: !uuid '4dd4ce7a5b3c417dcaa18bffcc9dab2fafe14f3c'
-  /OpenAuth.Mvc/Areas/FlowManage/Views/FlowDesign/FlowSchemeBuider.cshtml:
-    newFile: !uuid 'f75c2733a980fa5c70330f367176460701520ca2'
-    oldFile: !uuid '8ea01c09ea39b0d8e2a89f7da96be8518fd43d0f'
-  /OpenAuth.Mvc/OpenAuth.Mvc.csproj:
-    newFile: !uuid '5798ae4c6961103868726dc0aa85f6a77290ea01'
-    oldFile: !uuid '461573b41c50a3587631ab6bb6f03db9a22c743d'
-  /OpenAuth.Mvc/WebCtrls:
-    newFile: null
-    oldFile: !uuid '792cb9fd613de8e9db2d7c2ad2a9924eb3e40dba'
-  /OpenAuth.Mvc/WebCtrls/Tree:
-    newFile: null
-    oldFile: !uuid 'b10b526b0a6cf093c03c00366b93e6882bfcfd46'
-  /OpenAuth.Mvc/WebCtrls/Tree/TreeEntity.cs:
-    newFile: null
-    oldFile: !uuid 'fec55e871df594f58f1fb5691f062820e495dd26'
-  /OpenAuth.Mvc/WebCtrls/Tree/TreeJson.cs:
-    newFile: null
-    oldFile: !uuid 'deb1269a9c1edd155a8fa2213f5485d8f78fa123'
-gitCommitId: !uuid 'ddb5b3424c8ee87cf7972191e33068143111eeb1'
+    newFile: !uuid 'd12bf8a8796fdecc2521e8d89f237de5f25190cb'
+    oldFile: !uuid '53eaf52496453ecc1f0198f4ab0c0c3ae1757569'
+  /OpenAuth.Mvc/Areas/FlowManage/Views/FlowDesign/FlowNodeForm.cshtml:
+    newFile: !uuid 'a25b7b76c523c106f94ad9d375583504c9b545f2'
+    oldFile: !uuid '93a30921f8ad1b70662a162f24c6eb0e2e229047'
+gitCommitId: !uuid '80466217a0c6da5141206fac329dda8bc0811d3e'
 renames: {
   }
-revisionId: 315
+revisionId: 316
