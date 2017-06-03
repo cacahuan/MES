@@ -2,25 +2,37 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.Mvc:
-    newFile: !uuid 'b0ae2400c98054b9215eb4a9c70112f5f1e87df7'
-    oldFile: !uuid '7e5d1954eda57906eddbfed1a17fe58064b9f49d'
-  /OpenAuth.Mvc/Areas:
-    newFile: !uuid 'a7fdc31452c9c448534e37ca6d5017c1f3c3d3df'
-    oldFile: !uuid '893d5d5a562cfb5f2ac64f2342390d741f33781d'
-  /OpenAuth.Mvc/Areas/FlowManage:
-    newFile: !uuid '93b97bda80e1832f5774a6c567efd6e842b95b62'
-    oldFile: !uuid '336c437034248bfdd8ca7286c49c0388b01590ca'
-  /OpenAuth.Mvc/Areas/FlowManage/Views:
-    newFile: !uuid 'f55e6c8ed1174a4b35f61d58f2ed949a6a146f4e'
-    oldFile: !uuid 'e913bccf0a43e23fd7a0a6745639e23b7045fd6c'
-  /OpenAuth.Mvc/Areas/FlowManage/Views/FlowDesign:
-    newFile: !uuid 'd12bf8a8796fdecc2521e8d89f237de5f25190cb'
-    oldFile: !uuid '53eaf52496453ecc1f0198f4ab0c0c3ae1757569'
-  /OpenAuth.Mvc/Areas/FlowManage/Views/FlowDesign/FlowNodeForm.cshtml:
-    newFile: !uuid 'a25b7b76c523c106f94ad9d375583504c9b545f2'
-    oldFile: !uuid '93a30921f8ad1b70662a162f24c6eb0e2e229047'
-gitCommitId: !uuid '80466217a0c6da5141206fac329dda8bc0811d3e'
+  /OpenAuth.App:
+    newFile: !uuid '45b20237b5e9b3d9c7c2fcb74d154494ebcc7f84'
+    oldFile: !uuid '57fed4239c82c00111418345f205056bf2f46aae'
+  /OpenAuth.App/SSO:
+    newFile: !uuid '1b17543dad236e6f79f34f624f58e6e5b6875380'
+    oldFile: !uuid '3e93fca549ba1d853ceebd143afa2f27ffd19b7f'
+  /OpenAuth.App/SSO/AuthUtil.cs:
+    newFile: !uuid 'dbcfdff2f6e559c111f86b028e1a4826cf13fc3e'
+    oldFile: !uuid 'c156b5a0571c94d6f0696c9a5d2c80cb408bdcd6'
+  /OpenAuth.WebApi:
+    newFile: !uuid '4dedd086f30e3454f931f834fb9c052014187778'
+    oldFile: !uuid '47bfeb7dff9f2a9a8ffe53c9b4ec00701ae56956'
+  /OpenAuth.WebApi/App_Start:
+    newFile: !uuid 'ce9aaa220050f171d3043b9b1181eac29f0d70a3'
+    oldFile: !uuid 'c4f84978cd52fbc15e75cf78e45751abf866dda7'
+  /OpenAuth.WebApi/App_Start/WebApiConfig.cs:
+    newFile: !uuid '387d484cfd64aa4d0c33323609444a982211a748'
+    oldFile: !uuid '00e65ff7707543bf8f02dd4f92b1d8fd13cf5665'
+  /OpenAuth.WebApi/Areas:
+    newFile: !uuid 'a686aa9864bfa1476169aec81b2caf2a82eaf64d'
+    oldFile: !uuid 'f1d9c20b1063db68ec7db5504c7a88fba7e1ad8b'
+  /OpenAuth.WebApi/Areas/SSO:
+    newFile: !uuid 'ea02fa70f3ca9be83e9b75ca8f1800faf3883db7'
+    oldFile: !uuid '1951149ed61a6572a21f2bfa92f9b32deaae03fc'
+  /OpenAuth.WebApi/Areas/SSO/Controllers:
+    newFile: !uuid '39ffdecc87660b757684d47dca31af2dab63aff9'
+    oldFile: !uuid '8a1ef4aba48827e8c78189c6e3c0a3c61a34f032'
+  /OpenAuth.WebApi/Areas/SSO/Controllers/CheckController.cs:
+    newFile: !uuid '20989d9f1227408c2e8ad69862a39f404807d795'
+    oldFile: !uuid 'ce070a4a34e57b8798d3633d05ef5559f4e54e8f'
+gitCommitId: !uuid 'c416c4530777f97d0fd926b6f4c4761fc68b58fd'
 renames: {
   }
-revisionId: 316
+revisionId: 317
