@@ -2,22 +2,16 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.Mvc:
-    newFile: !uuid '2d3ce2b166f47bbc1a9743b916e0b2777db86862'
-    oldFile: !uuid 'b0ae2400c98054b9215eb4a9c70112f5f1e87df7'
-  /OpenAuth.Mvc/Web.config:
-    newFile: !uuid 'dc23e91e56132572a4f028cd286ed2c694db87f6'
-    oldFile: !uuid 'ec593cb9d2d5eb413662d78cd84d58a5419f5809'
-  /OpenAuth.WebApi:
-    newFile: !uuid '2584841208387c3e8b4583c1f85488d6d55a5b9a'
-    oldFile: !uuid '819ed2d6b524526eb61e330353ad0f3a0ad36a10'
-  /OpenAuth.WebApi/Web.config:
-    newFile: !uuid '21baaf5643eee2d7f091a419161b8432e8a92dcd'
-    oldFile: !uuid '4efb36c85e5bf78216ba04318be4475080e3f715'
-  /建表&初始化数据(MySql).sql:
-    newFile: !uuid '189335e30b00e28c876b2f5a80491156e2a9a084'
-    oldFile: null
-gitCommitId: !uuid 'fb62293083fc2e74d1b923794447e9772e5752d0'
+  /OpenAuth.App:
+    newFile: !uuid '038bd3da210febac1cd3b48b1e6beac2ea582de0'
+    oldFile: !uuid '45b20237b5e9b3d9c7c2fcb74d154494ebcc7f84'
+  /OpenAuth.App/SSO:
+    newFile: !uuid 'c06b255a6dd34d53bf663a878e68892da499b29c'
+    oldFile: !uuid '1b17543dad236e6f79f34f624f58e6e5b6875380'
+  /OpenAuth.App/SSO/AuthUtil.cs:
+    newFile: !uuid 'b661d6d77e54c6b17d71cd6a389837356464232a'
+    oldFile: !uuid 'dbcfdff2f6e559c111f86b028e1a4826cf13fc3e'
+gitCommitId: !uuid '5a47357f22be953541c9a286eac895ae7f548a3c'
 renames: {
   }
-revisionId: 309
+revisionId: 310
