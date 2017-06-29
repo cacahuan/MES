@@ -2,22 +2,22 @@
 branches: {
   }
 fileChange:
+  /OpenAuth.Mvc:
+    newFile: !uuid '2d3ce2b166f47bbc1a9743b916e0b2777db86862'
+    oldFile: !uuid 'b0ae2400c98054b9215eb4a9c70112f5f1e87df7'
+  /OpenAuth.Mvc/Web.config:
+    newFile: !uuid 'dc23e91e56132572a4f028cd286ed2c694db87f6'
+    oldFile: !uuid 'ec593cb9d2d5eb413662d78cd84d58a5419f5809'
   /OpenAuth.WebApi:
-    newFile: !uuid '819ed2d6b524526eb61e330353ad0f3a0ad36a10'
-    oldFile: !uuid '4dedd086f30e3454f931f834fb9c052014187778'
-  /OpenAuth.WebApi/Areas:
-    newFile: !uuid 'e3b0d9ce75fbfb82ae27be4dbcdb8f1554674a70'
-    oldFile: !uuid 'a686aa9864bfa1476169aec81b2caf2a82eaf64d'
-  /OpenAuth.WebApi/Areas/SSO:
-    newFile: !uuid 'b9763ef0ee916bd1e125d189137fedf7ad72428e'
-    oldFile: !uuid 'ea02fa70f3ca9be83e9b75ca8f1800faf3883db7'
-  /OpenAuth.WebApi/Areas/SSO/Controllers:
-    newFile: !uuid 'de1c011b905a12908b8e8f1b02daba776095699f'
-    oldFile: !uuid '39ffdecc87660b757684d47dca31af2dab63aff9'
-  /OpenAuth.WebApi/Areas/SSO/Controllers/CheckController.cs:
-    newFile: !uuid '87d688a5ea108814056a75cfc610f838ebfdb817'
-    oldFile: !uuid '20989d9f1227408c2e8ad69862a39f404807d795'
-gitCommitId: !uuid 'eba40dc8e843f5707fa97cd1221770592ded0d9a'
+    newFile: !uuid '2584841208387c3e8b4583c1f85488d6d55a5b9a'
+    oldFile: !uuid '819ed2d6b524526eb61e330353ad0f3a0ad36a10'
+  /OpenAuth.WebApi/Web.config:
+    newFile: !uuid '21baaf5643eee2d7f091a419161b8432e8a92dcd'
+    oldFile: !uuid '4efb36c85e5bf78216ba04318be4475080e3f715'
+  /建表&初始化数据(MySql).sql:
+    newFile: !uuid '189335e30b00e28c876b2f5a80491156e2a9a084'
+    oldFile: null
+gitCommitId: !uuid 'fb62293083fc2e74d1b923794447e9772e5752d0'
 renames: {
   }
-revisionId: 318
+revisionId: 319
