@@ -3,36 +3,60 @@ branches: {
   }
 fileChange:
   /OpenAuth.Mvc:
-    newFile: !uuid 'fcd273d349349ffc9df6bc6e487257fd1d8e1c1d'
-    oldFile: !uuid 'cdce8c04b6d6cb4853da94719174b5031fa36280'
+    newFile: !uuid '7cf70e63e999739ac9195814a890b312343de67c'
+    oldFile: !uuid 'fcd273d349349ffc9df6bc6e487257fd1d8e1c1d'
   /OpenAuth.Mvc/BllScripts:
-    newFile: !uuid '9af20cdbbcadb872ab4ad1f495488915253b4a0a'
-    oldFile: !uuid '400b4298f6969396a32b19421a47386d1db5b67f'
-  /OpenAuth.Mvc/BllScripts/parentTreeMultiple.js:
-    newFile: null
-    oldFile: !uuid 'b9833faf8871264214262259a35c898b51c353f6'
+    newFile: !uuid '4f64eb0459c6c09ed2c6871a9e67f9aba3ef31b8'
+    oldFile: !uuid '9af20cdbbcadb872ab4ad1f495488915253b4a0a'
+  /OpenAuth.Mvc/BllScripts/orgManager.js:
+    newFile: !uuid '43bb224d53400d4f6db23d3b28474383ba25894c'
+    oldFile: !uuid '0ad7962985b6eb99cec02e31606a4b6da2f7e52b'
+  /OpenAuth.Mvc/BllScripts/roleManager.js:
+    newFile: !uuid '4093cc3329393adafb789312a562f481461bf190'
+    oldFile: !uuid 'db6db3c1c3f6e66d6936f7825c136d6da05a7723'
+  /OpenAuth.Mvc/BllScripts/stockManager.js:
+    newFile: !uuid '76fc5bdd56faa94685c61d9d4083dcd4c6a4adc0'
+    oldFile: !uuid '0fff9658a1320e447d7b1dbe1468bd1b8061e870'
+  /OpenAuth.Mvc/BllScripts/userRoleManager.js:
+    newFile: !uuid '88ea93af484e71e0be6276ec20ef79a70159e9b7'
+    oldFile: !uuid '1d2d5b0f8fd32fd3cff48eff0303a805163e6dd3'
+  /OpenAuth.Mvc/BllScripts/usermanager.js:
+    newFile: !uuid 'a0e6e16167a40a28f0ec0091ab1e6b2f2525bf07'
+    oldFile: !uuid '016665e50fc8fda6c1e8608306620881241aa226'
   /OpenAuth.Mvc/OpenAuth.Mvc.csproj:
-    newFile: !uuid '38ad99a20ccacea6741206fe7dc71cdfae74532a'
-    oldFile: !uuid 'e318631c52ff33577fc450c1cb758374cd1f597d'
+    newFile: !uuid '22238abd609d711fc58d8e3b872e07eba7237f1e'
+    oldFile: !uuid '38ad99a20ccacea6741206fe7dc71cdfae74532a'
   /OpenAuth.Mvc/Views:
-    newFile: !uuid 'ff47461fa58d0afb0f8ca11c8b7469a5dd96cb23'
-    oldFile: !uuid '1a638d138291fc5a177a920364fe348e6aaf8ded'
+    newFile: !uuid 'db1bd8d2208db763303e0a08bb9f976414bbc9ab'
+    oldFile: !uuid 'ff47461fa58d0afb0f8ca11c8b7469a5dd96cb23'
   /OpenAuth.Mvc/Views/UserManager:
-    newFile: !uuid 'aa989121e8f846a0ad4d85123dc28aeaccca5e12'
-    oldFile: !uuid '4bb6fa62f97973c376c06b1a945ac621f003ac74'
+    newFile: !uuid 'eb0f1dfd105458496654924b2514a98f4b627c04'
+    oldFile: !uuid 'aa989121e8f846a0ad4d85123dc28aeaccca5e12'
   /OpenAuth.Mvc/Views/UserManager/Index.cshtml:
-    newFile: !uuid '49b6b8e8c328df7e213a9f706ba5fe46e20cc257'
-    oldFile: !uuid '94cb6be647d7264364167b5fe196db4bfb13f22e'
+    newFile: !uuid '971f334ad870c6812e1e12b1603acc665ee7b760'
+    oldFile: !uuid '49b6b8e8c328df7e213a9f706ba5fe46e20cc257'
   /OpenAuth.Mvc/js:
-    newFile: !uuid 'ced28589c85cbb930478725cc2ed1632c971b967'
-    oldFile: !uuid '8a322ae0e255568d05db7b5f648a981c9c2ef2bd'
-  /OpenAuth.Mvc/js/parentTreeMultiple.js:
-    newFile: !uuid '8cf8459c0aff755d0c01ea7149f43046f1fa9c1a'
+    newFile: !uuid '702bbf4d2f3a1edf35c980640f2a7c7ef37c5572'
+    oldFile: !uuid 'ced28589c85cbb930478725cc2ed1632c971b967'
+  /OpenAuth.Mvc/js/droptree.js:
+    newFile: !uuid 'f111718a87324dbdea4379149e0feac9158b0929'
     oldFile: null
+  /OpenAuth.Mvc/js/parentTreeMultiple.js:
+    newFile: null
+    oldFile: !uuid '8cf8459c0aff755d0c01ea7149f43046f1fa9c1a'
   /OpenAuth.Mvc/js/users.js:
-    newFile: !uuid '8cf5d0b79835445614e17ab8e70c388a6513c807'
-    oldFile: !uuid '10672cf1f6f30abef75a71168fabd819543ed347'
-gitCommitId: !uuid '376076b30f346877c4a3073c8dc71e7062eb7d9e'
-renames:
-  /OpenAuth.Mvc/js/parentTreeMultiple.js: /OpenAuth.Mvc/BllScripts/parentTreeMultiple.js
-revisionId: 322
+    newFile: !uuid '21b8e4107eb5c001d48ecbf5d089f4e8168b156e'
+    oldFile: !uuid '8cf5d0b79835445614e17ab8e70c388a6513c807'
+  /OpenAuth.Mvc/layui:
+    newFile: !uuid 'cc008e49a321ed29cc959e297a2844a0806c05f4'
+    oldFile: !uuid 'f440b63464c759471b02dd01b530e9bebd83eb43'
+  /OpenAuth.Mvc/layui/font:
+    newFile: !uuid '337cdfcc74a766512ff484f84610778f13d5aebb'
+    oldFile: !uuid 'e7756f9562e83ac714223bde47631c7d47b12c6a'
+  /OpenAuth.Mvc/layui/font/iconfont.svg:
+    newFile: !uuid 'e1e37c9ada9f5ea07f644d04496fc50261911abe'
+    oldFile: !uuid '53db2f6df3ab4a83718f808da747411ab2c5eac6'
+gitCommitId: !uuid 'a9218167a5dcd08bb3eb8b01413d67da330d30f1'
+renames: {
+  }
+revisionId: 323
