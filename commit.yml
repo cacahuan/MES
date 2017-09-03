@@ -3,21 +3,36 @@ branches: {
   }
 fileChange:
   /OpenAuth.Mvc:
-    newFile: !uuid '44b0fa30e2b1dc589b2ce6737e4696adb82362c2'
-    oldFile: !uuid 'f6575f731aee94e4bdbdf4b82c8d194f7c399930'
+    newFile: !uuid '0c7d0c716a84ae8bc7969936946078460b3969c0'
+    oldFile: !uuid '44b0fa30e2b1dc589b2ce6737e4696adb82362c2'
+  /OpenAuth.Mvc/OpenAuth.Mvc.csproj:
+    newFile: !uuid '89f2928958f9eb9146b9b99f76c4b411c3ccb602'
+    oldFile: !uuid '6de16f26f7b721710893d38016ba57de20e7f3f4'
+  /OpenAuth.Mvc/Views:
+    newFile: !uuid 'c5e9ed5f7efc9e0f398013d917804347bf2f87b3'
+    oldFile: !uuid '9ab2a60b3506955e970f5476420eca446eb19592'
+  /OpenAuth.Mvc/Views/UserManager:
+    newFile: !uuid 'fb450700d65b0d30cd10202a7b8b0f31594aa562'
+    oldFile: !uuid '7e2a7816d37ad27c77a39806a8549849ae6606cf'
+  /OpenAuth.Mvc/Views/UserManager/Index.cshtml:
+    newFile: !uuid 'b3f058c58e6e74181127496ea5603b153b967320'
+    oldFile: !uuid '7d07a7ee69d9d1058c26c3477fa01da140b4d286'
   /OpenAuth.Mvc/js:
-    newFile: !uuid 'f6988bf1502abbe7659c09db79be48ad910df13d'
-    oldFile: !uuid '72705dd0283748d0fd88208cef463dc58183eee3'
+    newFile: !uuid 'aab88a26b71190d8d8e07345121239f6cb43025b'
+    oldFile: !uuid 'f6988bf1502abbe7659c09db79be48ad910df13d'
   /OpenAuth.Mvc/js/droptree.js:
-    newFile: !uuid '66458ebd0e831f4205bcbf22e3d107f3389a35c6'
-    oldFile: !uuid 'faf24ffceb4358211379b184e0a4511765f1ae4d'
-  /OpenAuth.Mvc/js/openauth.js:
-    newFile: !uuid '607301bec6cb1164cc3c714bf59ec1f0da3f275f'
-    oldFile: !uuid 'abcffeab5cca2226cafdf9e5813abdc2624af955'
+    newFile: !uuid '927234811754f863b561a45b10a2f38e1abc2d0b'
+    oldFile: !uuid '66458ebd0e831f4205bcbf22e3d107f3389a35c6'
+  /OpenAuth.Mvc/js/queryString.js:
+    newFile: !uuid '467c64a551da96f681795d841ac9602c830e7795'
+    oldFile: null
   /OpenAuth.Mvc/js/users.js:
-    newFile: !uuid '9be3e49379568532409035a3ada663fd293098b9'
-    oldFile: !uuid 'e9e4a3b3abdccf1ed798bfd9b744247a41234db8'
-gitCommitId: !uuid '31844791209dfccfc466b53133d56598165778a6'
+    newFile: !uuid 'e23abbbda7be3c2a77a50d0f6f74719708628ab7'
+    oldFile: !uuid '9be3e49379568532409035a3ada663fd293098b9'
+  /OpenAuth.Mvc/js/vue.js:
+    newFile: !uuid '35c7c26eefdee05211fad6464b332c62720fea99'
+    oldFile: null
+gitCommitId: !uuid 'f66e8f1d1e1f95b1b988fa57e024946a57e2b134'
 renames: {
   }
-revisionId: 326
+revisionId: 327
