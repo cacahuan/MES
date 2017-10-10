@@ -3,12 +3,15 @@ branches: {
   }
 fileChange:
   /数据库设计关系图:
-    newFile: !uuid 'e6905e4cb828c0383d1b116b5ac0b90dc2c027fe'
-    oldFile: !uuid 'af72b358db0c86611fc72c91a9e5ef644903b6ec'
+    newFile: !uuid '07a100c5b73742ce2095f4a9067a1d8c4a2af2a8'
+    oldFile: !uuid 'e6905e4cb828c0383d1b116b5ac0b90dc2c027fe'
+  /数据库设计关系图/OpenAuthDB.apm:
+    newFile: !uuid 'e43e44168dbc6c29248c63abeccd2877d13243bf'
+    oldFile: !uuid '9f1c3c321e4be6f8aed02369ad6a9d2e906cb6a9'
   /数据库设计关系图/OpenAuthDB.pdm:
-    newFile: !uuid '544328d79bb5990c23c07484a8230e7e968bbc0e'
-    oldFile: !uuid '9cc9f00eee7538e6e458cb2a4ea310ad9497d5f5'
-gitCommitId: !uuid '22ba70b47c1d50dc8296a74fe3cf3f7c04e7a974'
+    newFile: !uuid 'cb918b5706e2428539a6c12a3eb26a6bae692a7f'
+    oldFile: !uuid '544328d79bb5990c23c07484a8230e7e968bbc0e'
+gitCommitId: !uuid 'c7874ad0ab919eb4bce0886b7d09ea75ffc6ecd8'
 renames: {
   }
-revisionId: 335
+revisionId: 336
