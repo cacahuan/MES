@@ -2,28 +2,43 @@
 branches: {
   }
 fileChange:
-  /mysql建表&初始化数据.txt:
-    newFile: null
-    oldFile: !uuid '31de676bc7d6d3ea8bbd85f1c2ed497d0cfb5d31'
-  /建表&初始化数据(MySql).sql:
-    newFile: null
-    oldFile: !uuid '0fabba59133754739249d527198a5e2debc38927'
-  /建表&初始化数据.sql:
-    newFile: !uuid '7a609099143c78a494673253a383280fdfc54024'
-    oldFile: !uuid '245cae9edaf4f722f4e249729413708df3e422f5'
-  /数据库设计关系图:
-    newFile: !uuid 'ac1771a8909ee6ccc37b7a84e532e06c97f4272c'
-    oldFile: !uuid 'e6905e4cb828c0383d1b116b5ac0b90dc2c027fe'
-  /数据库设计关系图/OpenAuthDB.apm:
-    newFile: !uuid '2a1aa5df13750abff1d718a6861bad4a66127195'
-    oldFile: !uuid '9f1c3c321e4be6f8aed02369ad6a9d2e906cb6a9'
-  /数据库设计关系图/OpenAuthDB.pdm:
-    newFile: !uuid 'd03c99588cb031e254742fa27524498b38ecffcd'
-    oldFile: !uuid '544328d79bb5990c23c07484a8230e7e968bbc0e'
-  /数据库设计关系图/数据初始脚本.sql:
-    newFile: null
-    oldFile: !uuid 'f84c77901049c71a5b6d7cb1120bff7b72c24cfc'
-gitCommitId: !uuid 'b751d8cce8aedfcb375b2cb8471be0048cd177b6'
+  /OpenAuth.Mvc:
+    newFile: !uuid 'b4f9f7c1981ff7bbd69bc7def58c1dc5e8416319'
+    oldFile: !uuid '0cea0b7b30b02ef2fdfc45684e2d8461d71432ab'
+  /OpenAuth.Mvc/Controllers:
+    newFile: !uuid 'cf98c60f1df1ca544ddce84a01ddff7571b4424a'
+    oldFile: !uuid '6ddfb9305ef8c671805087decb5bb312ab175e89'
+  /OpenAuth.Mvc/Controllers/OrgManagerController.cs:
+    newFile: !uuid '642157e0aacbe5f9e83b85f64be33a9206650532'
+    oldFile: !uuid '4d5b4a66dc72373ff3958cf88f4ddcac1ede1c21'
+  /OpenAuth.Mvc/OpenAuth.Mvc.csproj:
+    newFile: !uuid 'f8fdf3fbc373a53f1a05b44a158a4c2896c70c68'
+    oldFile: !uuid 'b0c7b399219ed733c86626570f008d4db084c648'
+  /OpenAuth.Mvc/Views:
+    newFile: !uuid 'ee71cda6517af3871fb52dbb7bc8d7fd218ba79b'
+    oldFile: !uuid '8073cd95c4acc6d351a4ed96ab8cdef1b5b7493e'
+  /OpenAuth.Mvc/Views/OrgManager:
+    newFile: !uuid 'ed2219ce40b7b0821d14328a22dc2ffb0a1298d8'
+    oldFile: !uuid '16c2ac6667fe1fb40c35a6cae3b0fe354a24d668'
+  /OpenAuth.Mvc/Views/OrgManager/Index.cshtml:
+    newFile: !uuid '1cf7a8b784b41ab80e291fe4dba01a53f782b36c'
+    oldFile: !uuid '552ec73fa5a107393d67806b6327d3329ee69f7a'
+  /OpenAuth.Mvc/js:
+    newFile: !uuid 'f3b0211174005c5c5f6c765c1a19a3eb8a2cff54'
+    oldFile: !uuid 'b6aae20c446223237899e443149d4161ee0f94e4'
+  /OpenAuth.Mvc/js/droptree.js:
+    newFile: !uuid 'e1754d07f7f890ba623c766f6cac3144c7cec03e'
+    oldFile: !uuid 'bc20dc224ed61cf1f7cc8324b66c590d09087c31'
+  /OpenAuth.Mvc/js/orgs.js:
+    newFile: !uuid '6e2f7887a993df176f1fafc46ef523c165bb3fb2'
+    oldFile: null
+  /OpenAuth.Repository:
+    newFile: !uuid 'be90d52327dd9e390cef6eed6d56c9cc8e98f90a'
+    oldFile: !uuid 'ca0dd4a64a295c269477374f57b999a4c197225e'
+  /OpenAuth.Repository/OrgRepository.cs:
+    newFile: !uuid '37d1560b31b6641d4b16a091fbf808781b7e8cf4'
+    oldFile: !uuid 'aff5bc19a0dcb51e8c78981e4e61ebbab0bb1f0b'
+gitCommitId: !uuid '45a08aaf41d6ca4eb8e15e0b3c2995138c338abc'
 renames: {
   }
-revisionId: 341
+revisionId: 342
