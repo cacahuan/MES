@@ -2,31 +2,34 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.Domain:
+  /OpenAuth.App:
+    newFile: !uuid '93869d9df848ab944ac4133545776a5b8a06c11e'
+    oldFile: !uuid '87c5f5768bfe9480eed329a644967a93804922e0'
+  /OpenAuth.App/AuthoriseFactory.cs:
     newFile: null
-    oldFile: !uuid '363fae0c5f513916c58270d627e5f76692d62893'
-  /OpenAuth.Domain/OpenAuth.Domain.csproj:
-    newFile: null
-    oldFile: !uuid 'a6054cb05ed0024d241a0a01ef124028a00de175'
-  /OpenAuth.Domain/Properties:
-    newFile: null
-    oldFile: !uuid '61fe7fdaf8653ae6e45fb8d1620699df5864af5c'
-  /OpenAuth.Domain/Properties/AssemblyInfo.cs:
-    newFile: null
-    oldFile: !uuid 'ec5cb6bcb5df1b8370fd729c15e5bbb1c39cc60f'
-  /OpenAuth.Domain/Service:
-    newFile: null
-    oldFile: !uuid '6475fdd73b8ed06c5db5c7884479793df77e04cf'
-  /OpenAuth.Domain/Service/AuthoriseFactory.cs:
-    newFile: null
-    oldFile: !uuid '5364581e845159cfd1d0bc9ed735615a9f52b108'
-  /OpenAuth.Domain/Service/AuthoriseService.cs:
-    newFile: null
-    oldFile: !uuid '34d16e1be3c48f974f18b8f7d27dd31af262f53f'
-  /OpenAuth.Domain/Service/SystemAuthService.cs:
-    newFile: null
-    oldFile: !uuid '5265bd895a5c192c6085a57306943be3705fd554'
-gitCommitId: !uuid 'ead70c2f563fab409abef766f7994f6ed7b2efcd'
+    oldFile: !uuid '5a2c28a50ac67198bdfc7b6284d128c0637b0e7a'
+  /OpenAuth.App/AuthorizeApp.cs:
+    newFile: !uuid 'a710e24dacdd253bfaa8d2df01614570e5b33540'
+    oldFile: !uuid '7e9b6f1663d6ed179374080ad0f95cd378f7ac9d'
+  /OpenAuth.App/OpenAuth.App.csproj:
+    newFile: !uuid '0c723ad6517ac093494e7d3beebb336773ecdc41'
+    oldFile: !uuid 'ccfd76264aec409a4ea97a4100eab86d91e6046c'
+  /OpenAuth.Mvc:
+    newFile: !uuid 'bc408ceb8dd222a991281991a9d8d96d7dca386d'
+    oldFile: !uuid 'f31763c769661fef1c7b3f7dfa121ef6037bacb2'
+  /OpenAuth.Mvc/AutofacExt.cs:
+    newFile: !uuid 'c4270edfb8bc3b009dba2989a185a0ab897e103f'
+    oldFile: !uuid '0cc4e3fc839fcf43400a2dad7ed4695e8ae49f61'
+  /OpenAuth.UnitTest:
+    newFile: !uuid 'b55490ef4210e9a25c016aaf30acc3e55b1af0f5'
+    oldFile: !uuid '3b5d6c43f01ecc07219b5388984cea354637ebb7'
+  /OpenAuth.UnitTest/AutofacExt.cs:
+    newFile: !uuid '2482e7964a7f38eb11856c1411e8f48beeba5176'
+    oldFile: !uuid '126446d82991e76af24d881b45f4f854b9bfba31'
+  /OpenAuth.UnitTest/TestAuthen.cs:
+    newFile: !uuid '6b97efaf597c5b5e98476694ea8c3662d13cd2a8'
+    oldFile: !uuid '67d94a0f26f9e3cf4aa9dd4b9350f8cca1a6035b'
+gitCommitId: !uuid 'c860101747675ca86f8d45a4c151518333a9ecfb'
 renames: {
   }
-revisionId: 343
+revisionId: 344
