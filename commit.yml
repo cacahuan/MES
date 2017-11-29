@@ -2,52 +2,155 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.App:
-    newFile: !uuid 'abab9bd3793c48e98e11606053875e3b319708da'
-    oldFile: !uuid '93869d9df848ab944ac4133545776a5b8a06c11e'
-  /OpenAuth.App/AuthoriseService.cs:
-    newFile: !uuid 'c3ae0dde841f377e5aac86ce3ad7baa8b2f2d9a4'
-    oldFile: !uuid '5fe6efff72b5c10d91d90ef470a3ffc0f2c66b1c'
-  /OpenAuth.App/AuthorizeApp.cs:
-    newFile: !uuid '602d0d23f86ad99a8da2f2d534050c5ef5e9c9e5'
-    oldFile: !uuid 'a710e24dacdd253bfaa8d2df01614570e5b33540'
-  /OpenAuth.App/ModuleManagerApp.cs:
-    newFile: !uuid 'fb64db69ecca32386c4afbfa92bd613c9b028f57'
-    oldFile: !uuid '7ecfd5c806914484499de074b723e939a9e4e905'
-  /OpenAuth.App/SystemAuthService.cs:
-    newFile: !uuid 'd86b4fcafe248d40e8f1ff3660b15b48476ddf8e'
-    oldFile: !uuid '7bef09089d3d45e56d439ebea35737847a8b57ec'
-  /OpenAuth.Mvc:
-    newFile: !uuid '54bda000357195670f5610ec68ecbe6798adf4bc'
-    oldFile: !uuid 'bc408ceb8dd222a991281991a9d8d96d7dca386d'
-  /OpenAuth.Mvc/Areas:
-    newFile: !uuid 'be0e0773f5e02e2a1ef9673ff9e0fc5554f82480'
-    oldFile: !uuid '6705d0f4f6f49f937696b3d7403f0524af75c1dc'
-  /OpenAuth.Mvc/Areas/FlowManage:
-    newFile: !uuid '3b0455007451ca8d5219e023ba8dc40f73279d81'
-    oldFile: !uuid '421692bb225a61a08691d28db54e887909627192'
-  /OpenAuth.Mvc/Areas/FlowManage/Controllers:
-    newFile: !uuid '37c1cb105d441c78f446c34d8392852ec76e3a3c'
-    oldFile: !uuid 'df7b4c13d9442e21d684cc4c25fa094366ede560'
-  /OpenAuth.Mvc/Areas/FlowManage/Controllers/FlowDesignController.cs:
-    newFile: !uuid '164df92bd78ce419cdcb3ce10a6b200d7b93bc1d'
-    oldFile: !uuid '43e0536df8e80fc3bf177977a12b4eb5acc2ad95'
-  /OpenAuth.UnitTest:
-    newFile: !uuid '01c911972e13aa0c5ff50dce86e6d5431b75f611'
-    oldFile: !uuid 'b55490ef4210e9a25c016aaf30acc3e55b1af0f5'
-  /OpenAuth.UnitTest/AutofacExt.cs:
-    newFile: !uuid '32e80e95ca2bfb58d88aa46d5b724c677b98c4ed'
-    oldFile: !uuid '2482e7964a7f38eb11856c1411e8f48beeba5176'
-  /OpenAuth.UnitTest/TestAuthen.cs:
-    newFile: !uuid 'd7e7c845d0366e4c011fd3ac649fe54e3d0b997c'
-    oldFile: !uuid '6b97efaf597c5b5e98476694ea8c3662d13cd2a8'
-  /OpenAuth.WebApi:
-    newFile: !uuid 'd2c7688f5847f2646e421ab8eea69d777c1f148b'
-    oldFile: !uuid 'eeaf3eb3ed03b99baea52ce9333de203e03a1515'
-  /OpenAuth.WebApi/AutofacExt.cs:
-    newFile: !uuid 'c590b825446ec9bf94ed4e46119f532155baeb5d'
-    oldFile: !uuid 'aa290f8421b0a78d9ef9cfbdbf2f563ffb08d7bc'
-gitCommitId: !uuid '3fa7422f5ad39cba01c77b1309b31621f922aad8'
-renames: {
-  }
-revisionId: 345
+  /CodeSmith:
+    newFile: !uuid 'a48d2f291c61eeda12bd8bcb6a6b13a467b918c3'
+    oldFile: !uuid '0313940386a23c0328d1696cb0b476d0f9fd4c4b'
+  /CodeSmith/Application.cst:
+    newFile: null
+    oldFile: !uuid '8425cd7b876ea3e2241df9df2c54381d21e3825d'
+  /CodeSmith/CSharp:
+    newFile: !uuid 'b0de0fbe2272824e98c143de71cf9f8c30267e60'
+    oldFile: null
+  /CodeSmith/CSharp/Entity.cst:
+    newFile: !uuid '819211ce9d3fef4079ae9c2c820f5b1da6f72fe1'
+    oldFile: null
+  /CodeSmith/CSharp/Internal:
+    newFile: !uuid '913ff3811086a0a9948739409bc125b4dc33147a'
+    oldFile: null
+  /CodeSmith/CSharp/Internal/Context.Generated.cst:
+    newFile: !uuid 'df3d3a21bb5f85eb97fcc27de297ab9d997a58a4'
+    oldFile: null
+  /CodeSmith/CSharp/Internal/Entity.Generated.cst:
+    newFile: !uuid 'd387ffede8033e797e6ec75a7954fdebf3800303'
+    oldFile: null
+  /CodeSmith/CSharp/Internal/Extensions.cs:
+    newFile: !uuid '0e8dc289430e33ad85320368bc7e1f2dc79a8469'
+    oldFile: null
+  /CodeSmith/CSharp/Internal/Generator.cs:
+    newFile: !uuid 'b5ffa8e4e7458a8bf15876deff598f893a8c1850'
+    oldFile: null
+  /CodeSmith/CSharp/Internal/Mapping.Generated.cst:
+    newFile: !uuid 'ed4136fd01c95cdd70fe6f9dcb43e7a6bad1f50f'
+    oldFile: null
+  /CodeSmith/CSharp/Internal/Model.cs:
+    newFile: !uuid 'b7b2a6f12fab575b501daf508fb49749ff74c74b'
+    oldFile: null
+  /CodeSmith/CSharp/Internal/Parser.cs:
+    newFile: !uuid '95766be9a2a7bd67672f8b80776acac55bda5454'
+    oldFile: null
+  /CodeSmith/CSharp/Web:
+    newFile: !uuid '1d5fa6d7213e5939c4dcccbbcbadde5c034d037f'
+    oldFile: null
+  /CodeSmith/CSharp/Web/Application.cst:
+    newFile: !uuid '8425cd7b876ea3e2241df9df2c54381d21e3825d'
+    oldFile: null
+  /CodeSmith/CSharp/Web/Controller.cst:
+    newFile: !uuid 'c435269147de0f93b19ea53095a9434511da82d9'
+    oldFile: null
+  /CodeSmith/CSharp/Web/Index.cshtml.cst:
+    newFile: !uuid '4705c8e6f35512ba59cf1f969baa9b7ca1209887'
+    oldFile: null
+  /CodeSmith/CSharp/Web/Util.cs:
+    newFile: !uuid '0ebb0882a3070595e2ad09caf81d86284d9ccdd2'
+    oldFile: null
+  /CodeSmith/CSharp/Web/index.js.cst:
+    newFile: !uuid '72e8807aae70a2f3a3343fc608ac78fb0ac1c032'
+    oldFile: null
+  /CodeSmith/CSharp/WebGenerate.cst:
+    newFile: !uuid 'f02fbc9a58dcb29d98765f9e4ad5180541078035'
+    oldFile: null
+  /CodeSmith/Common:
+    newFile: !uuid 'a145d0f2b2edbdd16564e31f22614565ef7a8fff'
+    oldFile: null
+  /CodeSmith/Common/ICSharpCode.NRefactory.CSharp.dll:
+    newFile: !uuid '978ef7175e3ae23f3fb7d0a2a91578da4ca06b2a'
+    oldFile: null
+  /CodeSmith/Common/ICSharpCode.NRefactory.dll:
+    newFile: !uuid '7a156bc44122e5252253c3717f30d1cc9478892e'
+    oldFile: null
+  /CodeSmith/Common/Mono.Cecil.dll:
+    newFile: !uuid 'd22da172abe6e67dbfac9c13c3f3980933286b85'
+    oldFile: null
+  /CodeSmith/Controller.cst:
+    newFile: null
+    oldFile: !uuid 'c435269147de0f93b19ea53095a9434511da82d9'
+  /CodeSmith/EF:
+    newFile: null
+    oldFile: !uuid 'ea5f957beb90d196f0e8eaddb6e8565784c8229e'
+  /CodeSmith/EF/CSharp:
+    newFile: null
+    oldFile: !uuid '69d47a4041d2ce7dd00e624d4a1d205180b1ead0'
+  /CodeSmith/EF/CSharp/Entity.cst:
+    newFile: null
+    oldFile: !uuid '819211ce9d3fef4079ae9c2c820f5b1da6f72fe1'
+  /CodeSmith/EF/CSharp/Internal:
+    newFile: null
+    oldFile: !uuid '6cd0be4a219f0424a973afad2916e8f242733b72'
+  /CodeSmith/EF/CSharp/Internal/Context.Generated.cst:
+    newFile: null
+    oldFile: !uuid 'e2220fce037f25530db0e6bc1f7a1a328ce251a0'
+  /CodeSmith/EF/CSharp/Internal/Entity.Generated.cst:
+    newFile: null
+    oldFile: !uuid '632d50d91e29a36be54718dc75025f6c9789428d'
+  /CodeSmith/EF/CSharp/Internal/Extensions.cs:
+    newFile: null
+    oldFile: !uuid '0e8dc289430e33ad85320368bc7e1f2dc79a8469'
+  /CodeSmith/EF/CSharp/Internal/Generator.cs:
+    newFile: null
+    oldFile: !uuid 'b5ffa8e4e7458a8bf15876deff598f893a8c1850'
+  /CodeSmith/EF/CSharp/Internal/Mapping.Generated.cst:
+    newFile: null
+    oldFile: !uuid 'ed4136fd01c95cdd70fe6f9dcb43e7a6bad1f50f'
+  /CodeSmith/EF/CSharp/Internal/Model.cs:
+    newFile: null
+    oldFile: !uuid 'b7b2a6f12fab575b501daf508fb49749ff74c74b'
+  /CodeSmith/EF/CSharp/Internal/Parser.cs:
+    newFile: null
+    oldFile: !uuid '95766be9a2a7bd67672f8b80776acac55bda5454'
+  /CodeSmith/EF/Common:
+    newFile: null
+    oldFile: !uuid 'a145d0f2b2edbdd16564e31f22614565ef7a8fff'
+  /CodeSmith/EF/Common/ICSharpCode.NRefactory.CSharp.dll:
+    newFile: null
+    oldFile: !uuid '978ef7175e3ae23f3fb7d0a2a91578da4ca06b2a'
+  /CodeSmith/EF/Common/ICSharpCode.NRefactory.dll:
+    newFile: null
+    oldFile: !uuid '7a156bc44122e5252253c3717f30d1cc9478892e'
+  /CodeSmith/EF/Common/Mono.Cecil.dll:
+    newFile: null
+    oldFile: !uuid 'd22da172abe6e67dbfac9c13c3f3980933286b85'
+  /CodeSmith/IRepository.cst:
+    newFile: null
+    oldFile: !uuid 'e8f31b2d697bd12c8ff2b6b1941da470aed6142d'
+  /CodeSmith/Index.cshtml.cst:
+    newFile: null
+    oldFile: !uuid 'a5b3c34517ba20765e0eaa36cfbe2d2ad923d1b8'
+  /CodeSmith/NoCascadeIndex.cshtml.cst:
+    newFile: null
+    oldFile: !uuid '96627b47a65d4ba6c0de208437fcd8e62a28dc01'
+  /CodeSmith/Repository.cst:
+    newFile: null
+    oldFile: !uuid 'aeb7ccb9990fb9e6000c4e5d631e9f24b3f93824'
+  /CodeSmith/Util.cs:
+    newFile: null
+    oldFile: !uuid '0ebb0882a3070595e2ad09caf81d86284d9ccdd2'
+  /CodeSmith/editDlg.js.cst:
+    newFile: null
+    oldFile: !uuid '03a585155a853d244aee1311901bf514d6d06ab8'
+gitCommitId: !uuid '503f92d68e13c512090d51852013160fc4c2a1a6'
+renames:
+  /CodeSmith/CSharp/Entity.cst: /CodeSmith/EF/CSharp/Entity.cst
+  /CodeSmith/CSharp/Internal/Context.Generated.cst: /CodeSmith/EF/CSharp/Internal/Context.Generated.cst
+  /CodeSmith/CSharp/Internal/Entity.Generated.cst: /CodeSmith/EF/CSharp/Internal/Entity.Generated.cst
+  /CodeSmith/CSharp/Internal/Extensions.cs: /CodeSmith/EF/CSharp/Internal/Extensions.cs
+  /CodeSmith/CSharp/Internal/Generator.cs: /CodeSmith/EF/CSharp/Internal/Generator.cs
+  /CodeSmith/CSharp/Internal/Mapping.Generated.cst: /CodeSmith/EF/CSharp/Internal/Mapping.Generated.cst
+  /CodeSmith/CSharp/Internal/Model.cs: /CodeSmith/EF/CSharp/Internal/Model.cs
+  /CodeSmith/CSharp/Internal/Parser.cs: /CodeSmith/EF/CSharp/Internal/Parser.cs
+  /CodeSmith/CSharp/Web/Application.cst: /CodeSmith/Application.cst
+  /CodeSmith/CSharp/Web/Controller.cst: /CodeSmith/Controller.cst
+  /CodeSmith/CSharp/Web/Util.cs: /CodeSmith/Util.cs
+  /CodeSmith/Common/ICSharpCode.NRefactory.CSharp.dll: /CodeSmith/EF/Common/ICSharpCode.NRefactory.CSharp.dll
+  /CodeSmith/Common/ICSharpCode.NRefactory.dll: /CodeSmith/EF/Common/ICSharpCode.NRefactory.dll
+  /CodeSmith/Common/Mono.Cecil.dll: /CodeSmith/EF/Common/Mono.Cecil.dll
+revisionId: 346
