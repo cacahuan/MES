@@ -2,34 +2,10 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.App:
-    newFile: !uuid '681f839ea0d70af1a47e11d7527621b360d62e8c'
-    oldFile: !uuid 'c6aea7584bce0a841e28e5a0f0f58e86669c9f36'
-  /OpenAuth.App/CategoryApp.cs:
-    newFile: !uuid '584599613a4632e481e51b1fa99db4cd649269e1'
-    oldFile: !uuid 'da0e89bdabed0b7d42bb78a05ec75cfea2055729'
-  /OpenAuth.App/ModuleManagerApp.cs:
-    newFile: !uuid '4e43286be88f9c9e8a63ad6b18bd883233c22c31'
-    oldFile: !uuid 'ba86c9d29ccb3432b6f0b4fe3ae9fc158e642819'
-  /OpenAuth.Mvc:
-    newFile: !uuid '69fe10c395d03cbccb7e38cf974e541e02148f9f'
-    oldFile: !uuid 'eee87adcf013094ff52974303d354e783e54c951'
-  /OpenAuth.Mvc/Views:
-    newFile: !uuid '588e20f2177e009bdd7ec66f2de8c0eaae356737'
-    oldFile: !uuid '445a920f4fc2c480eb10ceb35ed36414361941c0'
-  /OpenAuth.Mvc/Views/Categories:
-    newFile: !uuid '48b5a3acc94b06c7cbf6e7eafc3e83b7a49cf484'
-    oldFile: !uuid '68277d53e9dcd84137cf60f2ea4e08c7ce9898a4'
-  /OpenAuth.Mvc/Views/Categories/Index.cshtml:
-    newFile: !uuid 'b9a98dad6ce0984f0a17df41f2db19e08749a4e8'
-    oldFile: !uuid '957f2feb9e17be184849809b359a57489bcfccc9'
-  /OpenAuth.Mvc/js:
-    newFile: !uuid '744539d476afd7bd2afe9c94bfc54767abba99c1'
-    oldFile: !uuid 'ea187b5f8a338bf848c9f7354d0de52bd53e39c8'
-  /OpenAuth.Mvc/js/modules.js:
-    newFile: !uuid 'e64461afa9299c5b87c6112cb08ec32372be35f4'
-    oldFile: !uuid 'a0b9d8824cdd1b1dd3a59bc673be976620ca47eb'
-gitCommitId: !uuid '37969d4b9e55256b7f26f909a67e5d33329c1007'
+  /建表&初始化数据.sql:
+    newFile: !uuid 'ed691f2e123b17ea590cd10313e5ece6ec51ff59'
+    oldFile: !uuid '1cec9dd9ef05d576244e7131fde078307a63b69b'
+gitCommitId: !uuid 'e49dcfd7931f5aad85bf274f3d23ca19924c4fa3'
 renames: {
   }
-revisionId: 357
+revisionId: 358
