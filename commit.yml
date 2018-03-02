@@ -3,39 +3,12 @@ branches: {
   }
 fileChange:
   /OpenAuth.App:
-    newFile: !uuid 'b17627f7366121ba18355febcff52eb40dbefc93'
-    oldFile: !uuid 'eca13f784ca97014e1cd4eb9a06f568c6320cb4a'
-  /OpenAuth.App/FormApp.cs:
-    newFile: !uuid 'ff0a23bebfeda076783ab9e50b42f21b6d91dec1'
-    oldFile: !uuid '3ce29990fac05651a01222cb5ac4e5f55c253a46'
+    newFile: !uuid '6d175bcd4f7ea49805dfc29ac54a84e7927f7036'
+    oldFile: !uuid 'b17627f7366121ba18355febcff52eb40dbefc93'
   /OpenAuth.App/FormUtil.cs:
-    newFile: !uuid '63d0316fdd31325296b8af1ae628b7291c4eee4b'
-    oldFile: !uuid 'c80e89a16fa523b3c265974b5a6cf64f4bbadfb2'
-  /OpenAuth.Mvc:
-    newFile: !uuid 'c5b843b1b83d54f66871ab9b5f7c5285a506a90d'
-    oldFile: !uuid 'd0bbbf79e80960d29fb580f0b1538f6a76a58c68'
-  /OpenAuth.Mvc/Views:
-    newFile: !uuid 'dd94a8d3fab4df8c25f9fd0462084117686ad466'
-    oldFile: !uuid '261b920cd6547a31ff109806fb3b753c4f0bc05a'
-  /OpenAuth.Mvc/Views/Forms:
-    newFile: !uuid '6921d30ac87cb877968803b436198f00d4650f7f'
-    oldFile: !uuid 'bf72085b78b030d8cb5d6c96eced73751a455c3d'
-  /OpenAuth.Mvc/Views/Forms/index.cshtml:
-    newFile: !uuid '26082c5b079ec878221612627088542cd28a36fb'
-    oldFile: !uuid '1a9892556d5267b7e139abdfa385d318dcdb9ba6'
-  /OpenAuth.Repository:
-    newFile: !uuid '197741c81396ee744b0bce7f3b4cf236833d47de'
-    oldFile: !uuid 'c52e307c1ab8236fb9e007f4678f5a09b4e54164'
-  /OpenAuth.Repository/BaseRepository.cs:
-    newFile: !uuid 'ab0e1f3533a82c111e96b83437a0f2fb6106c824'
-    oldFile: !uuid '161d0cafaf26819b92130a2e986cdd37853c04ba'
-  /OpenAuth.Repository/Interface:
-    newFile: !uuid '9c085c1812a9d84692cf3fb3b6a79ff5ce1307d6'
-    oldFile: !uuid 'a5a18a45d32dc146f6bc3ed066e1d72012e58bcb'
-  /OpenAuth.Repository/Interface/IRepository.cs:
-    newFile: !uuid 'f4eaf26a6bb6c5e10caa76c103702e1c84a5ddf0'
-    oldFile: !uuid '6414c7ca003cee3e4ccdcd97cda8f87de6b3905b'
-gitCommitId: !uuid '18239d7bedeb231b1091a056328ad7e08b499d8b'
+    newFile: !uuid '034f332e798191efdc49ce5067aa04d1f3b64c61'
+    oldFile: !uuid '63d0316fdd31325296b8af1ae628b7291c4eee4b'
+gitCommitId: !uuid 'ae79e59d48fdae703282dcf2da34f3b1c044e26d'
 renames: {
   }
-revisionId: 375
+revisionId: 376
