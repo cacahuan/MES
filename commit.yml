@@ -2,19 +2,82 @@
 branches: {
   }
 fileChange:
+  /OpenAuth.App:
+    newFile: !uuid '328cffb254d6d6dc9629d1be2c3283709dc1de3e'
+    oldFile: !uuid 'a8ce0cf57e01629f5a178e1f0a80eec874d803e7'
+  /OpenAuth.App/FlowInstanceApp.cs:
+    newFile: !uuid '60de8ad495d7bd90d028981a343d165b9f819718'
+    oldFile: !uuid '8b2707dec6a700bf655067dbcb785b2f9355c727'
+  /OpenAuth.App/FlowSchemeApp.cs:
+    newFile: !uuid '9c5e4f7049cecae0c0694e8ccbe4bf2988564006'
+    oldFile: !uuid 'baf0c46770d5518ccde36e1fc9ec43e50f4fb85a'
   /OpenAuth.Mvc:
-    newFile: !uuid 'db9575b1b74466167b796f98bd780b2c077cc161'
-    oldFile: !uuid 'c83edfed8cdd350d6e502ad5609927ca41499041'
+    newFile: !uuid '1a16597d526fc41833749a2f7375121026de7f1a'
+    oldFile: !uuid 'db9575b1b74466167b796f98bd780b2c077cc161'
+  /OpenAuth.Mvc/Views:
+    newFile: !uuid '305934ae6384c3f5b9dda60ce798f85dbf560bd7'
+    oldFile: !uuid '2cad22dd61aa819a7889107689e9e561622168db'
+  /OpenAuth.Mvc/Views/FlowSchemes:
+    newFile: !uuid '8b4874ab608a3074a9545c99fea1051ff746fafa'
+    oldFile: !uuid '544ee8b1f2258d147508780017788805f5ed5049'
+  /OpenAuth.Mvc/Views/FlowSchemes/Index.cshtml:
+    newFile: !uuid '40ed31e6b8704f9664521593ddea46815d330a8f'
+    oldFile: !uuid 'd9f5d0d1b72fa9d227fa00ce707187f1aaa808d3'
   /OpenAuth.Mvc/userJs:
-    newFile: !uuid '69d16ccd675286b77bb79a4ef0b9ee7c9ccf8587'
-    oldFile: !uuid 'a6c2af569506615110e9f4ed653eb4d06d7f93d0'
+    newFile: !uuid '773ebc556642113d991518e44c24dc7858c3e6a7'
+    oldFile: !uuid '69d16ccd675286b77bb79a4ef0b9ee7c9ccf8587'
   /OpenAuth.Mvc/userJs/flowSchemes.js:
-    newFile: !uuid '60cac927a8647ebd65d2b4ff5c3b82e17f0accb8'
-    oldFile: !uuid '00aca4d57e9405c813ee53adb96992eed8c4b723'
+    newFile: !uuid 'a39267aab76b5b5833a1e25826a917db33523f84'
+    oldFile: !uuid '60cac927a8647ebd65d2b4ff5c3b82e17f0accb8'
   /OpenAuth.Mvc/userJs/nodeInfo.js:
-    newFile: !uuid '95c68678c358bae38f5bf341cc0b7ed1a3da2d39'
-    oldFile: !uuid '6e1a62797a4e4419251c1fe7be13ce151e3c8d56'
-gitCommitId: !uuid '19f778acfa97e8650cb1592049076916bc7ab017'
+    newFile: !uuid '7fa7e69ea38b2f3bec1dc821f72fa02296848f25'
+    oldFile: !uuid '95c68678c358bae38f5bf341cc0b7ed1a3da2d39'
+  /OpenAuth.Repository:
+    newFile: !uuid '9745d4f37c0298d5dea0500475b9dd8e3cd0d617'
+    oldFile: !uuid 'da3466d20c2b4370a7dbaaa2f368f5cf0061cfbf'
+  /OpenAuth.Repository/Domain:
+    newFile: !uuid '868047ce8354b5cb0549a65a2fba4a36c805262b'
+    oldFile: !uuid 'c9dbc9709127b7328e208a615a6e56cfaab7e2aa'
+  /OpenAuth.Repository/Domain/FlowInstanceScheme.cs:
+    newFile: !uuid 'edce31d4d3a59ef3e6c63b4cf0ca3e22e6fd90f0'
+    oldFile: !uuid 'befceb3fb546416a2dac159b3fd495d522beccf3'
+  /OpenAuth.Repository/Domain/FlowScheme.cs:
+    newFile: !uuid 'ffa1a2414f90f9160153bbde0295dea8579c529e'
+    oldFile: !uuid 'c32cde63734ca5ad0c1bb52656487e26d4783527'
+  /OpenAuth.Repository/Domain/FlowSchemeDetail.cs:
+    newFile: null
+    oldFile: !uuid '8da7b6c7ecad9b49bb326b07a0f7bbe47a09675b'
+  /OpenAuth.Repository/Mapping:
+    newFile: !uuid 'd53ffd0e18f9b5db8bbaab6d6252ba9fdc0fce9a'
+    oldFile: !uuid 'e054d799afb69ef8b80de5b92bd0bdbdf9c0ed2f'
+  /OpenAuth.Repository/Mapping/FlowInstanceSchemeMap.cs:
+    newFile: !uuid '994abac945d809e988d08128da2a682f04ca3746'
+    oldFile: !uuid '919cb0fc3aa382adb66d9620f67ac6ca800f0dbe'
+  /OpenAuth.Repository/Mapping/FlowSchemeDetailMap.cs:
+    newFile: null
+    oldFile: !uuid '74ca750b1ac419fe1a786d7d8c21bddea5916777'
+  /OpenAuth.Repository/Mapping/FlowSchemeMap.cs:
+    newFile: !uuid '9b897802209a0cf3bf4af80148b906b268d1d168'
+    oldFile: !uuid 'f60490a3914d2353c7c6d69e18a0427111d23a97'
+  /OpenAuth.Repository/OpenAuth.Repository.csproj:
+    newFile: !uuid '1547d5e8584337fbe869b2ab88ae48a864dcbfb9'
+    oldFile: !uuid '60fa57414bccc57a721d237e7ee226088224a89f'
+  /OpenAuth.Repository/OpenAuthDBContext.cs:
+    newFile: !uuid '9092896a89c6f9291b17892fcc4987e3f548ab4d'
+    oldFile: !uuid '4051966cfe3177722fb6ce7bf88b800814f5fcc8'
+  /建表&初始化数据.sql:
+    newFile: !uuid '871ffb6bef7c7cc7a77bab70c8b9a0b33028bb42'
+    oldFile: !uuid 'c6cc8898cd2974e1cf32383d4c350f59d7b0b697'
+  /数据库设计关系图:
+    newFile: !uuid 'd842b152f57c7d7e49c5a25100dbb21cd2ef03f6'
+    oldFile: !uuid '98cab6b6ce7b1eed3e6e7f81e5650c263a89f6a9'
+  /数据库设计关系图/OpenAuthDB.apm:
+    newFile: !uuid 'fffcc53ee5c28a68e98dd69c19f5db566f4592ca'
+    oldFile: !uuid 'b82c50aa44d2492ab258d5e9d0626d0742e61bdc'
+  /数据库设计关系图/OpenAuthDB.pdm:
+    newFile: !uuid '16a8f4be970c9dd49ffc6219912c2fdcc941c2a2'
+    oldFile: !uuid '8a585697afd5a22275a54a408f5e33bf48eac41e'
+gitCommitId: !uuid 'e353c75fd79d42358a52c4daa660a20c38b38aa7'
 renames: {
   }
-revisionId: 387
+revisionId: 388
