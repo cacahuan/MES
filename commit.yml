@@ -3,174 +3,51 @@ branches: {
   }
 fileChange:
   /OpenAuth.Mvc:
-    newFile: !uuid 'ae644bcee327acec3f47094fc4882ff505170781'
-    oldFile: !uuid 'cb75b9ad59433389e8a3baa04fd197a35574b2ec'
+    newFile: !uuid 'a19710a70cea9e98583ae0cf4d9317983fb64a7b'
+    oldFile: !uuid 'ae644bcee327acec3f47094fc4882ff505170781'
+  /OpenAuth.Mvc/Controllers:
+    newFile: !uuid '88ea24a8aa886647877d4f1503a7f72127b22e0f'
+    oldFile: !uuid '948fb58841b9bb3c1048d371934d324bb28d95a4'
+  /OpenAuth.Mvc/Controllers/FlowInstancesController.cs:
+    newFile: !uuid '4dea0db6dfb6ecdbd15f6e6375706949754c1dc7'
+    oldFile: !uuid '5678c29fb794bb11fc026ea60a869a625d567e8f'
   /OpenAuth.Mvc/OpenAuth.Mvc.csproj:
-    newFile: !uuid '67f755e2dcbdd13c94369e2c065057cc074b5c71'
-    oldFile: !uuid 'd191cc15c78ae0d207e35ef02399b935bfcefdc9'
+    newFile: !uuid '47db008d903a6b22b0c6c7b538627640e5f0a107'
+    oldFile: !uuid '67f755e2dcbdd13c94369e2c065057cc074b5c71'
   /OpenAuth.Mvc/Views:
-    newFile: !uuid '10e99a413335c2f1c1e2517a6810e42a61577355'
-    oldFile: !uuid '0b020fdbea53aa321ad9b8c8fce290b36f30a1cd'
-  /OpenAuth.Mvc/Views/FlowSchemes:
-    newFile: !uuid 'd4f2e74912c2f1a6538c50bd91e3cd8ee8d7a0a3'
-    oldFile: !uuid '320ebb7ed52145a45bbfa57be81ffe2f1cb5a355'
-  /OpenAuth.Mvc/Views/FlowSchemes/Design.cshtml:
-    newFile: !uuid '3512385a2633f41e2aa5e7b1c6758088774482eb'
-    oldFile: !uuid 'b857221cbc8434ef73af10e8ef6f57e7c8fc8cc2'
+    newFile: !uuid 'b2eb58511a296230423912c4403530cf3dadd778'
+    oldFile: !uuid '10e99a413335c2f1c1e2517a6810e42a61577355'
+  /OpenAuth.Mvc/Views/FlowInstances:
+    newFile: !uuid '7ca3d6fc6cb1a2039141fe175bf7b6d90f46fef4'
+    oldFile: !uuid '6d538551ed513de7f4971c413c54879d17599c77'
+  /OpenAuth.Mvc/Views/FlowInstances/Edit.cshtml:
+    newFile: !uuid '0a17b49a50eb22e3ce0f5847bfadc24b57e0a2af'
+    oldFile: null
+  /OpenAuth.Mvc/Views/FlowInstances/Index.cshtml:
+    newFile: !uuid 'a97794576eb556e9f58ac03a17131d3469a1550f'
+    oldFile: !uuid '27f2c8c2ef1751d8bd7d80f745147fc1f03dc052'
   /OpenAuth.Mvc/js:
-    newFile: !uuid '116a5d81e5e85658ed3b8126fd854f387355807d'
-    oldFile: !uuid '6a7d0f19a0ca698ade8ff6ce877696a121da870d'
-  /OpenAuth.Mvc/js/flow:
-    newFile: !uuid 'b9e57d9545eb186cef6e697730977b5181c18baf'
-    oldFile: null
-  /OpenAuth.Mvc/js/flow-ui:
-    newFile: !uuid '950c9db8da7beb733f176a2366196db4310a7cd8'
-    oldFile: !uuid 'bc228efb14ec318dbc8040de3c8a9285254ba7b9'
-  /OpenAuth.Mvc/js/flow-ui/flow.css:
-    newFile: null
-    oldFile: !uuid 'ba8310151b684e6db502f00b98601b97455bf0f6'
-  /OpenAuth.Mvc/js/flow-ui/gooflow.js:
-    newFile: null
-    oldFile: !uuid 'd8944dc9a62aa873937554c09256bfccc28d48c6'
-  /OpenAuth.Mvc/js/flow-ui/img:
-    newFile: !uuid '065441b1e2f583dfd217bb0ed4a72fd077c24726'
-    oldFile: !uuid 'c57c51b9d0258b144d3285086408a0a4f445202e'
-  /OpenAuth.Mvc/js/flow-ui/img/1.png:
-    newFile: null
-    oldFile: !uuid '5dfd0b95310ea049d3aeb2456d19c6ed79e96d11'
-  /OpenAuth.Mvc/js/flow-ui/img/10.png:
-    newFile: null
-    oldFile: !uuid 'b6d6de78b839fc7dd6687cdbc980f49ad2c8fed3'
-  /OpenAuth.Mvc/js/flow-ui/img/11.png:
-    newFile: null
-    oldFile: !uuid 'dff3ef2b0d24f559cc6cfeca777f73df8d8cf402'
-  /OpenAuth.Mvc/js/flow-ui/img/2.png:
-    newFile: null
-    oldFile: !uuid '07c94382ea4b10da9d1c7557bfde86f1dc286197'
-  /OpenAuth.Mvc/js/flow-ui/img/3.png:
-    newFile: null
-    oldFile: !uuid 'a6061cbf28f818ae8f7643e49523e454b4868d5d'
-  /OpenAuth.Mvc/js/flow-ui/img/4.png:
-    newFile: null
-    oldFile: !uuid 'dbeffe45d45baf599300518cea803f96cc91179a'
-  /OpenAuth.Mvc/js/flow-ui/img/5.png:
-    newFile: null
-    oldFile: !uuid '1220990389b9afcc811e3047bcffd507901ef396'
-  /OpenAuth.Mvc/js/flow-ui/img/6.png:
-    newFile: null
-    oldFile: !uuid 'e1e26c631ae56e7a12724b10af32e98177f5779c'
-  /OpenAuth.Mvc/js/flow-ui/img/7.png:
-    newFile: null
-    oldFile: !uuid '3dfb1234dd89800d94fa8d75baa2ff13ee5e1477'
-  /OpenAuth.Mvc/js/flow-ui/img/9.png:
-    newFile: null
-    oldFile: !uuid 'bea676864c7c8fb41f7e65b1cedf09fdf94eecf7'
-  /OpenAuth.Mvc/js/flow-ui/img/GooFlow_line_oper.png:
-    newFile: null
-    oldFile: !uuid 'b0d013cb49a658686c7875df3df9f9ffccde3f20'
-  /OpenAuth.Mvc/js/flow-ui/img/gooflow_bg.png:
-    newFile: null
-    oldFile: !uuid 'fd2f44d437dd961def8cebe4545ecd937f1cd603'
-  /OpenAuth.Mvc/js/flow-ui/img/gooflow_blank.gif:
-    newFile: null
-    oldFile: !uuid 'd29c4d7050c410dbdfe243deee9be3b6ca9bdd4d'
-  /OpenAuth.Mvc/js/flow-ui/img/gooflow_blank2.gif:
-    newFile: null
-    oldFile: !uuid '432177d03b2f8faf4515ef9d9ecba7a3fd658a02'
-  /OpenAuth.Mvc/js/flow-ui/img/gooflow_blank3.gif:
-    newFile: null
-    oldFile: !uuid '94b25f9532bc36e69b0f3c84b750c958e2c3195c'
-  /OpenAuth.Mvc/js/flow-ui/img/gooflow_btn_bg.png:
-    newFile: null
-    oldFile: !uuid 'c976eb875e17efc018dff7c336592c81aa4b09a6'
-  /OpenAuth.Mvc/js/flow-ui/img/gooflow_bullet.png:
-    newFile: null
-    oldFile: !uuid 'b84caa5fe49a4612244ff59b66c16541ffb93a2a'
-  /OpenAuth.Mvc/js/flow-ui/img/gooflow_icon.png:
-    newFile: null
-    oldFile: !uuid '3c9742d12d8631fa600f3ef7f8ad14399553ead9'
-  /OpenAuth.Mvc/js/flow-ui/img/gooflow_icon2.png:
-    newFile: null
-    oldFile: !uuid '173fe010b51f21e59237d0870784824ba3f930c6'
-  /OpenAuth.Mvc/js/flow-ui/img/gooflow_tip.png:
-    newFile: null
-    oldFile: !uuid '4d62fc3c28028d06883f762eba1d6323e2a89746'
-  /OpenAuth.Mvc/js/flow-ui/img/ui_close.png:
-    newFile: null
-    oldFile: !uuid '06589596872aa2cf87978770a0b0dfe3734f31ab'
-  /OpenAuth.Mvc/js/flow/GooFlow.css:
-    newFile: !uuid '0c96bc8c80a05e77fadccf1b9e0a534ac4af81f5'
-    oldFile: null
-  /OpenAuth.Mvc/js/flow/GooFlow.export.js:
-    newFile: !uuid '52c77218f9cb42dd0c28341569e32e59ad3cbbca'
-    oldFile: null
-  /OpenAuth.Mvc/js/flow/GooFlow.js:
-    newFile: !uuid 'dd24ad124c3e891176b9d30e384872f6d6ce5627'
-    oldFile: null
-  /OpenAuth.Mvc/js/flow/GooFlow.print.js:
-    newFile: !uuid '4404b460602d7e0c7de331c1e4c603e94ec592c7'
-    oldFile: null
-  /OpenAuth.Mvc/js/flow/GooFunc.js:
-    newFile: !uuid '10c854d94e136d363224b8b84cd64a580a6d4a7f'
-    oldFile: null
-  /OpenAuth.Mvc/js/flow/config.js:
-    newFile: !uuid '510636de14412456f3bd64270cd4b5ce6b674481'
-    oldFile: null
-  /OpenAuth.Mvc/js/flow/fonts:
-    newFile: !uuid '3c4330db113c980b54af617cae5daa27edf1b9c2'
-    oldFile: null
-  /OpenAuth.Mvc/js/flow/fonts/demo.css:
-    newFile: !uuid '2dea58c3c26b33a8a4f36597f7ee767148db8b76'
-    oldFile: null
-  /OpenAuth.Mvc/js/flow/fonts/demo_fontclass.html:
-    newFile: !uuid 'dd0413b8d4a563db725551bbe4b71838660a6a5b'
-    oldFile: null
-  /OpenAuth.Mvc/js/flow/fonts/demo_symbol.html:
-    newFile: !uuid 'f690c7cf883acc0f8f4259e931a8e22db4310390'
-    oldFile: null
-  /OpenAuth.Mvc/js/flow/fonts/demo_unicode.html:
-    newFile: !uuid '4fa24dc769f99253097e0205a112ee5ae833f3d4'
-    oldFile: null
-  /OpenAuth.Mvc/js/flow/fonts/iconflow.eot:
-    newFile: !uuid '2b15303e05809e4c410d585a427a948d0936fd12'
-    oldFile: null
-  /OpenAuth.Mvc/js/flow/fonts/iconflow.svg:
-    newFile: !uuid '1a073a1676d652ffa5bbbcd752920c6aa8d3536e'
-    oldFile: null
-  /OpenAuth.Mvc/js/flow/fonts/iconflow.ttf:
-    newFile: !uuid '79d3600a2bca37477d935c737257374bd6994040'
-    oldFile: null
-  /OpenAuth.Mvc/js/flow/fonts/iconflow.woff:
-    newFile: !uuid '551416418d9976f29e789f9c93f0188c5c0078a9'
-    oldFile: null
-  /OpenAuth.Mvc/js/flow/fonts/iconfont.css:
-    newFile: !uuid '62b801c293d8c263186f3f688b5881c249effb7c'
-    oldFile: null
-  /OpenAuth.Mvc/js/flow/fonts/iconfont.js:
-    newFile: !uuid '51ffabfabef759f14c950dbb7f08a287e6505282'
-    oldFile: null
-  /OpenAuth.Mvc/js/flow/img:
-    newFile: !uuid '26900082e94f4fca9aeba90853cdb8427abc01fa'
-    oldFile: null
-  /OpenAuth.Mvc/js/flow/img/gooflow_icon.png:
-    newFile: !uuid '3c9742d12d8631fa600f3ef7f8ad14399553ead9'
-    oldFile: null
+    newFile: !uuid '699239f9d73327f84d83c1bd675243545e4b7ff1'
+    oldFile: !uuid '116a5d81e5e85658ed3b8126fd854f387355807d'
   /OpenAuth.Mvc/js/utils:
-    newFile: !uuid '3a8782c34672041cdbd5cc51eb5a5c867bd14437'
-    oldFile: !uuid '90cce12f7d9cdbbed0ec5c6a0068095b2b4da5f8'
+    newFile: !uuid '69e4cbb010bd329b783c8aaeb4c05d086403bec3'
+    oldFile: !uuid '3a8782c34672041cdbd5cc51eb5a5c867bd14437'
   /OpenAuth.Mvc/js/utils/flowlayout.js:
-    newFile: !uuid 'f8187e8b65eb68836bb5330a61e72722792a6159'
-    oldFile: !uuid 'aebaae71cef64c0b5c2c194609a32899e3d8716a'
+    newFile: !uuid 'f4afd8eb840fc63bce22246e1fa87c0ad65853a0'
+    oldFile: !uuid 'f8187e8b65eb68836bb5330a61e72722792a6159'
   /OpenAuth.Mvc/userJs:
-    newFile: !uuid '6433432071805b24db2e7c930e0e2a91c43a6488'
-    oldFile: !uuid 'feae4f21125bcc9a6ccbeee5f7adbcfe29d22afe'
-  /OpenAuth.Mvc/userJs/flowSchemeDesign.js:
-    newFile: !uuid '0d56a05a0f803578d9fc4b811a535a6ee8b7718d'
-    oldFile: !uuid 'ed59f0e5e63c837201fda7dee635f5f675b039a9'
-  /OpenAuth.Mvc/userJs/nodeInfo.js:
-    newFile: !uuid '34ced571889e377eeb871847ced494dbb68bccdc'
-    oldFile: !uuid '7fa7e69ea38b2f3bec1dc821f72fa02296848f25'
-gitCommitId: !uuid '25387d12f14be6fc8888e091ebe489c1c84bdceb'
-renames:
-  /OpenAuth.Mvc/js/flow/img/gooflow_icon.png: /OpenAuth.Mvc/js/flow-ui/img/gooflow_icon.png
-revisionId: 395
+    newFile: !uuid '85ed57596094ffe13afbcbfdfa134c59d0f7afe3'
+    oldFile: !uuid '6433432071805b24db2e7c930e0e2a91c43a6488'
+  /OpenAuth.Mvc/userJs/flowInstanceEdit.js:
+    newFile: !uuid '80ad20567125a5b72fa15c381552e04f212c6037'
+    oldFile: null
+  /OpenAuth.Mvc/userJs/flowInstances.js:
+    newFile: !uuid 'c718bbe520cac0e937cbd50e0cdd394c7ca31d6b'
+    oldFile: !uuid '2740eaf77dcb3bcca8531cedd5b30c23261f1599'
+  /OpenAuth.Mvc/userJs/flowSchemes.js:
+    newFile: !uuid 'f68cd08af7f31fc3da9307e2337318ed495e1b7a'
+    oldFile: !uuid '2282d0151469f72576fe4190e0ea7f3f8ac21cc2'
+gitCommitId: !uuid '37789838fa9a3c7f6998597b7a8c1ca13f11fdc1'
+renames: {
+  }
+revisionId: 396
