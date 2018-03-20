@@ -3,51 +3,59 @@ branches: {
   }
 fileChange:
   /OpenAuth.App:
-    newFile: !uuid 'b72e63b0a69807ba734ef1a1f3d01e64ea2fed1d'
-    oldFile: !uuid 'f9a274dda4fb52519c63a0015416df4e6f8b9c28'
+    newFile: !uuid 'f5a1b9c8bdf90e65844969a8745319e091beeb0e'
+    oldFile: !uuid 'b72e63b0a69807ba734ef1a1f3d01e64ea2fed1d'
   /OpenAuth.App/Extention:
-    newFile: !uuid '12c9d5b0dafcf2e1aa948c2fe3d5ad1391b41cd1'
-    oldFile: !uuid '778183ce576d110c1970b9b0203c1e8f40ff3299'
-  /OpenAuth.App/Extention/IWF_Runtime.cs:
     newFile: null
-    oldFile: !uuid '00bbd40ca256cb839709987e5c20700e98f0b564'
+    oldFile: !uuid '12c9d5b0dafcf2e1aa948c2fe3d5ad1391b41cd1'
   /OpenAuth.App/Extention/WF_Runtime.cs:
-    newFile: !uuid '8c1f7297cfb0b4bac81aed78a5b796237076ac6d'
-    oldFile: !uuid '395e12471b563809f4a3d89793e904867ea2506e'
+    newFile: null
+    oldFile: !uuid '8c1f7297cfb0b4bac81aed78a5b796237076ac6d'
+  /OpenAuth.App/Extention/WF_RuntimeInitModel.cs:
+    newFile: null
+    oldFile: !uuid '9f6696c89c0ddf4dc71938666d5d730bde4985f5'
+  /OpenAuth.App/Extention/WF_RuntimeModel.cs:
+    newFile: null
+    oldFile: !uuid '09673e19cc461b915febac7366565ecf3340ba30'
+  /OpenAuth.App/Flow:
+    newFile: !uuid 'ced72e9498ae4d9a5ad077e56999b7afb88423d1'
+    oldFile: null
+  /OpenAuth.App/Flow/FlowLine.cs:
+    newFile: !uuid 'd404caae39504e4c08445cf8e4fb2306346398f0'
+    oldFile: null
+  /OpenAuth.App/Flow/FlowNode.cs:
+    newFile: !uuid '13be1a7ddb406e93fd3a6a0864f4a914097f09da'
+    oldFile: null
+  /OpenAuth.App/Flow/FlowRuntime.cs:
+    newFile: !uuid 'f5958c67ad035d6c7241a438c9f9c9548973d5e0'
+    oldFile: null
+  /OpenAuth.App/Flow/FlowRuntimeInitModel.cs:
+    newFile: !uuid '89f6791602055702a348f492070eb09bdb6e736b'
+    oldFile: null
+  /OpenAuth.App/Flow/FlowRuntimeModel.cs:
+    newFile: !uuid 'd6062ad4cff20cd8423d3f3281d7458429b8c896'
+    oldFile: null
   /OpenAuth.App/FlowInstanceApp.cs:
-    newFile: !uuid '3f6c6c6ad7a3bb3d83e5b1d5a4369023bd53f37f'
-    oldFile: !uuid 'a75c74a3e09aa1b5c4c3a0ce16832eb4d44a4f4a'
-  /OpenAuth.App/FormUtil.cs:
-    newFile: !uuid '7862e8216b47c9f2a89d7fc97b699e49c12c7b67'
-    oldFile: !uuid 'cf353700d39fc8db0eb558f4fb8311984aedbce7'
+    newFile: !uuid '2439fcc1efeb1f41879c49cc18a9395a2d96dfad'
+    oldFile: !uuid '3f6c6c6ad7a3bb3d83e5b1d5a4369023bd53f37f'
   /OpenAuth.App/OpenAuth.App.csproj:
-    newFile: !uuid '8f024db5bdd98d2e808a073a95d92e53defbec45'
-    oldFile: !uuid 'a2fbb65b76451437cfc0afb5245c676ef58d2463'
+    newFile: !uuid '38db1ecbbcbbb6ecb084a70fc7b279ccb17f4e18'
+    oldFile: !uuid '8f024db5bdd98d2e808a073a95d92e53defbec45'
   /OpenAuth.Mvc:
-    newFile: !uuid '951495cb92ed80115262021ce76d0ddfc03b6992'
-    oldFile: !uuid 'a19710a70cea9e98583ae0cf4d9317983fb64a7b'
-  /OpenAuth.Mvc/js:
-    newFile: !uuid '32f9dc68fbd5e146a72d83ee32f7ed2ce3b2d423'
-    oldFile: !uuid '699239f9d73327f84d83c1bd675243545e4b7ff1'
-  /OpenAuth.Mvc/js/flow:
-    newFile: !uuid 'b61ce3b24e3055658d1fad5ee81d4c7b354b6168'
-    oldFile: !uuid 'b9e57d9545eb186cef6e697730977b5181c18baf'
-  /OpenAuth.Mvc/js/flow/GooFlow.js:
-    newFile: !uuid 'e6e077a516f1eedc3809424206ca4aba99ba68eb'
-    oldFile: !uuid 'dd24ad124c3e891176b9d30e384872f6d6ce5627'
+    newFile: !uuid '2bb04acca3319c7ff94aacbc0df67f013bd942dd'
+    oldFile: !uuid '951495cb92ed80115262021ce76d0ddfc03b6992'
   /OpenAuth.Mvc/userJs:
-    newFile: !uuid '3515b05bc90cbd4ad30778a1c654b3d49eb1e5c6'
-    oldFile: !uuid '85ed57596094ffe13afbcbfdfa134c59d0f7afe3'
+    newFile: !uuid '1cc84c49145932f913329254e2e73fb597f335ae'
+    oldFile: !uuid '3515b05bc90cbd4ad30778a1c654b3d49eb1e5c6'
   /OpenAuth.Mvc/userJs/flowInstanceEdit.js:
-    newFile: !uuid '6910966a832b65a92b0fb1d185bd8777f6506cc6'
-    oldFile: !uuid '80ad20567125a5b72fa15c381552e04f212c6037'
+    newFile: !uuid '5e5f156766ffc1c546669570d2f2c515f613c262'
+    oldFile: !uuid '6910966a832b65a92b0fb1d185bd8777f6506cc6'
   /OpenAuth.Mvc/userJs/flowSchemeDesign.js:
-    newFile: !uuid 'e312bc02e42b1a6649d4ccc73dc81ce538c42aa7'
-    oldFile: !uuid '0d56a05a0f803578d9fc4b811a535a6ee8b7718d'
-  /OpenAuth.Mvc/userJs/flowSchemes.js:
-    newFile: !uuid '945879f3f9086af22ca9a0b682212836713ee44d'
-    oldFile: !uuid 'f68cd08af7f31fc3da9307e2337318ed495e1b7a'
-gitCommitId: !uuid '1a880c0daf638c0ee37874cb7d5bf3323ef7fe9c'
-renames: {
-  }
-revisionId: 397
+    newFile: !uuid '40363100795165819954fa3c6ec364ddf48922b0'
+    oldFile: !uuid 'e312bc02e42b1a6649d4ccc73dc81ce538c42aa7'
+gitCommitId: !uuid '33f02fdeec063a788846b284658913361a16239b'
+renames:
+  /OpenAuth.App/Flow/FlowRuntime.cs: /OpenAuth.App/Extention/WF_Runtime.cs
+  /OpenAuth.App/Flow/FlowRuntimeInitModel.cs: /OpenAuth.App/Extention/WF_RuntimeInitModel.cs
+  /OpenAuth.App/Flow/FlowRuntimeModel.cs: /OpenAuth.App/Extention/WF_RuntimeModel.cs
+revisionId: 398
