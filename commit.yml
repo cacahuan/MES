@@ -2,28 +2,10 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.App:
-    newFile: !uuid '5e6ca682f3d900f9a00c0455a33bd9633a045fe2'
-    oldFile: !uuid '485e96e9f55182e96d5a645ff9dbf9c4dadfbb96'
-  /OpenAuth.App/Flow:
-    newFile: !uuid 'd2db10fa52452e9146f311196ec32843fc6b78cd'
-    oldFile: !uuid '90d2a534fcdb6374e5bf7773d97bca529e2e2177'
-  /OpenAuth.App/Flow/FlowRuntime.cs:
-    newFile: !uuid '158ff364178190d2f6832b9cd9bfea5d1c058d79'
-    oldFile: !uuid '9ad9221464640709a1f71ecd361f6dfa7efd346d'
-  /OpenAuth.Mvc:
-    newFile: !uuid '99a84d9895d1bfecd0b4f673b9de05d2bb732986'
-    oldFile: !uuid '1a4bd354e63056c256614963e8f6ea00403f8257'
-  /OpenAuth.Mvc/userJs:
-    newFile: !uuid '3db583295398f94c627d030622e7b1270a826346'
-    oldFile: !uuid '790d9e22b8647482889bffb98e55b6ac0a6aeff5'
-  /OpenAuth.Mvc/userJs/nodeInfo.js:
-    newFile: !uuid 'f559dffe29da1aedcbdb2572464cd31bfe446bdd'
-    oldFile: !uuid '77bc204a6def133fac92e0a7b5906e570257986f'
-  /建表&初始化数据.sql:
-    newFile: !uuid '7b711c59f33439d76cdbef5e06434e4feeede8fb'
-    oldFile: !uuid '3152de953130430eaa32d29b7dba56b12b746314'
-gitCommitId: !uuid 'd6a018a8b7fa6d905d898dd56f266f930c4f733f'
+  /LICENSE:
+    newFile: !uuid '712acfe8bb67052aa3472a48367a31f497a5cb2a'
+    oldFile: null
+gitCommitId: !uuid '32ac34bbca61f3a483954950a3396c8728fa39b9'
 renames: {
   }
-revisionId: 418
+revisionId: 419
