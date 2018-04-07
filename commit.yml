@@ -2,142 +2,19 @@
 branches: {
   }
 fileChange:
-  /DOC:
-    newFile: !uuid '03d3afe6f561c986e5bb0a270a11e01e4998953c'
-    oldFile: !uuid 'b224b42ee130eb6d7a52bfa79e94b0cba281fcbb'
-  /DOC/核心设计.EAP:
-    newFile: !uuid '21b6be349667af148864c5d85a4cd9cbc18177c8'
-    oldFile: !uuid '0e50a4aa4a25ae97694dc17a0333dddaacf9141f'
   /OpenAuth.App:
-    newFile: !uuid 'e6cbe145c4024b34b71cc7dd1b4e71f1c7fa3716'
-    oldFile: !uuid '8cec52939b93d1d611c9df3bfb1d8ce89d9e005b'
-  /OpenAuth.App/AuthoriseService.cs:
-    newFile: !uuid '64918228bae94b545592d13ab4eb01fd94f044fe'
-    oldFile: !uuid '0fdb1bc4146e4da4affdba4561bcc88870cfe220'
+    newFile: !uuid '3ee62fe7234e56e2df73145240b2d5f8cd11bd85'
+    oldFile: !uuid 'e6cbe145c4024b34b71cc7dd1b4e71f1c7fa3716'
   /OpenAuth.App/Flow:
-    newFile: !uuid 'c811ccd5d7c11ff3220698563857ef94994bc067'
-    oldFile: !uuid '99dabb953f48f08c07f90510c06217db2501ddd0'
+    newFile: !uuid '7156c468dfa92770edce2a3539f8d64a8e4026e7'
+    oldFile: !uuid 'c811ccd5d7c11ff3220698563857ef94994bc067'
   /OpenAuth.App/Flow/FlowRuntime.cs:
-    newFile: !uuid '3e1c4d70eba01167143c182257a9ca945bc1a3ee'
-    oldFile: !uuid '158ff364178190d2f6832b9cd9bfea5d1c058d79'
+    newFile: !uuid '754ccc0fdbcb155ab41b8f9ae363eb9b2980a4f2'
+    oldFile: !uuid '3e1c4d70eba01167143c182257a9ca945bc1a3ee'
   /OpenAuth.App/FlowInstanceApp.cs:
-    newFile: !uuid 'e1e0be5542b2103e88f66128a9469498539a78db'
-    oldFile: !uuid '44fcf8cf25061804a110c3ee54bb4f1f3fc6e54e'
-  /OpenAuth.App/SSO:
-    newFile: !uuid '790b55720d2b39c8bbd173d88f608d8800909129'
-    oldFile: !uuid '9709c03f4463950a06028ebfa21b2f41b9d56b3d'
-  /OpenAuth.App/SSO/AuthUtil.cs:
-    newFile: !uuid '82657dd8cdd61e57ce7715f5cb6f09c968c0d9c7'
-    oldFile: !uuid 'da8c9fe090c20c695fbbfefcd63bba568e866991'
-  /OpenAuth.App/SSO/PassportLoginRequest.cs:
-    newFile: !uuid 'bda834478bbaa60230ccfd78ea702b7d65520c3a'
-    oldFile: !uuid '4f2e0e7c58c26743a4d17b5822f94f3a7f4f2b6a'
-  /OpenAuth.App/SSO/SSOAuthUtil.cs:
-    newFile: !uuid '2e18cc07a75090df509adbfb6839e77aecb6322a'
-    oldFile: !uuid '749a602aec4931cc488fe56fc7dbf972ebb8be7b'
-  /OpenAuth.App/SSO/UserAuthSession.cs:
-    newFile: !uuid '0b96e482e03d93bdf4c4d29e2ad1523b28ef3357'
-    oldFile: !uuid '914e176bca8379d9c9541630d6059de093d6aaf5'
-  /OpenAuth.App/SystemAuthService.cs:
-    newFile: !uuid '3a712ee4fe20e3594ae4b396786264c3ae6b2411'
-    oldFile: !uuid 'cc2bb38102aa30e86945b05aa86163e2b3954b04'
-  /OpenAuth.Mvc:
-    newFile: !uuid '6ca6e972c607dc477aad01438b3ac1162016aca1'
-    oldFile: !uuid '6ede8d36998abafd6056f01591fbde6ad5273c82'
-  /OpenAuth.Mvc/Controllers:
-    newFile: !uuid '7ae6113f69c0a7c1bb1ed5f89827edeb27b4da04'
-    oldFile: !uuid '7d863222ce9333877a4153aeb100ecdd060511fe'
-  /OpenAuth.Mvc/Controllers/LoginController.cs:
-    newFile: !uuid 'b7ea33247095db261ed135b4e9122af171d3de01'
-    oldFile: !uuid 'ae281c5b447bf12f0e1eea0156adfa44fe87669f'
-  /OpenAuth.Mvc/OpenAuth.Mvc.csproj:
-    newFile: !uuid '4084efb7e87db6c26f88d592136d3d3ef7c43a6d'
-    oldFile: !uuid '138712d3808a32c17e3a647074fd269b9b0d3706'
-  /OpenAuth.Mvc/Views:
-    newFile: !uuid '2fe7bfb6c269727a8bb8883d310741b7dc3a4cbc'
-    oldFile: !uuid '209fc714a5d73c6fc0931bf831e5fb867e977694'
-  /OpenAuth.Mvc/Views/FlowInstances:
-    newFile: !uuid 'cc4c2100c7330ea2a824569b1b74820307a87fe0'
-    oldFile: !uuid '7afae459e1fd61700577f36a227010d132378b97'
-  /OpenAuth.Mvc/Views/FlowInstances/Verification.cshtml:
-    newFile: !uuid '19781de7e644fca4b7b3447b46a5eb0d2a74d611'
-    oldFile: !uuid '90f51a74c90fbb8edbe75b917b43ab616f611833'
-  /OpenAuth.Mvc/Views/Login:
-    newFile: !uuid '10a90db49fdb347fffb0b4a16c8e3f382a2f8bf7'
-    oldFile: !uuid 'c457d3e7f9801aa235402799ea04c98be8c3c7a4'
-  /OpenAuth.Mvc/Views/Login/Index.cshtml:
-    newFile: !uuid 'fc2779d54d88d236c19a24e48b72a4a551de2a07'
-    oldFile: !uuid '410baf4b39d9432b85da904fad4afa1ffa415d80'
-  /OpenAuth.Mvc/userJs:
-    newFile: !uuid 'afb4140fffac86b4e4544fec1cc5007b9ea608a7'
-    oldFile: !uuid '913477a2c146b307597f96f6e274a5e200f95a45'
-  /OpenAuth.Mvc/userJs/flowInstanceDisposed.js:
-    newFile: !uuid '8d09abb6a007b939d3f30b0469bad2809e8a37df'
-    oldFile: !uuid 'dfd8b319d08e542962f6ca3ff30b826f7c4114d7'
-  /OpenAuth.Mvc/userJs/flowInstanceOp.js:
-    newFile: null
-    oldFile: !uuid '038536f292dba3f0f8be45abee78fa4a7053b600'
-  /OpenAuth.Mvc/userJs/flowInstanceWait.js:
-    newFile: !uuid '22c69e86f52bb231a244ddd250de0b5a2a2dfc35'
-    oldFile: !uuid 'c20e926d1ae4ebad6c4a1a1c97295978c21ec3c7'
-  /OpenAuth.Mvc/userJs/flowInstances.js:
-    newFile: !uuid '8f8ac68aebd8f31e184707610aafd7e07f90dcc8'
-    oldFile: !uuid '5fdaaf9ba353337ac11ffbe9f5e385296bcb6d65'
-  /OpenAuth.Mvc/userJs/flowSchemeDesign.js:
-    newFile: !uuid '2650432b567d8cf217056c00981133f627ef52fc'
-    oldFile: !uuid '0dcfaf648e264855552ce42708f287b46b53c8b4'
-  /OpenAuth.Mvc/userJs/formEdit.js:
-    newFile: !uuid 'e312c562813222e5b0edde5540ce6e4d851d0528'
-    oldFile: !uuid '8ca9b62686a844626b49a3f8cae1a18c40d4968d'
-  /OpenAuth.Mvc/userJs/login.js:
-    newFile: !uuid '1ad1d58ae2614d87f4ce45155ea49edfdaacbd8d'
-    oldFile: !uuid '77c510241403c548fe75a5d1a97b69a302992aaa'
-  /OpenAuth.Mvc/userJs/verification.js:
-    newFile: !uuid '2cf85cb7a100093be99255f002c4901a5296f316'
-    oldFile: null
-  /OpenAuth.UnitTest:
-    newFile: !uuid '8444deae6da9881b4cd352821a243fbfa8ded98b'
-    oldFile: !uuid 'f7787f2f906b3d004ac86991586d2ed38df89c5e'
-  /OpenAuth.UnitTest/App.config:
-    newFile: !uuid '240f35e8be73dc99ab8faa9798767462d0e30c02'
-    oldFile: !uuid 'bd9959661c8ab0cae33c30ab10119be2cffc506d'
-  /OpenAuth.UnitTest/TestAuthen.cs:
-    newFile: !uuid 'a22b9a52bc69773c2977eddfe913286b372b59c6'
-    oldFile: !uuid 'd7e7c845d0366e4c011fd3ac649fe54e3d0b997c'
-  /OpenAuth.UnitTest/TestWorkflow.cs:
-    newFile: !uuid '6eaa3d186ac77feb8953402bf4171fdfc6010f10'
-    oldFile: !uuid '145b0e7c53fe5162c6dcd1021f8a4102560190af'
-  /OpenAuth.WebApi:
-    newFile: !uuid '2870a88d1a1508e161f64aecf8734363adbde4ab'
-    oldFile: !uuid '99d1b0d9c59b518e1096ce333bc8fd91fab039bb'
-  /OpenAuth.WebApi/Areas:
-    newFile: !uuid 'c5d1d7842c40d8694b45662f9d85a84d64613b00'
-    oldFile: !uuid 'd172cfbb54e4ec6d3cd763306562935fc0d978ee'
-  /OpenAuth.WebApi/Areas/SSO:
-    newFile: !uuid 'b0bf7b1b3b269b20764604bd597345de8a455ff0'
-    oldFile: !uuid '753e7210bf9fd89a1053493219331cccf28799c9'
-  /OpenAuth.WebApi/Areas/SSO/Controllers:
-    newFile: !uuid 'feb2af64d6a3e50535141be05389b5e02cae809c'
-    oldFile: !uuid 'c43d672ccee017b46a71989a9b38ed203c6a77d7'
-  /OpenAuth.WebApi/Areas/SSO/Controllers/CheckController.cs:
-    newFile: !uuid 'e0d161f46a51b55d468d2fad4145620b2eeb5834'
-    oldFile: !uuid 'cebae63792947d53a2ec02c39495cbcc416491a2'
-  /OpenAuth.WebApi/Areas/SSO/Controllers/LoginController.cs:
-    newFile: !uuid '002bb8551e6c76e6accfaf98373f51620d52691e'
-    oldFile: !uuid '67feda0ebe06771eadf54dd713283098c5a8ad10'
-  /OpenAuth.WebApi/Areas/SSO/Views:
-    newFile: !uuid '5acfd26a007f85df5fbdecb2a6888fc64a3ecbcf'
-    oldFile: !uuid '1c8e9bf3f044c15237ce646ce989bfae911170a0'
-  /OpenAuth.WebApi/Areas/SSO/Views/Login:
-    newFile: !uuid '2608c117e101131ac22467bee1c0d887938b266d'
-    oldFile: !uuid '3f0486a8611444d0c3f7f8f98f914141a4174060'
-  /OpenAuth.WebApi/Areas/SSO/Views/Login/Index.cshtml:
-    newFile: !uuid 'c3cebf49ed8a5e4a2ec754baf0e9da35b7435f68'
-    oldFile: !uuid '049277656611bc794bbdfa519e6c6ee9bae8b9d3'
-  /建表&初始化数据.sql:
-    newFile: !uuid '1c37763758300c3e3863d9f72232a18d41ab9195'
-    oldFile: !uuid '6787346cb1853f5b6b372c20d0cfb7cf8e129989'
-gitCommitId: !uuid 'e5f911079f4917bf60c34f58adc53b6d6ae725e6'
-renames:
-  /OpenAuth.Mvc/userJs/verification.js: /OpenAuth.Mvc/userJs/flowInstanceOp.js
-revisionId: 426
+    newFile: !uuid 'aae01a8d43947915dd7a46c76f049310128b5a62'
+    oldFile: !uuid 'e1e0be5542b2103e88f66128a9469498539a78db'
+gitCommitId: !uuid 'fc5893722cd8fb6b479eff4ab042eac65a3a12b6'
+renames: {
+  }
+revisionId: 427
