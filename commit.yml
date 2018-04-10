@@ -2,43 +2,22 @@
 branches: {
   }
 fileChange:
+  /OpenAuth.App:
+    newFile: !uuid '8bc8b542b8d57d71e7ca2635b300da6e811e8272'
+    oldFile: !uuid 'cd437234c393d9087ee65e0d407bb942588dcc9b'
+  /OpenAuth.App/FlowInstanceApp.cs:
+    newFile: !uuid '97e960ded79004ca9bbf95f8d97c165153bcc614'
+    oldFile: !uuid '94c58203d6dd55043358c86ee92afe9d5b16c28c'
   /OpenAuth.Mvc:
-    newFile: !uuid '7df93fc55bffcc199738f2990ed314e1e81d7e4c'
-    oldFile: !uuid '53ba41e5662ed90845d9825b8764b2474669e36a'
-  /OpenAuth.Mvc/Controllers:
-    newFile: !uuid 'c9ebe6a29c123e7cd6f3525a6237316e264f3d4f'
-    oldFile: !uuid '4c922b4621ee91347c1dd3619fbf09899f51593a'
-  /OpenAuth.Mvc/Controllers/RoleManagerController.cs:
-    newFile: !uuid 'c2a78625121b47bb17277ceadc8f03a7ba09a895'
-    oldFile: !uuid 'b4bf45db01018805cbb89ef76e2ec7b48a122c92'
-  /OpenAuth.Mvc/Views:
-    newFile: !uuid '22c3aae92c0ef01fcbba45ead9db10134b92602b'
-    oldFile: !uuid '135139ff5df459063fbbf5bd282f881fa0352f49'
-  /OpenAuth.Mvc/Views/ModuleManager:
-    newFile: !uuid '76fcb4410741e6c145422eddadaa615461a94dbe'
-    oldFile: !uuid '5b0c5aa9cd37d0651f3dd1b53e8acd7af55b71a9'
-  /OpenAuth.Mvc/Views/ModuleManager/Assign.cshtml:
-    newFile: !uuid 'c00ce292a4442bfe76a30d1633919f6cc2e82192'
-    oldFile: !uuid '406afc5a4780a09846b85e61bbad789ad5c781b8'
-  /OpenAuth.Mvc/Views/RoleManager:
-    newFile: !uuid '2c0ced46cde6236340c9a8c383cac26bc30c5573'
-    oldFile: !uuid '67a775caaa2a928a66ee734cbfd9650fc84a61a8'
-  /OpenAuth.Mvc/Views/RoleManager/Assign.cshtml:
-    newFile: !uuid '1f50e5109e9b184d8874b1eb93ecf90390cd77f2'
-    oldFile: null
+    newFile: !uuid 'd3096a513254068017a405d3291a3b7024fb4319'
+    oldFile: !uuid '7df93fc55bffcc199738f2990ed314e1e81d7e4c'
   /OpenAuth.Mvc/userJs:
-    newFile: !uuid '97167230c51a8121f1e00a7d07a28ce825460ac8'
-    oldFile: !uuid 'a9dcb336798010b0d3082883a8887328121ba545'
-  /OpenAuth.Mvc/userJs/assignModule.js:
-    newFile: !uuid '603932ec1b9b4243dd183ec87f07b5135c601837'
-    oldFile: !uuid '4947308e56b2d7cc3be14810f908702524894cad'
-  /OpenAuth.Mvc/userJs/assignRole.js:
-    newFile: !uuid '75fc47c49f683a0c2152e58f9fd23c9fb5a499a4'
-    oldFile: !uuid '3f27ed7e8a5fcee85791e8b90d0349bc9bc625f3'
-  /OpenAuth.Mvc/userJs/users.js:
-    newFile: !uuid '5900a3ae365a16d7f70bd6098e252f31fc034882'
-    oldFile: !uuid '3502bee644225c95b9b88ced5dbf91fee26028d1'
-gitCommitId: !uuid 'b7e1dca8e2381017d82c21b24a60911607478395'
+    newFile: !uuid '901fbc4acaf2e66e612aaf9e7a647848bae2d057'
+    oldFile: !uuid '97167230c51a8121f1e00a7d07a28ce825460ac8'
+  /OpenAuth.Mvc/userJs/roles.js:
+    newFile: !uuid 'c2fe7247961366270bb1bb9e5c5d1248bfda6c60'
+    oldFile: !uuid '1a33d3e80b7f968df63d50a7784e4c2d34a53fb3'
+gitCommitId: !uuid '4b88345c126cb568604a0d219dba1bf659e4ea15'
 renames: {
   }
-revisionId: 433
+revisionId: 434
