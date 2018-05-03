@@ -3,39 +3,18 @@ branches: {
   }
 fileChange:
   /OpenAuth.Mvc:
-    newFile: !uuid '18e96de0905aab84d504a2dc156378b2d24d6877'
-    oldFile: !uuid 'e9550325eb7a52d48f0f6223d74db4d07ee1ea38'
-  /OpenAuth.Mvc/Controllers:
-    newFile: !uuid 'ba89bee13e6d53dc1e0006cf606c4e83ea1240c2'
-    oldFile: !uuid '40d6f7c4141b6705879551d6542647b29b6a38f2'
-  /OpenAuth.Mvc/Controllers/FlowSchemesController.cs:
-    newFile: !uuid '4a4b109cfa47b9f2a5043284fcd440506207fe2e'
-    oldFile: !uuid 'cc25d9fe752859a8d2b1e2fa194c028cab84219a'
-  /OpenAuth.Mvc/OpenAuth.Mvc.csproj:
-    newFile: !uuid '4af1bfb2c5f19827f3d3e578ef40cf98c1f48fa1'
-    oldFile: !uuid 'e0d984806a28b0c6501c6fd0c0ddd0bafbcda138'
-  /OpenAuth.Mvc/Views:
-    newFile: !uuid 'a5ebdb8a27977ca229ecaa3df238e8365b573347'
-    oldFile: !uuid '551e1e2fa3a55693c8a1abf230e5bf2224d3f656'
-  /OpenAuth.Mvc/Views/FlowSchemes:
-    newFile: !uuid '2b98646950f3a5cbf82badcf9838f8af7974c101'
-    oldFile: !uuid 'c2cab2d276df2ec23af3c2df386f921ce30b9794'
-  /OpenAuth.Mvc/Views/FlowSchemes/Preview.cshtml:
-    newFile: !uuid '1feb7716665076638410d1416750a75e805035e9'
+    newFile: !uuid 'c2c61915e7e82f70a6ca084ee4a45e653aef48d3'
+    oldFile: !uuid '18e96de0905aab84d504a2dc156378b2d24d6877'
+  /OpenAuth.Mvc/images:
+    newFile: !uuid 'f5b4fd61384ed0d5d61a3a445f7f28aba1a1ed53'
+    oldFile: !uuid 'f5c0181cbde3caf7de72f205573953e9845a633d'
+  /OpenAuth.Mvc/images/1.png:
+    newFile: !uuid '7241a04b2a8e0600f008b18d0c2839cea5350c72'
     oldFile: null
-  /OpenAuth.Mvc/userJs:
-    newFile: !uuid '07d933921ce712dec402a61b3fc5859b85319bda'
-    oldFile: !uuid 'd14e266f95b6f39ea672bf061f98cad7c519f928'
-  /OpenAuth.Mvc/userJs/flowSchemePreview.js:
-    newFile: !uuid '6e02313d5ea6a8dc9f1502502561f4071bc0f64d'
+  /OpenAuth.Mvc/images/logo.png:
+    newFile: !uuid '7241a04b2a8e0600f008b18d0c2839cea5350c72'
     oldFile: null
-  /OpenAuth.Mvc/userJs/flowSchemes.js:
-    newFile: !uuid 'c46b8b43d27356bf1e955d708ace9c4781c2455a'
-    oldFile: !uuid 'b0359a850fb92223b6ff26a8d017c890111fb68e'
-  /OpenAuth.Mvc/userJs/verification.js:
-    newFile: !uuid '13f3c17ab627f4ae11f6aea4d8e4a4e5e992ea59'
-    oldFile: !uuid '069a5912b4852837510a55e44796f58f39acabc3'
-gitCommitId: !uuid '5a89eb22307ec604a8a858c57e8357f062b66f64'
+gitCommitId: !uuid '91c9bea3ce12f33bc9add3f60ac35122000ca8b7'
 renames: {
   }
-revisionId: 441
+revisionId: 442
