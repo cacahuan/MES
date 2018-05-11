@@ -2,16 +2,13 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.UnitTest:
-    newFile: !uuid 'b4ff722d1a0c38bbcce0567fa05f890ffeeaf138'
-    oldFile: !uuid '9ba6987346f37a7bc1746cfcafd0033ac4f5f9e8'
-  /OpenAuth.UnitTest/App.config:
-    newFile: !uuid '6ff4cd4bcd3141b689840cbac7c7774f1f348e05'
-    oldFile: !uuid '9aed1b8eeeb9a3a0b18dbd8b2cc9f180b2f121b6'
-  /OpenAuth.UnitTest/packages.config:
-    newFile: !uuid '29d028bbdafd3988b781b10ca4336cf7ac87c9fd'
-    oldFile: !uuid 'c5951dc348e28c49107412b95278b0a8dbdebc21'
-gitCommitId: !uuid '09f388df92a423cb3e44622ceab7421d355bf708'
+  /docs:
+    newFile: !uuid '29a422c19251aeaeb907175e9b3219a9bed6c616'
+    oldFile: null
+  /docs/.keep:
+    newFile: !uuid 'e69de29bb2d1d6434b8b29ae775ad8c2e48c5391'
+    oldFile: null
+gitCommitId: !uuid '32737cdba43384552aab93b1b0ddfbf5dfe86f0c'
 renames: {
   }
-revisionId: 447
+revisionId: 448
