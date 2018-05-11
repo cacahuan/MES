@@ -3,12 +3,18 @@ branches: {
   }
 fileChange:
   /docs:
-    newFile: !uuid 'a26da86cf1ecfd1fbdf97455a1876439dedd4826'
-    oldFile: !uuid '29a422c19251aeaeb907175e9b3219a9bed6c616'
-  /docs/部署.md:
-    newFile: !uuid 'e69de29bb2d1d6434b8b29ae775ad8c2e48c5391'
+    newFile: !uuid '81616dbcc9b5495ec1a5b7342ad22a3a8be5f42a'
+    oldFile: !uuid 'a26da86cf1ecfd1fbdf97455a1876439dedd4826'
+  /docs/.keep:
+    newFile: null
+    oldFile: !uuid 'e69de29bb2d1d6434b8b29ae775ad8c2e48c5391'
+  /docs/_sidebar.md:
+    newFile: !uuid '14f9fdb72a6f5c2cd300570b77f21a4885717bd0'
     oldFile: null
-gitCommitId: !uuid '39c7cc42a9d573660d262ab0839a287d61759e76'
+  /docs/readme.md:
+    newFile: !uuid 'f4f4a3ad4156e86b71692cef65d75b61e8f85fbd'
+    oldFile: null
+gitCommitId: !uuid 'd6643b7df605fbd21de56210627b6568548ef494'
 renames: {
   }
-revisionId: 455
+revisionId: 456
