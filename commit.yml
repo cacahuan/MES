@@ -2,10 +2,43 @@
 branches: {
   }
 fileChange:
-  /README.md:
-    newFile: !uuid '018a6f74f0190552743b47b15e11d073d1f3cbb0'
-    oldFile: !uuid 'd033304e00dfe8839817a400f0583857712517e1'
-gitCommitId: !uuid '8a4a9f6c2fab232d8007f4bd7cb7211d14824908'
+  /OpenAuth.App:
+    newFile: !uuid 'b3527082ba0050047b2d2c0c872cdd5a063cdcfd'
+    oldFile: !uuid '0a6f056d413e5c01d491fb3bfbda907b20a3a515'
+  /OpenAuth.App/OrgManagerApp.cs:
+    newFile: !uuid '7b5562af42343e3ca8eacef34806e554ad08365c'
+    oldFile: !uuid '337cb08247883323fd427d1e408fb34073764c44'
+  /OpenAuth.Mvc:
+    newFile: !uuid 'cf12caeee634f073041a49000b294211ace28215'
+    oldFile: !uuid '18c4dfcf9a483706a06d79a1aa51c9fbf9fcb408'
+  /OpenAuth.Mvc/Controllers:
+    newFile: !uuid 'ffea61d5e658d04afc04fb624d69ac87a17d6e99'
+    oldFile: !uuid 'ba89bee13e6d53dc1e0006cf606c4e83ea1240c2'
+  /OpenAuth.Mvc/Controllers/OrgManagerController.cs:
+    newFile: !uuid 'cd69f213122403e60e93c4c26dfcc258ecb4db42'
+    oldFile: !uuid '14066c4f31ef9167950f57e1b2cbacb69f628e3d'
+  /OpenAuth.Mvc/Controllers/UserSessionController.cs:
+    newFile: !uuid 'c0b71eee05a9972c865a98463b8dd3bf01dee1ea'
+    oldFile: !uuid '1c1a2e72d4b52f08456fff612487b386206cede5'
+  /OpenAuth.Repository:
+    newFile: !uuid '4bc6f3aa1c838ebc6b2438ed51611ff55dadc533'
+    oldFile: !uuid '6695bd1572fdad7fda9200db9eac530e9a5504e2'
+  /OpenAuth.Repository/BaseRepository.cs:
+    newFile: !uuid 'ba2ee5368b3bae580dba7bf203745f3d1a7f5151'
+    oldFile: !uuid 'e65a493d84b6fe072bc7a5c216f2d2eb0fa430b5'
+  /OpenAuth.Repository/OpenAuthDBContext.cs:
+    newFile: !uuid 'b8966a6122c9b40008d2f4e9f654017e31dd6e49'
+    oldFile: !uuid 'ea89dacaaa807d053c8aa88120501bc7515c2abf'
+  /OpenAuth.Repository/UnitWork.cs:
+    newFile: !uuid '581841df7ef9460a07608975e5633a4e2bf7938d'
+    oldFile: !uuid '1c48bef6c0f452f61a14eebafbd8e80e378a5cbf'
+  /OpenAuth.UnitTest:
+    newFile: !uuid 'ca2a58aec865441b7ef59ebe4609af1686d9a6eb'
+    oldFile: !uuid 'b4ff722d1a0c38bbcce0567fa05f890ffeeaf138'
+  /OpenAuth.UnitTest/TestOrg.cs:
+    newFile: !uuid 'd9ac8cf8f2342f5289a74430325a6f75182afb21'
+    oldFile: !uuid 'e1f6e7f0172ef778a40a9f9a94be7bd5756a936b'
+gitCommitId: !uuid '9faedc12601859ce5f1e422e8fe5d7e454a84796'
 renames: {
   }
-revisionId: 459
+revisionId: 460
