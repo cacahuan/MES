@@ -11,10 +11,7 @@ fileChange:
   /OpenAuth.App/UserManagerApp.cs:
     newFile: !uuid 'f7f14a9b136430129c97bd6546a73ff346e27fe4'
     oldFile: !uuid 'cd78a658fdbd4127044d82416a988f488bae32d4'
-  /README.md:
-    newFile: !uuid '4f26dd00ca1386e40df66c7f3e7a5362859dfa71'
-    oldFile: !uuid '018a6f74f0190552743b47b15e11d073d1f3cbb0'
-gitCommitId: !uuid '4151a0013eec76b6eb80fc2f66ebc78aecd14979'
+gitCommitId: !uuid '3594df9a519899abd3bb0dd7e645db35e0caa5b3'
 renames: {
   }
-revisionId: 465
+revisionId: 466
