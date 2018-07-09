@@ -2,16 +2,16 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.Mvc:
-    newFile: !uuid '311817f7bb4f134515d413cbd294ea274f594421'
-    oldFile: !uuid '5677aa3ade828c8ceb937492ad6f3991d9d985a9'
-  /OpenAuth.Mvc/userJs:
-    newFile: !uuid 'ddc950674a6f989eb24d199010d137bb4d5ff0c9'
-    oldFile: !uuid '07d933921ce712dec402a61b3fc5859b85319bda'
-  /OpenAuth.Mvc/userJs/login.js:
-    newFile: !uuid 'dbec7977d30a8e44dfe31b8df46045020d6380df'
-    oldFile: !uuid '1ad1d58ae2614d87f4ce45155ea49edfdaacbd8d'
-gitCommitId: !uuid '841c9b4ad7f6dbcfa9cf3f8b464b827af7d768b7'
+  /DOC:
+    newFile: null
+    oldFile: !uuid 'a34392e4c9447a26ab9bdded013b81d0a2a23926'
+  /DOC/工作流介绍.docx:
+    newFile: null
+    oldFile: !uuid '4bdf34612821ac7640039385f77bba6853c02695'
+  /DOC/核心设计.EAP:
+    newFile: null
+    oldFile: !uuid '9e58ca97dc7ce4ad2ae7e9e39a44348e80e399b8'
+gitCommitId: !uuid 'fffaabd08fc5dfc4b41aa68724e814b493fe7109'
 renames: {
   }
-revisionId: 470
+revisionId: 471
