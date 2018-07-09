@@ -2,19 +2,16 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.App:
-    newFile: !uuid '83b1b9193d35e09b3048b4fe5ec6da6458146657'
-    oldFile: !uuid 'b3527082ba0050047b2d2c0c872cdd5a063cdcfd'
-  /OpenAuth.App/RoleApp.cs:
-    newFile: !uuid '2a1a321d7d7edf4b3128e8e07645345d3154debf'
-    oldFile: !uuid '7c472202dcbd0d1dbaaa01ad62c65b355d09b882'
-  /OpenAuth.App/UserManagerApp.cs:
-    newFile: !uuid 'f7f14a9b136430129c97bd6546a73ff346e27fe4'
-    oldFile: !uuid 'cd78a658fdbd4127044d82416a988f488bae32d4'
-  /README.md:
-    newFile: !uuid '4f26dd00ca1386e40df66c7f3e7a5362859dfa71'
-    oldFile: !uuid '018a6f74f0190552743b47b15e11d073d1f3cbb0'
-gitCommitId: !uuid '4151a0013eec76b6eb80fc2f66ebc78aecd14979'
+  /DOC:
+    newFile: null
+    oldFile: !uuid 'a34392e4c9447a26ab9bdded013b81d0a2a23926'
+  /DOC/工作流介绍.docx:
+    newFile: null
+    oldFile: !uuid '4bdf34612821ac7640039385f77bba6853c02695'
+  /DOC/核心设计.EAP:
+    newFile: null
+    oldFile: !uuid '9e58ca97dc7ce4ad2ae7e9e39a44348e80e399b8'
+gitCommitId: !uuid 'fffaabd08fc5dfc4b41aa68724e814b493fe7109'
 renames: {
   }
-revisionId: 458
+revisionId: 459
