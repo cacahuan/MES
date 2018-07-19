@@ -2,13 +2,19 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.App:
-    newFile: !uuid 'b7b0028fbf24ebb77a95430e9461b4ffbe83ad31'
-    oldFile: !uuid '83b1b9193d35e09b3048b4fe5ec6da6458146657'
-  /OpenAuth.App/RoleApp.cs:
-    newFile: !uuid 'e58ada0f2a86f9a593ac7eef90b751f26c562842'
-    oldFile: !uuid '2a1a321d7d7edf4b3128e8e07645345d3154debf'
-gitCommitId: !uuid 'ae3df85876c15ef44e59771392f01d4e1305b65e'
+  /OpenAuth.Mvc:
+    newFile: !uuid '3f78b8698b370a0900d71f9f37b7526ae7dfbf01'
+    oldFile: !uuid '311817f7bb4f134515d413cbd294ea274f594421'
+  /OpenAuth.Mvc/js:
+    newFile: !uuid '72dba60028436838ec63d7c2ba375d6098fc776f'
+    oldFile: !uuid '097e6afa1237ad24de6e55f25c1ada6225d91d59'
+  /OpenAuth.Mvc/js/flow:
+    newFile: !uuid '1c6e5d79cca2a7c2624e237840968508de2607ee'
+    oldFile: !uuid 'bf53e76ea2a805c30ea68ea1be93c361a9743750'
+  /OpenAuth.Mvc/js/flow/GooFlow.js:
+    newFile: !uuid 'd5427f9bcf1fe52894f9ce98dcf110a75e5f8aa0'
+    oldFile: !uuid '3544b1f1252c1945112adad8df2cab3c0dd49c53'
+gitCommitId: !uuid 'c2dbd310df69b2da892689dcdcb65ea0abe6f5a5'
 renames: {
   }
-revisionId: 460
+revisionId: 461
