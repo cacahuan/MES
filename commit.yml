@@ -2,19 +2,10 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.Mvc:
-    newFile: !uuid '3f78b8698b370a0900d71f9f37b7526ae7dfbf01'
-    oldFile: !uuid '311817f7bb4f134515d413cbd294ea274f594421'
-  /OpenAuth.Mvc/js:
-    newFile: !uuid '72dba60028436838ec63d7c2ba375d6098fc776f'
-    oldFile: !uuid '097e6afa1237ad24de6e55f25c1ada6225d91d59'
-  /OpenAuth.Mvc/js/flow:
-    newFile: !uuid '1c6e5d79cca2a7c2624e237840968508de2607ee'
-    oldFile: !uuid 'bf53e76ea2a805c30ea68ea1be93c361a9743750'
-  /OpenAuth.Mvc/js/flow/GooFlow.js:
-    newFile: !uuid 'd5427f9bcf1fe52894f9ce98dcf110a75e5f8aa0'
-    oldFile: !uuid '3544b1f1252c1945112adad8df2cab3c0dd49c53'
-gitCommitId: !uuid 'c2dbd310df69b2da892689dcdcb65ea0abe6f5a5'
+  /README.md:
+    newFile: !uuid 'a5baf9a4b3d903ff736a85324ef146540f4a3062'
+    oldFile: !uuid '4f26dd00ca1386e40df66c7f3e7a5362859dfa71'
+gitCommitId: !uuid '17874cd765005283c96c47b22d69bc9e27270656'
 renames: {
   }
-revisionId: 473
+revisionId: 474
