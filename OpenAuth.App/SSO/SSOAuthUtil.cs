@@ -1,9 +1,8 @@
-using System;
+ï»¿using System;
 using System.Web;
 using System.Web.Mvc;
-using Infrastructure;
-using OpenAuth.Domain;
-
+using Infrastructure.Cache;
+using OpenAuth.Repository.Domain;
 
 
 namespace OpenAuth.App.SSO
@@ -12,66 +11,64 @@ namespace OpenAuth.App.SSO
     {
         public static  LoginResult Parse(PassportLoginRequest model)
         {
-            model.Trim();
-
             var result = new LoginResult();
-
             try
             {
-                //»ñÈ¡Ó¦ÓÃĞÅÏ¢
+                model.Trim();
+                //è·å–åº”ç”¨ä¿¡æ¯
                 var appInfo = new AppInfoService().Get(model.AppKey);
                 if (appInfo == null)
                 {
-                    throw  new Exception("Ó¦ÓÃ²»´æÔÚ");
+                    throw  new Exception("åº”ç”¨ä¸å­˜åœ¨");
                 }
-                //»ñÈ¡ÓÃ»§ĞÅÏ¢
+                //è·å–ç”¨æˆ·ä¿¡æ¯
                 User userInfo = null;
-                if (model.UserName == "System")
+                if (model.Account == "System")
                 {
                     userInfo = new User
                     {
-                        Id = Guid.Empty,
+                        Id = Guid.Empty.ToString(),  //TODO:å¯ä»¥æ ¹æ®éœ€è¦è°ƒæ•´
                         Account = "System",
-                        Name ="³¬¼¶¹ÜÀíÔ±",
+                        Name ="è¶…çº§ç®¡ç†å‘˜",
                         Password = "123456"
                     };
                 }
                 else
                 {
                     var usermanager = (UserManagerApp)DependencyResolver.Current.GetService(typeof(UserManagerApp));
-                    userInfo = usermanager.Get(model.UserName);
+                    userInfo = usermanager.Get(model.Account);
                 }
                
                 if (userInfo == null)
                 {
-                    throw new Exception("ÓÃ»§²»´æÔÚ");
+                    throw new Exception("ç”¨æˆ·ä¸å­˜åœ¨");
                 }
                 if (userInfo.Password != model.Password)
                 {
-                    throw new Exception("ÃÜÂë´íÎó");
+                    throw new Exception("å¯†ç é”™è¯¯");
                 }
 
                 var currentSession = new UserAuthSession
                 {
-                    UserName = model.UserName,
+                    Account = model.Account,
+                    Name = userInfo.Name,
                     Token = Guid.NewGuid().ToString().GetHashCode().ToString("x"),
-                    InvalidTime = DateTime.Now.AddDays(1),
                     AppKey = model.AppKey,
                     CreateTime = DateTime.Now,
                     IpAddress = HttpContext.Current.Request.UserHostAddress
                 };
 
-                //´´½¨Session
-                new UserAuthSessionService().Create(currentSession);
+                //åˆ›å»ºSession
+                new ObjCacheProvider<UserAuthSession>().Create(currentSession.Token, currentSession, DateTime.Now.AddDays(10));
 
-                result.Success = true;
+                result.Code = 200;
                 result.ReturnUrl = appInfo.ReturnUrl;
                 result.Token = currentSession.Token;
             }
             catch (Exception ex)
             {
-                result.Success = false;
-                result.ErrorMsg = ex.Message;
+                result.Code = 500;
+                result.Message = ex.Message;
             }
 
             return result;

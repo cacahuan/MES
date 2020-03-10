@@ -5,10 +5,8 @@ using System.Data.Entity.Validation;
 using System.Linq;
 using System.Linq.Expressions;
 using EntityFramework.Extensions;
-using OpenAuth.Domain.Interface;
 using Infrastructure;
-using OpenAuth.Domain;
-using OpenAuth.Repository.Models;
+using OpenAuth.Repository.Interface;
 
 namespace OpenAuth.Repository
 {
@@ -64,7 +62,10 @@ namespace OpenAuth.Repository
 
         public void Add<T>(T entity) where T : Domain.Entity
         {
-            entity.Id = Guid.NewGuid();
+            if (string.IsNullOrEmpty(entity.Id))
+            {
+                entity.Id = Guid.NewGuid().ToString();
+            }
             Context.Set<T>().Add(entity);
         }
 
@@ -76,7 +77,7 @@ namespace OpenAuth.Repository
         {
             foreach (var entity in entities)
             {
-                entity.Id = Guid.NewGuid();
+                entity.Id = Guid.NewGuid().ToString();
             }
             Context.Set<T>().AddRange(entities);
         }
@@ -84,8 +85,13 @@ namespace OpenAuth.Repository
         public void Update<T>(T entity) where T:class
         {
             var entry = this.Context.Entry(entity);
-            //todo:如果状态没有任何更改，会报错
             entry.State = EntityState.Modified;
+
+            //如果数据没有发生变化
+            if (!this.Context.ChangeTracker.HasChanges())
+            {
+                entry.State = EntityState.Unchanged;
+            }
 
         }
 
@@ -135,10 +141,15 @@ namespace OpenAuth.Repository
 
         private IQueryable<T> Filter<T>(Expression<Func<T, bool>> exp) where T : class
         {
-            var dbSet = Context.Set<T>().AsQueryable();
+            var dbSet = Context.Set<T>().AsNoTracking().AsQueryable();
             if (exp != null)
                 dbSet = dbSet.Where(exp);
             return dbSet;
+        }
+
+       public void ExecuteSql(string sql)
+       {
+            Context.Database.ExecuteSqlCommand(sql);
         }
 
     }

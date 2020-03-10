@@ -3,6 +3,7 @@ using System.Configuration;
 using System.Web.Mvc;
 using Infrastructure;
 using OpenAuth.App.SSO;
+using System.Web;
 
 namespace OpenAuth.Mvc.Controllers
 {
@@ -20,49 +21,61 @@ namespace OpenAuth.Mvc.Controllers
         [HttpPost]
         public string Index(string username, string password)
         {
-            var resp = new Response();
+            var resp = new LoginResult();
             try
             {
                 var result = AuthUtil.Login(_appKey, username, password);
-                resp.Status = result.Success;
-                if (result.Success)
+                if (result.Code == 200)
                 {
-                    resp.Result = "/home/index?Token=" + result.Token;
+
+                    var cookie = new HttpCookie("Token", result.Token)
+                    {
+                        Expires = DateTime.Now.AddDays(10)
+                    };
+                    Response.Cookies.Add(cookie);
+                    resp.Result = "/home/index";
                 }
                 else
                 {
-                    resp.Message = "登陆失败";
+                    resp.Message = "登录失败";
                 }
             }
             catch (Exception e)
             {
-                resp.Status = false;
+                resp.Code = 500;
                 resp.Message = e.Message;
             }
             return JsonHelper.Instance.Serialize(resp);
         }
 
-        /// <summary>
-        /// 开发者登陆
-        /// </summary>
-        public ActionResult LoginByDev()
+        public string Login(string username, string password)
         {
+            var resp = new Response();
             try
             {
-                var result = AuthUtil.Login(_appKey, "System","123456");
-                if (result.Success)
-                    return Redirect("/home/index?Token=" + result.Token);
+                var result = AuthUtil.Login(_appKey, username, password);
+                if (result.Code == 200)
+                {
+                    var cookie = new HttpCookie("Token", result.Token)
+                    {
+                        Expires = DateTime.Now.AddDays(10)
+                    };
+                    Response.Cookies.Add(cookie);
+                }
                 else
                 {
-                    return RedirectToAction("Index", "Login");
-
+                    resp.Code = 500;
+                    resp.Message = result.Message;
                 }
 
             }
             catch (Exception e)
             {
-                return RedirectToAction("Index", "Login");
+                resp.Code = 500;
+                resp.Message = e.Message;
             }
+
+            return JsonHelper.Instance.Serialize(resp);
         }
 
         public ActionResult Logout()

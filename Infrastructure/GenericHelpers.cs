@@ -29,7 +29,12 @@ namespace Infrastructure
             Func<T, K> parentIdSelector,
             K rootId = default(K))
         {
-            foreach (var c in collection.Where(c => parentIdSelector(c).Equals(rootId)))
+            foreach (var c in collection.Where(u =>
+            {
+                var selector = parentIdSelector(u);
+                return (rootId == null && selector == null)  
+                || (rootId != null &&rootId.Equals(selector));
+            }))
             {
                 yield return new TreeItem<T>
                 {
@@ -37,6 +42,34 @@ namespace Infrastructure
                     Children = collection.GenerateTree(idSelector, parentIdSelector, idSelector(c))
                 };
             }
+        }
+        /// <summary>
+        /// 把数组转为逗号连接的字符串
+        /// </summary>
+        /// <param name="data"></param>
+        /// <param name="Str"></param>
+        /// <returns></returns>
+        public static string ArrayToString(dynamic data, string Str)
+        {
+            string resStr = Str;
+            foreach (var item in data)
+            {
+                if (resStr != "")
+                {
+                    resStr += ",";
+                }
+
+                if (item is string)
+                {
+                    resStr += item;
+                }
+                else
+                {
+                    resStr += item.Value;
+
+                }
+            }
+            return resStr;
         }
     }
 }

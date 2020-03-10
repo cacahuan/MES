@@ -33,6 +33,18 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Autofac, Version=3.5.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autofac.3.5.2\lib\net40\Autofac.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Autofac.Integration.Mvc, Version=3.3.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autofac.Mvc5.3.3.4\lib\net45\Autofac.Integration.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Autofac.Integration.WebApi, Version=3.4.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autofac.WebApi2.3.4.0\lib\net45\Autofac.Integration.WebApi.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
       <Private>True</Private>
@@ -41,16 +53,25 @@
       <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="OptimaJet.Workflow.Core, Version=1.5.5.0, Culture=neutral, PublicKeyToken=3d29392dccd464d7, processorArchitecture=MSIL">
-      <HintPath>..\packages\WorkflowEngine.NET-Core.1.5.5.2\lib\net45\OptimaJet.Workflow.Core.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.3\lib\net45\System.Web.Http.WebHost.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
@@ -80,15 +101,39 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ApplyTransitionHistoryApp.cs" />
-    <Compile Include="CategoryManagerApp.cs" />
+    <Compile Include="AuthoriseService.cs" />
+    <Compile Include="AutofacExt.cs" />
+    <Compile Include="BaseApp.cs" />
     <Compile Include="AuthorizeApp.cs" />
-    <Compile Include="WorkflowInboxApp.cs" />
-    <Compile Include="ModuleElementManagerApp.cs" />
-    <Compile Include="ModuleManagerApp.cs" />
-    <Compile Include="ResourceManagerApp.cs" />
+    <Compile Include="Request\QueryAppListReq.cs" />
+    <Compile Include="AppManager.cs" />
+    <Compile Include="ResourceApp.cs" />
+    <Compile Include="CategoryApp.cs" />
+    <Compile Include="Define.cs" />
+    <Compile Include="Flow\FlowRuntime.cs" />
+    <Compile Include="Flow\FlowRuntimeModel.cs" />
+    <Compile Include="Flow\FlowLine.cs" />
+    <Compile Include="Flow\FlowNode.cs" />
+    <Compile Include="FormApp.cs" />
+    <Compile Include="Request\IdPageReq.cs" />
+    <Compile Include="Request\PageReq.cs" />
+    <Compile Include="Request\QueryResourcesReq.cs" />
+    <Compile Include="Request\QueryCategoriesReq.cs" />
+    <Compile Include="Request\QueryFlowInstanceListReq.cs" />
+    <Compile Include="Request\QueryFlowSchemeListReq.cs" />
+    <Compile Include="Request\QueryRoleListReq.cs" />
+    <Compile Include="Request\QueryFormListReq.cs" />
+    <Compile Include="Request\QueryUserListReq.cs" />
+    <Compile Include="Request\VerificationReq.cs" />
+    <Compile Include="Response\FlowVerificationResp.cs" />
+    <Compile Include="Response\FormResp.cs" />
+    <Compile Include="Response\TableData.cs" />
     <Compile Include="RevelanceManagerApp.cs" />
-    <Compile Include="RoleManagerApp.cs" />
+    <Compile Include="SystemAuthService.cs" />
+    <Compile Include="RoleApp.cs" />
+    <Compile Include="FlowInstanceApp.cs" />
+    <Compile Include="FlowSchemeApp.cs" />
+    <Compile Include="ModuleManagerApp.cs" />
     <Compile Include="SSO\AppInfo.cs" />
     <Compile Include="SSO\AppInfoService.cs" />
     <Compile Include="SSO\AuthUtil.cs" />
@@ -98,36 +143,31 @@
     <Compile Include="SSO\LoginResult.cs" />
     <Compile Include="SSO\SSOAuthAttribute.cs" />
     <Compile Include="SSO\UserAuthSession.cs" />
-    <Compile Include="SSO\UserAuthSessionService.cs" />
-    <Compile Include="CommonApplyApp.cs" />
-    <Compile Include="StockManagerApp.cs" />
     <Compile Include="UserManagerApp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="OrgManagerApp.cs" />
-    <Compile Include="ViewModel\CommandModel.cs" />
-    <Compile Include="ViewModel\CommonApplyVM.cs" />
-    <Compile Include="ViewModel\GridData.cs" />
-    <Compile Include="ViewModel\UserWithAccessedCtrls.cs" />
-    <Compile Include="ViewModel\ModuleElementVM.cs" />
-    <Compile Include="ViewModel\ModuleView.cs" />
-    <Compile Include="ViewModel\RoleVM.cs" />
-    <Compile Include="ViewModel\UserView.cs" />
-    <Compile Include="WorkflowSchemasManagerApp.cs" />
+    <Compile Include="Response\UserWithAccessedCtrls.cs" />
+    <Compile Include="Response\ModuleElementVM.cs" />
+    <Compile Include="Response\ModuleView.cs" />
+    <Compile Include="Response\RoleView.cs" />
+    <Compile Include="Response\UserView.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Infrastructure\Infrastructure.csproj">
       <Project>{5FEAEC9A-4F1E-4EE7-B377-9DB1B0870DAC}</Project>
       <Name>Infrastructure</Name>
     </ProjectReference>
-    <ProjectReference Include="..\OpenAuth.Domain\OpenAuth.Domain.csproj">
-      <Project>{6108da8e-92a1-4abe-b9f5-26d64d55ca2c}</Project>
-      <Name>OpenAuth.Domain</Name>
+    <ProjectReference Include="..\OpenAuth.Repository\OpenAuth.Repository.csproj">
+      <Project>{e8df8dea-e2cf-4bdb-8f4f-3f8205b0e03a}</Project>
+      <Name>OpenAuth.Repository</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Compile Include="FormUtil.cs" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

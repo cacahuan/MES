@@ -1,19 +1,31 @@
-﻿@{
-    Layout = null;
+﻿@section header
+{
+    <link rel="stylesheet" href="/css/treetable.css" />
 }
-<link href="~/Content/layui/css/layui.css" rel="stylesheet"/>
-<link href="~/Content/mylayer.css" rel="stylesheet" />
-<script src="~/Content/layui/layui.js"></script>
-<script src="~/Content/plugins/jQuery/jQuery-2.1.4.min.js"></script>
 
-<script src="~/Content/layui/lay/modules/form.js"></script>
-<form class="layui-form " action="">
-    <input style="display: none" id="firstId" value="@ViewBag.FirstId"/>
-    <input style="display: none" id="moduleType" , value="@ViewBag.ModuleType"/>
-    @Html.Raw(ViewBag.Modules)
-</form>
+<div class="layui-row">
+    <div class="layui-col-xs3">
+        <ul id="tree" class="ztree"
+            style="padding: 2px; border: 1px solid #ddd; overflow: auto;"></ul>
+    </div>
+    <div class="layui-col-xs9">
+        <table class="layui-table"
+               lay-data="{height: 'full-5', page:true, id:'mainList'}"
+               lay-filter="list" lay-size="sm">
+            <thead>
+            <tr>
+                <th lay-data="{checkbox:true, fixed: true}"></th>
+                <th lay-data="{field:'Name', width:150}">菜单名称</th>
+                <th lay-data="{field:'DomId', width:150}">DomID</th>
+                <th lay-data="{templet:'#icontmpl', width:150}">按钮图标</th>
+            </tr>
+            </thead>
+        </table>
+        <script type="text/html" id="icontmpl">
+            <i class="layui-icon" style="font-size: 20px; color: #1E9FFF;">{{ d.Icon }}</i>
+        </script>
+    </div>
+</div>
 
-<script src="~/BllScripts/assignModule.js"></script>
-
-
-
+<script type="text/javascript" src="/layui/layui.js"></script>
+<script type="text/javascript" src="/userJs/assignModule.js"></script>

@@ -11,12 +11,7 @@ namespace OpenAuth.WebApi.Areas.SSO.Controllers
     /// </summary>
     public class LoginController : Controller
     {
-        private AppInfoService _appInfoService;
-
-        public LoginController()
-        {
-            _appInfoService = new AppInfoService();
-        }
+        public AppInfoService _appInfoService { get; set; }
 
         private const string AppInfo = "AppInfo";
 
@@ -28,7 +23,7 @@ namespace OpenAuth.WebApi.Areas.SSO.Controllers
             var viewModel = new PassportLoginRequest
             {
                 AppKey = appKey,
-                UserName = username,
+                Account = username,
             };
 
             return View(viewModel);
@@ -40,9 +35,9 @@ namespace OpenAuth.WebApi.Areas.SSO.Controllers
         {
             var result = SSOAuthUtil.Parse(model);
 
-            if (result.Success)
+            if (result.Code ==200)
             {
-                var redirectUrl = string.Format("{0}?token={1}&sessionusername={2}", result.ReturnUrl, result.Token, model.UserName);
+                var redirectUrl = string.Format("{0}?token={1}&sessionusername={2}", result.ReturnUrl, result.Token, model.Account);
 
                 //跳转默认回调页面
                 return Redirect(redirectUrl);
@@ -50,22 +45,6 @@ namespace OpenAuth.WebApi.Areas.SSO.Controllers
 
             TempData[AppInfo] = _appInfoService.Get(model.AppKey);
             return View(model);
-        }
-
-
-
-        [HttpPost]
-        public bool Logout(string token, string requestid)
-        {
-            try
-            {
-                new UserAuthSessionService().Remove(token);
-                return true;
-            }
-            catch (Exception)
-            {
-                return false;
-            }
         }
     }
 }

@@ -1,7 +1,8 @@
-﻿using System.Linq;
+using System.Linq;
 using Infrastructure;
-using OpenAuth.App.ViewModel;
-using OpenAuth.Domain.Service;
+using OpenAuth.App.Response;
+using OpenAuth.Repository.Domain;
+using OpenAuth.Repository.Interface;
 
 namespace OpenAuth.App
 {
@@ -11,33 +12,43 @@ namespace OpenAuth.App
     /// </summary>
     public class AuthorizeApp
     {
-        private readonly AuthoriseFactory _factory;
+        public SystemAuthService AuthService { get; set; }
+        public  AuthoriseService AuthoriseService { get; set; }
 
-        public AuthorizeApp(AuthoriseFactory service)
+        public IUnitWork _unitWork { get; set; }
+        public AuthoriseService Create(string loginuser)
         {
-            _factory = service;
+            if (loginuser == "System")
+            {
+                return AuthService;
+            }
+            else
+            {
+                AuthoriseService.User = _unitWork.FindSingle<User>(u => u.Account == loginuser);
+                return AuthoriseService;
+            }
         }
 
         public UserWithAccessedCtrls GetAccessedControls(string username)
         {
-            var service = _factory.Create(username);
+            var service = Create(username);
             var user = new UserWithAccessedCtrls
             {
                 User = service.User,
                 Orgs = service.Orgs,
-                Modules = service.Modules.MapToList<ModuleView>(),
+                Modules = service.Modules.OrderBy(u => u.SortNo).ToList().MapToList<ModuleView>(),
                 Resources = service.Resources,
                 Roles = service.Roles
             };
 
+            var ModuleElements=service.ModuleElements;
+
             foreach (var moduleView in user.Modules)
             {
                 moduleView.Elements =
-                    service.ModuleElements.Where(u => u.ModuleId == moduleView.Id).OrderBy(u => u.Sort).ToList();
+                    ModuleElements.Where(u => u.ModuleId == moduleView.Id).OrderBy(u => u.Sort).ToList();
             }
-
-           user.ModuleWithChildren = user.Modules.GenerateTree(c => c.Id, c => c.ParentId);
-
+            
             return user;
         }
     }

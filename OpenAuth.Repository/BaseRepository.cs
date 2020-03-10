@@ -5,10 +5,8 @@ using System.Data.Entity.Validation;
 using System.Linq;
 using System.Linq.Expressions;
 using EntityFramework.Extensions;
-using OpenAuth.Domain.Interface;
 using Infrastructure;
-using OpenAuth.Domain;
-using OpenAuth.Repository.Models;
+using OpenAuth.Repository.Interface;
 
 namespace OpenAuth.Repository
 {
@@ -32,7 +30,7 @@ namespace OpenAuth.Repository
         }
 
         /// <summary>
-        /// 查找单个
+        /// 查找单个，且不被上下文所跟踪
         /// </summary>
         public T FindSingle(Expression<Func<T, bool>> exp)
         {
@@ -64,7 +62,10 @@ namespace OpenAuth.Repository
 
         public void Add(T entity)
         {
-            entity.Id = Guid.NewGuid();
+            if (string.IsNullOrEmpty(entity.Id))
+            {
+                entity.Id = Guid.NewGuid().ToString();
+            }
             Context.Set<T>().Add(entity);
             Save();
         }
@@ -77,7 +78,7 @@ namespace OpenAuth.Repository
         {
             foreach (var entity in entities)
             {
-                entity.Id = Guid.NewGuid();
+                entity.Id = Guid.NewGuid().ToString();
             }
             Context.Set<T>().AddRange(entities);
             Save();
@@ -86,8 +87,13 @@ namespace OpenAuth.Repository
         public void Update(T entity)
         {
             var entry = this.Context.Entry(entity);
-            //todo:如果状态没有任何更改，会报错
             entry.State = EntityState.Modified;
+
+            //如果数据没有发生变化
+            if (!this.Context.ChangeTracker.HasChanges())
+            {
+                return;
+            }
 
             Save();
         }
@@ -139,11 +145,15 @@ namespace OpenAuth.Repository
 
         private IQueryable<T> Filter(Expression<Func<T, bool>> exp)
         {
-            var dbSet = Context.Set<T>().AsQueryable();
+            var dbSet = Context.Set<T>().AsNoTracking().AsQueryable();
             if (exp != null)
                 dbSet = dbSet.Where(exp);
             return dbSet;
         }
 
-    }
+       public int ExecuteSql(string sql)
+       {
+          return  Context.Database.ExecuteSqlCommand(sql);
+       }
+   }
 }

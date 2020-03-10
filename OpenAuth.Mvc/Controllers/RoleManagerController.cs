@@ -1,86 +1,111 @@
-﻿using Infrastructure;
-using OpenAuth.App;
-using System;
+﻿using System;
+using System.Collections.Generic;
 using System.Web.Http;
 using System.Web.Mvc;
-using Newtonsoft.Json.Linq;
+using Infrastructure;
+using OpenAuth.App;
+using OpenAuth.App.Request;
+using OpenAuth.App.Response;
 using OpenAuth.Mvc.Models;
 
 namespace OpenAuth.Mvc.Controllers
 {
     public class RoleManagerController : BaseController
     {
-        private RoleManagerApp _app;
-
-        public RoleManagerController()
-        {
-            _app = AutofacExt.GetFromFac<RoleManagerApp>();
-        }
+        public RoleApp App { get; set; }
+        public RevelanceManagerApp RevelanceManagerApp { get; set; }
 
         //
-        // GET: /RoleManager/
+        // GET: /UserManager/
         [Authenticate]
         public ActionResult Index()
         {
             return View();
         }
 
-        //添加或修改角色
+        public ActionResult Assign()
+        {
+            return View();
+        }
+
+        //添加或修改组织
         [System.Web.Mvc.HttpPost]
-        public string Add([FromBody]JObject obj)
+        public string Add(RoleView obj)
         {
             try
             {
-                _app.AddOrUpdate(obj);
+                App.Add(obj);
+
             }
             catch (Exception ex)
             {
-                 Result.Status = false;
+                Result.Code = 500;
+                Result.Message = ex.Message;
+            }
+            return JsonHelper.Instance.Serialize(Result);
+        }
+
+        //添加或修改组织
+        [System.Web.Mvc.HttpPost]
+        public string Update(RoleView obj)
+        {
+            try
+            {
+                App.Update(obj);
+
+            }
+            catch (Exception ex)
+            {
+                Result.Code = 500;
                 Result.Message = ex.Message;
             }
             return JsonHelper.Instance.Serialize(Result);
         }
 
         /// <summary>
-        /// 加载角色下面的所有用户
+        /// 加载用户的角色
         /// </summary>
-        public string Load(Guid orgId, int pageCurrent = 1, int pageSize = 30)
-        {
-            return JsonHelper.Instance.Serialize(_app.Load(orgId, pageCurrent, pageSize));
-        }
-
-        [System.Web.Mvc.HttpPost]
-        public string Delete(Guid[] ids)
+        public string LoadForUser(string userId)
         {
             try
             {
-                foreach (var obj in ids)
+                var result = new Response<List<string>>
                 {
-                    _app.Delete(obj);
-                }
+                    Result = RevelanceManagerApp.Get(Define.USERROLE, true, userId)
+                };
+                return JsonHelper.Instance.Serialize(result);
             }
             catch (Exception e)
             {
-                 Result.Status = false;
+                Result.Code = 500;
                 Result.Message = e.Message;
             }
 
             return JsonHelper.Instance.Serialize(Result);
         }
 
-        #region 为用户设置角色界面
-        public ActionResult LookupMulti(Guid firstId, string key)
+        /// <summary>
+        /// 加载组织下面的所有用户
+        /// </summary>
+        public string Load([FromUri]QueryRoleListReq request)
         {
-            ViewBag.FirstId = firstId;
-            ViewBag.ModuleType = key;
-            return View();
+            return JsonHelper.Instance.Serialize(App.Load(request));
         }
 
-        public string LoadForOrgAndUser(Guid orgId, Guid userId)
+        [System.Web.Mvc.HttpPost]
+        public string Delete(string[] ids)
         {
-            return JsonHelper.Instance.Serialize(_app.LoadForOrgAndUser(orgId, userId));
-        }
+            try
+            {
+                App.Delete(ids);
+            }
+            catch (Exception e)
+            {
+                Result.Code = 500;
+                Result.Message = e.Message;
+            }
 
-        #endregion 为用户设置角色界面
+            return JsonHelper.Instance.Serialize(Result);
+        }
     }
 }

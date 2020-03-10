@@ -1,21 +1,15 @@
 ﻿using Infrastructure;
 using OpenAuth.App;
-using OpenAuth.Domain;
 using OpenAuth.Mvc.Models;
 using System;
 using System.Web.Mvc;
-using OpenAuth.App.SSO;
+using OpenAuth.Repository.Domain;
 
 namespace OpenAuth.Mvc.Controllers
 {
     public class OrgManagerController : BaseController
     {
-        private OrgManagerApp _orgApp;
-
-        public OrgManagerController()
-        {
-            _orgApp = AutofacExt.GetFromFac<OrgManagerApp>();
-        }
+        public OrgManagerApp OrgApp { get; set; }
 
         //
         // GET: /OrgManager/
@@ -24,67 +18,66 @@ namespace OpenAuth.Mvc.Controllers
         {
             return View();
         }
-        public ActionResult Assign(Guid firstId, string key)
+       
+        public string LoadForUser(string firstId)
         {
-            ViewBag.FirstId = firstId;
-            ViewBag.ModuleType = key;
-            return View();
-        }
-
-        public string LoadOrg()
-        {
-            return JsonHelper.Instance.Serialize(AuthUtil.GetCurrentUser().Orgs);
-        }
-
-        public string LoadForUser(Guid firstId)
-        {
-            var orgs = _orgApp.LoadForUser(firstId);
+            var orgs = OrgApp.LoadForUser(firstId);
             return JsonHelper.Instance.Serialize(orgs);
         }
 
-        public string LoadForRole(Guid firstId)
+        public string LoadForRole(string firstId)
         {
-            var orgs = _orgApp.LoadForRole(firstId);
+            var orgs = OrgApp.LoadForRole(firstId);
             return JsonHelper.Instance.Serialize(orgs);
         }
 
 
         //添加组织提交
         [HttpPost]
-        public string AddOrg(Org org)
+        public string Add(Org org)
         {
             try
             {
-                _orgApp.AddOrUpdate(org);
+                OrgApp.Add(org);
             }
             catch (Exception ex)
             {
-                 Result.Status = false;
+                  Result.Code = 500;
                 Result.Message = ex.Message;
             }
             return JsonHelper.Instance.Serialize(Result);
         }
-        
-        public string LoadChildren(Guid id)
-        {
-            return JsonHelper.Instance.Serialize(_orgApp.LoadAllChildren(id));
-        }
 
-        /// <summary>
-        /// 删除指定ID的组织
-        /// <para>Id为逗号分开的字符串</para>
-        /// </summary>
-        /// <returns>System.String.</returns>
+        //编辑
         [HttpPost]
-        public string DelOrg(Guid[] ids)
+        public string Update(Org org)
         {
             try
             {
-                _orgApp.DelOrg(ids);
+                OrgApp.Update(org);
+            }
+            catch (Exception ex)
+            {
+                Result.Code = 500;
+                Result.Message = ex.Message;
+            }
+            return JsonHelper.Instance.Serialize(Result);
+        }
+
+       /// <summary>
+        /// 删除指定ID的组织
+        /// </summary>
+        /// <returns>System.String.</returns>
+        [HttpPost]
+        public string Delete(string[] ids)
+        {
+            try
+            {
+                OrgApp.DelOrg(ids);
             }
             catch (Exception e)
             {
-                 Result.Status = false;
+                  Result.Code = 500;
                 Result.Message = e.Message;
             }
 

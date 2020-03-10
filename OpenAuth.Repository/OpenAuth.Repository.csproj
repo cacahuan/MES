@@ -55,44 +55,52 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\Mapping\ApplyTransitionHistoryMap.cs" />
-    <Compile Include="Models\Mapping\CommonApplyMap.cs" />
-    <Compile Include="Workflow\Mapping\WorkflowSchemeMap.cs" />
+    <Compile Include="Core\TreeEntity.cs" />
+    <Compile Include="Domain\Application.cs" />
+    <Compile Include="Domain\Category.cs" />
+    <Compile Include="Domain\CategoryType.cs" />
+    <Compile Include="Core\Entity.cs" />
+    <Compile Include="Domain\FlowInstance.cs" />
+    <Compile Include="Domain\FlowInstanceOperationHistory.cs" />
+    <Compile Include="Domain\FlowInstanceTransitionHistory.cs" />
+    <Compile Include="Domain\FlowScheme.cs" />
+    <Compile Include="Domain\Form.cs" />
+    <Compile Include="Domain\Module.cs" />
+    <Compile Include="Domain\ModuleElement.cs" />
+    <Compile Include="Domain\Org.cs" />
+    <Compile Include="Domain\Relevance.cs" />
+    <Compile Include="Domain\Resource.cs" />
+    <Compile Include="Domain\Role.cs" />
+    <Compile Include="Domain\Stock.cs" />
+    <Compile Include="Domain\User.cs" />
+    <Compile Include="Domain\UserExt.cs" />
+    <Compile Include="Interface\IRepository.cs" />
+    <Compile Include="Interface\IUnitWork.cs" />
+    <Compile Include="Mapping\ApplicationMap.cs" />
+    <Compile Include="Mapping\CategoryTypeMap.cs" />
+    <Compile Include="Mapping\FlowInstanceMap.cs" />
+    <Compile Include="Mapping\FlowInstanceOperationHistoryMap.cs" />
+    <Compile Include="Mapping\FlowInstanceTransitionHistoryMap.cs" />
+    <Compile Include="Mapping\FlowSchemeMap.cs" />
+    <Compile Include="Mapping\FormMap.cs" />
     <Compile Include="UnitWork.cs" />
     <Compile Include="BaseRepository.cs" />
-    <Compile Include="Models\Mapping\CategoryMap.cs" />
-    <Compile Include="Models\Mapping\DicDetailMap.cs" />
-    <Compile Include="Models\Mapping\DicIndexMap.cs" />
-    <Compile Include="Models\Mapping\ModuleElementMap.cs" />
-    <Compile Include="Models\Mapping\ModuleMap.cs" />
-    <Compile Include="Models\Mapping\OrgMap.cs" />
-    <Compile Include="Models\Mapping\RelevanceMap.cs" />
-    <Compile Include="Models\Mapping\ResourceMap.cs" />
-    <Compile Include="Models\Mapping\RoleMap.cs" />
-    <Compile Include="Models\Mapping\StockMap.cs" />
-    <Compile Include="Models\Mapping\UserMap.cs" />
-    <Compile Include="Models\OpenAuthDBContext.cs" />
-    <Compile Include="OrgRepository.cs" />
+    <Compile Include="Mapping\CategoryMap.cs" />
+    <Compile Include="Mapping\ModuleElementMap.cs" />
+    <Compile Include="Mapping\ModuleMap.cs" />
+    <Compile Include="Mapping\OrgMap.cs" />
+    <Compile Include="Mapping\RelevanceMap.cs" />
+    <Compile Include="Mapping\ResourceMap.cs" />
+    <Compile Include="Mapping\RoleMap.cs" />
+    <Compile Include="Mapping\StockMap.cs" />
+    <Compile Include="Mapping\UserMap.cs" />
+    <Compile Include="OpenAuthDBContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ModuleRepository.cs" />
-    <Compile Include="ResourceRepository.cs" />
-    <Compile Include="RoleRepository.cs" />
-    <Compile Include="CategoryRepository.cs" />
-    <Compile Include="StockRepository.cs" />
-    <Compile Include="UserRepository.cs" />
-    <Compile Include="RelevanceRepository.cs" />
-    <Compile Include="Workflow\WorkflowSchemeRepository.cs" />
-    <Compile Include="Workflow\WorkflowBaseRepository.cs" />
-    <Compile Include="Workflow\WorkflowContext.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Infrastructure\Infrastructure.csproj">
       <Project>{5feaec9a-4f1e-4ee7-b377-9db1b0870dac}</Project>
       <Name>Infrastructure</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\OpenAuth.Domain\OpenAuth.Domain.csproj">
-      <Project>{6108da8e-92a1-4abe-b9f5-26d64d55ca2c}</Project>
-      <Name>OpenAuth.Domain</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
