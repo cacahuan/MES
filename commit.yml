@@ -2,16 +2,16 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.Repository:
-    newFile: !uuid '92ce5f40306ccee0ec869f80c1bcfcaa67420661'
-    oldFile: !uuid 'dc99bd589349ec847e9137dff207754f43521eee'
-  /OpenAuth.Repository/Core:
-    newFile: !uuid '31e8f08f618478cdbce0ce82483db874a680adcb'
-    oldFile: !uuid 'f11d0c244ed494ca6d45a47f02aafac793569076'
-  /OpenAuth.Repository/Core/Entity.cs:
+  /OpenAuth.Core.sln:
     newFile: null
-    oldFile: !uuid '3b1488f1ec8768bb8b092b2ab1373d194fbe0d4f'
-gitCommitId: !uuid 'd9a609dad3c4b950fa07d728672c86e80a21e836'
-renames: {
-  }
-revisionId: 491
+    oldFile: !uuid '55eba04ed739cce5bd4170b9c2708e57e0eba9e8'
+  /OpenAuth.Net.sln:
+    newFile: !uuid '55eba04ed739cce5bd4170b9c2708e57e0eba9e8'
+    oldFile: null
+  /README.md:
+    newFile: !uuid 'e4e61dceb33847f3d9c1c1427ecbb7a84b534e10'
+    oldFile: !uuid '9a55e2a1dd66fee8766d4fb9a788c5be7618bead'
+gitCommitId: !uuid 'd222e8ba3912dc3325a9cdd51cc69aa842874651'
+renames:
+  /OpenAuth.Net.sln: /OpenAuth.Core.sln
+revisionId: 492
