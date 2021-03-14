@@ -2,16 +2,34 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.Core.sln:
-    newFile: null
-    oldFile: !uuid '55eba04ed739cce5bd4170b9c2708e57e0eba9e8'
-  /OpenAuth.Net.sln:
-    newFile: !uuid '55eba04ed739cce5bd4170b9c2708e57e0eba9e8'
-    oldFile: null
-  /README.md:
-    newFile: !uuid 'e4e61dceb33847f3d9c1c1427ecbb7a84b534e10'
-    oldFile: !uuid '9a55e2a1dd66fee8766d4fb9a788c5be7618bead'
-gitCommitId: !uuid 'd222e8ba3912dc3325a9cdd51cc69aa842874651'
-renames:
-  /OpenAuth.Net.sln: /OpenAuth.Core.sln
-revisionId: 492
+  /OpenAuth.App:
+    newFile: !uuid 'cf6d0e9f8d15b9c3215d9616bfc0ce9a782659b9'
+    oldFile: !uuid '6fe7727d482a839d0fa2cb73d621aae68ab79eab'
+  /OpenAuth.App/Base:
+    newFile: !uuid '6ddbcb7466bb95dab3a8818f284df9481aba91d8'
+    oldFile: !uuid '33233deb3f49ba58cd1ecdf5b4a6f9a40040262b'
+  /OpenAuth.App/Base/BaseIntAutoGenApp.cs:
+    newFile: !uuid '758d03f82595264ec09fd59c5664034b26b519fb'
+    oldFile: !uuid '88437679a0614a41a0cbda886ab804e92532b964'
+  /OpenAuth.App/Base/BaseLongApp.cs:
+    newFile: !uuid 'e71758989d1d132ef74dba12a0b95f7c21c85b44'
+    oldFile: !uuid '48ca2af94521ede67a3fb2d7a38e2dddacfc12b7'
+  /OpenAuth.App/Base/BaseStringApp.cs:
+    newFile: !uuid '69b0e18693f0566f6926cc6ebe38e6f2b5336533'
+    oldFile: !uuid 'b3e4c668031a31280b58a095118ae15b794e4193'
+  /OpenAuth.WebApi:
+    newFile: !uuid 'f81b789084f40c433824390292ba0ffd095a099c'
+    oldFile: !uuid 'ec215f0635781dc12d9b4c45c102a7ebd1b11c80'
+  /OpenAuth.WebApi/Template:
+    newFile: !uuid 'bb984e93806a753a363d3d512e7b8e4ae73fbfb8'
+    oldFile: !uuid '0837f9d8632e4b2fd3ec65156844fca6a43cbb99'
+  /OpenAuth.WebApi/Template/BuildApp.html:
+    newFile: !uuid '7ec785d9ce7b2f0e53bd996550c76d9142d0ca87'
+    oldFile: !uuid '913a2ea867ff18b3cb54e6af4e15f43b066d59ef'
+  /OpenAuth.WebApi/Template/BuildEntity.html:
+    newFile: !uuid '10a7fb8245142ed96d21e8fc3bf0f4367bed851e'
+    oldFile: !uuid 'd6b3f57742b57d6aedaff799f7dfd6d8165e7ee6'
+gitCommitId: !uuid '3e72144f216fc6428fb69a7e55f5a6a6edab1941'
+renames: {
+  }
+revisionId: 493
