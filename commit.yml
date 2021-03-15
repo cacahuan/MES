@@ -2,34 +2,25 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.App:
-    newFile: !uuid 'cf6d0e9f8d15b9c3215d9616bfc0ce9a782659b9'
-    oldFile: !uuid '6fe7727d482a839d0fa2cb73d621aae68ab79eab'
-  /OpenAuth.App/Base:
-    newFile: !uuid '6ddbcb7466bb95dab3a8818f284df9481aba91d8'
-    oldFile: !uuid '33233deb3f49ba58cd1ecdf5b4a6f9a40040262b'
-  /OpenAuth.App/Base/BaseIntAutoGenApp.cs:
-    newFile: !uuid '758d03f82595264ec09fd59c5664034b26b519fb'
-    oldFile: !uuid '88437679a0614a41a0cbda886ab804e92532b964'
-  /OpenAuth.App/Base/BaseLongApp.cs:
-    newFile: !uuid 'e71758989d1d132ef74dba12a0b95f7c21c85b44'
-    oldFile: !uuid '48ca2af94521ede67a3fb2d7a38e2dddacfc12b7'
-  /OpenAuth.App/Base/BaseStringApp.cs:
-    newFile: !uuid '69b0e18693f0566f6926cc6ebe38e6f2b5336533'
-    oldFile: !uuid 'b3e4c668031a31280b58a095118ae15b794e4193'
-  /OpenAuth.WebApi:
-    newFile: !uuid 'f81b789084f40c433824390292ba0ffd095a099c'
-    oldFile: !uuid 'ec215f0635781dc12d9b4c45c102a7ebd1b11c80'
-  /OpenAuth.WebApi/Template:
-    newFile: !uuid 'bb984e93806a753a363d3d512e7b8e4ae73fbfb8'
-    oldFile: !uuid '0837f9d8632e4b2fd3ec65156844fca6a43cbb99'
-  /OpenAuth.WebApi/Template/BuildApp.html:
-    newFile: !uuid '7ec785d9ce7b2f0e53bd996550c76d9142d0ca87'
-    oldFile: !uuid '913a2ea867ff18b3cb54e6af4e15f43b066d59ef'
-  /OpenAuth.WebApi/Template/BuildEntity.html:
-    newFile: !uuid '10a7fb8245142ed96d21e8fc3bf0f4367bed851e'
-    oldFile: !uuid 'd6b3f57742b57d6aedaff799f7dfd6d8165e7ee6'
-gitCommitId: !uuid '3e72144f216fc6428fb69a7e55f5a6a6edab1941'
+  /CodeSmith:
+    newFile: !uuid '076086f13226468eb65ac7c72fd80fd678ee1514'
+    oldFile: !uuid '56b0642b7e4b57e88ab2a44ca9ab605f629e281a'
+  /CodeSmith/CSharp:
+    newFile: !uuid 'd0d191e7173471314030c96bd9eb5138585e5e69'
+    oldFile: !uuid '2fd1525390b223569a5e92ae0a8d1914b70253fc'
+  /CodeSmith/CSharp/ApiGenerate:
+    newFile: !uuid '30b8eab1fd5e9e05bd4ae87cb61dde17f6c39e82'
+    oldFile: !uuid '7cbc3f8552c8f3d4975e920ef4ff1675ecd5382d'
+  /CodeSmith/CSharp/ApiGenerate/Application.cst:
+    newFile: !uuid '341b179988b3387460346b2de72415ce9d8c1beb'
+    oldFile: !uuid 'afb62fa7b16b1c0438e4404758edeffba0fa564e'
+  /CodeSmith/CSharp/Internal:
+    newFile: !uuid '602ee5c4b17e6138f1226007b23d5ffcc9725520'
+    oldFile: !uuid '85150ea54fd35b71b26d9b6ea87bbfe3a230325f'
+  /CodeSmith/CSharp/Internal/Entity.Generated.cst:
+    newFile: !uuid 'c6776f2c43063ad6701adfc63138a35c240548f6'
+    oldFile: !uuid 'ba085a781bf7a984f70bbc06e6eab8b769e84ec6'
+gitCommitId: !uuid '8979e4f91ff94d3d6f8fce6e1209a26e7b29f28f'
 renames: {
   }
-revisionId: 493
+revisionId: 494
