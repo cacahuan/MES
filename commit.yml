@@ -2,89 +2,10 @@
 branches: {
   }
 fileChange:
-  /Infrastructure:
-    newFile: !uuid '9d4dcd93ff27631272cb8a2d4423b67f5f98bc85'
-    oldFile: !uuid '14aeff0c06e5139c88cd14a96c6a4eec14a6f6c8'
-  /Infrastructure/Snowflake:
-    newFile: !uuid '5cac15a7a5263e0cc4e81b4f4c79428c07b98a8a'
-    oldFile: !uuid '59e86f9c91abf4591828a0d3f0794296fb6a7237'
-  /Infrastructure/Snowflake/Contract:
-    newFile: !uuid '166b87d1b48087ab75dff2bede4838c0402d3cfe'
+  /CHANGELOG.md:
+    newFile: !uuid '39f9b44e2e8df263ddea200a53e0959d6d556656'
     oldFile: null
-  /Infrastructure/Snowflake/Contract/IIdGenerator.cs:
-    newFile: !uuid '5738908aac5ac45e9ab2414638f1a907751bd726'
-    oldFile: null
-  /Infrastructure/Snowflake/Contract/ISnowWorker.cs:
-    newFile: !uuid '0bf1fb2bdaa5727eb052611ac9aa7ba14ebed00c'
-    oldFile: null
-  /Infrastructure/Snowflake/Contract/IdGeneratorOptions.cs:
-    newFile: !uuid 'bb5ea75814ea0840d70b8fcc01acbfb8b7216b59'
-    oldFile: null
-  /Infrastructure/Snowflake/Contract/OverCostActionArg.cs:
-    newFile: !uuid '2acd8b9bdc5e5d6d9738c14ba64b060eeb55bac2'
-    oldFile: null
-  /Infrastructure/Snowflake/Core:
-    newFile: !uuid '1176e1e59026a2862604d6880ab3e2d8a04e4957'
-    oldFile: null
-  /Infrastructure/Snowflake/Core/SnowWorkerM1.cs:
-    newFile: !uuid 'f20850471cd8b731047eaf08f90ffc9730d00c02'
-    oldFile: null
-  /Infrastructure/Snowflake/Core/SnowWorkerM2.cs:
-    newFile: !uuid '7401e2f764bb35bb000afe1536f495e8c8728849'
-    oldFile: null
-  /Infrastructure/Snowflake/DefaultIdGenerator.cs:
-    newFile: !uuid '7b1e42dace4b82266992755f9e7e1a81c3942008'
-    oldFile: null
-  /Infrastructure/Snowflake/IIdGenerator.cs:
-    newFile: null
-    oldFile: !uuid 'a5ac52981bd5f08b45995167912b93166b9997b1'
-  /Infrastructure/Snowflake/ISnowWorker.cs:
-    newFile: null
-    oldFile: !uuid '773934369811c17ba516370237c2448932ad8645'
-  /Infrastructure/Snowflake/IdGeneratorOptions.cs:
-    newFile: null
-    oldFile: !uuid 'f1b0a59e364072d16baa521f1873bc236f2051c6'
-  /Infrastructure/Snowflake/OverCostActionArg.cs:
-    newFile: null
-    oldFile: !uuid '89b5ea691d324b5fc2137496c80b9625c2ee97fd'
-  /Infrastructure/Snowflake/SnowWorkerM1.cs:
-    newFile: null
-    oldFile: !uuid '765c52c0f44cecc2fd1c4f8ce69e6155de9fe8fa'
-  /Infrastructure/Snowflake/SnowWorkerM2.cs:
-    newFile: null
-    oldFile: !uuid '9764a09c2a0e101ae14c5a5f78e1e566f72ec63c'
-  /Infrastructure/Snowflake/YitIdGenerator.cs:
-    newFile: null
-    oldFile: !uuid '18dc4e8c436a5e7a66e096328238148c59da06a0'
-  /Infrastructure/Snowflake/YitIdHelper.cs:
-    newFile: !uuid 'd5f1baa1abfe8b4266dcdab5d4716ba5ac5e5c71'
-    oldFile: null
-  /Infrastructure/Test:
-    newFile: !uuid '46996b7a6219cfa7b5394e891efc7f951f43fe48'
-    oldFile: !uuid '8fcab1b1ec271918a089d7e0e985e1c7f37268f1'
-  /Infrastructure/Test/TestSnowflake.cs:
-    newFile: !uuid '40aa02c954c1289941c5281523ec087187160a3b'
-    oldFile: !uuid '8783a1f80fa77ddc64a5b3592b6e91f0643f6c66'
-  /OpenAuth.App:
-    newFile: !uuid 'e9d621a9bb011c57dbc9a052835070534d9b8fcd'
-    oldFile: !uuid '180a76e20f099689eb23fd23e52f7a8005671002'
-  /OpenAuth.App/Test:
-    newFile: !uuid '9a1e631640758146d8bf30b33471a99038345a95'
-    oldFile: !uuid 'c089973b4d125f59688a38e21199c60d64db2824'
-  /OpenAuth.App/Test/TestFlow.cs:
-    newFile: !uuid '1e07e310b986b326ffbd57ff088765dab14236de'
-    oldFile: !uuid 'b11841536201834fc98825db6b303391b384f8bc'
-  /OpenAuth.Repository:
-    newFile: !uuid '41d79daa643b2c8de364121f2ddb2176edef66ba'
-    oldFile: !uuid 'cd40c704fb7d0d822c5589a5e3cd37057464acb6'
-  /OpenAuth.Repository/Core:
-    newFile: !uuid '63b9cdcee80bd06eb4664823ace101fd7d317dca'
-    oldFile: !uuid 'b0080037c9a7419d7f1810bad3583ed88fef63ed'
-  /OpenAuth.Repository/Core/LongEntity.cs:
-    newFile: !uuid 'bbc4ec22793091b7d998b879260ef88b2a88437b'
-    oldFile: !uuid 'ade848129f9af0305447760b16eaf52ebe691b84'
-gitCommitId: !uuid 'a333234f0cc352ad8bbe88bacf5445f0ee639ad0'
-renames:
-  /Infrastructure/Snowflake/Core/SnowWorkerM1.cs: /Infrastructure/Snowflake/SnowWorkerM1.cs
-  /Infrastructure/Snowflake/Core/SnowWorkerM2.cs: /Infrastructure/Snowflake/SnowWorkerM2.cs
-revisionId: 499
+gitCommitId: !uuid 'e6abf0e6bb2692eb32cd577aa340fbd9f0cd4015'
+renames: {
+  }
+revisionId: 500
