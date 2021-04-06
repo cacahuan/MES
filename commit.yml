@@ -2,19 +2,10 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.Mvc:
-    newFile: !uuid '3ce9a462f2db79ad4cf069e09949912dfd24cac7'
-    oldFile: !uuid 'cbc32480f24ab4b678a7466ffe580c806f60e8f6'
-  /OpenAuth.Mvc/Program.cs:
-    newFile: !uuid '33b7975e70bd22b367b4ed85503c037ce5dd7e57'
-    oldFile: !uuid '63d95d372c3419f5e5799f941a883d6d269e7047'
-  /OpenAuth.WebApi:
-    newFile: !uuid 'bc58ebea6d7cdada5d18f1454b7d2e3093d7886f'
-    oldFile: !uuid 'ed394aae36934835c9e8b0a9c8fad1c7d46503d1'
-  /OpenAuth.WebApi/Program.cs:
-    newFile: !uuid 'ba7cb1e88262d90150a35dbc4cfbef3942326858'
-    oldFile: !uuid '080ce3c692478dd1d3cebf0bc611aa899e6c5d6c'
-gitCommitId: !uuid 'a3695cdb80cf5d13fe28e7c03cb1287348280831'
+  /README.md:
+    newFile: !uuid '07f8f66ab7ce5d41ae2dafd68c54a12646427930'
+    oldFile: !uuid 'e4e61dceb33847f3d9c1c1427ecbb7a84b534e10'
+gitCommitId: !uuid '484daa48f0189a4c28e5dc7d924fe243d064395f'
 renames: {
   }
-revisionId: 503
+revisionId: 504
