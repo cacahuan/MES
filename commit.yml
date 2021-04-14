@@ -2,10 +2,731 @@
 branches: {
   }
 fileChange:
-  /README.md:
-    newFile: !uuid '07f8f66ab7ce5d41ae2dafd68c54a12646427930'
-    oldFile: !uuid 'e4e61dceb33847f3d9c1c1427ecbb7a84b534e10'
-gitCommitId: !uuid '484daa48f0189a4c28e5dc7d924fe243d064395f'
-renames: {
-  }
-revisionId: 504
+  /Infrastructure:
+    newFile: !uuid '17e002ce5a988a3d7cb834e9fff2a614da5e9587'
+    oldFile: !uuid '9d4dcd93ff27631272cb8a2d4423b67f5f98bc85'
+  /Infrastructure/Const:
+    newFile: !uuid '23b4e20218d43112b71134b3665785fd4ed1b4fc'
+    oldFile: !uuid '5d28e92039930b22f4818aa86d47dccf430e7c2b'
+  /Infrastructure/Const/FlowInstanceStatus.cs:
+    newFile: !uuid '3e3c86a34707677987dee8c8f5445b402cd16e3c'
+    oldFile: null
+  /Infrastructure/Helpers:
+    newFile: !uuid 'e4e441fad56d38494f312ade7192e8ab43cca661'
+    oldFile: !uuid 'a8d93014f0d6cd97aec7279e41aafa23a37c28a9'
+  /Infrastructure/Helpers/FileHelper.cs:
+    newFile: !uuid '238526e55d6cd154a4752e06eae93134d62e05d4'
+    oldFile: !uuid '02763216df126ce9aaf3db9501fe4c2b03c943f7'
+  /OpenAuth.App:
+    newFile: !uuid 'cad4bf765520fe5d4d0f2b86d22197f0b32bc862'
+    oldFile: !uuid '78ab87029aa57be51c3841ea6ccfdfb05e9996de'
+  /OpenAuth.App/AppManager:
+    newFile: !uuid '8f02894a9cd10c141b965e66aabe307007f9bcf6'
+    oldFile: null
+  /OpenAuth.App/AppManager.cs:
+    newFile: null
+    oldFile: !uuid '083abbd4c6495e7d58fe20441eb9d7bbc623d55a'
+  /OpenAuth.App/AppManager/AppManager.cs:
+    newFile: !uuid '083abbd4c6495e7d58fe20441eb9d7bbc623d55a'
+    oldFile: null
+  /OpenAuth.App/AppManager/Request:
+    newFile: !uuid 'f3738de66ac4032b43b4384bb141f1306bea0078'
+    oldFile: null
+  /OpenAuth.App/AppManager/Request/QueryAppListReq.cs:
+    newFile: !uuid '20081a070640eb54e866f2d4a955e2eef5fef1ad'
+    oldFile: null
+  /OpenAuth.App/Base:
+    newFile: !uuid '6cbfc7d494c8477cdcffca6c8b738d1ec3751843'
+    oldFile: !uuid '6ddbcb7466bb95dab3a8818f284df9481aba91d8'
+  /OpenAuth.App/Base/IdPageReq.cs:
+    newFile: !uuid '59491cbfb425f9a7ec570392212366d16e91b04e'
+    oldFile: null
+  /OpenAuth.App/Base/PageReq.cs:
+    newFile: !uuid '73eb9695587974428064b89155f903e59b27760b'
+    oldFile: null
+  /OpenAuth.App/Base/TableData.cs:
+    newFile: !uuid '63f6e17103a869dd8eba7fdb81220275c649bbc7'
+    oldFile: null
+  /OpenAuth.App/Base/TableResp.cs:
+    newFile: !uuid '08cae99fa9d47d2321e4707236e84983e2307165'
+    oldFile: null
+  /OpenAuth.App/BuilderTable:
+    newFile: !uuid 'ef06fc21342ea7799667ee13ba9fa8ae442b903c'
+    oldFile: null
+  /OpenAuth.App/BuilderTable/BuilderTableApp.cs:
+    newFile: !uuid '37984c0aae59d59871fa07de9c6be732cfdd89dd'
+    oldFile: null
+  /OpenAuth.App/BuilderTable/BuilderTableColumnApp.cs:
+    newFile: !uuid '4b4839ed01feb55c80f639a427d03e7693b24c98'
+    oldFile: null
+  /OpenAuth.App/BuilderTable/Request:
+    newFile: !uuid '311696303586e25b6dfcab9605a6294346414b04'
+    oldFile: null
+  /OpenAuth.App/BuilderTable/Request/AddOrUpdateBuilderTableColumnReq.cs:
+    newFile: !uuid '771444037b7bf0adb9057dcdabb5359f12806d59'
+    oldFile: null
+  /OpenAuth.App/BuilderTable/Request/AddOrUpdateBuilderTableReq.cs:
+    newFile: !uuid 'baa39c611e0668370d9f7bf75256665f840a9391'
+    oldFile: null
+  /OpenAuth.App/BuilderTable/Request/CreateBusiReq.cs:
+    newFile: !uuid '77eb2f53e4fe492ab434eb65cecb04818bbea516'
+    oldFile: null
+  /OpenAuth.App/BuilderTable/Request/CreateEntityReq.cs:
+    newFile: !uuid '0b1e6a73f05bab54c474b499501e1cf9d836251a'
+    oldFile: null
+  /OpenAuth.App/BuilderTable/Request/CreateVueReq.cs:
+    newFile: !uuid 'da86006bf3774fb25edd3fe53e186703f7cd8326'
+    oldFile: null
+  /OpenAuth.App/BuilderTable/Request/QueryBuilderTableColumnListReq.cs:
+    newFile: !uuid 'ec6c354189f9edabebdd9ec34aef58320288f764'
+    oldFile: null
+  /OpenAuth.App/BuilderTable/Request/QueryBuilderTableListReq.cs:
+    newFile: !uuid '3da703e3d116699d6845f91872004333edad016d'
+    oldFile: null
+  /OpenAuth.App/BuilderTableApp.cs:
+    newFile: null
+    oldFile: !uuid '37984c0aae59d59871fa07de9c6be732cfdd89dd'
+  /OpenAuth.App/BuilderTableColumnApp.cs:
+    newFile: null
+    oldFile: !uuid '4b4839ed01feb55c80f639a427d03e7693b24c98'
+  /OpenAuth.App/Category:
+    newFile: !uuid '9e06c4dc34acd2a1c18931e20e0f1fae30c1478d'
+    oldFile: null
+  /OpenAuth.App/Category/CategoryApp.cs:
+    newFile: !uuid '0a44d3e93ed443b1d31bcfebb9787d1c0ca9f5a6'
+    oldFile: null
+  /OpenAuth.App/Category/CategoryTypeApp.cs:
+    newFile: !uuid '851bc443d7ca7f8cc1736bf1196ef4a82cfeb19d'
+    oldFile: null
+  /OpenAuth.App/Category/Request:
+    newFile: !uuid 'b37ea497dc84958d386ab43b5eae2e7ff6b69dbb'
+    oldFile: null
+  /OpenAuth.App/Category/Request/AddOrUpdateCategoryReq.cs:
+    newFile: !uuid 'f4e6025c2a24c99f77d71f3e5af450ea83eb07b5'
+    oldFile: null
+  /OpenAuth.App/Category/Request/AddOrUpdateCategoryTypeReq.cs:
+    newFile: !uuid 'a2748dd297fae37013f113081a28b7ca1e472bd8'
+    oldFile: null
+  /OpenAuth.App/Category/Request/QueryCategoryListReq.cs:
+    newFile: !uuid '538e63e999a6b8d7051282fdfcaaf44762e8daad'
+    oldFile: null
+  /OpenAuth.App/Category/Request/QueryCategoryTypeListReq.cs:
+    newFile: !uuid '1f27d06f53e0b18be44b2c0fbee9f37be982b0f3'
+    oldFile: null
+  /OpenAuth.App/CategoryApp.cs:
+    newFile: null
+    oldFile: !uuid '382cdbdebba17de3321ff7783316536ea7bf313c'
+  /OpenAuth.App/CategoryTypeApp.cs:
+    newFile: null
+    oldFile: !uuid '851bc443d7ca7f8cc1736bf1196ef4a82cfeb19d'
+  /OpenAuth.App/DataPrivilege:
+    newFile: !uuid '1de4b8ae58f8f528e5cf9390bb188679cac4f9e8'
+    oldFile: null
+  /OpenAuth.App/DataPrivilege/DataPrivilegeRuleApp.cs:
+    newFile: !uuid '76d0d4c40035cd31f830d8f081af242060985f06'
+    oldFile: null
+  /OpenAuth.App/DataPrivilege/Request:
+    newFile: !uuid '773d33346d5259b2e9e06511d472a4883128f6db'
+    oldFile: null
+  /OpenAuth.App/DataPrivilege/Request/AddOrUpdateDataPriviReq.cs:
+    newFile: !uuid '93dffc105d89cbb5542bd608a2eec2f9266f0dd0'
+    oldFile: null
+  /OpenAuth.App/DataPrivilege/Request/QueryDataPrivilegeRuleListReq.cs:
+    newFile: !uuid 'da93b4729cffeab99072546dac69a6132e51d231'
+    oldFile: null
+  /OpenAuth.App/DataPrivilegeRuleApp.cs:
+    newFile: null
+    oldFile: !uuid '76d0d4c40035cd31f830d8f081af242060985f06'
+  /OpenAuth.App/FileApp.cs:
+    newFile: null
+    oldFile: !uuid 'cbe8db2bf2adba04c8a652b950f9bc2864c1fddd'
+  /OpenAuth.App/Files:
+    newFile: !uuid '57f8c54fab08582dd48c24202d1a2e60b5e92b4e'
+    oldFile: null
+  /OpenAuth.App/Files/FileApp.cs:
+    newFile: !uuid 'cbe8db2bf2adba04c8a652b950f9bc2864c1fddd'
+    oldFile: null
+  /OpenAuth.App/Files/Request:
+    newFile: !uuid '765afb54c2be9c2266ec8c03bf1ae9dc7819f612'
+    oldFile: null
+  /OpenAuth.App/Files/Request/QueryFileListReq.cs:
+    newFile: !uuid '13d2a2b8a0ec81152d5f915ea3dd5944e83ec21a'
+    oldFile: null
+  /OpenAuth.App/Flow:
+    newFile: !uuid 'ffb951a0ea8bec876ddab79c5f1198ff4242ad47'
+    oldFile: !uuid '572744aa1dbdd73ea17c2669cc61beb1695f8d5c'
+  /OpenAuth.App/Flow/FlowRuntime.cs:
+    newFile: !uuid 'd5b4b06d2fdd502903f231fe00fa4d2b1055a973'
+    oldFile: !uuid 'ce73ad8e54d4bf41c257ee1b05359adf4189af87'
+  /OpenAuth.App/FlowInstance:
+    newFile: !uuid 'ecb1aee86e2d3c4b9d23b43e774aa3db0cc587da'
+    oldFile: null
+  /OpenAuth.App/FlowInstance/FlowInstanceApp.cs:
+    newFile: !uuid '4664e90ccbe4e18f501ea4617e733f4100fbee0f'
+    oldFile: null
+  /OpenAuth.App/FlowInstance/Request:
+    newFile: !uuid 'f2356ba33e5f0db4c371365281cde242a3815296'
+    oldFile: null
+  /OpenAuth.App/FlowInstance/Request/AddFlowInstanceReq.cs:
+    newFile: !uuid '489ad2ba7208ab7559e64b47097be199240b9e57'
+    oldFile: null
+  /OpenAuth.App/FlowInstance/Request/QueryFlowInstanceHistoryReq.cs:
+    newFile: !uuid 'c207d02948d1e941c9f8d633cb02e11ea153537b'
+    oldFile: null
+  /OpenAuth.App/FlowInstance/Request/QueryFlowInstanceListReq.cs:
+    newFile: !uuid '0c8546fdeca14e2ebad49ea739ea2c6105702f56'
+    oldFile: null
+  /OpenAuth.App/FlowInstance/Request/RecallFlowInstanceReq.cs:
+    newFile: !uuid '68e8d8a04da632e9d88612ed90599f013656eca3'
+    oldFile: null
+  /OpenAuth.App/FlowInstance/Request/StartFlowInstanceReq.cs:
+    newFile: !uuid 'ec6a8743f432466259d69c23c7f37cb0d7da9d78'
+    oldFile: null
+  /OpenAuth.App/FlowInstance/Request/VerificationReq.cs:
+    newFile: !uuid 'ae35949ed8d99b107386d6338d304a2eb5994110'
+    oldFile: null
+  /OpenAuth.App/FlowInstance/Response:
+    newFile: !uuid 'ca9a1d3448707d869b3e39dfc94c8b5106a0f41a'
+    oldFile: null
+  /OpenAuth.App/FlowInstance/Response/FlowVerificationResp.cs:
+    newFile: !uuid '400a13ca2cd51db85f9c485ab5a8983caf0958b3'
+    oldFile: null
+  /OpenAuth.App/FlowInstanceApp.cs:
+    newFile: null
+    oldFile: !uuid '182865b82effb8b8eb58c9b6b28e36f07fb62a08'
+  /OpenAuth.App/FlowScheme:
+    newFile: !uuid '63cede9c1318a461b5d9dea4daba9e48153db559'
+    oldFile: null
+  /OpenAuth.App/FlowScheme/FlowSchemeApp.cs:
+    newFile: !uuid 'b2c873d6175fe510aa274dd3125d83d492690bec'
+    oldFile: null
+  /OpenAuth.App/FlowScheme/Request:
+    newFile: !uuid '3d9cafcd109897e028f2df35c74158c956b62e78'
+    oldFile: null
+  /OpenAuth.App/FlowScheme/Request/QueryFlowSchemeListReq.cs:
+    newFile: !uuid '16ac8800624c123a57679b9516f781f094ac59e0'
+    oldFile: null
+  /OpenAuth.App/FlowSchemeApp.cs:
+    newFile: null
+    oldFile: !uuid 'a320e19fbb956db894febb1c15612e5e48317be9'
+  /OpenAuth.App/Form:
+    newFile: !uuid '425ad9afdf6064b3a159d1c8039579486e734572'
+    oldFile: null
+  /OpenAuth.App/Form/FormApp.cs:
+    newFile: !uuid '76da85daf928a6786ce64cba0c305c0782d227d4'
+    oldFile: null
+  /OpenAuth.App/Form/FormUtil.cs:
+    newFile: !uuid 'dd76b0d8e674b883e508eb225916be8e71c6f1fa'
+    oldFile: null
+  /OpenAuth.App/Form/Request:
+    newFile: !uuid 'ebfe1d054f0b2206697565d2d309ce1bb2defecf'
+    oldFile: null
+  /OpenAuth.App/Form/Request/QueryFormListReq.cs:
+    newFile: !uuid '427ac9d9a687d0eef3e790d84a57c1dc93d27790'
+    oldFile: null
+  /OpenAuth.App/Form/Response:
+    newFile: !uuid '6bd9db9e233285a60025333902ddcdd1c8188fce'
+    oldFile: null
+  /OpenAuth.App/Form/Response/FormResp.cs:
+    newFile: !uuid 'eb29960c71e98ad9f473f2bc570a183d0d8d5877'
+    oldFile: null
+  /OpenAuth.App/FormApp.cs:
+    newFile: null
+    oldFile: !uuid 'e87ef975c3d514f4ccee9c91516a242ede23fb0e'
+  /OpenAuth.App/FormUtil.cs:
+    newFile: null
+    oldFile: !uuid '66ae5cc45c845b2171d1a91f134c636eff3b0634'
+  /OpenAuth.App/FrmLeave:
+    newFile: !uuid 'ece3208d45a7901f4f8ac6d3d488ecdb02249a24'
+    oldFile: null
+  /OpenAuth.App/FrmLeave/FrmLeaveReqApp.cs:
+    newFile: !uuid '5ba45341d1f7917687281ede4aa36c3d5d9dbc9b'
+    oldFile: null
+  /OpenAuth.App/FrmLeave/Request:
+    newFile: !uuid '07ffe8ba431a592fb9937a7c4f152b32ae1d0fb8'
+    oldFile: null
+  /OpenAuth.App/FrmLeave/Request/QueryFrmLeaveReqListReq.cs:
+    newFile: !uuid '69647d2d4c508e4b8969dac685e97a3106cec1c4'
+    oldFile: null
+  /OpenAuth.App/FrmLeaveReqApp.cs:
+    newFile: null
+    oldFile: !uuid '5ba45341d1f7917687281ede4aa36c3d5d9dbc9b'
+  /OpenAuth.App/Jobs:
+    newFile: !uuid '147379c16a6ccae22bd45e6f798b5be5baea0e4c'
+    oldFile: !uuid 'd7a7cb12e85b0a65b8d2d41db9fcb319b84a74c1'
+  /OpenAuth.App/Jobs/OpenJobApp.cs:
+    newFile: !uuid 'bdd2e61b4c0da8c8455bc5ab9804042b84586d6d'
+    oldFile: null
+  /OpenAuth.App/Jobs/Request:
+    newFile: !uuid '5708088999b68cf421d46d1c8a6b3a424b687804'
+    oldFile: null
+  /OpenAuth.App/Jobs/Request/AddOrUpdateOpenJobReq.cs:
+    newFile: !uuid '6ccbc4e8f8588b16e69a9d905261fc7f2ae2a398'
+    oldFile: null
+  /OpenAuth.App/Jobs/Request/ChangeJobStatusReq.cs:
+    newFile: !uuid 'c63ac55641f5310e600932c83a2c2bb92d1aa13f'
+    oldFile: null
+  /OpenAuth.App/Jobs/Request/QueryOpenJobListReq.cs:
+    newFile: !uuid '07530014d0b121ff2626c48c6ca87b7db5cdf529'
+    oldFile: null
+  /OpenAuth.App/ModuleManager:
+    newFile: !uuid '1856b1ed8a3b2c48d8c906293d5a73c41e7a835e'
+    oldFile: null
+  /OpenAuth.App/ModuleManager/ModuleManagerApp.cs:
+    newFile: !uuid '70b70fc6b1db9b01a21736a4fda67a44581a6d01'
+    oldFile: null
+  /OpenAuth.App/ModuleManager/Response:
+    newFile: !uuid '2094c6a9a3b83b15ab595366dfe465f8df596648'
+    oldFile: null
+  /OpenAuth.App/ModuleManager/Response/ModuleElementVM.cs:
+    newFile: !uuid 'a95b4936add1ec789f82aa0823f5d63813c3ea98'
+    oldFile: null
+  /OpenAuth.App/ModuleManager/Response/ModuleView.cs:
+    newFile: !uuid '70118b8248fb9fcd6caed490617a677f43c2af08'
+    oldFile: null
+  /OpenAuth.App/ModuleManagerApp.cs:
+    newFile: null
+    oldFile: !uuid 'b4fa303e995f70e5a8e0c82ca07c596c03e39cf5'
+  /OpenAuth.App/OpenJobApp.cs:
+    newFile: null
+    oldFile: !uuid 'bdd2e61b4c0da8c8455bc5ab9804042b84586d6d'
+  /OpenAuth.App/OrgManager:
+    newFile: !uuid '424899edf899e5c903a0379d47d9131826028e1b'
+    oldFile: null
+  /OpenAuth.App/OrgManager/OrgManagerApp.cs:
+    newFile: !uuid '13789dc49cc366a52799242371754b33e1ed36dc'
+    oldFile: null
+  /OpenAuth.App/OrgManagerApp.cs:
+    newFile: null
+    oldFile: !uuid 'aee88341c5ebed67f59e24e2c3b6fb04a0e1bdfa'
+  /OpenAuth.App/Relevance:
+    newFile: !uuid '202b1d8dca29fd7ca9d9fcde74bd26e2d6673329'
+    oldFile: null
+  /OpenAuth.App/Relevance/Request:
+    newFile: !uuid '07f6be16ef29116b055fae4374e68668e85cffa4'
+    oldFile: null
+  /OpenAuth.App/Relevance/Request/AssignDataReq.cs:
+    newFile: !uuid 'f19c83ffd0404641d6742a0d061818c3eb289185'
+    oldFile: null
+  /OpenAuth.App/Relevance/Request/AssignOrgUsers.cs:
+    newFile: !uuid 'cf0c5bcfa0acfd68d384067bea5ad4c1e1cef7b8'
+    oldFile: null
+  /OpenAuth.App/Relevance/Request/AssignReq.cs:
+    newFile: !uuid 'fff707d6f30622018d3aaa1fed9aa29849c93935'
+    oldFile: null
+  /OpenAuth.App/Relevance/Request/AssignRoleUsers.cs:
+    newFile: !uuid 'e1fa8f7d84fe4356e3483b8774444f4bd10ee5db'
+    oldFile: null
+  /OpenAuth.App/Relevance/RevelanceManagerApp.cs:
+    newFile: !uuid '95e3f6f9d254d332e0dd160e27cceadadf7e0ac6'
+    oldFile: null
+  /OpenAuth.App/Request:
+    newFile: null
+    oldFile: !uuid '3cdd554aebbce901505ec8293aa3f3b0fc1ae38b'
+  /OpenAuth.App/Request/AddFlowInstanceReq.cs:
+    newFile: null
+    oldFile: !uuid '489ad2ba7208ab7559e64b47097be199240b9e57'
+  /OpenAuth.App/Request/AddOrUpdateBuilderTableColumnReq.cs:
+    newFile: null
+    oldFile: !uuid '771444037b7bf0adb9057dcdabb5359f12806d59'
+  /OpenAuth.App/Request/AddOrUpdateBuilderTableReq.cs:
+    newFile: null
+    oldFile: !uuid 'baa39c611e0668370d9f7bf75256665f840a9391'
+  /OpenAuth.App/Request/AddOrUpdateCategoryReq.cs:
+    newFile: null
+    oldFile: !uuid 'f4e6025c2a24c99f77d71f3e5af450ea83eb07b5'
+  /OpenAuth.App/Request/AddOrUpdateCategoryTypeReq.cs:
+    newFile: null
+    oldFile: !uuid 'a2748dd297fae37013f113081a28b7ca1e472bd8'
+  /OpenAuth.App/Request/AddOrUpdateDataPriviReq.cs:
+    newFile: null
+    oldFile: !uuid '93dffc105d89cbb5542bd608a2eec2f9266f0dd0'
+  /OpenAuth.App/Request/AddOrUpdateOpenJobReq.cs:
+    newFile: null
+    oldFile: !uuid '6ccbc4e8f8588b16e69a9d905261fc7f2ae2a398'
+  /OpenAuth.App/Request/AddOrUpdateResReq.cs:
+    newFile: null
+    oldFile: !uuid 'fbf59daece96a50c3f44d72b5d225d1046c43cfb'
+  /OpenAuth.App/Request/AddOrUpdateWmsInboundOrderDtblReq.cs:
+    newFile: null
+    oldFile: !uuid 'b0d64ef1d174b96493d5d986d11b677b3665d7d0'
+  /OpenAuth.App/Request/AddOrUpdateWmsInboundOrderTblReq.cs:
+    newFile: null
+    oldFile: !uuid '370b1f3c47e998fc323dabe393eea6a4e3071ab7'
+  /OpenAuth.App/Request/AssignDataReq.cs:
+    newFile: null
+    oldFile: !uuid 'f19c83ffd0404641d6742a0d061818c3eb289185'
+  /OpenAuth.App/Request/AssignOrgUsers.cs:
+    newFile: null
+    oldFile: !uuid 'cf0c5bcfa0acfd68d384067bea5ad4c1e1cef7b8'
+  /OpenAuth.App/Request/AssignReq.cs:
+    newFile: null
+    oldFile: !uuid 'fff707d6f30622018d3aaa1fed9aa29849c93935'
+  /OpenAuth.App/Request/AssignRoleUsers.cs:
+    newFile: null
+    oldFile: !uuid 'e1fa8f7d84fe4356e3483b8774444f4bd10ee5db'
+  /OpenAuth.App/Request/ChangeJobStatusReq.cs:
+    newFile: null
+    oldFile: !uuid 'c63ac55641f5310e600932c83a2c2bb92d1aa13f'
+  /OpenAuth.App/Request/ChangePasswordReq.cs:
+    newFile: null
+    oldFile: !uuid '892a5e949160b0e6fde96feec6c9895a2316b08f'
+  /OpenAuth.App/Request/ChangeProfileReq.cs:
+    newFile: null
+    oldFile: !uuid '065f8c1c79f6c5d90370eb64044c8eabb98cb0fe'
+  /OpenAuth.App/Request/CreateBusiReq.cs:
+    newFile: null
+    oldFile: !uuid '77eb2f53e4fe492ab434eb65cecb04818bbea516'
+  /OpenAuth.App/Request/CreateEntityReq.cs:
+    newFile: null
+    oldFile: !uuid '0b1e6a73f05bab54c474b499501e1cf9d836251a'
+  /OpenAuth.App/Request/CreateVueReq.cs:
+    newFile: null
+    oldFile: !uuid 'da86006bf3774fb25edd3fe53e186703f7cd8326'
+  /OpenAuth.App/Request/IdPageReq.cs:
+    newFile: null
+    oldFile: !uuid '127250a50c56baf18e5296c3e9948a3eccd23542'
+  /OpenAuth.App/Request/PageReq.cs:
+    newFile: null
+    oldFile: !uuid '8dcf7ff3a5a05966677b3ddaaad392824146cd8e'
+  /OpenAuth.App/Request/QueryAppListReq.cs:
+    newFile: null
+    oldFile: !uuid '20081a070640eb54e866f2d4a955e2eef5fef1ad'
+  /OpenAuth.App/Request/QueryBuilderTableColumnListReq.cs:
+    newFile: null
+    oldFile: !uuid 'ec6c354189f9edabebdd9ec34aef58320288f764'
+  /OpenAuth.App/Request/QueryBuilderTableListReq.cs:
+    newFile: null
+    oldFile: !uuid '3da703e3d116699d6845f91872004333edad016d'
+  /OpenAuth.App/Request/QueryCategoryListReq.cs:
+    newFile: null
+    oldFile: !uuid '538e63e999a6b8d7051282fdfcaaf44762e8daad'
+  /OpenAuth.App/Request/QueryCategoryTypeListReq.cs:
+    newFile: null
+    oldFile: !uuid '1f27d06f53e0b18be44b2c0fbee9f37be982b0f3'
+  /OpenAuth.App/Request/QueryDataPrivilegeRuleListReq.cs:
+    newFile: null
+    oldFile: !uuid 'da93b4729cffeab99072546dac69a6132e51d231'
+  /OpenAuth.App/Request/QueryFileListReq.cs:
+    newFile: null
+    oldFile: !uuid '13d2a2b8a0ec81152d5f915ea3dd5944e83ec21a'
+  /OpenAuth.App/Request/QueryFlowInstanceHistoryReq.cs:
+    newFile: null
+    oldFile: !uuid 'c207d02948d1e941c9f8d633cb02e11ea153537b'
+  /OpenAuth.App/Request/QueryFlowInstanceListReq.cs:
+    newFile: null
+    oldFile: !uuid '06a57187ef027b7651c8c153abf875eb0c96b0b2'
+  /OpenAuth.App/Request/QueryFlowSchemeListReq.cs:
+    newFile: null
+    oldFile: !uuid '6b36d2159d344e3ac29a5e6416d613ea91256d6f'
+  /OpenAuth.App/Request/QueryFormListReq.cs:
+    newFile: null
+    oldFile: !uuid '0a9d773289d299bc3435247423537b41dd4275e8'
+  /OpenAuth.App/Request/QueryFrmLeaveReqListReq.cs:
+    newFile: null
+    oldFile: !uuid '69647d2d4c508e4b8969dac685e97a3106cec1c4'
+  /OpenAuth.App/Request/QueryOpenJobListReq.cs:
+    newFile: null
+    oldFile: !uuid '07530014d0b121ff2626c48c6ca87b7db5cdf529'
+  /OpenAuth.App/Request/QueryResourcesReq.cs:
+    newFile: null
+    oldFile: !uuid 'f6c3a9baf945de89b697b1762248a6ff0272dccb'
+  /OpenAuth.App/Request/QueryRoleListReq.cs:
+    newFile: null
+    oldFile: !uuid '65bd9b54e0c8f1a0e5d2a924359f98ae0c3dddf8'
+  /OpenAuth.App/Request/QuerySysLogListReq.cs:
+    newFile: null
+    oldFile: !uuid 'a3fa012fe0492d73ec517143da1aae0f405bab39'
+  /OpenAuth.App/Request/QuerySysMessageListReq.cs:
+    newFile: null
+    oldFile: !uuid 'e7ce4b4a0f3309aa8106a4603d342eeb9a57e52c'
+  /OpenAuth.App/Request/QueryUserListByOrgReq.cs:
+    newFile: null
+    oldFile: !uuid 'bf26bfa355f88d43b6258caac1d0b8f007712494'
+  /OpenAuth.App/Request/QueryUserListByRoleReq.cs:
+    newFile: null
+    oldFile: !uuid 'ca5c17c98bdaf0e3f48152081c367afbc487d77d'
+  /OpenAuth.App/Request/QueryUserListReq.cs:
+    newFile: null
+    oldFile: !uuid 'cd0e7ca1a0704fce34435895c76657d135941723'
+  /OpenAuth.App/Request/QueryWmsInboundOrderDtblListReq.cs:
+    newFile: null
+    oldFile: !uuid 'b58d44a6bc78611f6ffa7dcf12565f024168063f'
+  /OpenAuth.App/Request/QueryWmsInboundOrderTblListReq.cs:
+    newFile: null
+    oldFile: !uuid 'd7f636ea81fcb436a82515d8de9aeb659231d308'
+  /OpenAuth.App/Request/UpdateUserReq.cs:
+    newFile: null
+    oldFile: !uuid '11a8eb371737daba135c9db606cda776b28cf0a0'
+  /OpenAuth.App/Request/VerificationReq.cs:
+    newFile: null
+    oldFile: !uuid '5ef05f436c1c0ea2f11e9986e09c506ffbdfbae8'
+  /OpenAuth.App/ResourceApp.cs:
+    newFile: null
+    oldFile: !uuid 'b1118b878a05caf19678c1ff83c3381ee4053dba'
+  /OpenAuth.App/Resources:
+    newFile: !uuid '17937fa7e52d92cb38fbce9ecfdc44535ee1be07'
+    oldFile: null
+  /OpenAuth.App/Resources/Request:
+    newFile: !uuid '78191992f8952c6b7b5a2369cd2a3ff99d092b0a'
+    oldFile: null
+  /OpenAuth.App/Resources/Request/AddOrUpdateResReq.cs:
+    newFile: !uuid 'fbf59daece96a50c3f44d72b5d225d1046c43cfb'
+    oldFile: null
+  /OpenAuth.App/Resources/Request/QueryResourcesReq.cs:
+    newFile: !uuid 'f6c3a9baf945de89b697b1762248a6ff0272dccb'
+    oldFile: null
+  /OpenAuth.App/Resources/ResourceApp.cs:
+    newFile: !uuid 'b1118b878a05caf19678c1ff83c3381ee4053dba'
+    oldFile: null
+  /OpenAuth.App/Response:
+    newFile: null
+    oldFile: !uuid '9571e7303c46d19b78e9fbb373bdca198b2349d9'
+  /OpenAuth.App/Response/FlowVerificationResp.cs:
+    newFile: null
+    oldFile: !uuid 'c543368b29d10e9ae017118eca37ed5fbd5ec793'
+  /OpenAuth.App/Response/FormResp.cs:
+    newFile: null
+    oldFile: !uuid '113da963be6bc3f65813c0e93d19774a140f78e9'
+  /OpenAuth.App/Response/ModuleElementVM.cs:
+    newFile: null
+    oldFile: !uuid '60d828d160de5b34f4932f82df1aac7fe30040c7'
+  /OpenAuth.App/Response/ModuleView.cs:
+    newFile: null
+    oldFile: !uuid 'a13b7f66cfac9f7bd9824254af879d81d66bc2fe'
+  /OpenAuth.App/Response/RoleView.cs:
+    newFile: null
+    oldFile: !uuid 'e82e6412fb8066a04e370c65fc2d2fe2dc2358d0'
+  /OpenAuth.App/Response/TableData.cs:
+    newFile: null
+    oldFile: !uuid '2ebd7f4d8b813b6c06eb673858c873592470e7d1'
+  /OpenAuth.App/Response/TableResp.cs:
+    newFile: null
+    oldFile: !uuid '08cae99fa9d47d2321e4707236e84983e2307165'
+  /OpenAuth.App/Response/UserView.cs:
+    newFile: null
+    oldFile: !uuid '60830ac0e6e7d95784cdf1d3a7633b2e7c622973'
+  /OpenAuth.App/RevelanceManagerApp.cs:
+    newFile: null
+    oldFile: !uuid 'eac1bbdc6c1d39d52e1a1cecc95b2d6e81710c60'
+  /OpenAuth.App/RoleApp.cs:
+    newFile: null
+    oldFile: !uuid 'ba575ca539d816f5e728cbc3dcbcb81a297b5dfb'
+  /OpenAuth.App/RoleManager:
+    newFile: !uuid '202fdd1763fb3428b8305baa5bc9579b8c8d3ca6'
+    oldFile: null
+  /OpenAuth.App/RoleManager/Request:
+    newFile: !uuid 'f7ecd2454689ac9f49767bac04cd9184a44f86e8'
+    oldFile: null
+  /OpenAuth.App/RoleManager/Request/QueryRoleListReq.cs:
+    newFile: !uuid '75e94fcca7ced30d3b97e615c9b4431fc9e8545e'
+    oldFile: null
+  /OpenAuth.App/RoleManager/Response:
+    newFile: !uuid 'de9a30f471296689fada1c19f2cb32e346ff0e88'
+    oldFile: null
+  /OpenAuth.App/RoleManager/Response/RoleView.cs:
+    newFile: !uuid '07798f0a4b76228c5a6ddaa83520f038e3a45d19'
+    oldFile: null
+  /OpenAuth.App/RoleManager/RoleApp.cs:
+    newFile: !uuid '8522427ce9cbc14c880d55d2a585040a8de301d4'
+    oldFile: null
+  /OpenAuth.App/SysLogApp.cs:
+    newFile: null
+    oldFile: !uuid 'cfe0431e3ca65a18fd522eb37441728d216b9cf7'
+  /OpenAuth.App/SysLogs:
+    newFile: !uuid 'a8d54fa05b229f291eb55bd1eac7b5d2dd4d6595'
+    oldFile: null
+  /OpenAuth.App/SysLogs/Request:
+    newFile: !uuid 'fdf742a843f4161e86f37794d9274d51e302a511'
+    oldFile: null
+  /OpenAuth.App/SysLogs/Request/QuerySysLogListReq.cs:
+    newFile: !uuid 'a3fa012fe0492d73ec517143da1aae0f405bab39'
+    oldFile: null
+  /OpenAuth.App/SysLogs/SysLogApp.cs:
+    newFile: !uuid 'cfe0431e3ca65a18fd522eb37441728d216b9cf7'
+    oldFile: null
+  /OpenAuth.App/SysMessage:
+    newFile: !uuid '3f9f9f0038855d6eeee5da86ac51980ee46185fc'
+    oldFile: null
+  /OpenAuth.App/SysMessage/Request:
+    newFile: !uuid 'a9c44b5b9927931cf64cd3efec7b452c472c686e'
+    oldFile: null
+  /OpenAuth.App/SysMessage/Request/QuerySysMessageListReq.cs:
+    newFile: !uuid 'e7ce4b4a0f3309aa8106a4603d342eeb9a57e52c'
+    oldFile: null
+  /OpenAuth.App/SysMessage/SysMessageApp.cs:
+    newFile: !uuid '98bda001eab2301f4ba9cddf8349862631b2cffc'
+    oldFile: null
+  /OpenAuth.App/SysMessageApp.cs:
+    newFile: null
+    oldFile: !uuid '98bda001eab2301f4ba9cddf8349862631b2cffc'
+  /OpenAuth.App/UserManager:
+    newFile: !uuid '672b9e0331e7f83bd6610b5265466e68731ca732'
+    oldFile: null
+  /OpenAuth.App/UserManager/Request:
+    newFile: !uuid 'b6371db92ccad7142d6a715559f45ecc7eaaf289'
+    oldFile: null
+  /OpenAuth.App/UserManager/Request/ChangePasswordReq.cs:
+    newFile: !uuid '892a5e949160b0e6fde96feec6c9895a2316b08f'
+    oldFile: null
+  /OpenAuth.App/UserManager/Request/ChangeProfileReq.cs:
+    newFile: !uuid '065f8c1c79f6c5d90370eb64044c8eabb98cb0fe'
+    oldFile: null
+  /OpenAuth.App/UserManager/Request/QueryUserListByOrgReq.cs:
+    newFile: !uuid 'bf26bfa355f88d43b6258caac1d0b8f007712494'
+    oldFile: null
+  /OpenAuth.App/UserManager/Request/QueryUserListByRoleReq.cs:
+    newFile: !uuid 'ca5c17c98bdaf0e3f48152081c367afbc487d77d'
+    oldFile: null
+  /OpenAuth.App/UserManager/Request/QueryUserListReq.cs:
+    newFile: !uuid '161120ad978f23a2301aad862260edfd3e3b3979'
+    oldFile: null
+  /OpenAuth.App/UserManager/Request/UpdateUserReq.cs:
+    newFile: !uuid '11a8eb371737daba135c9db606cda776b28cf0a0'
+    oldFile: null
+  /OpenAuth.App/UserManager/Response:
+    newFile: !uuid '3c6b8ce6269f47bf7e63c41846602fb169fd2957'
+    oldFile: null
+  /OpenAuth.App/UserManager/Response/UserView.cs:
+    newFile: !uuid '5540b8beef58be02645acf95b85a73ca776c7858'
+    oldFile: null
+  /OpenAuth.App/UserManager/UserManagerApp.cs:
+    newFile: !uuid '2daf510c97af43796305ae1a6123b9b06989c3a7'
+    oldFile: null
+  /OpenAuth.App/UserManagerApp.cs:
+    newFile: null
+    oldFile: !uuid '881c4095358cb7c64dca0234809e7e0824f8d4ec'
+  /OpenAuth.App/WmsInbound:
+    newFile: !uuid '77b17f11a0301599ef932f0cf56c2547f98ff7f5'
+    oldFile: null
+  /OpenAuth.App/WmsInbound/Request:
+    newFile: !uuid 'e616fa4370bd58d0cbe63e05b65d5b8f861deeab'
+    oldFile: null
+  /OpenAuth.App/WmsInbound/Request/AddOrUpdateWmsInboundOrderDtblReq.cs:
+    newFile: !uuid 'b0d64ef1d174b96493d5d986d11b677b3665d7d0'
+    oldFile: null
+  /OpenAuth.App/WmsInbound/Request/AddOrUpdateWmsInboundOrderTblReq.cs:
+    newFile: !uuid '370b1f3c47e998fc323dabe393eea6a4e3071ab7'
+    oldFile: null
+  /OpenAuth.App/WmsInbound/Request/QueryWmsInboundOrderDtblListReq.cs:
+    newFile: !uuid 'b58d44a6bc78611f6ffa7dcf12565f024168063f'
+    oldFile: null
+  /OpenAuth.App/WmsInbound/Request/QueryWmsInboundOrderTblListReq.cs:
+    newFile: !uuid 'd7f636ea81fcb436a82515d8de9aeb659231d308'
+    oldFile: null
+  /OpenAuth.App/WmsInbound/WmsInboundOrderDtblApp.cs:
+    newFile: !uuid '80f8c8e2ca0a21db2628c88b06a8e1489c0ffaa1'
+    oldFile: null
+  /OpenAuth.App/WmsInbound/WmsInboundOrderTblApp.cs:
+    newFile: !uuid '88edc936065972f96c5770ee0e6f555fbdbec5a4'
+    oldFile: null
+  /OpenAuth.App/WmsInboundOrderDtblApp.cs:
+    newFile: null
+    oldFile: !uuid '80f8c8e2ca0a21db2628c88b06a8e1489c0ffaa1'
+  /OpenAuth.App/WmsInboundOrderTblApp.cs:
+    newFile: null
+    oldFile: !uuid '88edc936065972f96c5770ee0e6f555fbdbec5a4'
+  /OpenAuth.Repository:
+    newFile: !uuid '37a9827fa00a4b9e73275f526909cc62ad0b313e'
+    oldFile: !uuid '41d79daa643b2c8de364121f2ddb2176edef66ba'
+  /OpenAuth.Repository/Domain:
+    newFile: !uuid 'ff60c6d6db55992f91f492ac9753ced81e7c4acd'
+    oldFile: !uuid '2a6ceddfa1fe86b9fc8690ed72d6a45ba84f0868'
+  /OpenAuth.Repository/Domain/FlowInstance.cs:
+    newFile: !uuid 'a38ed63b4b94e8c28e01e2c378e9c55e06c4a2ac'
+    oldFile: !uuid 'c17281a2f0024f20bcdc9cc72cabad79f92d7418'
+  /OpenAuth.Repository/Domain/FlowInstanceTransitionHistory.cs:
+    newFile: !uuid 'ee0721690cc3b0ff0dbffaf1b2c744edf8fd8e7d'
+    oldFile: !uuid '8fc91ac0e6ded8ed59219b93045b8d91dd453e03'
+  /OpenAuth.WebApi:
+    newFile: !uuid '0a306d70e3cd64d930553124f78e69f4043bbf53'
+    oldFile: !uuid 'bc58ebea6d7cdada5d18f1454b7d2e3093d7886f'
+  /OpenAuth.WebApi/Controllers:
+    newFile: !uuid 'd55da6d9911586478df7b55c6cc057386d0f925e'
+    oldFile: !uuid 'bf86105612b8f20934f768c9933da40a953a7fe3'
+  /OpenAuth.WebApi/Controllers/FlowInstancesController.cs:
+    newFile: !uuid '5472e58869003cbc28f2f494eda326e5f8312116'
+    oldFile: !uuid 'e7d98253a4118fde53d9662b63b76244bdcb3fd1'
+  /OpenAuth.WebApi/Program.cs:
+    newFile: !uuid 'b0ffc1d197762807cb691f9d1212db373e30c985'
+    oldFile: !uuid 'ba7cb1e88262d90150a35dbc4cfbef3942326858'
+gitCommitId: !uuid 'cf23d0025fa4e164531fbab6e09858306b10e9cc'
+renames:
+  /OpenAuth.App/AppManager/AppManager.cs: /OpenAuth.App/AppManager.cs
+  /OpenAuth.App/AppManager/Request/QueryAppListReq.cs: /OpenAuth.App/Request/QueryAppListReq.cs
+  /OpenAuth.App/Base/IdPageReq.cs: /OpenAuth.App/Request/IdPageReq.cs
+  /OpenAuth.App/Base/PageReq.cs: /OpenAuth.App/Request/PageReq.cs
+  /OpenAuth.App/Base/TableData.cs: /OpenAuth.App/Response/TableData.cs
+  /OpenAuth.App/Base/TableResp.cs: /OpenAuth.App/Response/TableResp.cs
+  /OpenAuth.App/BuilderTable/BuilderTableApp.cs: /OpenAuth.App/BuilderTableApp.cs
+  /OpenAuth.App/BuilderTable/BuilderTableColumnApp.cs: /OpenAuth.App/BuilderTableColumnApp.cs
+  /OpenAuth.App/BuilderTable/Request/AddOrUpdateBuilderTableColumnReq.cs: /OpenAuth.App/Request/AddOrUpdateBuilderTableColumnReq.cs
+  /OpenAuth.App/BuilderTable/Request/AddOrUpdateBuilderTableReq.cs: /OpenAuth.App/Request/AddOrUpdateBuilderTableReq.cs
+  /OpenAuth.App/BuilderTable/Request/CreateBusiReq.cs: /OpenAuth.App/Request/CreateBusiReq.cs
+  /OpenAuth.App/BuilderTable/Request/CreateEntityReq.cs: /OpenAuth.App/Request/CreateEntityReq.cs
+  /OpenAuth.App/BuilderTable/Request/CreateVueReq.cs: /OpenAuth.App/Request/CreateVueReq.cs
+  /OpenAuth.App/BuilderTable/Request/QueryBuilderTableColumnListReq.cs: /OpenAuth.App/Request/QueryBuilderTableColumnListReq.cs
+  /OpenAuth.App/BuilderTable/Request/QueryBuilderTableListReq.cs: /OpenAuth.App/Request/QueryBuilderTableListReq.cs
+  /OpenAuth.App/Category/CategoryApp.cs: /OpenAuth.App/CategoryApp.cs
+  /OpenAuth.App/Category/CategoryTypeApp.cs: /OpenAuth.App/CategoryTypeApp.cs
+  /OpenAuth.App/Category/Request/AddOrUpdateCategoryReq.cs: /OpenAuth.App/Request/AddOrUpdateCategoryReq.cs
+  /OpenAuth.App/Category/Request/AddOrUpdateCategoryTypeReq.cs: /OpenAuth.App/Request/AddOrUpdateCategoryTypeReq.cs
+  /OpenAuth.App/Category/Request/QueryCategoryListReq.cs: /OpenAuth.App/Request/QueryCategoryListReq.cs
+  /OpenAuth.App/Category/Request/QueryCategoryTypeListReq.cs: /OpenAuth.App/Request/QueryCategoryTypeListReq.cs
+  /OpenAuth.App/DataPrivilege/DataPrivilegeRuleApp.cs: /OpenAuth.App/DataPrivilegeRuleApp.cs
+  /OpenAuth.App/DataPrivilege/Request/AddOrUpdateDataPriviReq.cs: /OpenAuth.App/Request/AddOrUpdateDataPriviReq.cs
+  /OpenAuth.App/DataPrivilege/Request/QueryDataPrivilegeRuleListReq.cs: /OpenAuth.App/Request/QueryDataPrivilegeRuleListReq.cs
+  /OpenAuth.App/Files/FileApp.cs: /OpenAuth.App/FileApp.cs
+  /OpenAuth.App/Files/Request/QueryFileListReq.cs: /OpenAuth.App/Request/QueryFileListReq.cs
+  /OpenAuth.App/FlowInstance/FlowInstanceApp.cs: /OpenAuth.App/FlowInstanceApp.cs
+  /OpenAuth.App/FlowInstance/Request/AddFlowInstanceReq.cs: /OpenAuth.App/Request/AddFlowInstanceReq.cs
+  /OpenAuth.App/FlowInstance/Request/QueryFlowInstanceHistoryReq.cs: /OpenAuth.App/Request/QueryFlowInstanceHistoryReq.cs
+  /OpenAuth.App/FlowInstance/Request/QueryFlowInstanceListReq.cs: /OpenAuth.App/Request/QueryFlowInstanceListReq.cs
+  /OpenAuth.App/FlowInstance/Request/VerificationReq.cs: /OpenAuth.App/Request/VerificationReq.cs
+  /OpenAuth.App/FlowInstance/Response/FlowVerificationResp.cs: /OpenAuth.App/Response/FlowVerificationResp.cs
+  /OpenAuth.App/FlowScheme/FlowSchemeApp.cs: /OpenAuth.App/FlowSchemeApp.cs
+  /OpenAuth.App/FlowScheme/Request/QueryFlowSchemeListReq.cs: /OpenAuth.App/Request/QueryFlowSchemeListReq.cs
+  /OpenAuth.App/Form/FormApp.cs: /OpenAuth.App/FormApp.cs
+  /OpenAuth.App/Form/FormUtil.cs: /OpenAuth.App/FormUtil.cs
+  /OpenAuth.App/Form/Request/QueryFormListReq.cs: /OpenAuth.App/Request/QueryFormListReq.cs
+  /OpenAuth.App/Form/Response/FormResp.cs: /OpenAuth.App/Response/FormResp.cs
+  /OpenAuth.App/FrmLeave/FrmLeaveReqApp.cs: /OpenAuth.App/FrmLeaveReqApp.cs
+  /OpenAuth.App/FrmLeave/Request/QueryFrmLeaveReqListReq.cs: /OpenAuth.App/Request/QueryFrmLeaveReqListReq.cs
+  /OpenAuth.App/Jobs/OpenJobApp.cs: /OpenAuth.App/OpenJobApp.cs
+  /OpenAuth.App/Jobs/Request/AddOrUpdateOpenJobReq.cs: /OpenAuth.App/Request/AddOrUpdateOpenJobReq.cs
+  /OpenAuth.App/Jobs/Request/ChangeJobStatusReq.cs: /OpenAuth.App/Request/ChangeJobStatusReq.cs
+  /OpenAuth.App/Jobs/Request/QueryOpenJobListReq.cs: /OpenAuth.App/Request/QueryOpenJobListReq.cs
+  /OpenAuth.App/ModuleManager/ModuleManagerApp.cs: /OpenAuth.App/ModuleManagerApp.cs
+  /OpenAuth.App/ModuleManager/Response/ModuleElementVM.cs: /OpenAuth.App/Response/ModuleElementVM.cs
+  /OpenAuth.App/ModuleManager/Response/ModuleView.cs: /OpenAuth.App/Response/ModuleView.cs
+  /OpenAuth.App/OrgManager/OrgManagerApp.cs: /OpenAuth.App/OrgManagerApp.cs
+  /OpenAuth.App/Relevance/Request/AssignDataReq.cs: /OpenAuth.App/Request/AssignDataReq.cs
+  /OpenAuth.App/Relevance/Request/AssignOrgUsers.cs: /OpenAuth.App/Request/AssignOrgUsers.cs
+  /OpenAuth.App/Relevance/Request/AssignReq.cs: /OpenAuth.App/Request/AssignReq.cs
+  /OpenAuth.App/Relevance/Request/AssignRoleUsers.cs: /OpenAuth.App/Request/AssignRoleUsers.cs
+  /OpenAuth.App/Relevance/RevelanceManagerApp.cs: /OpenAuth.App/RevelanceManagerApp.cs
+  /OpenAuth.App/Resources/Request/AddOrUpdateResReq.cs: /OpenAuth.App/Request/AddOrUpdateResReq.cs
+  /OpenAuth.App/Resources/Request/QueryResourcesReq.cs: /OpenAuth.App/Request/QueryResourcesReq.cs
+  /OpenAuth.App/Resources/ResourceApp.cs: /OpenAuth.App/ResourceApp.cs
+  /OpenAuth.App/RoleManager/Request/QueryRoleListReq.cs: /OpenAuth.App/Request/QueryRoleListReq.cs
+  /OpenAuth.App/RoleManager/Response/RoleView.cs: /OpenAuth.App/Response/RoleView.cs
+  /OpenAuth.App/RoleManager/RoleApp.cs: /OpenAuth.App/RoleApp.cs
+  /OpenAuth.App/SysLogs/Request/QuerySysLogListReq.cs: /OpenAuth.App/Request/QuerySysLogListReq.cs
+  /OpenAuth.App/SysLogs/SysLogApp.cs: /OpenAuth.App/SysLogApp.cs
+  /OpenAuth.App/SysMessage/Request/QuerySysMessageListReq.cs: /OpenAuth.App/Request/QuerySysMessageListReq.cs
+  /OpenAuth.App/SysMessage/SysMessageApp.cs: /OpenAuth.App/SysMessageApp.cs
+  /OpenAuth.App/UserManager/Request/ChangePasswordReq.cs: /OpenAuth.App/Request/ChangePasswordReq.cs
+  /OpenAuth.App/UserManager/Request/ChangeProfileReq.cs: /OpenAuth.App/Request/ChangeProfileReq.cs
+  /OpenAuth.App/UserManager/Request/QueryUserListByOrgReq.cs: /OpenAuth.App/Request/QueryUserListByOrgReq.cs
+  /OpenAuth.App/UserManager/Request/QueryUserListByRoleReq.cs: /OpenAuth.App/Request/QueryUserListByRoleReq.cs
+  /OpenAuth.App/UserManager/Request/QueryUserListReq.cs: /OpenAuth.App/Request/QueryUserListReq.cs
+  /OpenAuth.App/UserManager/Request/UpdateUserReq.cs: /OpenAuth.App/Request/UpdateUserReq.cs
+  /OpenAuth.App/UserManager/Response/UserView.cs: /OpenAuth.App/Response/UserView.cs
+  /OpenAuth.App/UserManager/UserManagerApp.cs: /OpenAuth.App/UserManagerApp.cs
+  /OpenAuth.App/WmsInbound/Request/AddOrUpdateWmsInboundOrderDtblReq.cs: /OpenAuth.App/Request/AddOrUpdateWmsInboundOrderDtblReq.cs
+  /OpenAuth.App/WmsInbound/Request/AddOrUpdateWmsInboundOrderTblReq.cs: /OpenAuth.App/Request/AddOrUpdateWmsInboundOrderTblReq.cs
+  /OpenAuth.App/WmsInbound/Request/QueryWmsInboundOrderDtblListReq.cs: /OpenAuth.App/Request/QueryWmsInboundOrderDtblListReq.cs
+  /OpenAuth.App/WmsInbound/Request/QueryWmsInboundOrderTblListReq.cs: /OpenAuth.App/Request/QueryWmsInboundOrderTblListReq.cs
+  /OpenAuth.App/WmsInbound/WmsInboundOrderDtblApp.cs: /OpenAuth.App/WmsInboundOrderDtblApp.cs
+  /OpenAuth.App/WmsInbound/WmsInboundOrderTblApp.cs: /OpenAuth.App/WmsInboundOrderTblApp.cs
+revisionId: 505
