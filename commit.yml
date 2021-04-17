@@ -2,22 +2,61 @@
 branches: {
   }
 fileChange:
+  /Infrastructure:
+    newFile: !uuid '6d095ed5e09281ded3b76df6bcb3802b66b7b657'
+    oldFile: !uuid '17e002ce5a988a3d7cb834e9fff2a614da5e9587'
+  /Infrastructure/Define.cs:
+    newFile: !uuid '8101ed5dddf0a471273007ada023da94857d41c0'
+    oldFile: !uuid '1e2bc4a5bbfb15d4132a8025e3e97363ba805c4e'
   /OpenAuth.App:
-    newFile: !uuid 'acf1b6d43e33dc948de6c1aa45fffab7cb772f97'
-    oldFile: !uuid 'cad4bf765520fe5d4d0f2b86d22197f0b32bc862'
-  /OpenAuth.App/BuilderTable:
-    newFile: !uuid '14a3914fab1af1595141cc0a277b6348606e3903'
-    oldFile: !uuid 'ef06fc21342ea7799667ee13ba9fa8ae442b903c'
-  /OpenAuth.App/BuilderTable/BuilderTableApp.cs:
-    newFile: !uuid '9fde3eb74a04a330535dab1f9d905ce31645e775'
-    oldFile: !uuid '37984c0aae59d59871fa07de9c6be732cfdd89dd'
-  /OpenAuth.App/Test:
-    newFile: !uuid 'df467e2f0fc016f343fbc74190e7cce0faa06db5'
-    oldFile: !uuid '9a1e631640758146d8bf30b33471a99038345a95'
-  /OpenAuth.App/Test/TestBuilder.cs:
-    newFile: !uuid '7fcf251f4392c99ddd912df91569304b514f7471'
-    oldFile: !uuid '998a73bf3a980d04444d197e7925cad2f0ad803a'
-gitCommitId: !uuid 'b061f77495b4c266b7e4116315c5458cdaf43729'
+    newFile: !uuid '270f16a8cad63bcee6a3ccb765f822a63de302fa'
+    oldFile: !uuid 'acf1b6d43e33dc948de6c1aa45fffab7cb772f97'
+  /OpenAuth.App/AppManager:
+    newFile: !uuid 'b976adbb507492d601dfb5decbc52412e9b347c8'
+    oldFile: !uuid '8f02894a9cd10c141b965e66aabe307007f9bcf6'
+  /OpenAuth.App/AppManager/AppManager.cs:
+    newFile: !uuid '55024252e3273a7f7a043550576203198bb15484'
+    oldFile: !uuid '083abbd4c6495e7d58fe20441eb9d7bbc623d55a'
+  /OpenAuth.App/SSO:
+    newFile: !uuid '0792979a93116eb1db8b7088ae96ed9892e2881e'
+    oldFile: !uuid '5c79113e8ed5e81c590bf0af13e527479dd9ba08'
+  /OpenAuth.App/SSO/LoginParse.cs:
+    newFile: !uuid '1e5e7bea2989e39b2f4ce2f5e231cf10bb9c986b'
+    oldFile: !uuid '5e92cd9ed1eff10d0cc1fb5d2ba461a7e3d7cfed'
+  /OpenAuth.App/SSO/PassportLoginRequest.cs:
+    newFile: !uuid '4d25b309653c10eed4633f2e908341c89a952168'
+    oldFile: !uuid 'bda834478bbaa60230ccfd78ea702b7d65520c3a'
+  /OpenAuth.Identity:
+    newFile: !uuid '5faaba76491d21dac197d6bf5f70cc9921d1169a'
+    oldFile: !uuid '1400f8ebcb45ef100a819d2dd952de819bf5f6db'
+  /OpenAuth.Identity/Startup.cs:
+    newFile: !uuid '53302c6ccd169cac4ee824af56aca5ea5703563f'
+    oldFile: !uuid '0f1e241a6ac72f0bef199b6df1f18636ca75c78d'
+  /OpenAuth.Repository:
+    newFile: !uuid 'e7ef5e062e1d5d0aa773545c031ea5916a9b4467'
+    oldFile: !uuid '37a9827fa00a4b9e73275f526909cc62ad0b313e'
+  /OpenAuth.Repository/OpenAuth.Repository.csproj:
+    newFile: !uuid 'b6a9d7a0fb743b6d3ca073d6d5f202b4ddb69ed2'
+    oldFile: !uuid '9a8c51884c59b7c134293a373035de28a38b084d'
+  /OpenAuth.Repository/OpenAuthDBContext.cs:
+    newFile: !uuid 'db8d01b6f821bba30b6eadbb0438fc75dcea6105'
+    oldFile: !uuid '9976fd2a7889cdd858e4827bf890a90917711b4e'
+  /OpenAuth.Repository/Test:
+    newFile: !uuid '8cc6aba5d6f51f26ba40aa568839aea7f2405a3a'
+    oldFile: !uuid '878b0c57e328b75058b1105a5f8025ec810ce1c3'
+  /OpenAuth.Repository/Test/TestTransaction.cs:
+    newFile: !uuid '5a9688e6115b228cdc9a291e5128901a81a764ff'
+    oldFile: !uuid 'ec5c592e7cbce77f8ec636a179d7d62a6090ab44'
+  /OpenAuth.WebApi:
+    newFile: !uuid '90b1748844c79042c4e7f487488e0be0baa116ba'
+    oldFile: !uuid '0a306d70e3cd64d930553124f78e69f4043bbf53'
+  /OpenAuth.WebApi/appsettings.Production.json:
+    newFile: !uuid '7bfa8fc4abc854f31c8daec721ff28cde545ae50'
+    oldFile: !uuid '656d8ba883b1c36b8951ed9b52089d99570b25b9'
+  /OpenAuth.WebApi/appsettings.json:
+    newFile: !uuid 'de96ba35efe3dd4a829632210d431a2cc9d78219'
+    oldFile: !uuid 'bc1564f1f91cec37153d89c113af4b7e10779f98'
+gitCommitId: !uuid 'c55ecaff855a18d506c8e4cb9ef5f61936b82476'
 renames: {
   }
-revisionId: 506
+revisionId: 507
