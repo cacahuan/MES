@@ -2,49 +2,34 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.App:
-    newFile: !uuid '61bf381b41839da40d630a64fd9c14167ddc7ef6'
-    oldFile: !uuid '685121a27d18b9ebce71c46b65208e13cfbc9c42'
-  /OpenAuth.App/Flow:
-    newFile: !uuid 'f12e2a23a3d5ebc32881ba7010a30c420596bfa9'
-    oldFile: !uuid '86b97a0ba29f5997f50c1d4e741cdc36c2583faa'
-  /OpenAuth.App/Flow/FlowNode.cs:
-    newFile: !uuid '7bd96a6397703d016cc7b9974d5809550104943b'
-    oldFile: !uuid '703b871eaa464a615fcb22b937ad9f9dd19c8d80'
-  /OpenAuth.App/FlowInstance:
-    newFile: !uuid '0681ae3e502f3ce503af996dc5e7fbf6c232259a'
-    oldFile: !uuid 'f52a8382f7cec458c0ec5432cafb8e26c2c77102'
-  /OpenAuth.App/FlowInstance/FlowInstanceApp.cs:
-    newFile: !uuid '4fd4dfb85df994a58ddff088f16a87870b7c050a'
-    oldFile: !uuid 'ffc75d9ec328a43444090fb2c2a6a95d151d9a11'
-  /OpenAuth.App/FlowInstance/Request:
-    newFile: !uuid '260ad3ecf704c6ded9308ff238b2e8e81d7d7270'
-    oldFile: !uuid 'f2356ba33e5f0db4c371365281cde242a3815296'
-  /OpenAuth.App/FlowInstance/Request/AddFlowInstanceReq.cs:
-    newFile: !uuid '1cf11ecc1252c3756286f0f1437fcfb344707a01'
-    oldFile: !uuid '489ad2ba7208ab7559e64b47097be199240b9e57'
-  /OpenAuth.App/FlowInstance/Request/NodeDesignateReq.cs:
-    newFile: !uuid 'a52ab16dd0dfbd83dfe46082bc42e2c577aef0b6'
-    oldFile: null
-  /OpenAuth.App/FlowInstance/Request/VerificationReq.cs:
-    newFile: !uuid '2aba6dc68a20630855ebbd6e91065692edc22567'
-    oldFile: !uuid 'ae35949ed8d99b107386d6338d304a2eb5994110'
-  /OpenAuth.App/FlowInstance/Response:
-    newFile: !uuid '1b04aca89fa8962fa34ca3f77d09ef460d006bce'
-    oldFile: !uuid 'ca9a1d3448707d869b3e39dfc94c8b5106a0f41a'
-  /OpenAuth.App/FlowInstance/Response/FlowVerificationResp.cs:
-    newFile: !uuid '6304a941f677213c27885b5a6126985eb4b5cb85'
-    oldFile: !uuid '400a13ca2cd51db85f9c485ab5a8983caf0958b3'
-  /OpenAuth.WebApi:
-    newFile: !uuid '759d61c35542fbec336f84d4b27a5d1cb5e1b3e1'
-    oldFile: !uuid 'badc4fbdbb7ac4a05394c8dcfd3497b870bbbc30'
-  /OpenAuth.WebApi/Controllers:
-    newFile: !uuid 'a90586ba07524042fa6361b385cdb9c77aebb77e'
-    oldFile: !uuid 'd55da6d9911586478df7b55c6cc057386d0f925e'
-  /OpenAuth.WebApi/Controllers/FlowInstancesController.cs:
-    newFile: !uuid '47cfbc6165b5fdf685f4f12c61e1c295e671a2d2'
-    oldFile: !uuid '5472e58869003cbc28f2f494eda326e5f8312116'
-gitCommitId: !uuid '0810b0b9c074c04f0fe546ec85ee92fa04b68f5b'
+  /CodeSmith:
+    newFile: !uuid 'a8940b938d211449df5050d5c85ce3a29869718e'
+    oldFile: !uuid '076086f13226468eb65ac7c72fd80fd678ee1514'
+  /CodeSmith/CSharp:
+    newFile: !uuid 'acc15e43f89a9a0dc3c0866755c509eab89d5040'
+    oldFile: !uuid 'd0d191e7173471314030c96bd9eb5138585e5e69'
+  /CodeSmith/CSharp/ApiGenerate:
+    newFile: !uuid 'd3a760c113d5806bc0dab3c4cf57b606f343b32c'
+    oldFile: !uuid '30b8eab1fd5e9e05bd4ae87cb61dde17f6c39e82'
+  /CodeSmith/CSharp/ApiGenerate.cst:
+    newFile: !uuid 'cc7834efa086163c8fc2d2a8f195911b2ac3bcee'
+    oldFile: !uuid '9d201f29cef79c89e77c818dadfe5f92f9a0c1f4'
+  /CodeSmith/CSharp/ApiGenerate/Application.cst:
+    newFile: !uuid '0db0e3541ee04c42bbefd5657740f55280d7cba7'
+    oldFile: !uuid '341b179988b3387460346b2de72415ce9d8c1beb'
+  /CodeSmith/CSharp/ApiGenerate/ModifyReq.cst:
+    newFile: !uuid '34bbb561b150a690a3dec780a303a0ed2a097f4a'
+    oldFile: !uuid '867bfd0cd3c42d07c06b7fb29e737c3fbd267482'
+  /CodeSmith/CSharp/ApiGenerate/Request.cst:
+    newFile: !uuid '6b9b70e78b8099e7e812fd1d6e77f5f1ebb2c7f3'
+    oldFile: !uuid 'c7b9cf2f20d9218bdf9965f25f2b7d6cc355540d'
+  /CodeSmith/CSharp/Web:
+    newFile: !uuid 'f737e1465089d801beab32e211f5d01c39b0543f'
+    oldFile: !uuid 'bc36e9ececd9809497f7d84d0109bc0b79f26248'
+  /CodeSmith/CSharp/Web/Util.cs:
+    newFile: !uuid 'bb5da1c8fc2a3825a97f41fc776b9e8ce647e2d7'
+    oldFile: !uuid '9134997d85f7b488004776f5f85dc88b7915ca53'
+gitCommitId: !uuid '785d784759422fac63c2f20341b9a746c3e46302'
 renames: {
   }
-revisionId: 514
+revisionId: 515
