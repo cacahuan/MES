@@ -3,15 +3,48 @@ branches: {
   }
 fileChange:
   /OpenAuth.App:
-    newFile: !uuid '685121a27d18b9ebce71c46b65208e13cfbc9c42'
-    oldFile: !uuid 'e959cad9db93b01689642cdbf19bece679e3523c'
+    newFile: !uuid '61bf381b41839da40d630a64fd9c14167ddc7ef6'
+    oldFile: !uuid '685121a27d18b9ebce71c46b65208e13cfbc9c42'
+  /OpenAuth.App/Flow:
+    newFile: !uuid 'f12e2a23a3d5ebc32881ba7010a30c420596bfa9'
+    oldFile: !uuid '86b97a0ba29f5997f50c1d4e741cdc36c2583faa'
+  /OpenAuth.App/Flow/FlowNode.cs:
+    newFile: !uuid '7bd96a6397703d016cc7b9974d5809550104943b'
+    oldFile: !uuid '703b871eaa464a615fcb22b937ad9f9dd19c8d80'
   /OpenAuth.App/FlowInstance:
-    newFile: !uuid 'f52a8382f7cec458c0ec5432cafb8e26c2c77102'
-    oldFile: !uuid 'ecb1aee86e2d3c4b9d23b43e774aa3db0cc587da'
+    newFile: !uuid '0681ae3e502f3ce503af996dc5e7fbf6c232259a'
+    oldFile: !uuid 'f52a8382f7cec458c0ec5432cafb8e26c2c77102'
   /OpenAuth.App/FlowInstance/FlowInstanceApp.cs:
-    newFile: !uuid 'ffc75d9ec328a43444090fb2c2a6a95d151d9a11'
-    oldFile: !uuid '4664e90ccbe4e18f501ea4617e733f4100fbee0f'
-gitCommitId: !uuid '65e42ed2c337e01e3cc48217d22e79e23c5db00c'
+    newFile: !uuid '4fd4dfb85df994a58ddff088f16a87870b7c050a'
+    oldFile: !uuid 'ffc75d9ec328a43444090fb2c2a6a95d151d9a11'
+  /OpenAuth.App/FlowInstance/Request:
+    newFile: !uuid '260ad3ecf704c6ded9308ff238b2e8e81d7d7270'
+    oldFile: !uuid 'f2356ba33e5f0db4c371365281cde242a3815296'
+  /OpenAuth.App/FlowInstance/Request/AddFlowInstanceReq.cs:
+    newFile: !uuid '1cf11ecc1252c3756286f0f1437fcfb344707a01'
+    oldFile: !uuid '489ad2ba7208ab7559e64b47097be199240b9e57'
+  /OpenAuth.App/FlowInstance/Request/NodeDesignateReq.cs:
+    newFile: !uuid 'a52ab16dd0dfbd83dfe46082bc42e2c577aef0b6'
+    oldFile: null
+  /OpenAuth.App/FlowInstance/Request/VerificationReq.cs:
+    newFile: !uuid '2aba6dc68a20630855ebbd6e91065692edc22567'
+    oldFile: !uuid 'ae35949ed8d99b107386d6338d304a2eb5994110'
+  /OpenAuth.App/FlowInstance/Response:
+    newFile: !uuid '1b04aca89fa8962fa34ca3f77d09ef460d006bce'
+    oldFile: !uuid 'ca9a1d3448707d869b3e39dfc94c8b5106a0f41a'
+  /OpenAuth.App/FlowInstance/Response/FlowVerificationResp.cs:
+    newFile: !uuid '6304a941f677213c27885b5a6126985eb4b5cb85'
+    oldFile: !uuid '400a13ca2cd51db85f9c485ab5a8983caf0958b3'
+  /OpenAuth.WebApi:
+    newFile: !uuid '759d61c35542fbec336f84d4b27a5d1cb5e1b3e1'
+    oldFile: !uuid 'badc4fbdbb7ac4a05394c8dcfd3497b870bbbc30'
+  /OpenAuth.WebApi/Controllers:
+    newFile: !uuid 'a90586ba07524042fa6361b385cdb9c77aebb77e'
+    oldFile: !uuid 'd55da6d9911586478df7b55c6cc057386d0f925e'
+  /OpenAuth.WebApi/Controllers/FlowInstancesController.cs:
+    newFile: !uuid '47cfbc6165b5fdf685f4f12c61e1c295e671a2d2'
+    oldFile: !uuid '5472e58869003cbc28f2f494eda326e5f8312116'
+gitCommitId: !uuid '0810b0b9c074c04f0fe546ec85ee92fa04b68f5b'
 renames: {
   }
-revisionId: 513
+revisionId: 514
