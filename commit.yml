@@ -2,34 +2,70 @@
 branches: {
   }
 fileChange:
-  /CodeSmith:
-    newFile: !uuid 'a8940b938d211449df5050d5c85ce3a29869718e'
-    oldFile: !uuid '076086f13226468eb65ac7c72fd80fd678ee1514'
-  /CodeSmith/CSharp:
-    newFile: !uuid 'acc15e43f89a9a0dc3c0866755c509eab89d5040'
-    oldFile: !uuid 'd0d191e7173471314030c96bd9eb5138585e5e69'
-  /CodeSmith/CSharp/ApiGenerate:
-    newFile: !uuid 'd3a760c113d5806bc0dab3c4cf57b606f343b32c'
-    oldFile: !uuid '30b8eab1fd5e9e05bd4ae87cb61dde17f6c39e82'
-  /CodeSmith/CSharp/ApiGenerate.cst:
-    newFile: !uuid 'cc7834efa086163c8fc2d2a8f195911b2ac3bcee'
-    oldFile: !uuid '9d201f29cef79c89e77c818dadfe5f92f9a0c1f4'
-  /CodeSmith/CSharp/ApiGenerate/Application.cst:
-    newFile: !uuid '0db0e3541ee04c42bbefd5657740f55280d7cba7'
-    oldFile: !uuid '341b179988b3387460346b2de72415ce9d8c1beb'
-  /CodeSmith/CSharp/ApiGenerate/ModifyReq.cst:
-    newFile: !uuid '34bbb561b150a690a3dec780a303a0ed2a097f4a'
-    oldFile: !uuid '867bfd0cd3c42d07c06b7fb29e737c3fbd267482'
-  /CodeSmith/CSharp/ApiGenerate/Request.cst:
-    newFile: !uuid '6b9b70e78b8099e7e812fd1d6e77f5f1ebb2c7f3'
-    oldFile: !uuid 'c7b9cf2f20d9218bdf9965f25f2b7d6cc355540d'
-  /CodeSmith/CSharp/Web:
-    newFile: !uuid 'f737e1465089d801beab32e211f5d01c39b0543f'
-    oldFile: !uuid 'bc36e9ececd9809497f7d84d0109bc0b79f26248'
-  /CodeSmith/CSharp/Web/Util.cs:
-    newFile: !uuid 'bb5da1c8fc2a3825a97f41fc776b9e8ce647e2d7'
-    oldFile: !uuid '9134997d85f7b488004776f5f85dc88b7915ca53'
-gitCommitId: !uuid '785d784759422fac63c2f20341b9a746c3e46302'
+  /Infrastructure:
+    newFile: !uuid '63f6daeda02edd8ef0f499d9cd82b1fb6172e49a'
+    oldFile: !uuid '81fe591121479512224ba7439346e11252e8968f'
+  /Infrastructure/Const:
+    newFile: !uuid '7325606e475b65092fcd55b90adeda37aa1bcb47'
+    oldFile: !uuid '23b4e20218d43112b71134b3665785fd4ed1b4fc'
+  /Infrastructure/Const/JobStatus.cs:
+    newFile: !uuid '7616d75cdf26661cc4328f593d241702b62bd2c2'
+    oldFile: null
+  /Infrastructure/Database:
+    newFile: !uuid 'b64d1aa5df8c69cc6869e42b6902cb4634f8d7ee'
+    oldFile: null
+  /Infrastructure/Database/DbDataConvertExtensions.cs:
+    newFile: !uuid '517f7add5a5e2423ada24c63644940b1d9495032'
+    oldFile: null
+  /Infrastructure/Extensions:
+    newFile: !uuid '3667158430851a486283ad8afc0b2072174be47d'
+    oldFile: !uuid '977a215293b4cb7f96cb3a015e340af39b428332'
+  /Infrastructure/Extensions/ObjectExtension.cs:
+    newFile: !uuid '6f55cfecf095383aff421a0a0ef007f4c2764ce2'
+    oldFile: !uuid 'a61d56f850f4891e963c19a5e6a9fcf0ef3b739d'
+  /OpenAuth.App:
+    newFile: !uuid '880d594bb67034373a092ce54ec4b7cdd0dd6d5d'
+    oldFile: !uuid '61bf381b41839da40d630a64fd9c14167ddc7ef6'
+  /OpenAuth.App/Extensions:
+    newFile: !uuid '2c234e3fe8b2addd5a286279c4de94f1ff3a1704'
+    oldFile: null
+  /OpenAuth.App/Extensions/OpenJobExt.cs:
+    newFile: !uuid '032f07c6de11e935b602f86bcd2f692571472ba9'
+    oldFile: null
+  /OpenAuth.App/HostedService:
+    newFile: !uuid '1810ef054ffdc9c4acebcdeaaea9b19e40289e9d'
+    oldFile: !uuid 'fb0015b3941ffe593379704ed926bd8445f9ca02'
+  /OpenAuth.App/HostedService/QuartzService.cs:
+    newFile: !uuid '3ceb564fe505656097b61919ee05a2163f24f1d3'
+    oldFile: !uuid '36a2f036e7e58b9f5652e2d09a64c8b1b3fd827a'
+  /OpenAuth.App/Jobs:
+    newFile: !uuid 'b8f847145a90acf2e2246a4239c4ee2110375600'
+    oldFile: !uuid '147379c16a6ccae22bd45e6f798b5be5baea0e4c'
+  /OpenAuth.App/Jobs/OpenJobApp.cs:
+    newFile: !uuid 'd64cd9cfa007e35e068755bc91a070dce8813a8f'
+    oldFile: !uuid 'bdd2e61b4c0da8c8455bc5ab9804042b84586d6d'
+  /OpenAuth.Repository:
+    newFile: !uuid '9a283b3819c6de91945276e5d2c9299c23d2015e'
+    oldFile: !uuid '62d58ce9913de44be080628a524ea28c8071860d'
+  /OpenAuth.Repository/Interface:
+    newFile: !uuid 'fbde71d09e38e74d528cb308fc18ebc215844258'
+    oldFile: !uuid 'd3ac9227febd47f2db517af313c3a9dfb36acdad'
+  /OpenAuth.Repository/Interface/IUnitWork.cs:
+    newFile: !uuid 'ecee9906e3b9af68c9d8a4c97800c39bee9b14f4'
+    oldFile: !uuid 'd85b2e219888bbe5677a823f51c19eba0c4ee9ea'
+  /OpenAuth.Repository/OpenAuthDBContext.cs:
+    newFile: !uuid 'f0968e0c8eeb6c9ad3c6dd91ea24cdf0e24bde65'
+    oldFile: !uuid '959c188fbd6d3edca5b5299fb308f080cc9e7f47'
+  /OpenAuth.Repository/Test:
+    newFile: !uuid '16d350d534f16406700b9cf0f58b9edc7b06c356'
+    oldFile: !uuid '65964c13da81e79baa41d769b2b64b130d3533c7'
+  /OpenAuth.Repository/Test/TestUnitWork.cs:
+    newFile: !uuid 'af8a28dae212978fd045ecea287712fa6d4047b7'
+    oldFile: null
+  /OpenAuth.Repository/UnitWork.cs:
+    newFile: !uuid '0b2b1597f796ed87f7ae175ade565f0d167f80fe'
+    oldFile: !uuid 'b1d51f5a25ed1135b960cb7ff5eaedde49c109ee'
+gitCommitId: !uuid '4148427f1afd6dd5183f2df9c1516bfa9dda9675'
 renames: {
   }
-revisionId: 515
+revisionId: 516
