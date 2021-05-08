@@ -3,27 +3,18 @@ branches: {
   }
 fileChange:
   /Infrastructure:
-    newFile: !uuid '95defa68d624771e339e2d90a07f52443281b880'
-    oldFile: !uuid '63f6daeda02edd8ef0f499d9cd82b1fb6172e49a'
-  /Infrastructure/Infrastructure.csproj:
-    newFile: !uuid '8e5ffc46e7acae08442dc3f1a90b4b59eabcc0a8'
-    oldFile: !uuid 'd7e43deb9e8925b3fc6cee3d3d937fe04414aa4e'
-  /Infrastructure/Middleware:
-    newFile: !uuid '33dae43b19c2fa26bccf0946f7b9a9a93e501f1b'
-    oldFile: null
-  /Infrastructure/Middleware/IApplicationBuilderExtension.cs:
-    newFile: !uuid 'cc98115d44cd5d1c0c48ac0d060604217426048a'
-    oldFile: null
-  /Infrastructure/Middleware/RequestResponseLoggingMiddleware.cs:
-    newFile: !uuid 'cdaa9163dc9a3ea32fe016c6d80ed385ad5106ff'
-    oldFile: null
-  /OpenAuth.WebApi:
-    newFile: !uuid 'ecd3b0a8c79ad0faaa73c1ac75539d5bb7f2b164'
-    oldFile: !uuid '5fedeab5963d18b0cb4e76ba989e2aff5aeca8b9'
-  /OpenAuth.WebApi/Startup.cs:
-    newFile: !uuid '79a73ac500b58164cc22397b29210ea92ecce239'
-    oldFile: !uuid 'ea8d4a2f43d4a9e912c90455a7ff1ed21bcff0f8'
-gitCommitId: !uuid '88e2015a11c7316131010ec32be69cba0d06ad65'
+    newFile: !uuid 'fc2ac55ad238932f99caecd3726c48fb94bff0a0'
+    oldFile: !uuid '95defa68d624771e339e2d90a07f52443281b880'
+  /Infrastructure/StartupLogger.cs:
+    newFile: null
+    oldFile: !uuid '583ce3db9272066ca087341d138c6dd5bd63fbaa'
+  /OpenAuth.Mvc:
+    newFile: !uuid '381a0fd8d46978b18f4b5e0f68cb864fc8d0dcd2'
+    oldFile: !uuid 'feb730efacaed12bbbc4285ee9a90a96ecbb50a1'
+  /OpenAuth.Mvc/Startup.cs:
+    newFile: !uuid 'df87fda9a5215f4fc06c48ae27afda0065fcb4e2'
+    oldFile: !uuid '47409f2d3a72708568fee22e381d3bc9eedcf654'
+gitCommitId: !uuid 'cd211c05d37f59ccac7c2c73ac49f8387d4c0dd4'
 renames: {
   }
-revisionId: 519
+revisionId: 520
