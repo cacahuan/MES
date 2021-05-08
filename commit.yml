@@ -2,19 +2,31 @@
 branches: {
   }
 fileChange:
-  /Infrastructure:
-    newFile: !uuid 'fc2ac55ad238932f99caecd3726c48fb94bff0a0'
-    oldFile: !uuid '95defa68d624771e339e2d90a07f52443281b880'
-  /Infrastructure/StartupLogger.cs:
+  /OpenAuth.WebApi:
+    newFile: !uuid 'bf67efc62ab15f00c5598e93f6866022a9bb3837'
+    oldFile: !uuid 'ecd3b0a8c79ad0faaa73c1ac75539d5bb7f2b164'
+  /OpenAuth.WebApi/log:
     newFile: null
-    oldFile: !uuid '583ce3db9272066ca087341d138c6dd5bd63fbaa'
-  /OpenAuth.Mvc:
-    newFile: !uuid '381a0fd8d46978b18f4b5e0f68cb864fc8d0dcd2'
-    oldFile: !uuid 'feb730efacaed12bbbc4285ee9a90a96ecbb50a1'
-  /OpenAuth.Mvc/Startup.cs:
-    newFile: !uuid 'df87fda9a5215f4fc06c48ae27afda0065fcb4e2'
-    oldFile: !uuid '47409f2d3a72708568fee22e381d3bc9eedcf654'
-gitCommitId: !uuid 'cd211c05d37f59ccac7c2c73ac49f8387d4c0dd4'
+    oldFile: !uuid '2f1104e4d2d1b4f07cde4526a8432bc30a0a57e4'
+  /OpenAuth.WebApi/log/20200424.txt:
+    newFile: null
+    oldFile: !uuid '2aacca73e0c9056005fe7fb92646d4b45823257a'
+  /OpenAuth.WebApi/log/20200624.txt:
+    newFile: null
+    oldFile: !uuid '8e4023492571f6c52e43c847068a74eb81e98d62'
+  /OpenAuth.WebApi/log/20200807.txt:
+    newFile: null
+    oldFile: !uuid '8be4f5ebdbdee8428aedc999a7fc0d675d9296c8'
+  /OpenAuth.WebApi/log/20200810.txt:
+    newFile: null
+    oldFile: !uuid '3fac2aed80d40f25ea1741fc85928349fc6132d9'
+  /OpenAuth.WebApi/log/20200910.txt:
+    newFile: null
+    oldFile: !uuid '4eb51ed0f07719aec517df4c35525b3da3c092c7'
+  /OpenAuth.WebApi/log/20200928.txt:
+    newFile: null
+    oldFile: !uuid '9b1af8454e3d5211b29427490d35d1fdc2758276'
+gitCommitId: !uuid 'd9a500b3b24d425897ace562d79c8c62cb9b82af'
 renames: {
   }
-revisionId: 520
+revisionId: 521
