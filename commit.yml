@@ -2,10 +2,85 @@
 branches: {
   }
 fileChange:
-  /README.md:
-    newFile: !uuid '58e12f5ec5a5fc4043a1b9862c964ed7a1ff15cd'
-    oldFile: !uuid '21cda0c601ced28cd90aa9feafd471eac2313ad4'
-gitCommitId: !uuid '804ee3d9d8f9c284da554eecf698051b935f8f26'
+  /OpenAuth.WebApi:
+    newFile: !uuid '8ce7909f68bdd41f9d57f75ce31f91763e45c28f'
+    oldFile: !uuid 'b762b1b3e2c970a30e256bf1ee31de8a2b692a3e'
+  /OpenAuth.WebApi/Controllers:
+    newFile: !uuid '5dbe8238be40d2ed5d775436e6773aa74d7d12a1'
+    oldFile: !uuid '48fbb584a824b7ff255652f97d1b2d7b51bf2412'
+  /OpenAuth.WebApi/Controllers/AccessObjsController.cs:
+    newFile: !uuid '590167bec829e72fcf0c947ac1166edaa3c74a43'
+    oldFile: !uuid 'f45fd4384f495a552e37cdbe36d1f741468aad3e'
+  /OpenAuth.WebApi/Controllers/ApplicationsController.cs:
+    newFile: !uuid '880bf4a245b00e1d6d7658ee3ef613552477d0cf'
+    oldFile: !uuid 'a9b6b503547c3a70a966c0dd5b2db9c6a0cb0f0f'
+  /OpenAuth.WebApi/Controllers/BuilderTableColumnsController.cs:
+    newFile: !uuid 'bc2e7580f5d1e134bd3d3aa604ee6df5cab2e085'
+    oldFile: !uuid 'daad4877c232eae9ae5fdac01f839d402ad9c50b'
+  /OpenAuth.WebApi/Controllers/BuilderTablesController.cs:
+    newFile: !uuid '91e2639f4ab22894625c4f29bc0c694c04c2e9f3'
+    oldFile: !uuid '36db44d881d914a4c9103e00a71ea1a5dbdbaf97'
+  /OpenAuth.WebApi/Controllers/CategoryTypesController.cs:
+    newFile: !uuid '230f9ef6f47316996e6f9805ad23da787638fdb5'
+    oldFile: !uuid 'e77880bc29021c56c85ef8727d8a34d8e4bc19a7'
+  /OpenAuth.WebApi/Controllers/CategorysController.cs:
+    newFile: !uuid 'e1b2e28bc0f3d929254bffc9b7899813e31b0ff2'
+    oldFile: !uuid '662fe64865653695e64f9a3d2550aec1ea62343c'
+  /OpenAuth.WebApi/Controllers/CheckController.cs:
+    newFile: !uuid '63d0b86a64ce0a5a10fe7a34cfcb1ec2b19403c7'
+    oldFile: !uuid 'c4cb3f2b31edc30db97e5078f83a3b40d80817a4'
+  /OpenAuth.WebApi/Controllers/DataPrivilegeRulesController.cs:
+    newFile: !uuid 'e5dd0977906bc060e0b851f1968fe6651d6ea3eb'
+    oldFile: !uuid 'a8987992ef355c2a11f3efe66550b81462c15ca0'
+  /OpenAuth.WebApi/Controllers/FilesController.cs:
+    newFile: !uuid 'b7634e1b87f522bfd95c37b655726226acad6f73'
+    oldFile: !uuid '7d63bed695609ed6c3a5deedb84a7e2c7266b676'
+  /OpenAuth.WebApi/Controllers/FlowInstancesController.cs:
+    newFile: !uuid '3cb6878edf692291d22be4358269eb23d09473b5'
+    oldFile: !uuid '6e60cd641ccbd05392728b58f48fdd125b1a5540'
+  /OpenAuth.WebApi/Controllers/FlowSchemesController.cs:
+    newFile: !uuid 'f517084d0da48ae04517960e5ec49c6a8d4f5279'
+    oldFile: !uuid 'cd5e608230d45b84d3624b4aa45b27b08e5080d5'
+  /OpenAuth.WebApi/Controllers/FormsController.cs:
+    newFile: !uuid '69d2b93c997ec8379069c98189c85051856a98bb'
+    oldFile: !uuid '50d1f9a3c33517780a97f340eb97dac0153f474c'
+  /OpenAuth.WebApi/Controllers/ModulesController.cs:
+    newFile: !uuid 'b58af2679d68d9cb7dc4e37b9cd14f50aef70142'
+    oldFile: !uuid '79fedaf35802b736a9e3042a235e8748e0bc4649'
+  /OpenAuth.WebApi/Controllers/OpenJobsController.cs:
+    newFile: !uuid 'eb02eeb9d157ee09a172ab8d10af3a188ced1c33'
+    oldFile: !uuid '7a6282ef8ef1446db8c87a165d6f32611d39a3e7'
+  /OpenAuth.WebApi/Controllers/OrgsController.cs:
+    newFile: !uuid '4e2d498086efea28afd7ae38b37fd1300b370e10'
+    oldFile: !uuid '07cd5cc7a72fa3f4ae3e3dc9cdb6f04c1e22db36'
+  /OpenAuth.WebApi/Controllers/ResourcesController.cs:
+    newFile: !uuid 'a7e63c982641a602694e2e5667e60c19d91ff514'
+    oldFile: !uuid '6ad7e65eed05e881331c512b872317d2a96177a2'
+  /OpenAuth.WebApi/Controllers/RolesController.cs:
+    newFile: !uuid 'a49d7e6cc2e48902445a88c34c5dfa05a07ddaec'
+    oldFile: !uuid 'a1e69a7414a86233ec03197647cf64f0e3e497ed'
+  /OpenAuth.WebApi/Controllers/SysConfController.cs:
+    newFile: !uuid '1e35cb67fab6bf51ac18b5f19df496ac88d6e082'
+    oldFile: !uuid '535d89113fa8b26aca2b0c73424feee9c543277e'
+  /OpenAuth.WebApi/Controllers/SysLogsController.cs:
+    newFile: !uuid 'cc788e2c93b4de23c7e20ba318f617472008360c'
+    oldFile: !uuid 'ed849a8442de104dc4ecaac039f3fe58a5d385f8'
+  /OpenAuth.WebApi/Controllers/SysMessagesController.cs:
+    newFile: !uuid '400337542b9188c6b847220af99bd53d0a5acecd'
+    oldFile: !uuid 'bb47f79078d1122fb37cc202acbec14af49b7c5c'
+  /OpenAuth.WebApi/Controllers/UsersController.cs:
+    newFile: !uuid '2774eac084d9444705bc1910b6ea898dd4019a42'
+    oldFile: !uuid '27db6e7471f1ee705a4ae804cd5b9646bc385087'
+  /OpenAuth.WebApi/Controllers/WmsInboundOrderDtblsController.cs:
+    newFile: !uuid '8104b2cd6d221b8f1c504384a75e7017994fc463'
+    oldFile: !uuid '1cc88ab8fbb90dd79c24797d9e2ce20631329aee'
+  /OpenAuth.WebApi/Controllers/WmsInboundOrderTblsController.cs:
+    newFile: !uuid 'da3b10eb49ea0f857be4f5fa1eaa6ef7dc7e3859'
+    oldFile: !uuid '08bcf3a451833e89a82f20d42d6d1fd3837a8ee7'
+  /OpenAuth.WebApi/Startup.cs:
+    newFile: !uuid 'fcfe43131b78ea3b4804701bb3041d21bece3b38'
+    oldFile: !uuid 'c3c96a3b8809c71da20953deff86347044c3a643'
+gitCommitId: !uuid 'a84c8c57adb6b85d68174e764b58da907a69b043'
 renames: {
   }
-revisionId: 531
+revisionId: 532
