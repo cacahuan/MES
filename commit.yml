@@ -2,31 +2,28 @@
 branches: {
   }
 fileChange:
+  /OpenAuth.App:
+    newFile: !uuid 'b091106fda412df93d0e864d329ab7d19ca3d2b3'
+    oldFile: !uuid '41789f588ff8130e67979a2fb7e9b3e70d06a117'
+  /OpenAuth.App/BuilderTable:
+    newFile: !uuid '9b23543778d8fb87b18e978f533b1f5ba5629d1c'
+    oldFile: !uuid '899114239de36064b109e0290ab5539a7afd9f83'
+  /OpenAuth.App/BuilderTable/BuilderTableApp.cs:
+    newFile: !uuid '4b6b8bf71bf3b31d26626b3d975d7992ee871a94'
+    oldFile: !uuid 'e501127e822e59fb589a8c55290b0d2840eabd15'
   /OpenAuth.WebApi:
-    newFile: !uuid '45ec96f4010e243d7b70e12dcd23f058707779d6'
-    oldFile: !uuid '41caf40293c838836b418b8dc85b4e52c3e716bd'
+    newFile: !uuid '4eda085e4d302d07d9c0b1a41c73a3bea76f56d3'
+    oldFile: !uuid '45ec96f4010e243d7b70e12dcd23f058707779d6'
   /OpenAuth.WebApi/Template:
-    newFile: !uuid 'eba3bd73266185fabcd20ac46295aab47220911d'
-    oldFile: !uuid '2e1ed67a737f0e1d2b463caa075358136944a653'
-  /OpenAuth.WebApi/Template/MultiTable:
-    newFile: !uuid 'f362b40a71cde0ec1bd7f6fe9e0d09c79521dc98'
-    oldFile: !uuid 'caa8d85f027729f77b474811e1eb643811ddddaf'
-  /OpenAuth.WebApi/Template/MultiTable/BuildVue.html:
-    newFile: !uuid '27e2541c8c2fa2b63c5d16961f58f0d39a6fba4d'
-    oldFile: !uuid '92ae00837a8ac15330278154db5edd4ede1ca5c5'
-  /OpenAuth.WebApi/Template/MultiTable/BuildVueWithDynamicHeader.html:
-    newFile: !uuid '7999ed36086858bc44acc7fd7a8ead74b1751e23'
-    oldFile: !uuid '8a02d4bdd860a782a1371a19e68843238d3ede6c'
+    newFile: !uuid '3a306c5c23698e1cfe2a58a28489e19d8130b0bd'
+    oldFile: !uuid 'eba3bd73266185fabcd20ac46295aab47220911d'
   /OpenAuth.WebApi/Template/SingleTable:
-    newFile: !uuid 'abe9735c36e0e2c9fd1a64b815ba176ec7bc0642'
-    oldFile: !uuid 'a38a472f9cbd989536cf88a891c072226551a550'
-  /OpenAuth.WebApi/Template/SingleTable/BuildVue.html:
-    newFile: !uuid 'dfacc355d42337a78e8000cb59d6c09c050be32d'
-    oldFile: !uuid 'b9a840833535a55b4364514d7cdb2fa6a329993c'
-  /OpenAuth.WebApi/Template/SingleTable/BuildVueWithDynamicHeader.html:
-    newFile: !uuid '35ed77045d4580bf79ba8c820dcde987ed41b0ff'
-    oldFile: !uuid 'd68b6911eabb63d3cf079698aea60d1039d2f010'
-gitCommitId: !uuid '4f37560dc8e296d41fe48e50a05ce02e7595aa6d'
+    newFile: !uuid '038197ae0d53caab7b391635410e646b3f432199'
+    oldFile: !uuid 'abe9735c36e0e2c9fd1a64b815ba176ec7bc0642'
+  /OpenAuth.WebApi/Template/SingleTable/BuildAppWithDynamicHeader.html:
+    newFile: !uuid '36e7991f6eac48314ddd0a1ff41e75e69a5f4883'
+    oldFile: !uuid '6ae2e1ec999a4807b9215c16fe3e120f5c5fce1e'
+gitCommitId: !uuid '8fb9297145fe6c4dd9d0511a01512a5558102b1e'
 renames: {
   }
-revisionId: 544
+revisionId: 545
