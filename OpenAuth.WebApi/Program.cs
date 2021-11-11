@@ -44,8 +44,9 @@ namespace OpenAuth.WebApi
                 {
                     var configuration = ConfigHelper.GetConfigRoot();
                     var httpHost = configuration["AppSetting:HttpHost"];
-                    
-                    webBuilder.UseUrls(httpHost).UseStartup<Startup>();
+
+                    //webBuilder.UseUrls(httpHost).UseStartup<Startup>();
+                    webBuilder.UseStartup<Startup>();
                     Console.WriteLine($"启动成功，接口访问地址:{httpHost}/swagger/index.html");
                 });
     }
