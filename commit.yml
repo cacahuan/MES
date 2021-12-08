@@ -3,21 +3,15 @@ branches: {
   }
 fileChange:
   /OpenAuth.App:
-    newFile: !uuid '725389760e48fc2f637ee815c125144a4e1e8ad4'
-    oldFile: !uuid 'cc9e67138e3b14d81680ace9d429b3c839d39cb9'
-  /OpenAuth.App/BuilderTable:
-    newFile: !uuid '1d16920f2f6e65de846913b09410ad6c3c43749a'
-    oldFile: !uuid 'df0e8e280d1e01c57bf4dce576a32a7b6519645a'
-  /OpenAuth.App/BuilderTable/BuilderTableApp.cs:
-    newFile: !uuid '5822f25ab3d5909bcb482bf919afc49cba92e717'
-    oldFile: !uuid '025955e5342ac18439a87b5c8e6257038c39f0c4'
-  /OpenAuth.App/BuilderTable/Request:
-    newFile: !uuid '23ee1400dc69a3e4f93e034f0d82c0809ed96796'
-    oldFile: !uuid '078aa549672c88e7cc603f21995557d6c78e7812'
-  /OpenAuth.App/BuilderTable/Request/AddOrUpdateBuilderTableReq.cs:
-    newFile: !uuid '36d226480a061040a8302f9a242e9d446ca828db'
-    oldFile: !uuid '94f79a00e522d71addab695727fa7e793e02c36e'
-gitCommitId: !uuid '69d0587c83de2c79bdf9e754e5caba245b28eb3c'
+    newFile: !uuid '71fad5b4b3bd66319261f6ce6d342209443d63f1'
+    oldFile: !uuid '725389760e48fc2f637ee815c125144a4e1e8ad4'
+  /OpenAuth.App/OrgManager:
+    newFile: !uuid '2ae0a9af79d9f3ef36633e26c42e1903fbdd40a5'
+    oldFile: !uuid '424899edf899e5c903a0379d47d9131826028e1b'
+  /OpenAuth.App/OrgManager/OrgManagerApp.cs:
+    newFile: !uuid '4b40bb1f26cd050b288409518e550f68ec7be167'
+    oldFile: !uuid '13789dc49cc366a52799242371754b33e1ed36dc'
+gitCommitId: !uuid 'd0253a7fc01957659794fabcf4702f2887b0a0ba'
 renames: {
   }
-revisionId: 552
+revisionId: 553
