@@ -3,15 +3,27 @@ branches: {
   }
 fileChange:
   /OpenAuth.App:
-    newFile: !uuid '71fad5b4b3bd66319261f6ce6d342209443d63f1'
-    oldFile: !uuid '725389760e48fc2f637ee815c125144a4e1e8ad4'
-  /OpenAuth.App/OrgManager:
-    newFile: !uuid '2ae0a9af79d9f3ef36633e26c42e1903fbdd40a5'
-    oldFile: !uuid '424899edf899e5c903a0379d47d9131826028e1b'
-  /OpenAuth.App/OrgManager/OrgManagerApp.cs:
-    newFile: !uuid '4b40bb1f26cd050b288409518e550f68ec7be167'
-    oldFile: !uuid '13789dc49cc366a52799242371754b33e1ed36dc'
-gitCommitId: !uuid 'd0253a7fc01957659794fabcf4702f2887b0a0ba'
+    newFile: !uuid '169e1d8330c5ae71da06118fec73644a697f6820'
+    oldFile: !uuid '71fad5b4b3bd66319261f6ce6d342209443d63f1'
+  /OpenAuth.App/BuilderTable:
+    newFile: !uuid 'b7a1464b47636c5f0002df66630bfe2bfe5a47b2'
+    oldFile: !uuid '1d16920f2f6e65de846913b09410ad6c3c43749a'
+  /OpenAuth.App/BuilderTable/BuilderTableApp.cs:
+    newFile: !uuid '11187e00c5436051e03fae3a2430816697c77bcb'
+    oldFile: !uuid '5822f25ab3d5909bcb482bf919afc49cba92e717'
+  /OpenAuth.WebApi:
+    newFile: !uuid '25ba51481a910d830cf2817045fc20f3e1ed89f9'
+    oldFile: !uuid '02335754576d84fb19c9662a985171823871b207'
+  /OpenAuth.WebApi/Template:
+    newFile: !uuid 'a2fc83f21bd704ef3082de58078e6312fdc06179'
+    oldFile: !uuid 'aa1a78413ac38177dcb8ac9d971add26a0ffe7bc'
+  /OpenAuth.WebApi/Template/MultiTable:
+    newFile: !uuid 'b4e46f6f1fd93d959e2002f70d67b8afa3bbf4e2'
+    oldFile: !uuid 'f362b40a71cde0ec1bd7f6fe9e0d09c79521dc98'
+  /OpenAuth.WebApi/Template/MultiTable/BuildVue.html:
+    newFile: !uuid '6668c6e4125f264ee08e25f6413869a072cc5c3c'
+    oldFile: !uuid '27e2541c8c2fa2b63c5d16961f58f0d39a6fba4d'
+gitCommitId: !uuid '636624a872cc406d00254f7ae03ddf309eaa234d'
 renames: {
   }
-revisionId: 553
+revisionId: 554
