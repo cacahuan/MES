@@ -3,27 +3,51 @@ branches: {
   }
 fileChange:
   /OpenAuth.App:
-    newFile: !uuid '169e1d8330c5ae71da06118fec73644a697f6820'
-    oldFile: !uuid '71fad5b4b3bd66319261f6ce6d342209443d63f1'
-  /OpenAuth.App/BuilderTable:
-    newFile: !uuid 'b7a1464b47636c5f0002df66630bfe2bfe5a47b2'
-    oldFile: !uuid '1d16920f2f6e65de846913b09410ad6c3c43749a'
-  /OpenAuth.App/BuilderTable/BuilderTableApp.cs:
-    newFile: !uuid '11187e00c5436051e03fae3a2430816697c77bcb'
-    oldFile: !uuid '5822f25ab3d5909bcb482bf919afc49cba92e717'
-  /OpenAuth.WebApi:
-    newFile: !uuid '25ba51481a910d830cf2817045fc20f3e1ed89f9'
-    oldFile: !uuid '02335754576d84fb19c9662a985171823871b207'
-  /OpenAuth.WebApi/Template:
-    newFile: !uuid 'a2fc83f21bd704ef3082de58078e6312fdc06179'
-    oldFile: !uuid 'aa1a78413ac38177dcb8ac9d971add26a0ffe7bc'
-  /OpenAuth.WebApi/Template/MultiTable:
-    newFile: !uuid 'b4e46f6f1fd93d959e2002f70d67b8afa3bbf4e2'
-    oldFile: !uuid 'f362b40a71cde0ec1bd7f6fe9e0d09c79521dc98'
-  /OpenAuth.WebApi/Template/MultiTable/BuildVue.html:
-    newFile: !uuid '6668c6e4125f264ee08e25f6413869a072cc5c3c'
-    oldFile: !uuid '27e2541c8c2fa2b63c5d16961f58f0d39a6fba4d'
-gitCommitId: !uuid '636624a872cc406d00254f7ae03ddf309eaa234d'
+    newFile: !uuid '3b17cf2e5b2669ad8d809921264f750ad6fa7389'
+    oldFile: !uuid '169e1d8330c5ae71da06118fec73644a697f6820'
+  /OpenAuth.App/Form:
+    newFile: !uuid '13853840da4322890c6893cbb4cb4b9ae72e82c3'
+    oldFile: !uuid '71d04cf63a5e4069253d812b87a9db6808d14f4b'
+  /OpenAuth.App/Form/DragForm.cs:
+    newFile: !uuid '88069b1c9dd28a0f1f731abfc49d96cee86f1a7b'
+    oldFile: null
+  /OpenAuth.App/Form/FormApp.cs:
+    newFile: !uuid '8aadd5df9bc4697437e71487aa4d5d75fdef219a'
+    oldFile: !uuid 'fc5c10655261d30ec751353b20e8bff4197525de'
+  /OpenAuth.App/Form/FormFactory.cs:
+    newFile: !uuid '7266a0d59805a10acb4d6100047856245018d8e3'
+    oldFile: null
+  /OpenAuth.App/Form/FormUtil.cs:
+    newFile: !uuid 'ac117129a101d6ac956600ef87d94b511b7f2685'
+    oldFile: !uuid '69d78f0adaaf568498179b55623c1f5d81c48e31'
+  /OpenAuth.App/Form/IForm.cs:
+    newFile: !uuid '082a0602b30bd8ca671851757c9d83ecea464c44'
+    oldFile: null
+  /OpenAuth.App/Form/LeipiForm.cs:
+    newFile: !uuid 'c7e4979f19c7de2ca8906dfaa38159987a819cd0'
+    oldFile: null
+  /OpenAuth.App/Test:
+    newFile: !uuid '56af85dece0368706b70667ae746fc207182b46e'
+    oldFile: !uuid '9db462fd4c85182d0797f12dd55192e59f6f3ccc'
+  /OpenAuth.App/Test/TestForm.cs:
+    newFile: !uuid '562c77c412196e308ccf7d00f18056881d9a878b'
+    oldFile: !uuid 'b29cf89a99273e31991cfb4320f165a9953e946b'
+  /OpenAuth.Repository:
+    newFile: !uuid '408db51cbcd8e09eb5dedafdfde3da300c6062dc'
+    oldFile: !uuid '127232c3285f656f40abb66fef46e28e8817dc0a'
+  /OpenAuth.Repository/OpenAuthDBContext.cs:
+    newFile: !uuid '0078df0ebcf8b042311a0a95b8317ffbd372e657'
+    oldFile: !uuid 'a911f62923aef39c7bf5870e002afce56139f699'
+  /OpenAuth.Repository/QueryObj:
+    newFile: !uuid '7c8081841b8997385bb97c592541b1abb176faf2'
+    oldFile: !uuid 'd87fedd1a801d6bd7ec4ea570000fa8bacc0e4df'
+  /OpenAuth.Repository/QueryObj/QueryStringObj.cs:
+    newFile: !uuid 'c8dc1140a7212937ff326ff5cb44945b0d020a2c'
+    oldFile: null
+  /OpenAuth.Repository/UnitWork.cs:
+    newFile: !uuid 'f065740cd967268bae8248c2b071a1d312ede6d3'
+    oldFile: !uuid 'dddf03d845d6fd9463613bc6e2b780da2cca40ce'
+gitCommitId: !uuid '99daa8752f7bec5dd69a983e4dfe7cc04f220856'
 renames: {
   }
-revisionId: 554
+revisionId: 555
