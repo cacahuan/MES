@@ -2,16 +2,19 @@
 branches: {
   }
 fileChange:
-  /Infrastructure:
-    newFile: !uuid '5063e17a630e17aa7b3d185891501a4313393b04'
-    oldFile: !uuid 'cc5673a0e1b9dfec93dd7528a39069ba3ff25680'
-  /Infrastructure/Utilities:
-    newFile: !uuid '4d0a564f587c17f49bad63ce194a9116396ccfad'
-    oldFile: !uuid '7db1b55a711f59464e45d01878b61b8a6c808c6b'
-  /Infrastructure/Utilities/ProjectPath.cs:
-    newFile: !uuid '189f726ea1dd459652a1a8a868ab093690082390'
-    oldFile: !uuid '4e209caa75a40fdeb82f35cbf77d57281e8c9185'
-gitCommitId: !uuid '44fd165dec262bb6236efa5dcf0718f304ae5ee8'
+  /OpenAuth.App:
+    newFile: !uuid 'ee06b513642e3b4ffbaca3ac86d7cb067f71976f'
+    oldFile: !uuid '6a86928ccd39467e6afe6e280f34f9181c759688'
+  /OpenAuth.App/Form:
+    newFile: !uuid 'eb5c8f4311bf5652af8f42c587f25781d440aae6'
+    oldFile: !uuid 'd67c1b6e965e7e684520568baae07ca7d0a26cad'
+  /OpenAuth.App/Form/DragForm.cs:
+    newFile: !uuid '76a8fa1a958de14637544ebdd1b684938f54673b'
+    oldFile: !uuid '9bed4bc40ff0d4a4f5f5d24451efddef871142c9'
+  /OpenAuth.App/Form/LeipiForm.cs:
+    newFile: !uuid '58c681045fdedd7f4bc78de893587b6748e6d0ed'
+    oldFile: !uuid 'ec340d417e0a5c8f3779bbc27429777af0d770f9'
+gitCommitId: !uuid 'f4a8e93de90691701b75aff9166059c9fdfae1e1'
 renames: {
   }
-revisionId: 559
+revisionId: 560
