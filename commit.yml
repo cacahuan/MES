@@ -2,16 +2,34 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.App:
-    newFile: !uuid '860760878af12dfa7aca78f95793448904d8967a'
-    oldFile: !uuid 'ced9792b8fb660581fc49f5e71030f85cd2d8657'
-  /OpenAuth.App/Category:
-    newFile: !uuid '264e4e94a05d91c66894716ca3e28bc4561acfb9'
-    oldFile: !uuid 'b3b80be9a78030aa606bb72e088643d62b4766fe'
-  /OpenAuth.App/Category/CategoryApp.cs:
-    newFile: !uuid 'fd557a5bab8bec96c7cb98d9ef6f74b6712b739c'
-    oldFile: !uuid 'ba216bd049f07d49aa75aeb0b87737e3c92041ba'
-gitCommitId: !uuid '67408582518a52130d969348b426bbb854132441'
+  /OpenAuth.Mvc:
+    newFile: !uuid 'abad0d3d56d436495737b5c7051bb7e12f2a4c44'
+    oldFile: !uuid '69e8c190c1db2cb297d4c5ccca3502d506e7cc65'
+  /OpenAuth.Mvc/Controllers:
+    newFile: !uuid 'd4c03a982f88b18bb25eede38c73bcaad1b04abb'
+    oldFile: !uuid '841c66a5920e7c591afff7f5e9acb58d1d1c72aa'
+  /OpenAuth.Mvc/Controllers/UserSessionController.cs:
+    newFile: !uuid '6135350219a65457e39286a8d76fbf1e57830d0e'
+    oldFile: !uuid 'aa67398d271a61232b0a9a1fcdef9fb1e6174c29'
+  /OpenAuth.Mvc/Views:
+    newFile: !uuid '9f087b4a3e8cf256cea4d5c1b89230e050a32290'
+    oldFile: !uuid '14f28120f7cafd0023cbe13c96ad8072077c30e5'
+  /OpenAuth.Mvc/Views/ModuleManager:
+    newFile: !uuid '40405163e2cbd8cd23f97369ef083372876c9a5f'
+    oldFile: !uuid '1574326d9e311f67c0184c4e2054ac4b45f003de'
+  /OpenAuth.Mvc/Views/ModuleManager/Assign.cshtml:
+    newFile: !uuid 'b1ba21d5c51e41ce110c7a4fa5d0ed9c7597a856'
+    oldFile: !uuid '866475e4a56bd051cda99a65c50f5ee44397c475'
+  /OpenAuth.Mvc/wwwroot:
+    newFile: !uuid '3f6d916338969104c47c675c4fbb97fa99e007d6'
+    oldFile: !uuid 'aae21e4eae8d82c869c7934319652d01bbd1dbdf'
+  /OpenAuth.Mvc/wwwroot/userJs:
+    newFile: !uuid '60b387b08c36c7735f54cd4359f1f8de76388ad3'
+    oldFile: !uuid '95fa50a34c1a673456a12262a303738d50388522'
+  /OpenAuth.Mvc/wwwroot/userJs/assignModule.js:
+    newFile: !uuid '3f458f265d2a1145fc18796af48d44c51039eb02'
+    oldFile: !uuid 'e65131f317c8c70d29b52b2f8311ca342f9ae139'
+gitCommitId: !uuid 'c4a3da70276271f612a1bdfd4a0ad488927477f2'
 renames: {
   }
-revisionId: 572
+revisionId: 573
