@@ -2,16 +2,10 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.App:
-    newFile: !uuid 'bfdd019fa60d4c18462228b87b1ee1bccb3cffd0'
-    oldFile: !uuid '860760878af12dfa7aca78f95793448904d8967a'
-  /OpenAuth.App/BuilderTable:
-    newFile: !uuid '0d47231830c16ad944e01577e5790a4364a458e0'
-    oldFile: !uuid '84b4f78dd42923f728e7daf7b3776a1d362663f6'
-  /OpenAuth.App/BuilderTable/BuilderTableColumnApp.cs:
-    newFile: !uuid 'f77784666fdf8ed37565f8cf9130b2130bb44110'
-    oldFile: !uuid 'c2706611263dacc0db01733d9b5f382fa36a9935'
-gitCommitId: !uuid 'f5435b4c2f5c6cf6a6e822bb47ee39caee9b4ef5'
+  /global.json:
+    newFile: null
+    oldFile: !uuid 'ed8ca68ff02de5e9a601286f0eddfe235e18d351'
+gitCommitId: !uuid '191250dafeab9fcceaa1684fa92e1ae98d224af9'
 renames: {
   }
-revisionId: 574
+revisionId: 575
