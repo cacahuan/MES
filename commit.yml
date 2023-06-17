@@ -2,10 +2,13 @@
 branches: {
   }
 fileChange:
-  /README.md:
-    newFile: !uuid '573fc2e72cc6b2c6711dcfe3463b5b5571b3226e'
-    oldFile: !uuid 'b2c7cb258f7c4b6b590e66d611d3a9aeceb6f0a8'
-gitCommitId: !uuid 'a5af8e32c54153f2936369e007495cbd4674550e'
+  /snapshot:
+    newFile: !uuid 'd32b9d40f23ac0a3cc79ef7721fd2b9775e54691'
+    oldFile: null
+  /snapshot/form.png:
+    newFile: !uuid '40cb7d7f345a3bbf3b46cc83f35544e9bae3e435'
+    oldFile: null
+gitCommitId: !uuid 'c06dfa6565afb1f75b3616824c47d8c3f1b26343'
 renames: {
   }
-revisionId: 578
+revisionId: 579
