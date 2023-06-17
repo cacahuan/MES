@@ -2,16 +2,10 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.App:
-    newFile: !uuid 'bc36585ac243c8f99033aa9d4f7d17d7c0934e8e'
-    oldFile: !uuid 'bfdd019fa60d4c18462228b87b1ee1bccb3cffd0'
-  /OpenAuth.App/FlowInstance:
-    newFile: !uuid '53325eba5c03e019f5cee32afeed2033cb3cc499'
-    oldFile: !uuid '9c2f39de1994c8fc4ae04d273b901cceae8b7c2c'
-  /OpenAuth.App/FlowInstance/FlowInstanceApp.cs:
-    newFile: !uuid 'ad0a3c50e9057bcdd61000b9e7d9da2a6f630245'
-    oldFile: !uuid '0e33c5f06fb80d66c32d5d89c697bc9150848da5'
-gitCommitId: !uuid '55c41d12bd2b57fd8c7c665a83eb00e7f3b2c92e'
+  /README.md:
+    newFile: !uuid '573fc2e72cc6b2c6711dcfe3463b5b5571b3226e'
+    oldFile: !uuid 'b2c7cb258f7c4b6b590e66d611d3a9aeceb6f0a8'
+gitCommitId: !uuid 'a5af8e32c54153f2936369e007495cbd4674550e'
 renames: {
   }
-revisionId: 577
+revisionId: 578
