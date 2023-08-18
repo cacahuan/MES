@@ -3,24 +3,30 @@ branches: {
   }
 fileChange:
   /OpenAuth.Mvc:
-    newFile: !uuid '2ce259444e2b837cd2a52de7ee04a9a4e414d462'
-    oldFile: !uuid 'b695c400759682f27e5b80791bad7efd5ef50b44'
+    newFile: !uuid '9889a5c5538bc83c65c64f2641c41775e7a858ef'
+    oldFile: !uuid '2ce259444e2b837cd2a52de7ee04a9a4e414d462'
+  /OpenAuth.Mvc/OpenAuth.Mvc.csproj:
+    newFile: !uuid '91bb8e0222286cfab27c2aacaef480529074f3d1'
+    oldFile: !uuid '0753d2d23aa87c9a0183a29097e9df4ed8165df1'
   /OpenAuth.Mvc/Views:
-    newFile: !uuid '9729a0c0b92f02946cc4dbb05037fbbfef3228e6'
-    oldFile: !uuid 'fb025cbd6659a579ecf242d4a13c16a6445db1cb'
+    newFile: !uuid '6d18ec377481e0e99402ddca57c75a69ec92584f'
+    oldFile: !uuid '9729a0c0b92f02946cc4dbb05037fbbfef3228e6'
   /OpenAuth.Mvc/Views/Home:
-    newFile: !uuid 'f837bc21ce5903dc0f156aeb73fa5f4ee38b0882'
-    oldFile: !uuid 'eb9ba96723661198790c743a610161605329a728'
-  /OpenAuth.Mvc/Views/Home/Main.cshtml:
-    newFile: !uuid '1f275089a069138cb1e2fe0b21e080ddfe4d47b1'
-    oldFile: !uuid 'dbcb5bba2de37db08f53e0307130d0db3800e510'
-  /OpenAuth.Mvc/Views/Login:
-    newFile: !uuid '4a8210d97084912e8ce57513e4d50393faa26cb3'
-    oldFile: !uuid '30ac41adf4ac4b299278fb5117143ce072e5db30'
-  /OpenAuth.Mvc/Views/Login/Index.cshtml:
-    newFile: !uuid '01aaa65ce398fce3755c349c346f30051eb04a50'
-    oldFile: !uuid '21cd302d027966aab1c7dc17150dd4f1d2444b4f'
-gitCommitId: !uuid '81497c1a4ab1af95ec4d2c04635d60a02565069f'
+    newFile: !uuid 'cbbc80569b5d3e6378a766b846d5055756a20c84'
+    oldFile: !uuid 'f837bc21ce5903dc0f156aeb73fa5f4ee38b0882'
+  /OpenAuth.Mvc/Views/Home/Index.cshtml:
+    newFile: !uuid '92a2400911531ba9521524b5c6008e4a1e6d1b53'
+    oldFile: !uuid '621284151eb2385d30dcf5927f567f08918981cd'
+  /OpenAuth.Mvc/wwwroot:
+    newFile: !uuid 'b510ee4325979ed8a17ffe094d6a2295d1c9a516'
+    oldFile: !uuid 'fa33b5a64d96bd22d9a2c0574b251802a72a2986'
+  /OpenAuth.Mvc/wwwroot/js:
+    newFile: !uuid 'cc6d7158897dcc2e5813d8cba9dbeb4ebcc30c3b'
+    oldFile: !uuid 'e3e7b121774c5b089fbc1502c08dbfe04ef7a9f5'
+  /OpenAuth.Mvc/wwwroot/js/leftNav.js:
+    newFile: !uuid '9e1ffc603377950a5ff4c0c2d2244fb0d4aba430'
+    oldFile: !uuid 'db11c2d6579014f6fe9a230015107021d68b83dc'
+gitCommitId: !uuid '084772f1d5399ec0f2b2234b6072f7854a023b75'
 renames: {
   }
-revisionId: 586
+revisionId: 587
