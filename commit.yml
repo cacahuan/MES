@@ -2,31 +2,34 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.Mvc:
-    newFile: !uuid '9889a5c5538bc83c65c64f2641c41775e7a858ef'
-    oldFile: !uuid '2ce259444e2b837cd2a52de7ee04a9a4e414d462'
-  /OpenAuth.Mvc/OpenAuth.Mvc.csproj:
-    newFile: !uuid '91bb8e0222286cfab27c2aacaef480529074f3d1'
-    oldFile: !uuid '0753d2d23aa87c9a0183a29097e9df4ed8165df1'
-  /OpenAuth.Mvc/Views:
-    newFile: !uuid '6d18ec377481e0e99402ddca57c75a69ec92584f'
-    oldFile: !uuid '9729a0c0b92f02946cc4dbb05037fbbfef3228e6'
-  /OpenAuth.Mvc/Views/Home:
-    newFile: !uuid 'cbbc80569b5d3e6378a766b846d5055756a20c84'
-    oldFile: !uuid 'f837bc21ce5903dc0f156aeb73fa5f4ee38b0882'
-  /OpenAuth.Mvc/Views/Home/Index.cshtml:
-    newFile: !uuid '92a2400911531ba9521524b5c6008e4a1e6d1b53'
-    oldFile: !uuid '621284151eb2385d30dcf5927f567f08918981cd'
-  /OpenAuth.Mvc/wwwroot:
-    newFile: !uuid 'b510ee4325979ed8a17ffe094d6a2295d1c9a516'
-    oldFile: !uuid 'fa33b5a64d96bd22d9a2c0574b251802a72a2986'
-  /OpenAuth.Mvc/wwwroot/js:
-    newFile: !uuid 'cc6d7158897dcc2e5813d8cba9dbeb4ebcc30c3b'
-    oldFile: !uuid 'e3e7b121774c5b089fbc1502c08dbfe04ef7a9f5'
-  /OpenAuth.Mvc/wwwroot/js/leftNav.js:
-    newFile: !uuid '9e1ffc603377950a5ff4c0c2d2244fb0d4aba430'
-    oldFile: !uuid 'db11c2d6579014f6fe9a230015107021d68b83dc'
-gitCommitId: !uuid '084772f1d5399ec0f2b2234b6072f7854a023b75'
+  /docs:
+    newFile: !uuid '465b6d170aa30e3ffddb0311054894a69213c1a7'
+    oldFile: !uuid '0d7e6192ee3def8ea87dd931955061e30e3ff956'
+  /docs/.vuepress:
+    newFile: !uuid '6c73b1f2b45cf587c99e10cfebcb26c92b6ffa10'
+    oldFile: !uuid '1c3818b18a842e33671d4082045d4e819977e1d3'
+  /docs/.vuepress/config.js:
+    newFile: !uuid '5ed3f31f4c4a15f227d4ea0fd805695be2ec6476'
+    oldFile: !uuid 'c61f340501d6db9d66f59a3e5b88a29dded8695a'
+  /docs/README.md:
+    newFile: !uuid '136671a7dce794043f8e70e3519d988c3765adc3'
+    oldFile: !uuid '90dcc4407ab712a6018cfc3565b6d84be49e2e8e'
+  /docs/core:
+    newFile: !uuid '41b8a7188062491888bb94cf64f5ea0fc15774e7'
+    oldFile: !uuid 'ce06acf7b7ab8a8215d202b21d586f0fd606a676'
+  /docs/core/README.md:
+    newFile: !uuid '54827c826069020d3fc9aab3cfcf49feaab1cba9'
+    oldFile: !uuid '266a1f5a1e2c4cda6329a6ce283a90d7f0047657'
+  /docs/core/start.md:
+    newFile: !uuid 'd271157854cfd3be5e00d0e7e5c386a520e3f7a8'
+    oldFile: !uuid '476b6e5f40daf727618c0ef55086a9c3eb6964e8'
+  /docs/net:
+    newFile: !uuid 'd9a3c5fa2e1180be6dcb7219dcd38759cff6be73'
+    oldFile: !uuid '08ce03bae66d19dd9caa704fdaf8b46c002d27a7'
+  /docs/net/README.md:
+    newFile: !uuid 'f5b3e2c737a6f702976c382fb2923250be0fe6d5'
+    oldFile: !uuid 'a789abb824e07f9339373de5563bdb6f9d44a51f'
+gitCommitId: !uuid '391301fc0a8532c3db1a82daf7f7a11f1a786543'
 renames: {
   }
-revisionId: 587
+revisionId: 588
