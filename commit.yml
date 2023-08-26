@@ -3,42 +3,21 @@ branches: {
   }
 fileChange:
   /Infrastructure:
-    newFile: !uuid '6641c4e339a407f37ac0b881cb62cf0e9ad2b948'
-    oldFile: !uuid '8c86b179acd5332d6ad8536fcf2ad132f553a846'
+    newFile: !uuid 'ebcf221f73c9c673984878f62d294b4d1ffc72a9'
+    oldFile: !uuid '6641c4e339a407f37ac0b881cb62cf0e9ad2b948'
   /Infrastructure/DynamicLinq.cs:
-    newFile: !uuid '0e0761da81b495435d698a087c686195e04001cf'
-    oldFile: !uuid '8f334dcf8a28e0cc2c3833e17e814fa7a5f770b5'
-  /Infrastructure/Infrastructure.csproj:
-    newFile: !uuid '0788b5b77ec873f9083ef8723c8c166c0ebcf0ff'
-    oldFile: !uuid 'c9e93520ae52e23fa358ecaa98e465b4811db3b2'
-  /OpenAuth.App:
-    newFile: !uuid 'f4574572594a8f2042738e3d48f9c83bd7be7c24'
-    oldFile: !uuid '84c1e815570ea13ec5c60e62a875aed9fc2ec54a'
-  /OpenAuth.App/Base:
-    newFile: !uuid 'bbbdda21169dd8743ea6b423baf6100ee649e256'
-    oldFile: !uuid '97c5c5b3088b8c2ff28a1ac4ed35bc44de97ddad'
-  /OpenAuth.App/Base/SqlSugarBaseApp.cs:
-    newFile: !uuid '918d288fba8340afec4af1131d2e5e927e97b291'
-    oldFile: null
+    newFile: !uuid '5dbd361e32d85571d014ce5a13d63c274165a2aa'
+    oldFile: !uuid '0e0761da81b495435d698a087c686195e04001cf'
   /OpenAuth.Repository:
-    newFile: !uuid '2b3f50413875764c82e9108434a621fc57a94836'
-    oldFile: !uuid 'b9548d8b4dc3104303fa449fe3c17010b7b08bf7'
+    newFile: !uuid '93b8f3f3e0c95103d90ddb9d780a16fa95387d6e'
+    oldFile: !uuid '2b3f50413875764c82e9108434a621fc57a94836'
   /OpenAuth.Repository/Test:
-    newFile: !uuid 'cab242cc6e1cd018c70869362097d35cfa0a42b2'
-    oldFile: !uuid '15bfdb2ec920c948d0e2868a3115b20d96446aac'
-  /OpenAuth.Repository/Test/TestBase.cs:
-    newFile: !uuid '4fc337cb6dcd40b5f0d0b63f160b24b92091bcf9'
-    oldFile: !uuid 'c9f89c5d88dc3b45bdf34ce68ac9340c4024f731'
+    newFile: !uuid '3cff7593e34581e13dc8e4bd98f87bc4aba68568'
+    oldFile: !uuid 'cab242cc6e1cd018c70869362097d35cfa0a42b2'
   /OpenAuth.Repository/Test/TestSugarDynamicLinq.cs:
-    newFile: !uuid '4834d512c96249cf537fee50465b0f858b80837f'
-    oldFile: null
-  /OpenAuth.WebApi:
-    newFile: !uuid '5bcabcc03eed09043c4ad020924c4b174d0c92dd'
-    oldFile: !uuid '458ee980c3284e351469afa4428ac12ccb405da3'
-  /OpenAuth.WebApi/Startup.cs:
-    newFile: !uuid '081b0a34a512fc0a1f1e42d55fb774f9aa19f1b6'
-    oldFile: !uuid '45457afe347dc9d29098d7e28036c9c917979724'
-gitCommitId: !uuid 'a6c79bea7cf7c7953850235a7039e7c95f466427'
+    newFile: !uuid 'f29e0757198c486224f0360e8aba5fc2eebb9481'
+    oldFile: !uuid '4834d512c96249cf537fee50465b0f858b80837f'
+gitCommitId: !uuid '38fee56701e1e8fe39b211e65214978cf9e14bc6'
 renames: {
   }
-revisionId: 590
+revisionId: 591
