@@ -2,22 +2,34 @@
 branches: {
   }
 fileChange:
-  /Infrastructure:
-    newFile: !uuid 'ebcf221f73c9c673984878f62d294b4d1ffc72a9'
-    oldFile: !uuid '6641c4e339a407f37ac0b881cb62cf0e9ad2b948'
-  /Infrastructure/DynamicLinq.cs:
-    newFile: !uuid '5dbd361e32d85571d014ce5a13d63c274165a2aa'
-    oldFile: !uuid '0e0761da81b495435d698a087c686195e04001cf'
+  /OpenAuth.App:
+    newFile: !uuid '64d5bcb5bd31573e572a7aee8f7c03a4d3585350'
+    oldFile: !uuid 'f4574572594a8f2042738e3d48f9c83bd7be7c24'
+  /OpenAuth.App/AppManager:
+    newFile: !uuid '576e792109ed7936113e0681638981a216ea3bef'
+    oldFile: !uuid 'efa1d21583811e0427f6394a948a26233edd5cca'
+  /OpenAuth.App/AppManager/AppManager.cs:
+    newFile: !uuid '8a72b40895bb5f3576616659e6a082a22ac7bda0'
+    oldFile: !uuid 'af6213d6e47a6f7eaa4909804ae4026fa1f75b8e'
+  /OpenAuth.App/Base:
+    newFile: !uuid 'e520be0e18b5cb73591124c9b2f5af6864faa56c'
+    oldFile: !uuid 'bbbdda21169dd8743ea6b423baf6100ee649e256'
+  /OpenAuth.App/Base/SqlSugarBaseApp.cs:
+    newFile: !uuid 'b4b77bdbce48320b2ba095ca3dcc3fbeba2e7f08'
+    oldFile: !uuid '918d288fba8340afec4af1131d2e5e927e97b291'
+  /OpenAuth.App/Resources:
+    newFile: !uuid '7e44a36092e1ce5cc4f868c95b77e6f0a6bf801c'
+    oldFile: !uuid '56aa3d09cc569b19c764fb875817fc785efa8721'
+  /OpenAuth.App/Resources/ResourceApp.cs:
+    newFile: !uuid '969e87d11f79b9c4176703d5587f47c660187fdf'
+    oldFile: !uuid '3465e3137b69e6bd2a3fe31e0bca39cdd9a320d8'
   /OpenAuth.Repository:
-    newFile: !uuid '93b8f3f3e0c95103d90ddb9d780a16fa95387d6e'
-    oldFile: !uuid '2b3f50413875764c82e9108434a621fc57a94836'
-  /OpenAuth.Repository/Test:
-    newFile: !uuid '3cff7593e34581e13dc8e4bd98f87bc4aba68568'
-    oldFile: !uuid 'cab242cc6e1cd018c70869362097d35cfa0a42b2'
-  /OpenAuth.Repository/Test/TestSugarDynamicLinq.cs:
-    newFile: !uuid 'f29e0757198c486224f0360e8aba5fc2eebb9481'
-    oldFile: !uuid '4834d512c96249cf537fee50465b0f858b80837f'
-gitCommitId: !uuid '38fee56701e1e8fe39b211e65214978cf9e14bc6'
+    newFile: !uuid '2a6c07f59cfce57d5c99866f6112c7d03f410536'
+    oldFile: !uuid '93b8f3f3e0c95103d90ddb9d780a16fa95387d6e'
+  /OpenAuth.Repository/SqlSugarRepository.cs:
+    newFile: !uuid 'b1d30b25b09b4bca33304a64515f29abed1757a5'
+    oldFile: null
+gitCommitId: !uuid '331bc9d0425ecfff35e30a2bbc7f5733424b2602'
 renames: {
   }
-revisionId: 591
+revisionId: 592
