@@ -2,34 +2,43 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.App:
-    newFile: !uuid '64d5bcb5bd31573e572a7aee8f7c03a4d3585350'
-    oldFile: !uuid 'f4574572594a8f2042738e3d48f9c83bd7be7c24'
-  /OpenAuth.App/AppManager:
-    newFile: !uuid '576e792109ed7936113e0681638981a216ea3bef'
-    oldFile: !uuid 'efa1d21583811e0427f6394a948a26233edd5cca'
-  /OpenAuth.App/AppManager/AppManager.cs:
-    newFile: !uuid '8a72b40895bb5f3576616659e6a082a22ac7bda0'
-    oldFile: !uuid 'af6213d6e47a6f7eaa4909804ae4026fa1f75b8e'
-  /OpenAuth.App/Base:
-    newFile: !uuid 'e520be0e18b5cb73591124c9b2f5af6864faa56c'
-    oldFile: !uuid 'bbbdda21169dd8743ea6b423baf6100ee649e256'
-  /OpenAuth.App/Base/SqlSugarBaseApp.cs:
-    newFile: !uuid 'b4b77bdbce48320b2ba095ca3dcc3fbeba2e7f08'
-    oldFile: !uuid '918d288fba8340afec4af1131d2e5e927e97b291'
-  /OpenAuth.App/Resources:
-    newFile: !uuid '7e44a36092e1ce5cc4f868c95b77e6f0a6bf801c'
-    oldFile: !uuid '56aa3d09cc569b19c764fb875817fc785efa8721'
-  /OpenAuth.App/Resources/ResourceApp.cs:
-    newFile: !uuid '969e87d11f79b9c4176703d5587f47c660187fdf'
-    oldFile: !uuid '3465e3137b69e6bd2a3fe31e0bca39cdd9a320d8'
-  /OpenAuth.Repository:
-    newFile: !uuid '2a6c07f59cfce57d5c99866f6112c7d03f410536'
-    oldFile: !uuid '93b8f3f3e0c95103d90ddb9d780a16fa95387d6e'
-  /OpenAuth.Repository/SqlSugarRepository.cs:
-    newFile: !uuid 'b1d30b25b09b4bca33304a64515f29abed1757a5'
-    oldFile: null
-gitCommitId: !uuid '331bc9d0425ecfff35e30a2bbc7f5733424b2602'
+  /OpenAuth.WebApi:
+    newFile: !uuid 'd67dfce7abc6fdbe87a84fee6112ede757205e84'
+    oldFile: !uuid '5bcabcc03eed09043c4ad020924c4b174d0c92dd'
+  /OpenAuth.WebApi/Startup.cs:
+    newFile: !uuid 'f0e0760928b566544019acc02caff73fd3e8dc3d'
+    oldFile: !uuid '081b0a34a512fc0a1f1e42d55fb774f9aa19f1b6'
+  /docs:
+    newFile: !uuid '5b5af01f6f740db3071e9ab6986e779108407236'
+    oldFile: !uuid '465b6d170aa30e3ffddb0311054894a69213c1a7'
+  /docs/.vuepress:
+    newFile: !uuid '34d2f2e014773aa8338199573ddfda79f8c4e6fe'
+    oldFile: !uuid '6c73b1f2b45cf587c99e10cfebcb26c92b6ffa10'
+  /docs/.vuepress/config.js:
+    newFile: !uuid 'c48366c2814324e6d800b14e90e6aa0edabd1b18'
+    oldFile: !uuid '5ed3f31f4c4a15f227d4ea0fd805695be2ec6476'
+  /docs/README.md:
+    newFile: !uuid '11bc104299f436c1df6463762d5b855abb2a637d'
+    oldFile: !uuid '136671a7dce794043f8e70e3519d988c3765adc3'
+  /docs/core:
+    newFile: !uuid 'faca66bf771c694ee53ef97e4dbfcd806adffccd'
+    oldFile: !uuid '41b8a7188062491888bb94cf64f5ea0fc15774e7'
+  /docs/core/deploy.md:
+    newFile: !uuid 'a9f21fc0973f3f82a867d339b00efbd6e1a7b345'
+    oldFile: !uuid '6b881cbabc7e951527d7a643998df764a7485316'
+  /docs/core/deployapi.md:
+    newFile: !uuid '04b167380d6cdebfff24623a6a7b378cf568bd5e'
+    oldFile: !uuid '57fa6123fcd5861c0cd265844ee5ace0be5515f1'
+  /docs/core/faq.md:
+    newFile: !uuid '279731566a7b620fc66dd7cb364877c47d70c88c'
+    oldFile: !uuid '1b36404af257965fe4be8dbd04b06945571cc191'
+  /docs/core/start.md:
+    newFile: !uuid '8e89878c20cf75884e115cc2cd4a499580aa8028'
+    oldFile: !uuid 'd271157854cfd3be5e00d0e7e5c386a520e3f7a8'
+  /docs/core/unitwork.md:
+    newFile: !uuid 'fe56da945dad9c590f25af49c8c3948e4ea0fd62'
+    oldFile: !uuid '90980ff8994c82c1b4b50e7aa39a0268acf22d25'
+gitCommitId: !uuid 'f3f575a72bea49739cfc0538f0189108a96230bc'
 renames: {
   }
-revisionId: 592
+revisionId: 593
