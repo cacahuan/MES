@@ -3,15 +3,24 @@ branches: {
   }
 fileChange:
   /docs:
-    newFile: !uuid 'fab1fd83404b902a03e35fb0329a0efa7973d272'
-    oldFile: !uuid '5b5af01f6f740db3071e9ab6986e779108407236'
+    newFile: !uuid 'efd3dec102d55ad1037932fe095c072f1424b27d'
+    oldFile: !uuid 'fab1fd83404b902a03e35fb0329a0efa7973d272'
+  /docs/.vuepress:
+    newFile: !uuid '3ea48e9a954d9ced0d3a1fd98c220e0e3c4a2b0a'
+    oldFile: !uuid '34d2f2e014773aa8338199573ddfda79f8c4e6fe'
+  /docs/.vuepress/config.js:
+    newFile: !uuid '0d4f438102b6407e1a9579e02b1c3077632ed22d'
+    oldFile: !uuid 'c48366c2814324e6d800b14e90e6aa0edabd1b18'
   /docs/core:
-    newFile: !uuid 'd40da32a9a9bc09793e60425ccc6e54b77ebd542'
-    oldFile: !uuid 'faca66bf771c694ee53ef97e4dbfcd806adffccd'
-  /docs/core/sqlsugar.md:
-    newFile: !uuid 'e85cf87bfa7cd2655d103106f8d77fef7b3d40bc'
-    oldFile: null
-gitCommitId: !uuid '7e0108095de7d2e2524a783574ae4cd68ab450f3'
+    newFile: !uuid 'c9975eada87219b080b3bdea92844b10e090ff7f'
+    oldFile: !uuid 'd40da32a9a9bc09793e60425ccc6e54b77ebd542'
+  /docs/core/changelog.md:
+    newFile: !uuid '9746424d9853ccb0961c92693a7d5a5a701b3b93'
+    oldFile: !uuid '01dd7d3e195fe0e354a50574fecfcd01b3a680b8'
+  /docs/core/routineupdate.md:
+    newFile: !uuid '60400d687704d41606742d65cdf51ba8c9dc470b'
+    oldFile: !uuid 'fd1e7d8c258fd019574e777fcc0c0576406543a6'
+gitCommitId: !uuid 'd060779c41598450f30dfb942598f5f44bab27ea'
 renames: {
   }
-revisionId: 594
+revisionId: 595
