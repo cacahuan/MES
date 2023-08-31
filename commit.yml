@@ -2,19 +2,13 @@
 branches: {
   }
 fileChange:
-  /README.md:
-    newFile: !uuid '62e662ee678e09201ce7e52fd6e90119cae2264c'
-    oldFile: !uuid 'c4e7a8b1519d39b225d7cca883bb61d24a3a2f11'
-  /docs:
-    newFile: !uuid '97158bbebd1a2974b4de71e5573cb77e44a8e909'
-    oldFile: !uuid 'd65938a5d1a5a044b157e9061bfffacc14d8e1cd'
-  /docs/core:
-    newFile: !uuid '8022cfaef1c786d748f1182d28c90e06e52c1687'
-    oldFile: !uuid '97d820daace2f4e187167f66207fc79b4d0f06a3'
-  /docs/core/README.md:
-    newFile: !uuid 'a8c93a17b34d18193ed7f00f28077fb5c417bc29'
-    oldFile: !uuid 'b4892c747cff8a2005c086926e56ae8b392efa4f'
-gitCommitId: !uuid '0dd06b65d8eb8e39bec369391b32bff20fb41ddd'
+  /OpenAuth.Identity:
+    newFile: !uuid '650cfba31388c27771f14d8305eb33184d20fd1a'
+    oldFile: !uuid 'c8added08e1d45e267586df62fbcd7d6154a6a6a'
+  /OpenAuth.Identity/Startup.cs:
+    newFile: !uuid '87c338bfab616498e33b6ddce1552493bfa0a96c'
+    oldFile: !uuid '95e5fece46f1fa30683be825fe988a9f6a2c38dc'
+gitCommitId: !uuid '918174d50137e598ec360bfc2de04b998a0df505'
 renames: {
   }
-revisionId: 600
+revisionId: 601
