@@ -2,16 +2,13 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.App:
-    newFile: !uuid '7c40ef91602d45b93b7da873ffc0d9259ccdfa5d'
-    oldFile: !uuid 'b4ff862b8561458961129396bfe9edbed41fdf73'
-  /OpenAuth.App/Flow:
-    newFile: !uuid '59a01c83a6c18e98d76ba061d8d3a79e7e05d817'
-    oldFile: !uuid '12961679d71d9778ec28828b42f38d3b1e50eff1'
-  /OpenAuth.App/Flow/FlowLine.cs:
-    newFile: !uuid '7f7786937fef9eb41db32af79bd8cb8ca30b9e0a'
-    oldFile: !uuid '5f1c5ab3c0505faf41ceed29249cd6e7548814f0'
-gitCommitId: !uuid '19fc3bc93300b5d431d49ccd6b07c48235542560'
+  /OpenAuth.WebApi:
+    newFile: !uuid '673b6a9bb7a8558ffddc0c5a6ae3cb1313f5c4e9'
+    oldFile: !uuid '62a28ed3407d970fb91f1ff3a2d2b3f2e05313d7'
+  /OpenAuth.WebApi/Startup.cs:
+    newFile: !uuid 'c382bf598184b871100b727d82f6d00f9c6319f1'
+    oldFile: !uuid 'f0e0760928b566544019acc02caff73fd3e8dc3d'
+gitCommitId: !uuid '16421f9a8bcefedef97f9ce3c31baff86ea716c9'
 renames: {
   }
-revisionId: 603
+revisionId: 604
