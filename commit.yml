@@ -2,28 +2,25 @@
 branches: {
   }
 fileChange:
-  /docs:
-    newFile: !uuid '5fe58e34a3b4468c15fb3a228cf6308f3285fdeb'
-    oldFile: !uuid '97158bbebd1a2974b4de71e5573cb77e44a8e909'
-  /docs/core:
-    newFile: !uuid 'ae4a82ec16ddad75558618e0b24ed17563b06f6a'
-    oldFile: !uuid '8022cfaef1c786d748f1182d28c90e06e52c1687'
-  /docs/core/deploy.md:
-    newFile: !uuid '898ea5df4b2df860d348772399118d66da0c0695'
-    oldFile: !uuid 'a9f21fc0973f3f82a867d339b00efbd6e1a7b345'
-  /docs/core/deployapi.md:
-    newFile: !uuid '89c2faa056aebfb81962e43f0241ff43140c11c6'
-    oldFile: !uuid '04b167380d6cdebfff24623a6a7b378cf568bd5e'
-  /docs/core/routineupdate.md:
-    newFile: !uuid 'a30cd9ceb88f6fb01e3dee2ec099a6e2baeb860a'
-    oldFile: !uuid '60400d687704d41606742d65cdf51ba8c9dc470b'
-  /docs/pro:
-    newFile: !uuid 'a5996d2dbe87395c613dff5ab53e38f50ded15a0'
-    oldFile: !uuid '09a91a8630f2896960e81b4c5d562b815db5ce36'
-  /docs/pro/devnew.md:
-    newFile: !uuid '9e51dcdbce6935f474d75580cf89b9ee4601c09e'
-    oldFile: !uuid '30770582a21a25ee34ea2e507cc155925a9ff8f5'
-gitCommitId: !uuid 'c2f856f6043bd49a05a6ca2a06286742f14a66bc'
+  /OpenAuth.App:
+    newFile: !uuid '11bf4eac1a396fdaff68d62f115bca7093c96549'
+    oldFile: !uuid '7c40ef91602d45b93b7da873ffc0d9259ccdfa5d'
+  /OpenAuth.App/Files:
+    newFile: !uuid 'd11e05a2d5411eea92915f0d0479828e19efb893'
+    oldFile: !uuid '080c7742a8977cc8f985ab0b77b7ad656a8590be'
+  /OpenAuth.App/Files/FileApp.cs:
+    newFile: !uuid '093f7c7c2e60fef53129919270586d8ef87c3c48'
+    oldFile: !uuid '92e9a0c0dbfc9fc12b7d3abf0530814671e7cc84'
+  /OpenAuth.WebApi:
+    newFile: !uuid 'edb25d6bb6db47513fd86e19ea2061d6fa5a0883'
+    oldFile: !uuid '673b6a9bb7a8558ffddc0c5a6ae3cb1313f5c4e9'
+  /OpenAuth.WebApi/Controllers:
+    newFile: !uuid '18dcc855bed41c3983e2bf5623adcf9ecf6f2274'
+    oldFile: !uuid '23c7ba0673bc220e1edf51fd08c390e611c80741'
+  /OpenAuth.WebApi/Controllers/FilesController.cs:
+    newFile: !uuid 'e0b6f9b9143c9e1d83c0297c04edfa994ed0cf7a'
+    oldFile: !uuid 'b7634e1b87f522bfd95c37b655726226acad6f73'
+gitCommitId: !uuid 'cc0e4fec9c0515073263994c492cd9f6f419e68f'
 renames: {
   }
-revisionId: 606
+revisionId: 607
