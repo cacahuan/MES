@@ -2,25 +2,16 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.App:
-    newFile: !uuid '11bf4eac1a396fdaff68d62f115bca7093c96549'
-    oldFile: !uuid '7c40ef91602d45b93b7da873ffc0d9259ccdfa5d'
-  /OpenAuth.App/Files:
-    newFile: !uuid 'd11e05a2d5411eea92915f0d0479828e19efb893'
-    oldFile: !uuid '080c7742a8977cc8f985ab0b77b7ad656a8590be'
-  /OpenAuth.App/Files/FileApp.cs:
-    newFile: !uuid '093f7c7c2e60fef53129919270586d8ef87c3c48'
-    oldFile: !uuid '92e9a0c0dbfc9fc12b7d3abf0530814671e7cc84'
-  /OpenAuth.WebApi:
-    newFile: !uuid 'edb25d6bb6db47513fd86e19ea2061d6fa5a0883'
-    oldFile: !uuid '673b6a9bb7a8558ffddc0c5a6ae3cb1313f5c4e9'
-  /OpenAuth.WebApi/Controllers:
-    newFile: !uuid '18dcc855bed41c3983e2bf5623adcf9ecf6f2274'
-    oldFile: !uuid '23c7ba0673bc220e1edf51fd08c390e611c80741'
-  /OpenAuth.WebApi/Controllers/FilesController.cs:
-    newFile: !uuid 'e0b6f9b9143c9e1d83c0297c04edfa994ed0cf7a'
-    oldFile: !uuid 'b7634e1b87f522bfd95c37b655726226acad6f73'
-gitCommitId: !uuid 'cc0e4fec9c0515073263994c492cd9f6f419e68f'
+  /docs:
+    newFile: !uuid '270ee1a3b0a0e19861ba82656cc5a5f9a8df3496'
+    oldFile: !uuid '5fe58e34a3b4468c15fb3a228cf6308f3285fdeb'
+  /docs/pro:
+    newFile: !uuid '5e885bf4da3646c98c089d4c479e5ade0458e4a1'
+    oldFile: !uuid 'a5996d2dbe87395c613dff5ab53e38f50ded15a0'
+  /docs/pro/dragform.md:
+    newFile: !uuid 'b039af8036a2ec8d465c2073f4dd5d38f733c733'
+    oldFile: !uuid '768bf136b8c51efe2b4aadd01cdd48a795bbef98'
+gitCommitId: !uuid '1c0fe1297eb92b23fc392a06535fd216c8afee9a'
 renames: {
   }
-revisionId: 607
+revisionId: 608
