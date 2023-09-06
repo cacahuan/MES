@@ -3,15 +3,15 @@ branches: {
   }
 fileChange:
   /docs:
-    newFile: !uuid 'ff3ad1ad9573a172046b01f956bb783fb2376162'
-    oldFile: !uuid '270ee1a3b0a0e19861ba82656cc5a5f9a8df3496'
+    newFile: !uuid '1a655e7c0d9ada7a265f1658f15e8d5d527bffe7'
+    oldFile: !uuid 'ff3ad1ad9573a172046b01f956bb783fb2376162'
   /docs/pro:
-    newFile: !uuid '3d2058d23d05cbc37156c184c3fe4224db65fe39'
-    oldFile: !uuid '5e885bf4da3646c98c089d4c479e5ade0458e4a1'
+    newFile: !uuid '2c7ecf7563ea638be2b07c7d50dc64541cdfe09c'
+    oldFile: !uuid '3d2058d23d05cbc37156c184c3fe4224db65fe39'
   /docs/pro/dragform.md:
-    newFile: !uuid '629a9dcf9323407369ea55848c93956f591e0078'
-    oldFile: !uuid 'b039af8036a2ec8d465c2073f4dd5d38f733c733'
-gitCommitId: !uuid 'bbfa687628103306420eed4e007e92dca2824697'
+    newFile: !uuid 'aadac6095c0c5fd847fc17bd36a48693ddc42e32'
+    oldFile: !uuid '629a9dcf9323407369ea55848c93956f591e0078'
+gitCommitId: !uuid 'd88164a4cd29e34d34910a3bd6eb4e3a36f2cb61'
 renames: {
   }
-revisionId: 609
+revisionId: 610
