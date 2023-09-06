@@ -2,16 +2,52 @@
 branches: {
   }
 fileChange:
+  /Infrastructure:
+    newFile: !uuid 'ebcf221f73c9c673984878f62d294b4d1ffc72a9'
+    oldFile: !uuid 'f2dbb3413fe96cd5faa259f515cfc0e806e5726d'
+  /Infrastructure/Infrastructure.csproj:
+    newFile: !uuid '0788b5b77ec873f9083ef8723c8c166c0ebcf0ff'
+    oldFile: !uuid 'a68a3688cbd91826024f76d81836049d3a6e5a44'
+  /OpenAuth.App:
+    newFile: !uuid 'f41f875dba5bbea98909c29b588d79bef1466c88'
+    oldFile: !uuid '11bf4eac1a396fdaff68d62f115bca7093c96549'
+  /OpenAuth.App/OpenAuth.App.csproj:
+    newFile: !uuid 'facf853e7295236903bc068a71e6ceb3599ada8c'
+    oldFile: !uuid 'ddd8498480a1947cc4c4d354ee55a5fc28c915d9'
+  /OpenAuth.Identity:
+    newFile: !uuid '6b5e0404ad08cfaf0b333c56ffc7fd2bfb48914f'
+    oldFile: !uuid 'a679f6433ccc43b1905853653c7b71b960630984'
+  /OpenAuth.Identity/OpenAuth.IdentityServer.csproj:
+    newFile: !uuid 'ab5fdc93d0e37b4ee520e1aaf4db53f349629bee'
+    oldFile: !uuid '116e0ba5800e317c42f7f12be8403d6e47848bf9'
+  /OpenAuth.Mvc:
+    newFile: !uuid 'b276d04c17e1251ff1cb8a42bb4b0bdc85d7b55d'
+    oldFile: !uuid 'cca35b041bca66c252761e4996c99aab75e64859'
+  /OpenAuth.Mvc/OpenAuth.Mvc.csproj:
+    newFile: !uuid '91bb8e0222286cfab27c2aacaef480529074f3d1'
+    oldFile: !uuid '3cfd2f4d0a1c30c81f8bc212adcb3a8a0ba86415'
+  /OpenAuth.Repository:
+    newFile: !uuid 'cfc24b5541f4302abe7f5e89bc17a92728a92d78'
+    oldFile: !uuid 'af05e6a4fc120fc6f7691e37f9cb114961125ef1'
+  /OpenAuth.Repository/OpenAuth.Repository.csproj:
+    newFile: !uuid '05fff002823819bf20100fc24e7ef78ea0adeea8'
+    oldFile: !uuid '5fde6199a1817a77d3c20f32715b5a1829c64667'
+  /OpenAuth.WebApi:
+    newFile: !uuid '9187e3296ec6d9bb6d0f0178dba4acb0e122a299'
+    oldFile: !uuid 'edb25d6bb6db47513fd86e19ea2061d6fa5a0883'
+  /OpenAuth.WebApi/OpenAuth.WebApi.csproj:
+    newFile: !uuid '4e00f6e54dca729c2d0147e83688767ad90210b0'
+    oldFile: !uuid '2c7217b3a9c155b1178aec7beef05eb12d234415'
   /docs:
-    newFile: !uuid '1a655e7c0d9ada7a265f1658f15e8d5d527bffe7'
-    oldFile: !uuid 'ff3ad1ad9573a172046b01f956bb783fb2376162'
-  /docs/pro:
-    newFile: !uuid '2c7ecf7563ea638be2b07c7d50dc64541cdfe09c'
-    oldFile: !uuid '3d2058d23d05cbc37156c184c3fe4224db65fe39'
-  /docs/pro/dragform.md:
-    newFile: !uuid 'aadac6095c0c5fd847fc17bd36a48693ddc42e32'
-    oldFile: !uuid '629a9dcf9323407369ea55848c93956f591e0078'
-gitCommitId: !uuid 'd88164a4cd29e34d34910a3bd6eb4e3a36f2cb61'
+    newFile: !uuid '5c86c339cf05f7a88502db86cb2f584b87a291cd'
+    oldFile: !uuid '1a655e7c0d9ada7a265f1658f15e8d5d527bffe7'
+  /docs/core:
+    newFile: !uuid '2d63af09eefde5642ca2cb03d6878aac676fc8d7'
+    oldFile: !uuid 'ae4a82ec16ddad75558618e0b24ed17563b06f6a'
+  /docs/core/faq.md:
+    newFile: !uuid '94a1b920ee81a7604919481851b6dc49d7e9e275'
+    oldFile: !uuid '279731566a7b620fc66dd7cb364877c47d70c88c'
+gitCommitId: !uuid '1e4048006125d640d9b2148f8ec4cf274ea96227'
 renames: {
   }
-revisionId: 610
+revisionId: 611
