@@ -3,24 +3,24 @@ branches: {
   }
 fileChange:
   /OpenAuth.App:
-    newFile: !uuid '9c406545830b404ac29c3fc35251aba658e8a238'
-    oldFile: !uuid '45a7b9bc9e18a19acf4168a4490815540a781977'
+    newFile: !uuid 'c45cc0b20b8e506b1a46bb4e74960059cbe34454'
+    oldFile: !uuid '9c406545830b404ac29c3fc35251aba658e8a238'
   /OpenAuth.App/SysPrinterPlanApp:
-    newFile: !uuid '56e1e5050d600a7b26686d35cffd8395d3c4e0dc'
-    oldFile: !uuid '0609c1239db1bc41d2b646ef6dc87351cfabb956'
+    newFile: !uuid '95113bcadff51aee1d214ce5a3cc4d6b79a6b573'
+    oldFile: !uuid '56e1e5050d600a7b26686d35cffd8395d3c4e0dc'
   /OpenAuth.App/SysPrinterPlanApp/SysPrinterPlanApp.cs:
-    newFile: !uuid 'd37e92b39d6134398e403a2d6d5050b09ab6f3d4'
-    oldFile: !uuid '2f18d15bedb51283fd45668cc1bef62d8cb3a9a6'
-  /OpenAuth.App/Test:
-    newFile: !uuid 'c7a072b9ae28555884accc40f4f0feb8e1838800'
-    oldFile: !uuid '8004bdc4de8e5c7f19c6741c6329679c54eb82f9'
-  /OpenAuth.App/Test/TestBase.cs:
-    newFile: !uuid '6eca7b388f454b256790bac8beef2505a320020e'
-    oldFile: !uuid 'a353e9f0cf14ad25dd6da92f2f1a51a892f593fe'
-  /OpenAuth.App/Test/TestSysPrinterPlan.cs:
-    newFile: !uuid 'd4bc0f09849ae50814ed9df17d33e7fa8cc90f25'
-    oldFile: !uuid '119d03b7323eb6124bd54e78a12a64375ccb7291'
-gitCommitId: !uuid 'c5e735b2e852b6a3d5312178be40784cded98b65'
+    newFile: !uuid '3491bbbef782709119d6f9d632a643c4da918140'
+    oldFile: !uuid 'd37e92b39d6134398e403a2d6d5050b09ab6f3d4'
+  /OpenAuth.WebApi:
+    newFile: !uuid '8dcdf812377a4419e4bb288a87a8b735bb1e3ef0'
+    oldFile: !uuid '596b9b8d773ca5498e1f134b70c529555d04b480'
+  /OpenAuth.WebApi/Controllers:
+    newFile: !uuid 'b0ca1e98238c84510b3e0e6b55ede66f7394e26b'
+    oldFile: !uuid 'd86fe49e0080d92839f4dd7f42d18543cb27fd3e'
+  /OpenAuth.WebApi/Controllers/SysPrinterPlansController.cs:
+    newFile: !uuid '17dc47c220f0f3c10d11fb669d876a783d0f04e1'
+    oldFile: !uuid 'e73070602b68a586ab6d0c43547dd92987aff854'
+gitCommitId: !uuid '5481cd91c5a89abae1c48df138836c309b2f4f89'
 renames: {
   }
-revisionId: 626
+revisionId: 627
