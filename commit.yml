@@ -2,16 +2,55 @@
 branches: {
   }
 fileChange:
-  /docs:
-    newFile: !uuid '85f420b134db59e7f9bcac8791be36ba8b86c24e'
-    oldFile: !uuid '8b995f2da616259cdabcbdc8af3c57400c4faad1'
-  /docs/core:
-    newFile: !uuid '250ce6139133f8557a429116f4e8ee0049fd9c28'
-    oldFile: !uuid '386afefe904a100a213d66055a655659e8df0bbf'
-  /docs/core/routineupdate.md:
-    newFile: !uuid '2ea561380bacd7a36705b030f6c0872cee01fc56'
-    oldFile: !uuid 'a30cd9ceb88f6fb01e3dee2ec099a6e2baeb860a'
-gitCommitId: !uuid '87129c2725209f3dcbe8070bc8e96cc7e15076f8'
+  /OpenAuth.App:
+    newFile: !uuid '45a7b9bc9e18a19acf4168a4490815540a781977'
+    oldFile: !uuid '732ff1ceba76f39447ea4d9d3b7f7290a129f383'
+  /OpenAuth.App/Base:
+    newFile: !uuid '30cfb3da2fa4e9b1e6dafa7b3ce4a7fad7ecad72'
+    oldFile: !uuid '86646992d2e048946123db89a71debcc618bba58'
+  /OpenAuth.App/Base/TableData.cs:
+    newFile: !uuid 'c61b534d9bf501ce9af66ea784adbf5cbdb64a62'
+    oldFile: !uuid '65da368c2256b4857135a35777f92b4cb7bfbe9b'
+  /OpenAuth.App/SysPrinterPlanApp:
+    newFile: !uuid '0609c1239db1bc41d2b646ef6dc87351cfabb956'
+    oldFile: !uuid 'd6a6a5d2b2c86d9808ff4cf17e36ad05c22d3dfd'
+  /OpenAuth.App/SysPrinterPlanApp/Request:
+    newFile: !uuid '187417be2921860f7894214b6584c33e77b6075c'
+    oldFile: !uuid '42753f1ed8549577dbe34504256b3bf693db583a'
+  /OpenAuth.App/SysPrinterPlanApp/Request/QueryReq.cs:
+    newFile: !uuid '5c716e4e9abc8ea025855fca61af72d2385618b7'
+    oldFile: null
+  /OpenAuth.App/SysPrinterPlanApp/SysPrinterPlanApp.cs:
+    newFile: !uuid '2f18d15bedb51283fd45668cc1bef62d8cb3a9a6'
+    oldFile: !uuid 'c2a44d0c42af5d1b76808454b0044b60c3db0a39'
+  /OpenAuth.App/Test:
+    newFile: !uuid '8004bdc4de8e5c7f19c6741c6329679c54eb82f9'
+    oldFile: !uuid 'a9c547357c666f0f05ea801bf3169fa690677adb'
+  /OpenAuth.App/Test/TestBase.cs:
+    newFile: !uuid 'a353e9f0cf14ad25dd6da92f2f1a51a892f593fe'
+    oldFile: !uuid '13c9f81e3005868da5bd661c72e56763de04bd9b'
+  /OpenAuth.App/Test/TestSysPrinterPlan.cs:
+    newFile: !uuid '119d03b7323eb6124bd54e78a12a64375ccb7291'
+    oldFile: null
+  /OpenAuth.Repository:
+    newFile: !uuid 'c53f6d55dcaaaebaa01e4ebd296675b66a1ab5bf'
+    oldFile: !uuid '30c7e8844611a56ae64f03d4a5b41b0170a337d7'
+  /OpenAuth.Repository/Test:
+    newFile: !uuid '8346e4a644ae0ca90144ae110301793ad2e2ad23'
+    oldFile: !uuid '3cff7593e34581e13dc8e4bd98f87bc4aba68568'
+  /OpenAuth.Repository/Test/TestBase.cs:
+    newFile: !uuid '17dcc30689b1267f80ce854c20916dff9fb83ec2'
+    oldFile: !uuid '4fc337cb6dcd40b5f0d0b63f160b24b92091bcf9'
+  /OpenAuth.WebApi:
+    newFile: !uuid '596b9b8d773ca5498e1f134b70c529555d04b480'
+    oldFile: !uuid 'd989708ff550042ca6a9bb24877ed440ce656828'
+  /OpenAuth.WebApi/Controllers:
+    newFile: !uuid 'd86fe49e0080d92839f4dd7f42d18543cb27fd3e'
+    oldFile: !uuid 'a3dd2bbe4665f0bc6ed4a0f73833a9b5088a70b1'
+  /OpenAuth.WebApi/Controllers/SysPrinterPlansController.cs:
+    newFile: !uuid 'e73070602b68a586ab6d0c43547dd92987aff854'
+    oldFile: !uuid '7a17e7681f4453bb901376bc377bc4199ec861a9'
+gitCommitId: !uuid '0fe060899b6b0ee62e1dcdeeeec2c784d83cb8ac'
 renames: {
   }
-revisionId: 624
+revisionId: 625
