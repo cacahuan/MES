@@ -2,16 +2,16 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.App:
-    newFile: !uuid '732ff1ceba76f39447ea4d9d3b7f7290a129f383'
-    oldFile: !uuid '1c5cf894dc3ae081a1d74e418bbffecfdd75d66c'
-  /OpenAuth.App/SysPrinterPlanApp:
-    newFile: !uuid 'd6a6a5d2b2c86d9808ff4cf17e36ad05c22d3dfd'
-    oldFile: !uuid 'edefedfb3b0ffef75cb2a110a06d602dd3fafc85'
-  /OpenAuth.App/SysPrinterPlanApp/SysPrinterPlanApp.cs:
-    newFile: !uuid 'c2a44d0c42af5d1b76808454b0044b60c3db0a39'
-    oldFile: !uuid '11860ff8eeb143e1b4c0cf12d1586c289fbdad76'
-gitCommitId: !uuid 'd26a6a8f6be4c2ff6ade9a8b9ea1ce190c64d9bd'
+  /docs:
+    newFile: !uuid '85f420b134db59e7f9bcac8791be36ba8b86c24e'
+    oldFile: !uuid '8b995f2da616259cdabcbdc8af3c57400c4faad1'
+  /docs/core:
+    newFile: !uuid '250ce6139133f8557a429116f4e8ee0049fd9c28'
+    oldFile: !uuid '386afefe904a100a213d66055a655659e8df0bbf'
+  /docs/core/routineupdate.md:
+    newFile: !uuid '2ea561380bacd7a36705b030f6c0872cee01fc56'
+    oldFile: !uuid 'a30cd9ceb88f6fb01e3dee2ec099a6e2baeb860a'
+gitCommitId: !uuid '87129c2725209f3dcbe8070bc8e96cc7e15076f8'
 renames: {
   }
-revisionId: 623
+revisionId: 624
