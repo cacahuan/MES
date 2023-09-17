@@ -3,33 +3,15 @@ branches: {
   }
 fileChange:
   /OpenAuth.App:
-    newFile: !uuid '1c5cf894dc3ae081a1d74e418bbffecfdd75d66c'
-    oldFile: !uuid 'bb0ac226e740aa006b26816dc692f982ad4f2370'
-  /OpenAuth.App/AppManager:
-    newFile: !uuid 'f17e2698a05c042ae0b02ab051981a130314ccc3'
-    oldFile: !uuid '576e792109ed7936113e0681638981a216ea3bef'
-  /OpenAuth.App/AppManager/AppManager.cs:
-    newFile: !uuid '9af23eb8ab80118fd72ede4477df9c1968c381e6'
-    oldFile: !uuid '8a72b40895bb5f3576616659e6a082a22ac7bda0'
-  /OpenAuth.App/Base:
-    newFile: !uuid '86646992d2e048946123db89a71debcc618bba58'
-    oldFile: !uuid 'e520be0e18b5cb73591124c9b2f5af6864faa56c'
-  /OpenAuth.App/Base/SqlSugarBaseApp.cs:
-    newFile: !uuid '803eaf5fd75574fe160b14f25e901e22465a5c16'
-    oldFile: !uuid 'b4b77bdbce48320b2ba095ca3dcc3fbeba2e7f08'
-  /OpenAuth.App/Resources:
-    newFile: !uuid '43c1c1cec7fa07578a21531a1350b0aec96e9f24'
-    oldFile: !uuid '7e44a36092e1ce5cc4f868c95b77e6f0a6bf801c'
-  /OpenAuth.App/Resources/ResourceApp.cs:
-    newFile: !uuid 'a0685effd2ee52d50625b1a46e5287c81a1bc0b5'
-    oldFile: !uuid '969e87d11f79b9c4176703d5587f47c660187fdf'
+    newFile: !uuid '732ff1ceba76f39447ea4d9d3b7f7290a129f383'
+    oldFile: !uuid '1c5cf894dc3ae081a1d74e418bbffecfdd75d66c'
   /OpenAuth.App/SysPrinterPlanApp:
-    newFile: !uuid 'edefedfb3b0ffef75cb2a110a06d602dd3fafc85'
-    oldFile: !uuid '5a678e30f5de677f781718ebf7c9db311693d4de'
+    newFile: !uuid 'd6a6a5d2b2c86d9808ff4cf17e36ad05c22d3dfd'
+    oldFile: !uuid 'edefedfb3b0ffef75cb2a110a06d602dd3fafc85'
   /OpenAuth.App/SysPrinterPlanApp/SysPrinterPlanApp.cs:
-    newFile: !uuid '11860ff8eeb143e1b4c0cf12d1586c289fbdad76'
-    oldFile: !uuid '2fed2f571952e132395ffc5b710f97897b500a73'
-gitCommitId: !uuid '367158e33f27ad265e45e39372d33715938a3fbb'
+    newFile: !uuid 'c2a44d0c42af5d1b76808454b0044b60c3db0a39'
+    oldFile: !uuid '11860ff8eeb143e1b4c0cf12d1586c289fbdad76'
+gitCommitId: !uuid 'd26a6a8f6be4c2ff6ade9a8b9ea1ce190c64d9bd'
 renames: {
   }
-revisionId: 622
+revisionId: 623
