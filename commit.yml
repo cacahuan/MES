@@ -2,31 +2,22 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.App:
-    newFile: !uuid '3d7f45b3c110f60843effa63a730d782867d4bd6'
-    oldFile: !uuid 'c45cc0b20b8e506b1a46bb4e74960059cbe34454'
-  /OpenAuth.App/SysPrinterPlanApp:
-    newFile: !uuid 'c9a2ce08ff8087a3104f83cae89c6c97474a8770'
-    oldFile: !uuid '95113bcadff51aee1d214ce5a3cc4d6b79a6b573'
-  /OpenAuth.App/SysPrinterPlanApp/Request:
-    newFile: !uuid '83797871b5f29968ba886c42320dc1ee61647d6b'
-    oldFile: !uuid '187417be2921860f7894214b6584c33e77b6075c'
-  /OpenAuth.App/SysPrinterPlanApp/Request/AddOrUpdateSysPrinterPlanReq.cs:
-    newFile: !uuid '061e3e2c875fb7a0b752413bf130b0e2de2335e6'
-    oldFile: !uuid '3f393aa7c07eac7f52fb6fefb4f2929fd9c6bf91'
-  /OpenAuth.App/SysPrinterPlanApp/SysPrinterPlanApp.cs:
-    newFile: !uuid '59588cf057ea18defc2f9415ee5dd91d8e81be75'
-    oldFile: !uuid '3491bbbef782709119d6f9d632a643c4da918140'
-  /OpenAuth.Repository:
-    newFile: !uuid '315f432a5b96fdb887cf53aa4bbe69d07c72fc72'
-    oldFile: !uuid '6952a7557724da1b7667dc99772d1bc3c7461fd0'
-  /OpenAuth.Repository/Domain:
-    newFile: !uuid '9694fea8615e0d5d9acec9355ad6df3cdbe7149f'
-    oldFile: !uuid '94b375a4bafa39eb0e4929c34d862e55e030b0d8'
-  /OpenAuth.Repository/Domain/SysPrinterPlan.cs:
-    newFile: !uuid '122896f7af3d92c1f73de11a0308006e03d2232d'
-    oldFile: !uuid '32e668649a6a3d9c6eb14228291dc72fecd846ef'
-gitCommitId: !uuid 'b1400d8f898fc6e4c93195aa8cfd31e840d5ea9a'
+  /docs:
+    newFile: !uuid 'd415aa8e0cf84793f24679334760bc8b4039deb4'
+    oldFile: !uuid '85f420b134db59e7f9bcac8791be36ba8b86c24e'
+  /docs/core:
+    newFile: !uuid '00fcd493bffba7083ca8d5418f490cec9d6798e1'
+    oldFile: !uuid '250ce6139133f8557a429116f4e8ee0049fd9c28'
+  /docs/core/README.md:
+    newFile: !uuid '02a5df7709bf600a8ab536b9c8378c43c1a43a5d'
+    oldFile: !uuid '89b5d3c962df4516bc9c3ba40dd7323c1f714792'
+  /docs/pro:
+    newFile: !uuid 'b437c185c5bca5993fd5ed43755443aa2f20111c'
+    oldFile: !uuid '7e47e5b2f768c23327bdcec0d9f43e0d9196d009'
+  /docs/pro/README.md:
+    newFile: !uuid 'cbecc74dfc27925ffb1c71247f46630c5c27c057'
+    oldFile: !uuid 'a38ae43ba22b35d1a4f51ac0cabae566e61d80fd'
+gitCommitId: !uuid '4f92d9a0eaccd04fc0f8d42d37219f118d97781f'
 renames: {
   }
-revisionId: 630
+revisionId: 631
