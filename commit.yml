@@ -2,16 +2,31 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.WebApi:
-    newFile: !uuid '8eaf2529f8ad445989c703f4c5c4bd25722a47cb'
-    oldFile: !uuid '8dcdf812377a4419e4bb288a87a8b735bb1e3ef0'
-  /OpenAuth.WebApi/Controllers:
-    newFile: !uuid '89f127936a07119dc817b8bf7133804674923dd6'
-    oldFile: !uuid 'b0ca1e98238c84510b3e0e6b55ede66f7394e26b'
-  /OpenAuth.WebApi/Controllers/SysPrinterPlansController.cs:
-    newFile: !uuid 'a9e047695a8abe4e44bc4c7a79b46a448b2ce54a'
-    oldFile: !uuid '17dc47c220f0f3c10d11fb669d876a783d0f04e1'
-gitCommitId: !uuid '396525b26647663520079609b4841eaf1123709b'
+  /OpenAuth.App:
+    newFile: !uuid '3d7f45b3c110f60843effa63a730d782867d4bd6'
+    oldFile: !uuid 'c45cc0b20b8e506b1a46bb4e74960059cbe34454'
+  /OpenAuth.App/SysPrinterPlanApp:
+    newFile: !uuid 'c9a2ce08ff8087a3104f83cae89c6c97474a8770'
+    oldFile: !uuid '95113bcadff51aee1d214ce5a3cc4d6b79a6b573'
+  /OpenAuth.App/SysPrinterPlanApp/Request:
+    newFile: !uuid '83797871b5f29968ba886c42320dc1ee61647d6b'
+    oldFile: !uuid '187417be2921860f7894214b6584c33e77b6075c'
+  /OpenAuth.App/SysPrinterPlanApp/Request/AddOrUpdateSysPrinterPlanReq.cs:
+    newFile: !uuid '061e3e2c875fb7a0b752413bf130b0e2de2335e6'
+    oldFile: !uuid '3f393aa7c07eac7f52fb6fefb4f2929fd9c6bf91'
+  /OpenAuth.App/SysPrinterPlanApp/SysPrinterPlanApp.cs:
+    newFile: !uuid '59588cf057ea18defc2f9415ee5dd91d8e81be75'
+    oldFile: !uuid '3491bbbef782709119d6f9d632a643c4da918140'
+  /OpenAuth.Repository:
+    newFile: !uuid '315f432a5b96fdb887cf53aa4bbe69d07c72fc72'
+    oldFile: !uuid '6952a7557724da1b7667dc99772d1bc3c7461fd0'
+  /OpenAuth.Repository/Domain:
+    newFile: !uuid '9694fea8615e0d5d9acec9355ad6df3cdbe7149f'
+    oldFile: !uuid '94b375a4bafa39eb0e4929c34d862e55e030b0d8'
+  /OpenAuth.Repository/Domain/SysPrinterPlan.cs:
+    newFile: !uuid '122896f7af3d92c1f73de11a0308006e03d2232d'
+    oldFile: !uuid '32e668649a6a3d9c6eb14228291dc72fecd846ef'
+gitCommitId: !uuid 'b1400d8f898fc6e4c93195aa8cfd31e840d5ea9a'
 renames: {
   }
-revisionId: 629
+revisionId: 630
