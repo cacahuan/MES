@@ -2,13 +2,13 @@
 branches: {
   }
 fileChange:
-  /snapshot:
-    newFile: !uuid 'f83f1059fdac30ad37772abf6dbf1ec9280a3e8f'
-    oldFile: !uuid '2a69c62f221c1f2bf8838e5c66f59f07ccd9a4c8'
-  /snapshot/sysprinterplan.png:
-    newFile: !uuid '369086dd12aeeebfa533f40d9e2f2d48d13047ee'
-    oldFile: !uuid '1fcc0a2ffa9fc47304140db59422eedba0e1cbab'
-gitCommitId: !uuid 'f36ee79edb6571ad0f71660eb8481185af5731e2'
+  /Infrastructure:
+    newFile: !uuid '45864846a43328864a8689cbf1391a47042c8d48'
+    oldFile: !uuid 'ebcf221f73c9c673984878f62d294b4d1ffc72a9'
+  /Infrastructure/Define.cs:
+    newFile: !uuid '864fd5113d0e6138b756a8165d574c4844d87f92'
+    oldFile: !uuid 'ce4c9bb176ed27007b0831f2113456bc04950c80'
+gitCommitId: !uuid '00c91c869ceaf7a36eabfac4546f1be63c18bc7a'
 renames: {
   }
-revisionId: 634
+revisionId: 635
