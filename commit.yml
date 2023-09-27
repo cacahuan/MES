@@ -2,16 +2,13 @@
 branches: {
   }
 fileChange:
-  /README.md:
-    newFile: !uuid 'c00da82b12d4e9649bfbd8ee8d04f9ec9d183fe7'
-    oldFile: !uuid '5e3cffa2f999e9e05acba080a3f245a784a270a2'
   /snapshot:
-    newFile: !uuid '2a69c62f221c1f2bf8838e5c66f59f07ccd9a4c8'
-    oldFile: !uuid 'd32b9d40f23ac0a3cc79ef7721fd2b9775e54691'
+    newFile: !uuid 'f83f1059fdac30ad37772abf6dbf1ec9280a3e8f'
+    oldFile: !uuid '2a69c62f221c1f2bf8838e5c66f59f07ccd9a4c8'
   /snapshot/sysprinterplan.png:
-    newFile: !uuid '1fcc0a2ffa9fc47304140db59422eedba0e1cbab'
-    oldFile: null
-gitCommitId: !uuid '23020afb7347e8d89830091702f7e81cdee16d90'
+    newFile: !uuid '369086dd12aeeebfa533f40d9e2f2d48d13047ee'
+    oldFile: !uuid '1fcc0a2ffa9fc47304140db59422eedba0e1cbab'
+gitCommitId: !uuid 'f36ee79edb6571ad0f71660eb8481185af5731e2'
 renames: {
   }
-revisionId: 633
+revisionId: 634
