@@ -2,16 +2,13 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.App:
-    newFile: !uuid '99c9cf883cedfe80168a9f78a07ac4e0d7519ba0'
-    oldFile: !uuid '5362690cab243cead1134d848ae125213e3b1154'
-  /OpenAuth.App/ModuleManager:
-    newFile: !uuid '1b796bd78c74b259a13187f1b195ba46ff5460ec'
-    oldFile: !uuid '9e17f24777fba863d6f92d475bb1af81680d33a7'
-  /OpenAuth.App/ModuleManager/ModuleManagerApp.cs:
-    newFile: !uuid '653542ac946124e40e1e5c1346f4794fed014b3d'
-    oldFile: !uuid 'a6f760df8c7ab5b9d26c7d140ffef28d8a7354c6'
-gitCommitId: !uuid '16d4d10a433d5bbb7c5c2d9c2d33a9cd73a5c31c'
+  /snapshot:
+    newFile: !uuid '4ac0c5b413c2d614ffa98aaeefca1253f9054853'
+    oldFile: !uuid 'f83f1059fdac30ad37772abf6dbf1ec9280a3e8f'
+  /snapshot/sysprinterplan.png:
+    newFile: !uuid 'e2ba0b4d3196749daafe11a97c3650f64ac397eb'
+    oldFile: !uuid '369086dd12aeeebfa533f40d9e2f2d48d13047ee'
+gitCommitId: !uuid '0af121971101e6552df747f32f069dd1418c5b88'
 renames: {
   }
-revisionId: 637
+revisionId: 638
