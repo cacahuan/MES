@@ -2,37 +2,16 @@
 branches: {
   }
 fileChange:
+  /README.md:
+    newFile: !uuid 'd7f5ff57d7b7a30c70629daa7250ee2fa06a95aa'
+    oldFile: !uuid 'c00da82b12d4e9649bfbd8ee8d04f9ec9d183fe7'
   /docs:
-    newFile: !uuid 'c5f5f4f08ff27cc8bbee890eb65a593b36d48f94'
-    oldFile: !uuid 'd415aa8e0cf84793f24679334760bc8b4039deb4'
-  /docs/.vuepress:
-    newFile: !uuid 'faeaf6dd3567e794a21c837512c08bda0d773117'
-    oldFile: !uuid '0b1d5a14911281cb49aa83ade8cf76cd3ed833e1'
-  /docs/.vuepress/config.js:
-    newFile: !uuid '313edc8329494a1c5d47222fd527499c1dff5534'
-    oldFile: !uuid 'b46a73fad46289d159bbb14068275a90f2be3234'
-  /docs/core:
-    newFile: !uuid '376ff55ceeac6029aaaed13cec8ce7c9e2f54562'
-    oldFile: !uuid '00fcd493bffba7083ca8d5418f490cec9d6798e1'
-  /docs/core/routineupdate.md:
-    newFile: !uuid 'f60707fc3b7355447e785b218facc36a7c65efe1'
-    oldFile: !uuid '2ea561380bacd7a36705b030f6c0872cee01fc56'
-  /docs/pro:
-    newFile: !uuid '9509e27e8a61540f17aa6b7f0cb4bd1829a366ef'
-    oldFile: !uuid 'b437c185c5bca5993fd5ed43755443aa2f20111c'
-  /docs/pro/printerplan.md:
-    newFile: !uuid '6f1430a0daafd7ec3c24cf5ff97cf4849298d259'
-    oldFile: null
-  /snapshot:
-    newFile: !uuid '1ca5856f2f37d7bf2ec06d4ec4c218f9b6e8e771'
-    oldFile: !uuid '4ac0c5b413c2d614ffa98aaeefca1253f9054853'
-  /snapshot/sysprinterplan.png:
-    newFile: !uuid '683a8ec1c6fc6d1ae151835a81e21992dea7b6d3'
-    oldFile: !uuid 'e2ba0b4d3196749daafe11a97c3650f64ac397eb'
-  /snapshot/sysprinterplan2.png:
-    newFile: !uuid 'd2b82028aa72a706dbcf80186190200b9e79f366'
-    oldFile: null
-gitCommitId: !uuid '3eaf7c272d1f4e7369bed9f8b951ef9a7b1f4717'
+    newFile: !uuid '0ae5dae67f095ea419f5d5b8ca74a08c3c186f74'
+    oldFile: !uuid 'c5f5f4f08ff27cc8bbee890eb65a593b36d48f94'
+  /docs/README.md:
+    newFile: !uuid 'b964bb3806355f1bf40d2fdea408a7699705d6c4'
+    oldFile: !uuid '11bc104299f436c1df6463762d5b855abb2a637d'
+gitCommitId: !uuid 'ac8704f79ff4c7cd5517b2aa179acc620710d9a2'
 renames: {
   }
-revisionId: 639
+revisionId: 640
