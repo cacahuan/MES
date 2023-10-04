@@ -2,46 +2,16 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.App:
-    newFile: !uuid '2aa43a0e60a5ea032d7756fde7abb51044977930'
-    oldFile: !uuid '99c9cf883cedfe80168a9f78a07ac4e0d7519ba0'
-  /OpenAuth.App/SysPrinterPlanApp:
-    newFile: !uuid '352bc5b3e382dd26034f5991d9a33ba0eb3644e9'
-    oldFile: !uuid '126b3a41fd98559e16facf06588401405b38b5cd'
-  /OpenAuth.App/SysPrinterPlanApp/Request:
-    newFile: !uuid '16397417ce270e5f386591720b0c54c080a02414'
-    oldFile: !uuid '3e07abe5e272378483a1df5754bdd0bb0b185783'
-  /OpenAuth.App/SysPrinterPlanApp/Request/AddOrUpdateSysPrinterPlanReq.cs:
-    newFile: !uuid 'e2e0b30ed34e3b89a8139a34b8f3101c512189c4'
-    oldFile: !uuid '37127a471eb8f0feba469b03da5fb6b51c3debf2'
-  /OpenAuth.App/SysPrinterPlanApp/SysPrinterPlanApp.cs:
-    newFile: !uuid '524050bf8f8161ae3c8f949bf3a34ccb0cb4a269'
-    oldFile: !uuid 'ff9de9a3e8a72fe6bc874e3e11dfd8e46a29999b'
-  /OpenAuth.Repository:
-    newFile: !uuid '09705dc8cef37b5a71dcf20f8e8f6a226d1b809a'
-    oldFile: !uuid '99ad01bd546fe67f2ccc176da1dc98dd77cd79b6'
-  /OpenAuth.Repository/Domain:
-    newFile: !uuid '2d77804d163a65df3f2e7e67f72264599bccfcff'
-    oldFile: !uuid '3ee966d46685816984496893e1b0ad5bacdce456'
-  /OpenAuth.Repository/Domain/SysPrinterPlan.cs:
-    newFile: !uuid 'e960b85c0b54bc1b59cd936219720319745293f4'
-    oldFile: !uuid 'db9648c315437a6017cc169743fa4fd91c0befb2'
-  /OpenAuth.Repository/Test:
-    newFile: !uuid '2eb2a7bf790eb020d95c334bd0206995c83d4719'
-    oldFile: !uuid '8346e4a644ae0ca90144ae110301793ad2e2ad23'
-  /OpenAuth.Repository/Test/TestSugarDynamicLinq.cs:
-    newFile: !uuid '51c1664cd9d8d95da702f2c579acb4a13d1c5d03'
-    oldFile: !uuid 'f29e0757198c486224f0360e8aba5fc2eebb9481'
-  /OpenAuth.WebApi:
-    newFile: !uuid '3d433f9e80f1f4fccbd7b66257145f9a834b53b7'
-    oldFile: !uuid '7806771eef75299117d0dd9199390c2213e6a9e3'
-  /OpenAuth.WebApi/Controllers:
-    newFile: !uuid '72739f934bf98b5f9ac63022c8404ae1783d0a7c'
-    oldFile: !uuid '8f89efd8b9eeb383b0d01a9d27648fa07794aada'
-  /OpenAuth.WebApi/Controllers/SysPrinterPlansController.cs:
-    newFile: !uuid '85bbe40b292f537a8f7b28a64176079c94b2683d'
-    oldFile: !uuid 'a9e047695a8abe4e44bc4c7a79b46a448b2ce54a'
-gitCommitId: !uuid 'd209a288f200074e5128adaffa75b99457061b64'
+  /docs:
+    newFile: !uuid '120a6c64459026b7de293434abe4a9d4e6d1f549'
+    oldFile: !uuid '0ae5dae67f095ea419f5d5b8ca74a08c3c186f74'
+  /docs/pro:
+    newFile: !uuid '3eea69002f6237cf9850e8a78578a9824c6c9c54'
+    oldFile: !uuid '9509e27e8a61540f17aa6b7f0cb4bd1829a366ef'
+  /docs/pro/printerplan.md:
+    newFile: !uuid 'dcce26bac11f80ec33c97c882e2d347d1e3d196e'
+    oldFile: !uuid '6f1430a0daafd7ec3c24cf5ff97cf4849298d259'
+gitCommitId: !uuid '86f9cab3c30ee698329435c600398f48fea4b481'
 renames: {
   }
-revisionId: 641
+revisionId: 642
