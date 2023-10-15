@@ -2,10 +2,22 @@
 branches: {
   }
 fileChange:
-  /README.md:
-    newFile: !uuid 'c2ade9b646dfd6b9f3d2b4f9f344b3375f213888'
-    oldFile: !uuid 'd7f5ff57d7b7a30c70629daa7250ee2fa06a95aa'
-gitCommitId: !uuid '7c741e0a309ab4b46c376ca01579da46e3da91f2'
+  /OpenAuth.WebApi:
+    newFile: !uuid '73bbec8d13714e7c2cabeca5173a366539c5d618'
+    oldFile: !uuid '3d433f9e80f1f4fccbd7b66257145f9a834b53b7'
+  /OpenAuth.WebApi/Template:
+    newFile: !uuid '343ca728ff9dfd7a890f85bb6e8fc023abd8e133'
+    oldFile: !uuid '788b0ac6dc5d7aaedf5bf3069217bca2371e4063'
+  /OpenAuth.WebApi/Template/SingleTable:
+    newFile: !uuid '583cd06d5b648285db0b7917e5e8696a89afb425'
+    oldFile: !uuid 'bb0c1b92c14fdbea5c38b3379ad6623c23988b00'
+  /OpenAuth.WebApi/Template/SingleTable/BuildVue.html:
+    newFile: !uuid '03198e0a0b17123a894388bd8e04a155eda73be2'
+    oldFile: !uuid 'd99b3fd40f622f10f5ffdb9f0bfe9684e828ea39'
+  /OpenAuth.WebApi/Template/SingleTable/BuildVueWithDynamicHeader.html:
+    newFile: !uuid '253660aa27425bea5591a6e016da188a3c4fe02f'
+    oldFile: !uuid '9af8d923a5cf3b53e09b160b832cca3c2e42daca'
+gitCommitId: !uuid '099ea55a3d560c90085d8e603b430bd6caf26992'
 renames: {
   }
-revisionId: 645
+revisionId: 646
