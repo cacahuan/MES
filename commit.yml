@@ -3,39 +3,15 @@ branches: {
   }
 fileChange:
   /OpenAuth.App:
-    newFile: !uuid '1c44ec43d6eb32f39004e692ea1dc43287d5b343'
-    oldFile: !uuid '2aa43a0e60a5ea032d7756fde7abb51044977930'
-  /OpenAuth.App/UserManager:
-    newFile: !uuid '491141959dc424bf78b151f63480c9975e17095d'
-    oldFile: !uuid 'ea31e23fb0f0a84da0241bc2cb18cdd0e918c177'
-  /OpenAuth.App/UserManager/Request:
-    newFile: !uuid '738b37258b402fd895b6c087def6c4b169578bfa'
-    oldFile: !uuid 'b6371db92ccad7142d6a715559f45ecc7eaaf289'
-  /OpenAuth.App/UserManager/Request/UpdateUserReq.cs:
-    newFile: !uuid 'dd04bba7d21f91bfdeb3dce0441647748b11c4df'
-    oldFile: !uuid '11a8eb371737daba135c9db606cda776b28cf0a0'
-  /OpenAuth.App/UserManager/Response:
-    newFile: !uuid '0904bc7eff2490e39cc6f57065232b6cf846d92e'
-    oldFile: !uuid '3c6b8ce6269f47bf7e63c41846602fb169fd2957'
-  /OpenAuth.App/UserManager/Response/UserView.cs:
-    newFile: !uuid '90d7605b9aa66d721e9b4059f16af86acd31e473'
-    oldFile: !uuid '5540b8beef58be02645acf95b85a73ca776c7858'
-  /OpenAuth.App/UserManager/UserManagerApp.cs:
-    newFile: !uuid 'c8f04df22574138c52d3fcabc621b242fc35a32d'
-    oldFile: !uuid 'ad7673ca78529c492aecf73a7e80decc645d93c4'
-  /OpenAuth.Repository:
-    newFile: !uuid 'c69f3b28414d7a945d837eedc6e24d7d3e7fd0e1'
-    oldFile: !uuid '09705dc8cef37b5a71dcf20f8e8f6a226d1b809a'
-  /OpenAuth.Repository/Domain:
-    newFile: !uuid '33bd2200ee7f902e1fa829cf307392b8ac1f9509'
-    oldFile: !uuid '2d77804d163a65df3f2e7e67f72264599bccfcff'
-  /OpenAuth.Repository/Domain/Org.cs:
-    newFile: !uuid '5e58212ed04e82fa45d4d50b7ef0f2acf2ecac21'
-    oldFile: !uuid 'a95e7175a6e68faaf59890a9902f645908e3fd2e'
-  /OpenAuth.Repository/Domain/User.cs:
-    newFile: !uuid '70e8885ed5d13e27e07edc04ee8c4bb585523848'
-    oldFile: !uuid '5636da2a74d0d64ac5043a59199457fadd0235ab'
-gitCommitId: !uuid '457458541bf59b8e4544920865f4085cedea6546'
+    newFile: !uuid '0ac214f615287f459092eab368e0fa5f6b20ba62'
+    oldFile: !uuid '1c44ec43d6eb32f39004e692ea1dc43287d5b343'
+  /OpenAuth.App/Resources:
+    newFile: !uuid '7926f7a6b3ea0fcfda418a7460e75479f729df91'
+    oldFile: !uuid '43c1c1cec7fa07578a21531a1350b0aec96e9f24'
+  /OpenAuth.App/Resources/ResourceApp.cs:
+    newFile: !uuid '369636553dbf4b8d59617d0317770b2b11eb4c21'
+    oldFile: !uuid 'a0685effd2ee52d50625b1a46e5287c81a1bc0b5'
+gitCommitId: !uuid '88c1108ac2374f40b6a21087a613dedc8449d389'
 renames: {
   }
-revisionId: 647
+revisionId: 648
