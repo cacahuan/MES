@@ -3,15 +3,33 @@ branches: {
   }
 fileChange:
   /OpenAuth.App:
-    newFile: !uuid '0ac214f615287f459092eab368e0fa5f6b20ba62'
-    oldFile: !uuid '1c44ec43d6eb32f39004e692ea1dc43287d5b343'
-  /OpenAuth.App/Resources:
-    newFile: !uuid '7926f7a6b3ea0fcfda418a7460e75479f729df91'
-    oldFile: !uuid '43c1c1cec7fa07578a21531a1350b0aec96e9f24'
-  /OpenAuth.App/Resources/ResourceApp.cs:
-    newFile: !uuid '369636553dbf4b8d59617d0317770b2b11eb4c21'
-    oldFile: !uuid 'a0685effd2ee52d50625b1a46e5287c81a1bc0b5'
-gitCommitId: !uuid '88c1108ac2374f40b6a21087a613dedc8449d389'
+    newFile: !uuid 'fc5841dbe93464e735f6b9f81ae15b33b9ff668e'
+    oldFile: !uuid '0ac214f615287f459092eab368e0fa5f6b20ba62'
+  /OpenAuth.App/Flow:
+    newFile: !uuid '39e30a986b5acffe28e618a7907d5ca038b3fdbc'
+    oldFile: !uuid '59a01c83a6c18e98d76ba061d8d3a79e7e05d817'
+  /OpenAuth.App/Flow/FlowNode.cs:
+    newFile: !uuid '44d6073c0815cba9e1532b180ada7ecaa2ed4e41'
+    oldFile: !uuid 'f1859d71c25bfdd083cc0b5f534edc3d12d3f937'
+  /OpenAuth.App/FlowInstance:
+    newFile: !uuid '4891d331ec1f316848ae0bd701d6c7a0bb448326'
+    oldFile: !uuid '53325eba5c03e019f5cee32afeed2033cb3cc499'
+  /OpenAuth.App/FlowInstance/FlowInstanceApp.cs:
+    newFile: !uuid '1c405166cb1b574e678fd7ca6eef51e38eaeb664'
+    oldFile: !uuid 'ad0a3c50e9057bcdd61000b9e7d9da2a6f630245'
+  /OpenAuth.App/OrgManager:
+    newFile: !uuid 'c4523582a2463bc9c668fb3e08f866a206b0eead'
+    oldFile: !uuid '9a17100b23c00acc05efbc90816f784942698051'
+  /OpenAuth.App/OrgManager/OrgManagerApp.cs:
+    newFile: !uuid '515c1a44d9215895e13bb9f385c41a4ba91ec5c0'
+    oldFile: !uuid 'ecd782c17dc6fb21455fa88ed467a7c873ea13ab'
+  /OpenAuth.App/UserManager:
+    newFile: !uuid '764580afbdb9eac0c709a215b61f8bf188100456'
+    oldFile: !uuid '491141959dc424bf78b151f63480c9975e17095d'
+  /OpenAuth.App/UserManager/UserManagerApp.cs:
+    newFile: !uuid 'eeaaf19a0ff94d55a379a5c37df9b9b6ccd3c365'
+    oldFile: !uuid 'c8f04df22574138c52d3fcabc621b242fc35a32d'
+gitCommitId: !uuid '30256db0768546d0d1828978ca29164eb235e385'
 renames: {
   }
-revisionId: 648
+revisionId: 649
