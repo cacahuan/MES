@@ -2,22 +2,25 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.App:
-    newFile: !uuid 'ec2828008ce36ddffaa109bd29c8c7a97c6efbae'
-    oldFile: !uuid 'fc5841dbe93464e735f6b9f81ae15b33b9ff668e'
-  /OpenAuth.App/Flow:
-    newFile: !uuid 'dee97dbd4709e9736c4c56db021885b0290c36a5'
-    oldFile: !uuid '39e30a986b5acffe28e618a7907d5ca038b3fdbc'
-  /OpenAuth.App/Flow/FlowNode.cs:
-    newFile: !uuid 'beac3d40fb86c17e710f6b0b3394a85d74fc6578'
-    oldFile: !uuid '44d6073c0815cba9e1532b180ada7ecaa2ed4e41'
-  /OpenAuth.App/FlowInstance:
-    newFile: !uuid '5809f0f734196eb9293356f140e91653af1fd916'
-    oldFile: !uuid '4891d331ec1f316848ae0bd701d6c7a0bb448326'
-  /OpenAuth.App/FlowInstance/FlowInstanceApp.cs:
-    newFile: !uuid '1e76b3f9cec3cc5cc46e930ca7fa49963482a302'
-    oldFile: !uuid '1c405166cb1b574e678fd7ca6eef51e38eaeb664'
-gitCommitId: !uuid '26c753f135941954cb8256302983bf05cb3fba5e'
+  /mysql初始化脚本:
+    newFile: !uuid '533ac103bcf8fad647314ab496d73be1d00d71cb'
+    oldFile: !uuid 'e4abc2426e473d4bf802fdbe098434b5b1ba01a6'
+  /mysql初始化脚本/mysql脚本.sql:
+    newFile: !uuid 'ab3a1a86c7297f68062aed4e78ec75fc3b53a813'
+    oldFile: !uuid '6c7196d25dc03b4cf4fd6e87d892ac3a2bdac64c'
+  /postgresql初始化备份:
+    newFile: !uuid 'de724b7dc2def5e945a9a48122d92b588eb95700'
+    oldFile: !uuid 'd7ccf1e054f496adcf7b57f60dbf372a7c266867'
+  /postgresql初始化备份/db_back.sql:
+    newFile: !uuid '2c293d6698408bacf74b3135b769b2cc8da92083'
+    oldFile: !uuid '1b88906335ed28c722b69c8df2a55da3be505fe0'
+  /sql server 初始化脚本:
+    newFile: !uuid '8f2c87ac4a66b6937144efb7bac63a14040b03bf'
+    oldFile: !uuid '7a5589633a2a818d343a67f435093b7491cfb5ca'
+  /sql server 初始化脚本/Sql Server脚本.sql:
+    newFile: !uuid '8ccdd38f007eaa429f9e32b5523a32779f83c84c'
+    oldFile: !uuid 'a8a284f9abe4df8d85111b54713e1fe4308fb0ff'
+gitCommitId: !uuid '6c0223e9075b2ab735c62b4606ed71864d1a1842'
 renames: {
   }
-revisionId: 650
+revisionId: 651
