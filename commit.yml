@@ -2,19 +2,22 @@
 branches: {
   }
 fileChange:
-  /Oracle脚本:
-    newFile: !uuid '71b6d5306baace19a4d72c575ad59efd334f0066'
+  /OpenAuth.App:
+    newFile: !uuid 'd8c88d54d20460887d75f0850be7db337a99f2d1'
+    oldFile: !uuid 'ec2828008ce36ddffaa109bd29c8c7a97c6efbae'
+  /OpenAuth.App/Extensions:
+    newFile: !uuid '9025b6ef1f5c765740878d7b1ef452d05a9c6f49'
+    oldFile: !uuid '2c234e3fe8b2addd5a286279c4de94f1ff3a1704'
+  /OpenAuth.App/Extensions/OpenJobExt.cs:
+    newFile: !uuid '9be97c00bb84d28b41f5c9619d4f4246e0563f3e'
+    oldFile: !uuid '032f07c6de11e935b602f86bcd2f692571472ba9'
+  /OpenAuth.App/Jobs:
+    newFile: !uuid '660f5a40ad2298f5dd77a2ef69911b2a9422bafd'
+    oldFile: !uuid 'c632545440a9de03368707aea3fdb6d0f478b796'
+  /OpenAuth.App/Jobs/HttpPostJob.cs:
+    newFile: !uuid '2510e4dd3d53659dea874ae02b68eb40f678a0f2'
     oldFile: null
-  /Oracle脚本/oracle.sql:
-    newFile: !uuid 'e367ea50d46fa3fa6495ba1d863f2771cadb4141'
-    oldFile: null
-  /mysql初始化脚本:
-    newFile: !uuid '74963489e91d1a3f87cceccdb8b71edae65182ea'
-    oldFile: !uuid '533ac103bcf8fad647314ab496d73be1d00d71cb'
-  /mysql初始化脚本/mysql脚本.sql:
-    newFile: !uuid '9cd6d20b1e4c15828f3f2035ef989e850be99147'
-    oldFile: !uuid 'ab3a1a86c7297f68062aed4e78ec75fc3b53a813'
-gitCommitId: !uuid '0305ad8c2e4a7fe8e3d1f7d5a09749e9787a8076'
+gitCommitId: !uuid 'c4b1f2d3c63bf111ead6d772c78df0118ca75b89'
 renames: {
   }
-revisionId: 652
+revisionId: 653
