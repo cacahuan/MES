@@ -1,29 +1,9 @@
 !revision
 branches: {
   }
-fileChange:
-  /OpenAuth.App:
-    newFile: !uuid '9bbba005d5fd5cbe6420386feb5e28def9a89d37'
-    oldFile: !uuid '9487d385d73a10efb181336b70a8df02e0a4527d'
-  /OpenAuth.App/ModuleManager:
-    newFile: !uuid 'ddd413c8fb251bffb74eace86deef53e8465f345'
-    oldFile: !uuid 'e6b5a7bc77cd98811637ceec031ae6fa57c87298'
-  /OpenAuth.App/ModuleManager/Response:
-    newFile: !uuid '4356aad4e43f120e9f818036a39b9feacd0cab16'
-    oldFile: !uuid 'd52a7a0ae97847c4cfc266ac488a8911bcb640a0'
-  /OpenAuth.App/ModuleManager/Response/ModuleView.cs:
-    newFile: !uuid '5d5846ef6aafea03237d5f3019a278c109c184af'
-    oldFile: !uuid '86a1e372fed0d32d8d2dafe5ec9cb964489cfc07'
-  /OpenAuth.Repository:
-    newFile: !uuid '5b4ff2c06b5d7ba17b28a651bc00349b9a527ce0'
-    oldFile: !uuid 'd7b1f12ec97683fa7a73fd62136a06a8b41884f1'
-  /OpenAuth.Repository/Domain:
-    newFile: !uuid '40c6bd8b43b3d5d45a35e1c74919b5fe2cdad44f'
-    oldFile: !uuid '7f95808c465b458d7f7f2bdf54876030667116a3'
-  /OpenAuth.Repository/Domain/Module.cs:
-    newFile: !uuid '2ab0b9b32b9e1bfba9bfe3a369f0619e9e0c1bba'
-    oldFile: !uuid 'accb73bd984c009aa20ee0d395f6998c17a7d3c5'
-gitCommitId: !uuid 'cd8134081482ca6a0b3ac25eb4bbe5fd60ac4ede'
+fileChange: {
+  }
+gitCommitId: !uuid '989f8cd2bc0b2ee62db95fca9573cd43aedef93d'
 renames: {
   }
-revisionId: 655
+revisionId: 656
