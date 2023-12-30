@@ -2,31 +2,49 @@
 branches: {
   }
 fileChange:
-  /docs:
-    newFile: !uuid '3914a39588302c199dfb5f0db4371e2a689aa4b4'
-    oldFile: !uuid '5ffec1bca858db754ff12e0bb81fa33b6d851da7'
-  /docs/.vuepress:
-    newFile: !uuid 'd8282a1b663a235f508f2abed639f6f9951dabd0'
-    oldFile: !uuid '74bc9a7df65a3f8663f605e15b89fad730909bc9'
-  /docs/.vuepress/config.js:
-    newFile: !uuid '0a35af3e429ff737ee897e5994218d99ec5a535e'
-    oldFile: !uuid '6577f3e37f6979fb0bf1ca8dc01d144218863311'
-  /docs/core:
-    newFile: !uuid 'b1bee5161eb493ec5af10481ad96367cee92380a'
-    oldFile: !uuid 'e435eafe048a4944d5daf98219df53263165e24e'
-  /docs/core/faq.md:
-    newFile: !uuid 'cc900bb98027796ae0d5c8fc74d67d4e4d0c8166'
-    oldFile: !uuid 'f1463827a8d265c59f4d45dc72289ba419818788'
-  /docs/core/unitwork.md:
-    newFile: !uuid 'f75d11f1f2ed2711eae87709ab47f4af95240ce9'
-    oldFile: !uuid 'fe56da945dad9c590f25af49c8c3948e4ea0fd62'
-  /docs/pro:
-    newFile: !uuid 'ff55238aea6ef7220970baf622a309141c0a21fb'
-    oldFile: !uuid '3eea69002f6237cf9850e8a78578a9824c6c9c54'
-  /docs/pro/keepalive.md:
-    newFile: !uuid 'eaf5702157b99feb2819b8c4279b31222386cd68'
+  /Oracle脚本:
+    newFile: null
+    oldFile: !uuid '71b6d5306baace19a4d72c575ad59efd334f0066'
+  /Oracle脚本/oracle.sql:
+    newFile: null
+    oldFile: !uuid 'e367ea50d46fa3fa6495ba1d863f2771cadb4141'
+  /mysql初始化脚本:
+    newFile: null
+    oldFile: !uuid '74963489e91d1a3f87cceccdb8b71edae65182ea'
+  /mysql初始化脚本/mysql脚本.sql:
+    newFile: null
+    oldFile: !uuid '9cd6d20b1e4c15828f3f2035ef989e850be99147'
+  /postgresql初始化备份:
+    newFile: null
+    oldFile: !uuid 'de724b7dc2def5e945a9a48122d92b588eb95700'
+  /postgresql初始化备份/db_back.sql:
+    newFile: null
+    oldFile: !uuid '2c293d6698408bacf74b3135b769b2cc8da92083'
+  /sql server 初始化脚本:
+    newFile: null
+    oldFile: !uuid '8f2c87ac4a66b6937144efb7bac63a14040b03bf'
+  /sql server 初始化脚本/Sql Server脚本.sql:
+    newFile: null
+    oldFile: !uuid '8ccdd38f007eaa429f9e32b5523a32779f83c84c'
+  /数据库脚本:
+    newFile: !uuid 'c3d46a3cb0450a5177cca428f900bc1697c83526'
     oldFile: null
-gitCommitId: !uuid 'b604f68aa64eff4792bcdced84ece0836712d830'
-renames: {
-  }
-revisionId: 657
+  /数据库脚本/MySql.sql:
+    newFile: !uuid '892073def6363b31490539f370ea4e2148970487'
+    oldFile: null
+  /数据库脚本/Oracle.sql:
+    newFile: !uuid 'c336b4e93b47ef37eb0d8db90142cd97198ba5f3'
+    oldFile: null
+  /数据库脚本/SqlServer.sql:
+    newFile: !uuid '795f40362ad964ea946b8c1d0ce5935a4f413ee3'
+    oldFile: null
+  /数据库脚本/postgreSql.sql:
+    newFile: !uuid 'bb1c4edd3274eae995b957fc04328c413896379a'
+    oldFile: null
+gitCommitId: !uuid '3f496f1cca5847fe9b8ccd844ddc73f96aa066bc'
+renames:
+  /数据库脚本/MySql.sql: /mysql初始化脚本/mysql脚本.sql
+  /数据库脚本/Oracle.sql: /Oracle脚本/oracle.sql
+  /数据库脚本/SqlServer.sql: /sql server 初始化脚本/Sql Server脚本.sql
+  /数据库脚本/postgreSql.sql: /postgresql初始化备份/db_back.sql
+revisionId: 658
