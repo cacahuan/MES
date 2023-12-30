@@ -2,49 +2,28 @@
 branches: {
   }
 fileChange:
-  /Oracle脚本:
-    newFile: null
-    oldFile: !uuid '71b6d5306baace19a4d72c575ad59efd334f0066'
-  /Oracle脚本/oracle.sql:
-    newFile: null
-    oldFile: !uuid 'e367ea50d46fa3fa6495ba1d863f2771cadb4141'
-  /mysql初始化脚本:
-    newFile: null
-    oldFile: !uuid '74963489e91d1a3f87cceccdb8b71edae65182ea'
-  /mysql初始化脚本/mysql脚本.sql:
-    newFile: null
-    oldFile: !uuid '9cd6d20b1e4c15828f3f2035ef989e850be99147'
-  /postgresql初始化备份:
-    newFile: null
-    oldFile: !uuid 'de724b7dc2def5e945a9a48122d92b588eb95700'
-  /postgresql初始化备份/db_back.sql:
-    newFile: null
-    oldFile: !uuid '2c293d6698408bacf74b3135b769b2cc8da92083'
-  /sql server 初始化脚本:
-    newFile: null
-    oldFile: !uuid '8f2c87ac4a66b6937144efb7bac63a14040b03bf'
-  /sql server 初始化脚本/Sql Server脚本.sql:
-    newFile: null
-    oldFile: !uuid '8ccdd38f007eaa429f9e32b5523a32779f83c84c'
-  /数据库脚本:
-    newFile: !uuid 'c3d46a3cb0450a5177cca428f900bc1697c83526'
-    oldFile: null
-  /数据库脚本/MySql.sql:
-    newFile: !uuid '892073def6363b31490539f370ea4e2148970487'
-    oldFile: null
-  /数据库脚本/Oracle.sql:
-    newFile: !uuid 'c336b4e93b47ef37eb0d8db90142cd97198ba5f3'
-    oldFile: null
-  /数据库脚本/SqlServer.sql:
-    newFile: !uuid '795f40362ad964ea946b8c1d0ce5935a4f413ee3'
-    oldFile: null
-  /数据库脚本/postgreSql.sql:
-    newFile: !uuid 'bb1c4edd3274eae995b957fc04328c413896379a'
-    oldFile: null
-gitCommitId: !uuid '3f496f1cca5847fe9b8ccd844ddc73f96aa066bc'
-renames:
-  /数据库脚本/MySql.sql: /mysql初始化脚本/mysql脚本.sql
-  /数据库脚本/Oracle.sql: /Oracle脚本/oracle.sql
-  /数据库脚本/SqlServer.sql: /sql server 初始化脚本/Sql Server脚本.sql
-  /数据库脚本/postgreSql.sql: /postgresql初始化备份/db_back.sql
-revisionId: 658
+  /OpenAuth.Mvc:
+    newFile: !uuid '9360b5e994153686110c8b76bbabc05d186f7478'
+    oldFile: !uuid 'd0de90709fb75aac74a027ebdd81907d582604a2'
+  /OpenAuth.Mvc/Program.cs:
+    newFile: !uuid '72a266bcfa172ce43819fbbb221f92673b185bcf'
+    oldFile: !uuid '194cea3954dd98bb41128894b5c61805b07cefff'
+  /OpenAuth.Mvc/Views:
+    newFile: !uuid '97e108efa204fdc28507376e24d84b75bfa4480d'
+    oldFile: !uuid '08960f313ec48b37a0ec3c04552049c92e663e5c'
+  /OpenAuth.Mvc/Views/Home:
+    newFile: !uuid 'fb2b81e207ceadbd58b561fde8da7fcc3133f0c2'
+    oldFile: !uuid '184ceeaa850a7899d2734753de4d4675d831af6a'
+  /OpenAuth.Mvc/Views/Home/Main.cshtml:
+    newFile: !uuid '2a9b36bf62ec458ca563fa77de116133805bc37b'
+    oldFile: !uuid 'aeaf8236926d5fcfd4438d1c53c3bcc9c1704164'
+  /OpenAuth.WebApi:
+    newFile: !uuid '0ae25ad6e743cf60859f0276366303de84537c8f'
+    oldFile: !uuid 'e30a77b8a37e62c506dbbdd361c5fbce0330990c'
+  /OpenAuth.WebApi/Program.cs:
+    newFile: !uuid 'ee11f021068502a2cd1a9bbe4265c2d60bb4b62b'
+    oldFile: !uuid '024aa92c38488afec2aeba4b2ee4d46a75c11f45'
+gitCommitId: !uuid 'fda898fff6db254c5d65deb987745e7e65e9cd0e'
+renames: {
+  }
+revisionId: 659
