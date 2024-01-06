@@ -3,99 +3,18 @@ branches: {
   }
 fileChange:
   /OpenAuth.Mvc:
-    newFile: !uuid 'c1729625e3b3e941bd8594dd81d39a2b5e93ca3e'
-    oldFile: !uuid 'a0dee27b2952f86f37f8db7711d4dfed736e32e8'
-  /OpenAuth.Mvc/wwwroot:
-    newFile: !uuid 'aef6c12cd53ee80d0de4c30a1c18688b8873c41c'
-    oldFile: !uuid 'bc93efba4729ae12c6dc43747d42946a1ec0e427'
-  /OpenAuth.Mvc/wwwroot/layui:
-    newFile: !uuid 'bcae259316bc36e016446c10631cb07ed0f78bb5'
-    oldFile: !uuid '79d13c710b2bbe850ff9c03fee2902fb651ccbfc'
-  /OpenAuth.Mvc/wwwroot/layui/css:
-    newFile: !uuid '7c356b9219c3719792b0a6da118dc6c2bc4b2ac9'
-    oldFile: !uuid '06e8ad7836e0967546eb92b4e606f777580e5fc0'
-  /OpenAuth.Mvc/wwwroot/layui/css/layui.css:
-    newFile: !uuid 'bc3c8e3a7c27a37388899edca791cd370080eef6'
-    oldFile: !uuid 'ed414ee6a453141059651b49ba422a620aca30c6'
-  /OpenAuth.Mvc/wwwroot/layui/lay:
-    newFile: null
-    oldFile: !uuid '4bbb8b44adc4c102980ba57a4db81bbd0a9875dc'
-  /OpenAuth.Mvc/wwwroot/layui/lay/dest:
-    newFile: null
-    oldFile: !uuid 'b34aa5a44f470807a083287d93abedbef20b387a'
-  /OpenAuth.Mvc/wwwroot/layui/lay/dest/layui.all.js:
-    newFile: null
-    oldFile: !uuid 'e1b7f8bd7a0ef785b300f4fc437f209c0d4e8135'
-  /OpenAuth.Mvc/wwwroot/layui/lay/modules:
-    newFile: null
-    oldFile: !uuid '8e7167d8bf0535acb44392b22cb85949dcf19e84'
-  /OpenAuth.Mvc/wwwroot/layui/lay/modules/carousel.js:
-    newFile: null
-    oldFile: !uuid '2c4521b6f9e31c643cbd0ab6b461dc34be882b6b'
-  /OpenAuth.Mvc/wwwroot/layui/lay/modules/code.js:
-    newFile: null
-    oldFile: !uuid '877c86fa2eeef11a7a0831a770d096c22c80b222'
-  /OpenAuth.Mvc/wwwroot/layui/lay/modules/colorpicker.js:
-    newFile: null
-    oldFile: !uuid '0fc63958a88d53d6a3e2e04de7a609aaedd285d6'
-  /OpenAuth.Mvc/wwwroot/layui/lay/modules/element.js:
-    newFile: null
-    oldFile: !uuid '290a1e8668fbbc1488f97a090bdc8c8ebdda4382'
-  /OpenAuth.Mvc/wwwroot/layui/lay/modules/flow.js:
-    newFile: null
-    oldFile: !uuid '924c78d76a081036bccb9ceb2aff44a8dd9ae81c'
-  /OpenAuth.Mvc/wwwroot/layui/lay/modules/form.js:
-    newFile: null
-    oldFile: !uuid '818dd39c1816bb6bbd0506903cd2ad0417eab4d7'
-  /OpenAuth.Mvc/wwwroot/layui/lay/modules/jquery.js:
-    newFile: null
-    oldFile: !uuid '10d8c2b13552d72721942e1ad3e31d940145ced9'
-  /OpenAuth.Mvc/wwwroot/layui/lay/modules/laydate.js:
-    newFile: null
-    oldFile: !uuid '0766cb59bed68596c1276501bf5531210ec94d5e'
-  /OpenAuth.Mvc/wwwroot/layui/lay/modules/layedit.js:
-    newFile: null
-    oldFile: !uuid '6a18044e28b91f766eeaedbfc7ea951fe2c691be'
-  /OpenAuth.Mvc/wwwroot/layui/lay/modules/layer.js:
-    newFile: null
-    oldFile: !uuid '03e780cbdbc076295400e5b7a574604be78f6a45'
-  /OpenAuth.Mvc/wwwroot/layui/lay/modules/layim.js:
-    newFile: null
-    oldFile: !uuid '719ffc40a1eaa26716e8966bfe3d95493f7ae377'
-  /OpenAuth.Mvc/wwwroot/layui/lay/modules/laypage.js:
-    newFile: null
-    oldFile: !uuid '2e2ab0dfd3da0ad3eca6a9897d3c95554121cb51'
-  /OpenAuth.Mvc/wwwroot/layui/lay/modules/laytpl.js:
-    newFile: null
-    oldFile: !uuid '11cc3c4b1446838b00b5aca9d98bd920d11aa574'
-  /OpenAuth.Mvc/wwwroot/layui/lay/modules/mobile.js:
-    newFile: null
-    oldFile: !uuid 'ebda60108534f27b9da0e03cf69326e815b5feb0'
-  /OpenAuth.Mvc/wwwroot/layui/lay/modules/rate.js:
-    newFile: null
-    oldFile: !uuid '7feef3449bff309c53065f6b768a7a8bb755dd39'
-  /OpenAuth.Mvc/wwwroot/layui/lay/modules/slider.js:
-    newFile: null
-    oldFile: !uuid '6f824a9eeacc757a6601607067bf97b8d7bd1e0e'
-  /OpenAuth.Mvc/wwwroot/layui/lay/modules/table.js:
-    newFile: null
-    oldFile: !uuid '0882b71627e693b6dd20f52f67e61012e6e58f53'
-  /OpenAuth.Mvc/wwwroot/layui/lay/modules/transfer.js:
-    newFile: null
-    oldFile: !uuid '24839215cdc529116619141b484a700a436a32c2'
-  /OpenAuth.Mvc/wwwroot/layui/lay/modules/tree.js:
-    newFile: null
-    oldFile: !uuid 'c9c93a2ff84f56a599d2bf54ea75e9663267f04a'
-  /OpenAuth.Mvc/wwwroot/layui/lay/modules/upload.js:
-    newFile: null
-    oldFile: !uuid '9298ecf94df4789e1363e4411892e4b3632d5ccf'
-  /OpenAuth.Mvc/wwwroot/layui/lay/modules/util.js:
-    newFile: null
-    oldFile: !uuid 'fdc1ec2d4cf3b73471db6fa5339138a3f147ae17'
-  /OpenAuth.Mvc/wwwroot/layui/layui.js:
-    newFile: !uuid '6c8be3c92921bb76a02392af20201b9415d9bd59'
-    oldFile: !uuid '5d055ae417dce6662b53579d707a6482e3c4abdc'
-gitCommitId: !uuid '552506d45ebb5584102b4dd6370ea40d34a1c879'
+    newFile: !uuid '0ad6a3c8a80f359db44ef62e4662d3491dea1729'
+    oldFile: !uuid 'c1729625e3b3e941bd8594dd81d39a2b5e93ca3e'
+  /OpenAuth.Mvc/Views:
+    newFile: !uuid 'd3788fdf7093d3ec9d21cbf3ed3ff54703ed5195'
+    oldFile: !uuid '2465dba7bd28dee7dc685921aa21bb239138db9b'
+  /OpenAuth.Mvc/Views/Home:
+    newFile: !uuid 'f39a9a8740e95b967bd25498d3715388ecfd0443'
+    oldFile: !uuid 'fb2b81e207ceadbd58b561fde8da7fcc3133f0c2'
+  /OpenAuth.Mvc/Views/Home/Index.cshtml:
+    newFile: !uuid 'eb75ac63f7afa331fbbb348eeb139657bcb537a8'
+    oldFile: !uuid '92a2400911531ba9521524b5c6008e4a1e6d1b53'
+gitCommitId: !uuid '804a759d46ff5aeb5d4961f6f4239ba5fcf93fa6'
 renames: {
   }
-revisionId: 662
+revisionId: 663
