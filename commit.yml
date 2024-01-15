@@ -2,19 +2,19 @@
 branches: {
   }
 fileChange:
-  /OpenAuth.Mvc:
-    newFile: !uuid '0ad6a3c8a80f359db44ef62e4662d3491dea1729'
-    oldFile: !uuid 'c1729625e3b3e941bd8594dd81d39a2b5e93ca3e'
-  /OpenAuth.Mvc/Views:
-    newFile: !uuid 'd3788fdf7093d3ec9d21cbf3ed3ff54703ed5195'
-    oldFile: !uuid '2465dba7bd28dee7dc685921aa21bb239138db9b'
-  /OpenAuth.Mvc/Views/Home:
-    newFile: !uuid 'f39a9a8740e95b967bd25498d3715388ecfd0443'
-    oldFile: !uuid 'fb2b81e207ceadbd58b561fde8da7fcc3133f0c2'
-  /OpenAuth.Mvc/Views/Home/Index.cshtml:
-    newFile: !uuid 'eb75ac63f7afa331fbbb348eeb139657bcb537a8'
-    oldFile: !uuid '92a2400911531ba9521524b5c6008e4a1e6d1b53'
-gitCommitId: !uuid '804a759d46ff5aeb5d4961f6f4239ba5fcf93fa6'
+  /OpenAuth.App:
+    newFile: !uuid 'edc87338c37cfeaf8e2feb21718edb8c179c78ba'
+    oldFile: !uuid '9bbba005d5fd5cbe6420386feb5e28def9a89d37'
+  /OpenAuth.App/Jobs:
+    newFile: !uuid 'fe72c10d62c9256e08f4d3b0300d85364264a92c'
+    oldFile: !uuid '660f5a40ad2298f5dd77a2ef69911b2a9422bafd'
+  /OpenAuth.App/Jobs/HttpPostJob.cs:
+    newFile: !uuid '5415f9617ff40bf5760c4b4742909c1ef32efd27'
+    oldFile: !uuid '2510e4dd3d53659dea874ae02b68eb40f678a0f2'
+  /OpenAuth.App/Jobs/OpenJobApp.cs:
+    newFile: !uuid '9487ecd5311b68c1c58c1376fa8c39c1f2d0515c'
+    oldFile: !uuid 'b5ba211bf12cfa650dc75484b9a01285fab39c55'
+gitCommitId: !uuid '875af859272232d07403e6c0118d74b626e7af6c'
 renames: {
   }
-revisionId: 663
+revisionId: 664
