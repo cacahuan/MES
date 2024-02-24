@@ -2,16 +2,10 @@
 branches: {
   }
 fileChange:
-  /docs:
-    newFile: !uuid 'a93dc8098c4a58daea04ed3dcd7307fe3864915b'
-    oldFile: !uuid 'fac391763fcfdfda0e845f9736034e8aa40f0d55'
-  /docs/core:
-    newFile: !uuid '0e5690d32d298ba3152320ac01758801761e3228'
-    oldFile: !uuid '6f6505c2f27c3a203d38b47e413c457abccdf693'
-  /docs/core/routineupdate.md:
-    newFile: !uuid '0fa7d601c910ae299c35c22b5233a46bc041d012'
-    oldFile: !uuid 'cb040e611eb24f462cbb25e2b9528605ea2207f2'
-gitCommitId: !uuid 'c7c4e1eb30b655a9efc4d773464c78a3657bbe37'
+  /CHANGELOG.md:
+    newFile: !uuid '97bd28c52a497565ae3f02ea928e7d63ac3cf7c5'
+    oldFile: !uuid '5ceaaa1da7ab3133f4258b1d6751eea05920e1f7'
+gitCommitId: !uuid '3915e435d7d2202d2dc9bba6a7e34ecf19d44b19'
 renames: {
   }
-revisionId: 669
+revisionId: 670
