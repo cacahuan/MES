@@ -2,16 +2,13 @@
 branches: {
   }
 fileChange:
-  /docs:
-    newFile: !uuid 'eba4160729497b28f6f266970f1755416e55ae66'
-    oldFile: !uuid '15af736998771a48c1fbe112ae41e1f808d84b87'
-  /docs/core:
-    newFile: !uuid 'e117e187a7da67e8c13eb8215e97acd9ecc670d4'
-    oldFile: !uuid 'e935bc9c8e7ffb0a8162f15df01a0da16994733a'
-  /docs/core/routineupdate.md:
-    newFile: !uuid '2e02f0af17a63d22f1b2ec355feb2667a4d5b6fb'
-    oldFile: !uuid '4f64635ce5360badbe7d6220e354606e9d978aeb'
-gitCommitId: !uuid '1034a772c06eeb8f339ba2840c1bd16790c75d1e'
+  /数据库脚本:
+    newFile: !uuid 'b31dcf9982b8cd3c18f930b270b9b2cc0c485393'
+    oldFile: !uuid 'c3d46a3cb0450a5177cca428f900bc1697c83526'
+  /数据库脚本/Oracle.sql:
+    newFile: !uuid '5806843338b5df6a311b42210af16adf25b01fae'
+    oldFile: !uuid 'c336b4e93b47ef37eb0d8db90142cd97198ba5f3'
+gitCommitId: !uuid '96a0b89cebfe267620cca3fa7295c6ba3ee24f42'
 renames: {
   }
-revisionId: 673
+revisionId: 674
