@@ -3,12 +3,12 @@ branches: {
   }
 fileChange:
   /数据库脚本:
-    newFile: !uuid 'b31dcf9982b8cd3c18f930b270b9b2cc0c485393'
-    oldFile: !uuid 'c3d46a3cb0450a5177cca428f900bc1697c83526'
+    newFile: !uuid '582ff167563464997d8ec3059b4672b280304a2a'
+    oldFile: !uuid 'b31dcf9982b8cd3c18f930b270b9b2cc0c485393'
   /数据库脚本/Oracle.sql:
-    newFile: !uuid '5806843338b5df6a311b42210af16adf25b01fae'
-    oldFile: !uuid 'c336b4e93b47ef37eb0d8db90142cd97198ba5f3'
-gitCommitId: !uuid '96a0b89cebfe267620cca3fa7295c6ba3ee24f42'
+    newFile: !uuid '5b6dad9233d4a3d435788239f1ddb5ac568a05f7'
+    oldFile: !uuid '5806843338b5df6a311b42210af16adf25b01fae'
+gitCommitId: !uuid '627e5b0d2c02bf1946d5cc3efbac0a2fe507ffc7'
 renames: {
   }
-revisionId: 674
+revisionId: 675
